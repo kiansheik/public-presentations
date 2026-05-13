@@ -1,0 +1,147 @@
+:root {
+  --oficina-red: #7a1f1f;
+  --oficina-cream: #f7efe2;
+  --oficina-ink: #231f20;
+  --oficina-gold: #b78b3b;
+}
+
+.slidev-layout {
+  background:
+    radial-gradient(circle at top right, rgba(183, 139, 59, 0.18), transparent 35%),
+    linear-gradient(135deg, #fffaf1, var(--oficina-cream));
+  color: var(--oficina-ink);
+}
+
+h1 {
+  letter-spacing: -0.04em;
+}
+
+.big-statement {
+  font-size: 2rem;
+  line-height: 1.2;
+  max-width: 850px;
+  margin: 3rem auto;
+  font-weight: 650;
+}
+
+.three-beats {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+  font-size: 1.35rem;
+}
+
+.three-beats span {
+  border-top: 3px solid var(--oficina-gold);
+  padding: 0.8rem 1.2rem 0;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.quote-slide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-mark {
+  font-size: 9rem;
+  color: var(--oficina-gold);
+  line-height: 0.5;
+}
+
+.quote-slide blockquote {
+  font-size: 2.1rem;
+  line-height: 1.22;
+  font-weight: 600;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quote-source {
+  margin-top: 2rem;
+  color: var(--oficina-red);
+  font-weight: 700;
+}
+
+.quote-note {
+  margin: 1.5rem auto 0;
+  max-width: 760px;
+  font-size: 1rem;
+  opacity: 0.78;
+}
+
+.person-bio {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 3rem;
+  align-items: center;
+  height: 100%;
+  text-align: left;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--oficina-red);
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.person-bio h1 {
+  font-size: 4.3rem;
+  line-height: 0.95;
+  margin: 0.4rem 0;
+}
+
+.person-bio h2 {
+  color: var(--oficina-gold);
+  font-weight: 700;
+}
+
+.bio-body {
+  font-size: 1.35rem;
+  line-height: 1.45;
+}
+
+.role {
+  font-weight: 750;
+  color: var(--oficina-red);
+}
+
+.timeline-slide {
+  text-align: left;
+}
+
+.timeline {
+  margin-top: 3rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.5rem;
+  align-items: baseline;
+}
+
+.year {
+  color: var(--oficina-red);
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.event {
+  font-size: 1.55rem;
+  border-left: 4px solid var(--oficina-gold);
+  padding-left: 1.2rem;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "public-presentations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev:oficina-unb",
+    "dev:oficina-unb": "slidev decks/oficina-unb.md --open",
+    "dev:oficina": "slidev oficina-tupi-antigo.md",
+    "dev:lingua-geral": "slidev lingua-geral-brasil.md",
+    "dev:anchieta": "slidev anchieta-contexto.md",
+    "build": "node scripts/build-all.mjs",
+    "export:oficina-unb:pdf": "slidev export decks/oficina-unb.md --format pdf",
+    "export:oficina:pdf": "slidev export oficina-tupi-antigo.md --format pdf",
+    "export:oficina:pptx": "slidev export oficina-tupi-antigo.md --format pptx",
+    "export:oficina:png": "slidev export oficina-tupi-antigo.md --format png",
+    "export:lingua-geral:pdf": "slidev export lingua-geral-brasil.md --format pdf",
+    "export:anchieta:pdf": "slidev export anchieta-contexto.md --format pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-seriph": "latest",
+    "@slidev/theme-default": "latest",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "latest"
+  }
+}
