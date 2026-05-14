@@ -11,8 +11,6 @@ transition: fade
 css: unocss
 ---
 
-<style global src="../styles/oficina-unb.css"></style>
-
 <div class="oficina-canvas title-slide">
   <h1 class="title-main">Tupi Antigo</h1>
   <div class="title-dots">...</div>
@@ -241,3 +239,136 @@ class: oficina-unb
 <div class="oficina-canvas">
   <h1 class="slide-title final-question">Qual língua indígena ocupava esse papel na costa brasileira?</h1>
 </div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas brasil-slide">
+  <h1 class="slide-title pos-title-left">A língua mais usada na costa do Brasil</h1>
+
+  <section class="body-block pos-left-standard brasil-source-block">
+    <p class="source-kicker">José de Anchieta, 1595</p>
+    <p class="work-title"><em>Arte de grammatica da lingva mais vsada na costa do Brasil</em></p>
+    <p>Antes de ser tratada como “língua geral” missionária, essa língua já era apresentada pelos próprios autores coloniais como uma língua indígena de ampla circulação costeira.</p>
+  </section>
+
+  <DeckImage class="manuscript pos-anchieta-main" image="anchieta-arte-grammatica.png" alt="Arte de grammatica da lingva mais usada na costa do Brasil, José de Anchieta" />
+</div>
+
+<!--
+Agora que vimos o que é “uma língua geral” no mundo ibérico, podemos voltar ao Brasil com uma pergunta mais precisa: qual língua indígena ocupava esse papel na costa brasileira? A própria capa da gramática de Anchieta já dá a resposta que ele queria destacar: não era uma língua qualquer, mas a “língua mais usada na costa do Brasil”. Essa formulação é importante porque Anchieta não está dizendo simplesmente “a língua que eu escolhi estudar”, mas sim uma língua que, do ponto de vista missionário, já tinha alcance comunicativo amplo. No seu documento, essa é justamente a passagem para o argumento de que a Língua Brasílica era a candidata natural a funcionar como língua geral no Brasil costeiro.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas brasil-slide">
+  <h1 class="slide-title pos-title-left title-tight">Anchieta: um missionário dentro da língua</h1>
+
+  <section class="body-block pos-left-standard witness-block">
+    <p class="witness-label">Quem era?</p>
+    <p>José de Anchieta nasceu nas Canárias, estudou em Coimbra, entrou na Companhia de Jesus em 1551 e chegou ao Brasil em 1553.</p>
+    <p class="witness-label">Por que importa?</p>
+    <p>Viveu décadas no Brasil, atuou em missões e aldeamentos, aprendeu Tupi e escreveu a primeira gramática impressa da língua.</p>
+  </section>
+
+  <section class="witness-quote-panel">
+    <p class="witness-label">Citação-chave</p>
+    <blockquote class="quote-text compact">“...em que pode haver 800 léguas de costa [...] há uma só língua.”</blockquote>
+    <p class="source">Anchieta, 1584</p>
+  </section>
+</div>
+
+<!--
+Anchieta não era um observador distante. Ele chegou ao Brasil ainda jovem, em 1553, e passou praticamente o resto da vida em atividade missionária. Fontes biográficas o apresentam como um dos primeiros missionários a aprender Tupi suficientemente bem para escrever uma gramática voltada ao trabalho jesuítico. Isso não quer dizer que ele seja uma fonte neutra: ele escrevia como missionário, dentro de um projeto de catequese e aldeamento. Mas justamente por isso ele é uma fonte central para entender como os jesuítas percebiam a situação linguística. Quando ele fala de uma só língua ao longo de uma enorme extensão da costa, devemos ler isso como uma descrição missionária de ampla inteligibilidade e utilidade comunicativa, não como uma afirmação moderna de uniformidade linguística absoluta.
+
+Fonte contextual: Encyclopedia.com, “Anchieta, José de (1534–1597)”.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas brasil-slide">
+  <h1 class="slide-title pos-title-left title-tight">Cardim: muitas nações, uma língua principal</h1>
+
+  <section class="body-block pos-left-standard witness-block">
+    <p class="witness-label">Quem era?</p>
+    <p>Fernão Cardim foi um jesuíta português que esteve no Brasil no fim do século XVI e percorreu várias capitanias como secretário do visitador Cristóvão de Gouvêa.</p>
+    <p class="witness-label">Por que importa?</p>
+    <p>Seus escritos descrevem a terra, os costumes indígenas, as missões jesuíticas e a situação colonial durante sua primeira estadia no Brasil.</p>
+  </section>
+
+  <section class="witness-quote-panel">
+    <p class="witness-label">Citação-chave</p>
+    <blockquote class="quote-text compact">“há muitas e várias nações de diferentes línguas, porém uma é a principal...”</blockquote>
+    <p class="source">Cardim, 1584</p>
+  </section>
+</div>
+
+<!--
+Cardim é muito útil porque ele explicita a complexidade que às vezes fica escondida quando dizemos “uma língua geral”. Ele não nega a diversidade: ele começa dizendo que há muitas nações e diferentes línguas. Mas, dentro desse cenário diverso, ele identifica uma língua principal, entendida pelos portugueses e usada na conversão. A autoridade dele vem do fato de ter percorrido capitanias como Bahia, Pernambuco, Espírito Santo, Rio de Janeiro e São Vicente enquanto acompanhava a visitação jesuítica. Ao mesmo tempo, a limitação também é clara: ele escreve como jesuíta, interessado na organização missionária da colônia. Então sua descrição deve ser lida como uma fonte colonial e missionária, mas uma fonte de primeira importância para entender o que os próprios jesuítas viam como a situação linguística da costa.
+
+Fonte contextual: Biblioteca Brasiliana Guita e José Mindlin, “Fernão Cardim (1540-1625)”.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas brasil-slide">
+  <h1 class="slide-title pos-title-left title-tight">Gabriel Soares de Sousa: o olhar de um colono</h1>
+
+  <section class="body-block pos-left-standard witness-block">
+    <p class="witness-label">Quem era?</p>
+    <p>Gabriel Soares de Sousa foi um colono português, senhor de engenho na Bahia, onde viveu por muitos anos.</p>
+    <p class="witness-label">Por que importa?</p>
+    <p>Seu <em>Tratado descritivo do Brasil em 1587</em> é uma das grandes descrições quinhentistas da América portuguesa, com observações sobre território, povos indígenas, costumes, economia e línguas.</p>
+  </section>
+
+  <section class="witness-quote-panel">
+    <p class="witness-label">Citação-chave</p>
+    <blockquote class="quote-text compact">“na linguagem nõ tem mais diferença uns dos outros, do que tem os moradores de Lisboa dos de entre Douro e Minho...”</blockquote>
+    <p class="source">Gabriel Soares de Sousa, 1587</p>
+  </section>
+</div>
+
+<!--
+Gabriel Soares de Sousa é especialmente interessante porque não é jesuíta. Ele escreve a partir de outra posição: a de colono, senhor de engenho e conhecedor da Bahia colonial. Isso é importante para o argumento, porque mostra que a percepção de proximidade linguística entre certos povos da costa não aparece apenas em textos missionários. Seu tratado foi composto no século XVI, apresentado em 1587, e só impresso muito mais tarde, em 1851, numa trajetória editorial complexa. A citação em que ele compara a diferença entre Tupinaés e Tupinambás à diferença entre moradores de Lisboa e de Entre-Douro-e-Minho é muito boa didaticamente: ela mostra que havia diferença, mas que essa diferença era percebida por ele como variação interna ou proximidade, não como incomunicabilidade total.
+
+Fonte contextual: Senado Federal, “Tratado descriptivo do Brasil em 1587”.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas brasil-slide">
+  <h1 class="slide-title pos-title-wide">Três olhares, uma convergência</h1>
+
+  <section class="convergence-grid">
+    <div>
+      <p class="witness-name">Anchieta</p>
+      <p>missionário, gramático, agente da catequese</p>
+    </div>
+    <div>
+      <p class="witness-name">Cardim</p>
+      <p>jesuíta em viagem de visitação, observador da missão</p>
+    </div>
+    <div>
+      <p class="witness-name">Gabriel Soares</p>
+      <p>colono e senhor de engenho, não jesuíta</p>
+    </div>
+  </section>
+
+  <section class="convergence-statement">
+    <p>Mas os três convergem em um ponto:</p>
+    <p><strong>na costa do Brasil, havia uma língua indígena de circulação ampla, com variações internas, capaz de funcionar como meio de contato.</strong></p>
+  </section>
+</div>
+
+<!--
+É importante não tratar essas fontes como fotografias neutras da realidade indígena. Elas são textos coloniais, escritos por europeus, com interesses missionários, administrativos ou econômicos. Mas justamente por virem de posições diferentes, a convergência entre elas é significativa. Anchieta fala como gramático e missionário; Cardim fala como jesuíta em circulação pelas capitanias; Gabriel Soares fala como colono e senhor de engenho. Nenhum deles está fazendo linguística moderna, mas todos registram uma percepção parecida: havia diversidade indígena, havia diferenças regionais, mas havia também uma língua de grande alcance na costa. Esse é o ponto que prepara a próxima etapa: entender por que os jesuítas puderam transformar essa língua em objeto de gramática, catecismo e ensino missionário.
+-->

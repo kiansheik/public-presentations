@@ -15,12 +15,15 @@ Each deck imports shared CSS with:
 
 ## Shared UI
 
+- `AGENTS.md` is the repo-local instruction file for future agents. It points agents to the wiki and forbids Playwright screenshots unless the user explicitly requests them.
 - `decks/components/DeckImage.vue` renders Oficina UnB image assets from `public/assets/oficina-unb/` through `import.meta.glob`. Use it inside `decks/oficina-unb.md` instead of raw `<img src="../public/...">` or `<img src="/assets/...">`.
+- `decks/styles/index.css` imports `../../styles/oficina-unb.css` as the global CSS entry for decks under `decks/`.
 - `components/QuoteSlide.vue` renders a quote slide with source and optional note.
 - `components/PersonBio.vue` renders a speaker/person profile slide.
 - `components/ContextTimeline.vue` renders a simple timeline slide.
 - `styles/custom.css` defines shared layout classes used by the decks.
 - `styles/oficina-unb.css` defines the Oficina UnB slide canvas, manuscript positioning, and quote typography.
+- `styles/oficina-unb.css` also owns the half-split layout variables `--oficina-left-*` and `--oficina-right-*`.
 
 ## Assets
 
@@ -34,6 +37,7 @@ Use deck-specific folders for presentation-only assets and `shared/` for reusabl
 
 ## Build And Deploy
 
+- `README.md` documents the expected workflow for commands, deck structure, styling, image handling, and adding new decks.
 - `package.json` exposes one dev command per deck.
 - `scripts/build-all.mjs` is the deck manifest and build loop. It currently builds `decks/oficina-unb.md`.
 - The build output is `dist/index.html` plus one folder per deck.

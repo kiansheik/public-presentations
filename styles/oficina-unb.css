@@ -5,6 +5,10 @@
   --oficina-muted: #c6ced1;
   --oficina-serif: "Average", Georgia, "Times New Roman", serif;
   --oficina-heading: "Oswald", "Avenir Next Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --oficina-left-x: 3.41%;
+  --oficina-left-w: 44.2%;
+  --oficina-right-x: 52%;
+  --oficina-right-w: 44.6%;
 }
 
 .slidev-layout.oficina-unb {
@@ -76,7 +80,7 @@
   line-height: 0.95;
 }
 
-.slide-title {
+.slidev-layout.oficina-unb .slide-title {
   position: absolute;
   color: var(--oficina-title);
   font-family: var(--oficina-heading);
@@ -97,9 +101,9 @@
 }
 
 .pos-title-left {
-  left: 1.46%;
+  left: var(--oficina-left-x);
   top: 8.66%;
-  width: 65.79%;
+  width: var(--oficina-left-w);
 }
 
 .body-block {
@@ -122,39 +126,42 @@
 }
 
 .pos-left-standard {
-  left: 3.41%;
-  top: 22.4%;
-  width: 46.59%;
-  height: 72.5%;
+  left: var(--oficina-left-x);
+  top: 29%;
+  width: var(--oficina-left-w);
+  height: 65.9%;
 }
 
 .pos-left-nahuatl {
-  left: 1.92%;
-  top: 21.08%;
-  width: 45.33%;
-  height: 77.8%;
+  left: var(--oficina-left-x);
+  top: 28.2%;
+  width: var(--oficina-left-w);
+  height: 68.4%;
 }
 
 .pos-left-wide {
-  left: 3.41%;
-  top: 22.4%;
-  width: 53.79%;
-  height: 66.4%;
+  left: var(--oficina-left-x);
+  top: 29%;
+  width: var(--oficina-left-w);
+  height: 62.8%;
 }
 
-.quote-text {
+.slidev-layout.oficina-unb .quote-text {
+  border: 0;
+  background: transparent;
   color: var(--oficina-title);
   font-family: var(--oficina-serif);
   font-size: 1.55rem;
   font-weight: 700;
   line-height: 1.16;
+  padding: 0;
 }
 
-.quote-text.compact {
+.slidev-layout.oficina-unb .quote-text.compact {
   font-size: 1.35rem;
 }
 
-.source {
+.slidev-layout.oficina-unb .source {
   color: var(--oficina-muted);
   font-size: 1.03rem;
   line-height: 1.2;
@@ -175,74 +182,191 @@
 }
 
 .pos-limense {
-  left: 61.57%;
-  top: 2.44%;
-  width: 36.71%;
-  height: 95.77%;
+  left: var(--oficina-right-x);
+  top: 4.2%;
+  width: var(--oficina-right-w);
+  height: 91.6%;
 }
 
 .pos-doctrinas {
-  left: 63.99%;
-  top: 4.21%;
-  width: 34.29%;
-  height: 92.48%;
+  left: var(--oficina-right-x);
+  top: 4.2%;
+  width: var(--oficina-right-w);
+  height: 91.6%;
 }
 
 .pos-catedra {
-  left: 55.67%;
-  top: 19.24%;
-  width: 42.55%;
-  height: 78.84%;
+  left: var(--oficina-right-x);
+  top: 4.2%;
+  width: var(--oficina-right-w);
+  height: 91.6%;
 }
 
 .pos-quechua-main {
-  left: 49.56%;
+  left: var(--oficina-right-x);
   top: 5.6%;
-  width: 36.65%;
+  width: 32.8%;
   height: 84.87%;
 }
 
 .pos-quechua-detail {
-  left: 75.53%;
+  left: 74.7%;
   top: 58.03%;
-  width: 23.54%;
+  width: 22.3%;
   height: 39.5%;
 }
 
 .pos-nahuatl-main {
-  left: 47.88%;
+  left: var(--oficina-right-x);
   top: 23.31%;
-  width: 28.58%;
+  width: 29%;
   height: 74.2%;
 }
 
 .pos-nahuatl-small {
-  left: 73.87%;
+  left: 73.4%;
   top: 4.73%;
-  width: 24.93%;
+  width: 23.6%;
   height: 40.75%;
 }
 
 .pos-guarani {
-  left: 66.32%;
-  top: 8.66%;
-  width: 32.66%;
-  height: 89.3%;
+  left: var(--oficina-right-x);
+  top: 4.2%;
+  width: var(--oficina-right-w);
+  height: 91.6%;
 }
 
-.visual-bullets {
+.pos-anchieta-main {
+  left: var(--oficina-right-x);
+  top: 5.2%;
+  width: var(--oficina-right-w);
+  height: 89%;
+}
+
+.brasil-source-block {
+  font-size: 1.32rem;
+  line-height: 1.25;
+}
+
+.source-kicker,
+.witness-label,
+.witness-name {
+  color: var(--oficina-title);
+  font-family: var(--oficina-heading);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.source-kicker {
+  font-size: 1.85rem;
+  line-height: 1.05;
+}
+
+.work-title {
+  color: var(--oficina-title);
+  font-size: 1.52rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.witness-block {
+  font-size: 1.08rem;
+  line-height: 1.22;
+}
+
+.witness-block p + .witness-label {
+  margin-top: 1.08rem;
+}
+
+.witness-label {
+  font-size: 1.35rem;
+  line-height: 1.05;
+}
+
+.witness-quote-panel {
+  position: absolute;
+  left: var(--oficina-right-x);
+  top: 22.6%;
+  width: var(--oficina-right-w);
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+}
+
+.witness-quote-panel .quote-text {
+  margin-top: 1rem;
+  font-size: 1.58rem;
+  line-height: 1.14;
+}
+
+.witness-quote-panel .source {
+  margin-top: 1.1rem;
+}
+
+.convergence-grid {
+  position: absolute;
+  left: 3.41%;
+  right: 3.41%;
+  top: 26%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.15rem;
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+  font-size: 1.07rem;
+  line-height: 1.18;
+}
+
+.convergence-grid > div {
+  border-top: 0.16rem solid var(--oficina-title);
+  padding-top: 0.72rem;
+}
+
+.witness-name {
+  font-size: 1.42rem;
+  line-height: 1.05;
+  margin-bottom: 0.45rem !important;
+}
+
+.convergence-statement {
+  position: absolute;
+  left: 8.4%;
+  right: 8.4%;
+  top: 58.5%;
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+  font-size: 1.33rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.convergence-statement p + p {
+  margin-top: 0.9rem !important;
+}
+
+.convergence-statement strong {
+  color: var(--oficina-title);
+  font-weight: 700;
+}
+
+.slidev-layout.oficina-unb .visual-bullets {
   list-style: none;
   padding: 0;
   margin-top: 0.85rem !important;
 }
 
-.visual-bullets li {
+.slidev-layout.oficina-unb .visual-bullets li {
+  list-style: none;
   position: relative;
   padding-left: 1.3rem;
   margin: 0.25rem 0;
 }
 
-.visual-bullets li::before {
+.slidev-layout.oficina-unb .visual-bullets li::marker {
+  content: "";
+}
+
+.slidev-layout.oficina-unb .visual-bullets li::before {
   content: "•";
   position: absolute;
   left: 0;
@@ -254,34 +378,34 @@
 
 .collage-quechua {
   z-index: 1;
-  left: 74.29%;
+  left: 73.2%;
   top: 3.45%;
-  width: 25.71%;
-  height: 59.54%;
+  width: 24.8%;
+  height: 58.5%;
 }
 
 .collage-nahuatl {
   z-index: 2;
-  left: 54.41%;
+  left: 52.2%;
   top: 20.66%;
-  width: 23.48%;
+  width: 24.4%;
   height: 60.98%;
 }
 
 .collage-guarani {
   z-index: 3;
-  left: 81.47%;
+  left: 80.1%;
   top: 46.38%;
-  width: 18.53%;
+  width: 17.9%;
   height: 50.65%;
 }
 
 .collage-tupi {
   z-index: 4;
-  left: 63.82%;
-  top: 76.64%;
-  width: 23.48%;
-  height: 35.7%;
+  left: 62.5%;
+  top: 69%;
+  width: 23%;
+  height: 28.5%;
 }
 
 .concept-block {
