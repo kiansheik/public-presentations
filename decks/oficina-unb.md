@@ -236,17 +236,8 @@ Com isso, não estou dizendo que Quechua, Nahuatl, Guarani e Tupi tiveram a mesm
 class: oficina-unb
 ---
 
-<div class="oficina-canvas">
-  <h1 class="slide-title final-question">Qual língua indígena ocupava esse papel na costa brasileira?</h1>
-</div>
-
----
-class: oficina-unb
----
-
 <div class="oficina-canvas brasil-slide">
-  <h1 class="slide-title pos-title-left">A língua mais usada na costa do Brasil</h1>
-
+  <h1 class="slide-title pos-title-left brasil-source-title">Qual língua indígena ocupava esse papel na costa brasileira?</h1>
   <section class="body-block pos-left-standard brasil-source-block">
     <p class="source-kicker">José de Anchieta, 1595</p>
     <p class="work-title"><em>Arte de grammatica da lingva mais vsada na costa do Brasil</em></p>
@@ -279,6 +270,9 @@ class: oficina-unb
     <blockquote class="quote-text compact">“...em que pode haver 800 léguas de costa [...] há uma só língua.”</blockquote>
     <p class="source">Anchieta, 1584</p>
   </section>
+
+  <DeckImage class="manuscript pos-anchieta-main" image="anchietaTupiOneLanguage.png" alt="Anchieta, 1584" />
+
 </div>
 
 <!--
@@ -306,6 +300,9 @@ class: oficina-unb
     <blockquote class="quote-text compact">“há muitas e várias nações de diferentes línguas, porém uma é a principal...”</blockquote>
     <p class="source">Cardim, 1584</p>
   </section>
+
+
+  <DeckImage class="manuscript pos-anchieta-main" image="cardimtratados.png" alt="um texto jesuítico descrevendo a extensão da Língua Geral na costa brasileira. (Cardim, 1925 [1584], p. 194)" />
 </div>
 
 <!--
@@ -328,11 +325,14 @@ class: oficina-unb
     <p>Seu <em>Tratado descritivo do Brasil em 1587</em> é uma das grandes descrições quinhentistas da América portuguesa, com observações sobre território, povos indígenas, costumes, economia e línguas.</p>
   </section>
 
-  <section class="witness-quote-panel">
+  <!-- <section class="witness-quote-panel">
     <p class="witness-label">Citação-chave</p>
     <blockquote class="quote-text compact">“na linguagem nõ tem mais diferença uns dos outros, do que tem os moradores de Lisboa dos de entre Douro e Minho...”</blockquote>
     <p class="source">Gabriel Soares de Sousa, 1587</p>
-  </section>
+  </section> -->
+
+  <DeckImage class="manuscript pos-sousa-top" image="sousatop.png" alt="Um trecho jesuítico descrevendo a extensão da Língua Geral na costa brasileira em muitas detalhes (Sousa, 1938 [1587], p. 351)." />
+  <DeckImage class="manuscript pos-sousa-bottom" image="sousabottom.png" alt="Um trecho jesuítico descrevendo a extensão da Língua Geral na costa brasileira em muitas detalhes (Sousa, 1938 [1587], p. 351)." />
 </div>
 
 <!--

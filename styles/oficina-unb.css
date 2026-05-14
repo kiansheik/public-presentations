@@ -244,9 +244,35 @@
   height: 89%;
 }
 
+.pos-sousa-top,
+.pos-sousa-bottom {
+  left: 54.3%;
+  width: 40%;
+}
+
+.pos-sousa-top {
+  top: 5.2%;
+  height: 28%;
+}
+
+.pos-sousa-bottom {
+  top: 35.2%;
+  height: 56.2%;
+}
+
+.brasil-source-title {
+  font-size: 2.95rem;
+  line-height: 0.98;
+}
+
 .brasil-source-block {
-  font-size: 1.32rem;
-  line-height: 1.25;
+  top: 33.5%;
+  font-size: 1.58rem;
+  line-height: 1.18;
+}
+
+.brasil-source-block p + p {
+  margin-top: 1.32rem !important;
 }
 
 .source-kicker,
@@ -259,13 +285,13 @@
 }
 
 .source-kicker {
-  font-size: 1.85rem;
+  font-size: 2.24rem;
   line-height: 1.05;
 }
 
 .work-title {
   color: var(--oficina-title);
-  font-size: 1.52rem;
+  font-size: 1.9rem;
   font-weight: 700;
   line-height: 1.14;
 }
