@@ -38,10 +38,11 @@ Use deck-specific folders for presentation-only assets and `shared/` for reusabl
 ## Build And Deploy
 
 - `README.md` documents the expected workflow for commands, deck structure, styling, image handling, and adding new decks.
+- `Makefile` wraps the common build and branch-deploy commands. `make deploy-gh-pages` builds `dist/`, copies it into a `.gh-pages` worktree, commits there with an automatic message, and pushes `HEAD` to the configured Pages branch. `make prepare-gh-pages` keeps the same flow without the push.
 - `package.json` exposes one dev command per deck.
 - `scripts/build-all.mjs` is the deck manifest and build loop. It currently builds `decks/oficina-unb.md`.
 - The build output is `dist/index.html` plus one folder per deck.
-- `.github/workflows/deploy.yml` installs with `npm ci`, runs `npm run build`, uploads `dist`, and deploys Pages from Actions.
+- `.github/workflows/deploy.yml` installs with `npm ci` and runs `npm run build` as a CI build check. It does not deploy Pages.
 
 To add a deck:
 

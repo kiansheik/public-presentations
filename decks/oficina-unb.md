@@ -4,6 +4,7 @@ title: "Tupi Antigo: uma língua de contato no Brasil colonial"
 info: |
   Oficina UnB sobre Tupi Antigo, línguas gerais e projetos missionários no mundo colonial.
 class: oficina-unb
+layout: default
 highlighter: shiki
 drawings:
   persist: false
@@ -369,6 +370,160 @@ class: oficina-unb
   </section>
 </div>
 
+<!-- ---
+class: oficina-unb
+---
+
+<div class="oficina-canvas brasil-slide">
+  <h1 class="slide-title pos-title-wide">Chorus Brasílicus</h1>
+
+  <DeckImage class="manuscript pos-anchieta-main" image="chorus.png" alt="Chrous Brasílicus" />
+
+</div>
 <!--
 É importante não tratar essas fontes como fotografias neutras da realidade indígena. Elas são textos coloniais, escritos por europeus, com interesses missionários, administrativos ou econômicos. Mas justamente por virem de posições diferentes, a convergência entre elas é significativa. Anchieta fala como gramático e missionário; Cardim fala como jesuíta em circulação pelas capitanias; Gabriel Soares fala como colono e senhor de engenho. Nenhum deles está fazendo linguística moderna, mas todos registram uma percepção parecida: havia diversidade indígena, havia diferenças regionais, mas havia também uma língua de grande alcance na costa. Esse é o ponto que prepara a próxima etapa: entender por que os jesuítas puderam transformar essa língua em objeto de gramática, catecismo e ensino missionário.
+--> -->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">A língua mais usada na costa do Brasil</h1>
+
+  <section class="body-block pos-left-standard grammar-block grammar-intro">
+    <p class="source-kicker">José de Anchieta, 1595</p>
+    <blockquote class="quote-text compact">
+      <em>Arte de grammatica da lingva mais vsada na costa do Brasil</em>
+    </blockquote>
+    <p>A gramática não se apresenta como descrição de uma língua inventada para a missão, mas de uma língua já percebida como amplamente usada na costa.</p>
+  </section>
+
+  <div class="text-shot-placeholder pos-text-shot">
+    <div class="shot-label">screenshot do título</div>
+    <div class="shot-lines">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</div>
+
+<!--
+Antes de entrar nos detalhes gramaticais, o próprio título já importa. Anchieta não chama sua obra de “arte da língua dos jesuítas” ou “língua criada para catequese”, mas de gramática da língua mais usada na costa do Brasil. Esse enquadramento combina muito bem com a ideia de língua geral: uma língua indígena de grande circulação que os missionários passam a descrever e usar sistematicamente.
+
+Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">Uma língua geral não é uma língua uniforme</h1>
+
+  <section class="body-block pos-left-standard grammar-block variation-block">
+    <p>Anchieta observa diferença regional na pronúncia de verbos terminados em consoante:</p>
+    <div class="regional-forms">
+      <p class="region-label">Pitiguares da Paraíba até os Tamoios do Rio de Janeiro:</p>
+      <p class="forms-line">Apâb, Acêm, Apên, Aiûr</p>
+      <p class="region-label">Tupis de São Vicente:</p>
+      <p class="forms-line">Apâ, Acẽ, Apẽ, Aiú</p>
+    </div>
+    <blockquote class="quote-text compact source-quote">“ha algũa differença na pronunciação, &amp; o vſo de diuerſas partes do Brasil ſera o milhor meſtre.”</blockquote>
+  </section>
+
+  <div class="text-shot-placeholder pos-text-shot">
+    <div class="shot-label">screenshot do trecho</div>
+    <div class="shot-lines">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</div>
+
+<!--
+Isso é uma das passagens mais importantes para a oficina. Anchieta reconhece explicitamente que há diferença de pronúncia entre partes do Brasil. Do Paraíba ao Rio de Janeiro, segundo ele, certos verbos mantêm a consoante final; em São Vicente, essa consoante não é pronunciada. Ou seja: a língua pode ser “mais usada na costa” e, ao mesmo tempo, ter variação regional. Isso é exatamente o que esperaríamos de uma língua de contato de grande extensão.
+
+Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">O uso será o melhor mestre</h1>
+
+  <section class="body-block pos-left-standard grammar-block use-block">
+    <blockquote class="quote-text">
+      “o uso de diversas partes do Brasil será o melhor mestre”
+    </blockquote>
+    <p class="point-label">Ponto-chave</p>
+    <p>A regra escrita não substitui a experiência com falantes reais.</p>
+  </section>
+
+  <div class="text-shot-placeholder pos-text-shot">
+    <div class="shot-label">screenshot da frase</div>
+    <div class="shot-lines">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</div>
+
+<!--
+Essa frase pode virar quase um refrão desse bloco. Anchieta está escrevendo uma gramática, mas ele sabe que a gramática não resolve tudo. Para aprender pronúncia e variação, o “uso de diversas partes do Brasil” é o melhor mestre. Isso dá uma imagem muito diferente de uma gramática como imposição total: ela é uma tentativa missionária de organizar a língua, mas depende da fala viva.
+
+Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">No contínuo uso do falar</h1>
+
+  <section class="body-block pos-left-standard grammar-block oral-block">
+    <blockquote class="quote-text compact">“como a lingoa do Brasil não está em escrito, senão no continuo uso do falar, o mesmo uso, &amp; viva voz ensinará melhor as muitas variedades que tem...”</blockquote>
+    <p class="point-label">Ponto-chave</p>
+    <p>Anchieta descreve uma língua de tradição oral, cujo aprendizado depende da escuta, do uso e da convivência.</p>
+  </section>
+
+  <div class="text-shot-placeholder pos-text-shot">
+    <div class="shot-label">screenshot do trecho</div>
+    <div class="shot-lines">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</div>
+
+<!--
+Aqui Anchieta é ainda mais explícito. Ele diz que a língua do Brasil não está em escrito, mas no contínuo uso do falar. E por isso a viva voz ensina melhor as muitas variedades que ela tem. Para nós, isso é precioso: o próprio autor da primeira gramática impressa reconhece que está tentando escrever uma língua que não estava estabilizada por uma tradição escrita alfabética.
+
+Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">Entre o local e o mais geral</h1>
+
+  <section class="body-block pos-left-standard grammar-block universal-block">
+    <blockquote class="quote-text compact">“Mas o mais universal uso [...] é tirar-se a última consoante...”</blockquote>
+    <p class="point-label">Ponto-chave</p>
+    <p>Anchieta não apenas registra diferenças; ele tenta identificar o que lhe parece mais geral.</p>
+  </section>
+
+  <div class="text-shot-placeholder pos-text-shot">
+    <div class="shot-label">screenshot do trecho</div>
+    <div class="shot-lines">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</div>
+
+<!--
+Essa citação é útil porque mostra a operação típica de uma gramática de língua geral: diante de variação, Anchieta tenta selecionar ou identificar um uso mais universal. Isso não significa que os outros usos sejam inexistentes; significa que o gramático missionário precisa de uma forma ensinável, relativamente geral, para fins de aprendizagem e catequese.
+
+Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
 -->

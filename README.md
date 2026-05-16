@@ -15,6 +15,14 @@ npm run export:oficina-unb:pdf
 
 `npm run dev` também abre `decks/oficina-unb.md`.
 
+Também há atalhos no Makefile:
+
+```bash
+make help
+make build
+make deploy-gh-pages
+```
+
 O build usa [scripts/build-all.mjs](./scripts/build-all.mjs) e gera:
 
 - `dist/index.html`
@@ -24,6 +32,34 @@ Em GitHub Actions, o base path de cada deck usa o nome do repositório vindo de 
 
 ```bash
 SLIDEV_BASE=/nome-do-repo/ npm run build
+```
+
+## Deploy via branch `gh-pages`
+
+O workflow de GitHub Actions roda apenas o build. A publicação fica no Makefile, que envia o conteúdo de `dist/` para uma branch `gh-pages`. No GitHub, configure Pages para publicar a partir da branch `gh-pages`, pasta `/`.
+
+Para publicar:
+
+```bash
+make deploy-gh-pages
+```
+
+`make deploy-gh-pages` roda `npm run build`, cria ou reutiliza um worktree local em `.gh-pages`, substitui o conteúdo publicado pelo conteúdo de `dist/`, adiciona `.nojekyll`, faz commit na branch `gh-pages` com uma mensagem automática e envia a branch para `origin`. Ele preserva um arquivo `CNAME`, caso exista.
+
+Para preparar o commit sem enviar ao remoto:
+
+```bash
+make prepare-gh-pages
+make push-gh-pages
+```
+
+Variáveis úteis:
+
+```bash
+PAGES_BRANCH=gh-pages
+PAGES_WORKTREE=.gh-pages
+PAGES_REMOTE=origin
+PAGES_MESSAGE="Deploy public presentations"
 ```
 
 Exports disponíveis:

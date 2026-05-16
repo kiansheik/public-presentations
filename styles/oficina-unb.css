@@ -36,14 +36,14 @@
   background: var(--oficina-bg);
 }
 
-.title-slide {
+.slidev-layout.oficina-unb .title-slide {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.title-main {
+.slidev-layout.oficina-unb .title-main {
   position: absolute;
   left: 10.3%;
   top: 11.5%;
@@ -56,7 +56,7 @@
   letter-spacing: 0;
 }
 
-.title-dots {
+.slidev-layout.oficina-unb .title-dots {
   position: absolute;
   left: 0;
   right: 0;
@@ -68,7 +68,7 @@
   letter-spacing: 0.18em;
 }
 
-.title-subtitle {
+.slidev-layout.oficina-unb .title-subtitle {
   position: absolute;
   left: 0;
   right: 0;
@@ -471,4 +471,139 @@
   width: 91.4%;
   font-size: 2.75rem;
   line-height: 1.08;
+}
+
+.anchieta-grammar-slide .slide-title {
+  line-height: 1.02;
+}
+
+.grammar-block {
+  top: 27.8%;
+  font-size: 1.18rem;
+  line-height: 1.22;
+}
+
+.grammar-block .source-kicker {
+  margin-bottom: 1rem !important;
+}
+
+.grammar-block .quote-text {
+  margin-bottom: 1.06rem !important;
+}
+
+.grammar-block .quote-text.compact {
+  font-size: 1.28rem;
+  line-height: 1.15;
+}
+
+.grammar-intro {
+  font-size: 1.32rem;
+  line-height: 1.2;
+}
+
+.variation-block {
+  font-size: 1.04rem;
+  line-height: 1.18;
+}
+
+.regional-forms {
+  margin-top: 1.02rem;
+}
+
+.region-label {
+  color: var(--oficina-title);
+  font-family: var(--oficina-heading);
+  font-size: 1.14rem;
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.forms-line {
+  color: var(--oficina-title);
+  font-size: 1.38rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.regional-forms .forms-line + .region-label {
+  margin-top: 1rem !important;
+}
+
+.source-quote {
+  margin-top: 1.15rem !important;
+}
+
+.use-block,
+.oral-block,
+.universal-block {
+  top: 31%;
+  font-size: 1.32rem;
+}
+
+.use-block .quote-text {
+  font-size: 1.62rem;
+  line-height: 1.15;
+}
+
+.point-label {
+  color: var(--oficina-title);
+  font-family: var(--oficina-heading);
+  font-size: 1.42rem;
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.pos-text-shot {
+  left: var(--oficina-right-x);
+  top: 7%;
+  width: var(--oficina-right-w);
+  height: 86.5%;
+}
+
+.text-shot-placeholder {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e7e1d6;
+  border: 0.12rem solid rgba(245, 245, 245, 0.55);
+  color: rgba(55, 71, 79, 0.62);
+  box-shadow: 0 0.16rem 0.28rem rgba(0, 0, 0, 0.24);
+  padding: 8%;
+}
+
+.shot-label {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  top: 7%;
+  color: rgba(55, 71, 79, 0.72);
+  font-family: var(--oficina-heading);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.shot-lines {
+  display: grid;
+  gap: 0.72rem;
+}
+
+.shot-lines span {
+  display: block;
+  height: 0.62rem;
+  background: rgba(55, 71, 79, 0.26);
+}
+
+.shot-lines span:nth-child(2n) {
+  width: 82%;
+}
+
+.shot-lines span:nth-child(3n) {
+  width: 68%;
+}
+
+.shot-lines span:nth-child(5n) {
+  width: 91%;
 }

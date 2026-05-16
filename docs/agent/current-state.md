@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-14
+Last updated: 2026-05-15
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
@@ -21,7 +21,8 @@ Shared presentation infrastructure:
 - `styles/oficina-unb.css` contains the Oficina UnB layout and positioning CSS.
 - `public/assets/` is organized by deck slug plus `shared/`.
 - `scripts/build-all.mjs` clears `dist/`, builds every deck into `dist/<slug>/`, and writes `dist/index.html`.
-- `.github/workflows/deploy.yml` deploys the generated `dist` directory with GitHub Pages Actions.
+- `.github/workflows/deploy.yml` is a build check only: it installs with `npm ci` and runs `npm run build`. It does not use `actions/configure-pages`, because that path requires the repository Pages source to be configured for GitHub Actions before it runs.
+- `Makefile` exposes `make help`, `make build`, `make prepare-gh-pages`, `make deploy-gh-pages`, and `make push-gh-pages`. `deploy-gh-pages` builds, commits, and pushes the `.gh-pages` worktree to the configured Pages branch.
 - `README.md` is the project-facing guide for commands, adding decks, styling decks under `decks/`, and handling image assets.
 
 Verified on 2026-05-13:
@@ -29,7 +30,7 @@ Verified on 2026-05-13:
 - `npm run build` succeeds for the current `oficina-unb` build manifest.
 - `npm ci --dry-run` accepts the current `package.json` and `package-lock.json`.
 - Generated deck assets use `/public-presentations/<deck>/` base paths by default.
-- `dist/` and `node_modules/` are ignored by git.
+- `dist/`, `.gh-pages/`, and `node_modules/` are ignored by git.
 - A local `oficina-tupi-antigo.md` dev server was started at `http://localhost:3030/` during the 2026-05-13 session.
 - A fresh `oficina-unb` dev server was started at `http://localhost:3031/`.
 - Browser verification on `http://localhost:3031/3` found zero escaped `<pre><code>` quote blocks, one rendered blockquote, and a loaded manuscript image with natural size `944x1432`.
@@ -42,3 +43,14 @@ Verified on 2026-05-14:
 - `npm run build` succeeds after the Brasil slide block.
 - A static generated-bundle check found the new slide modules/classes and the `DeckImage` import for `anchieta-arte-grammatica.png`.
 - Browser screenshot verification was not run for the new slides; future agents should avoid Playwright screenshots unless explicitly requested.
+- `make build` succeeds and wraps the same `npm run build` flow.
+- `make help` prints the Makefile command index and deploy variables.
+
+Verified on 2026-05-15:
+
+- `.github/workflows/deploy.yml` was switched from Pages artifact deployment to a build-only workflow to avoid `actions/configure-pages@v5` failing when Pages is not already configured for GitHub Actions.
+- Branch publishing remains available through `make deploy-gh-pages`; the repository Pages setting should publish from `gh-pages` branch root.
+- Added a five-slide Anchieta grammar/use block to the end of `decks/oficina-unb.md`: title framing, regional variation, use as teacher, oral use/viva voz, and universal/local systematization.
+- Added `styles/oficina-unb.css` classes for the Anchieta grammar block and right-side text screenshot placeholders.
+- `npm run build` succeeds after the appended slides.
+- A local Slidev server for review is running at `http://localhost:3032/` and returned `HTTP/1.1 200 OK`; no Playwright screenshots were taken.

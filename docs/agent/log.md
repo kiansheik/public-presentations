@@ -24,3 +24,16 @@
 - Added Oficina CSS classes for Brasil source/witness/quote-panel/convergence layouts.
 - Verified the deck with `npm run build` and static generated-bundle checks.
 - Added root `AGENTS.md` and recorded that future agents should not take Playwright screenshots unless the user explicitly requests screenshots.
+- Added Makefile targets for manual branch-based GitHub Pages deploy: `build`, `deploy-gh-pages`, and `push-gh-pages`.
+- Documented the `.gh-pages` worktree deploy flow in `README.md`.
+- Added `.gh-pages/` to `.gitignore`.
+- Added `make help`, split no-push publishing into `make prepare-gh-pages`, and consolidated `make deploy-gh-pages` so it builds, commits, and pushes `gh-pages`.
+- Updated the README Makefile docs to reflect the one-command branch deploy and deploy variable overrides.
+
+## 2026-05-15
+
+- Changed `.github/workflows/deploy.yml` from GitHub Pages artifact deployment to a build-only workflow, avoiding `actions/configure-pages@v5` when Pages is not configured for Actions.
+- Kept branch publishing in `make deploy-gh-pages` and updated deploy docs to say GitHub Pages should serve from the `gh-pages` branch root.
+- Appended five Anchieta grammar/use slides to `decks/oficina-unb.md` with right-side screenshot placeholders and speaker notes.
+- Added Oficina CSS for the new grammar block, regional form lists, point labels, and placeholder text-shot frames.
+- Verified with `npm run build`, a static generated-bundle title check, and `curl -I http://localhost:3032/`; started Slidev locally at `http://localhost:3032/`.
