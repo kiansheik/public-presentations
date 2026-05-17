@@ -28,7 +28,7 @@ class: oficina-unb
 <div class="oficina-canvas">
   <h1 class="slide-title pos-title-wide">Lenguas Generales</h1>
 
-  <section class="body-block pos-left-standard">
+  <section class="body-block pos-left-standard source-quote-block">
     <blockquote class="quote-text">
       “hay una lengua más general y de que<br>
       más continuamente usan los<br>
@@ -58,7 +58,7 @@ class: oficina-unb
 <div class="oficina-canvas">
   <h1 class="slide-title pos-title-left title-tight">A língua geral como requisito para a missão</h1>
 
-  <section class="body-block pos-left-standard">
+  <section class="body-block pos-left-standard source-quote-block">
     <p>No mundo colonial hispânico, a <em>lengua general</em> não era apenas uma língua “útil”: ela podia ser tratada como requisito para o exercício da doutrina</p>
     <blockquote class="quote-text compact">
       “Que los Clérigos y Religiosos no<br>
@@ -88,7 +88,7 @@ class: oficina-unb
 <div class="oficina-canvas">
   <h1 class="slide-title pos-title-left title-tight">A língua geral como objeto de ensino formal</h1>
 
-  <section class="body-block pos-left-standard">
+  <section class="body-block pos-left-standard source-quote-block">
     <p>A mesma lógica aparece na criação de cátedras de <em>lengua general</em> em centros universitários.</p>
     <blockquote class="quote-text compact">
       “A Inteligencia de la lengua General<br>
@@ -119,11 +119,13 @@ class: oficina-unb
 <div class="oficina-canvas">
   <h1 class="slide-title pos-title-left">Quechua: a língua geral dos Andes</h1>
 
-  <section class="body-block pos-left-standard">
-    <p>Gramáticas principais:</p>
-    <p>Domingo de Santo Tomás, <em>Grammatica o arte de la lengua general de los Indios de los reynos del Peru</em>, 1560</p>
-    <p>Diego González Holguín, <em>Gramática y arte nueva de la lengua general de todo el Peru</em>, 1607</p>
-    <p>Quechua é o exemplo mais explícito da categoria <em>lengua general</em> como linguagem de alcance regional e institucional.</p>
+  <section class="body-block pos-left-standard language-case-block">
+    <p class="language-case-label">Gramáticas principais</p>
+    <div class="language-source-list">
+      <p class="language-source"><span>1560</span>Domingo de Santo Tomás, <em>Grammatica o arte de la lengua general de los Indios de los reynos del Peru</em></p>
+      <p class="language-source"><span>1607</span>Diego González Holguín, <em>Gramática y arte nueva de la lengua general de todo el Peru</em></p>
+    </div>
+    <p class="language-case-point">Quechua é o exemplo mais explícito da categoria <em>lengua general</em> como linguagem de alcance regional e institucional.</p>
   </section>
 
   <DeckImage class="manuscript pos-quechua-main" image="quechua-vocabulario-holguin.png" alt="Vocabulario de la lengua general del Peru, Diego González Holguín" />
@@ -141,12 +143,14 @@ class: oficina-unb
 <div class="oficina-canvas">
   <h1 class="slide-title pos-title-left title-tight">Nahuatl: uma “língua geral” no México colonial</h1>
 
-  <section class="body-block pos-left-nahuatl">
-    <p>Gramáticas principais:</p>
-    <p>Andrés de Olmos, <em>Arte de la lengua mexicana</em>, composta em 1547</p>
-    <p>Horacio Carochi, <em>Arte de la lengua mexicana</em>, publicada em 1645</p>
-    <p>Gramatização missionária de grandes línguas indígenas já estava em curso poucas décadas após a conquista.</p>
-    <p>Nahuatl/Mexicano: uma das principais línguas indígenas gramatizadas no mundo colonial hispânico.</p>
+  <section class="body-block pos-left-nahuatl language-case-block">
+    <p class="language-case-label">Gramáticas principais</p>
+    <div class="language-source-list">
+      <p class="language-source"><span>1547</span>Andrés de Olmos, <em>Arte de la lengua mexicana</em></p>
+      <p class="language-source"><span>1645</span>Horacio Carochi, <em>Arte de la lengua mexicana</em></p>
+    </div>
+    <p class="language-case-point">A gramatização missionária de grandes línguas indígenas já estava em curso poucas décadas após a conquista.</p>
+    <p class="language-case-note">Nahuatl/Mexicano foi uma das principais línguas indígenas gramatizadas no mundo colonial hispânico.</p>
   </section>
 
   <DeckImage class="manuscript pos-nahuatl-main" image="nahuatl-carochi-1645.png" alt="Arte de la lengua mexicana, Horacio Carochi" />
@@ -164,10 +168,12 @@ class: oficina-unb
 <div class="oficina-canvas">
   <h1 class="slide-title pos-title-left title-tight">Guarani: língua missionária no mundo jesuítico</h1>
 
-  <section class="body-block pos-left-standard">
-    <p>Gramática principal:</p>
-    <p>Antonio Ruiz de Montoya, <em>Arte y vocabulario de la lengua guaraní</em>, 1640</p>
-    <p>Guarani é contemporâneo posterior ao Tupi de Anchieta e mostra a continuidade da tradição jesuítica de gramatizar línguas indígenas de grande alcance.</p>
+  <section class="body-block pos-left-standard language-case-block">
+    <p class="language-case-label">Gramática principal</p>
+    <div class="language-source-list">
+      <p class="language-source"><span>1640</span>Antonio Ruiz de Montoya, <em>Arte y vocabulario de la lengua guaraní</em></p>
+    </div>
+    <p class="language-case-point">Guarani é contemporâneo posterior ao Tupi de Anchieta e mostra a continuidade da tradição jesuítica de gramatizar línguas indígenas de grande alcance.</p>
   </section>
 
   <DeckImage class="manuscript pos-guarani" image="guarani-montoya-1640.png" alt="Arte y vocabulario de la lengua guarani, Antonio Ruiz de Montoya" />
@@ -370,21 +376,460 @@ class: oficina-unb
   </section>
 </div>
 
-<!-- ---
+---
 class: oficina-unb
 ---
 
-<div class="oficina-canvas brasil-slide">
-  <h1 class="slide-title pos-title-wide">Chorus Brasílicus</h1>
+<div class="oficina-canvas corpus-definition-slide">
+  <h1 class="slide-title pos-title-wide">O que vamos chamar de Tupi Antigo?</h1>
 
-  <DeckImage class="manuscript pos-anchieta-main" image="chorus.png" alt="Chrous Brasílicus" />
-
+  <section class="corpus-definition-block">
+    <p class="definition-kicker">Uma designação de corpus finito</p>
+    <p class="definition-main">Aqui, <strong>Tupi Antigo</strong> não é tratado como o nome nativo de uma língua única e uniforme, mas como um rótulo de trabalho para o conjunto conhecido de documentos coloniais em torno da língua brasílica.</p>
+    <div class="definition-columns">
+      <div>
+        <p class="corpus-label">Jesuíticos</p>
+        <p>gramáticas, catecismos, vocabulários, poemas e teatro missionário.</p>
+      </div>
+      <div>
+        <p class="corpus-label">Indígenas</p>
+        <p>cartas e usos escritos raros, especialmente ligados a autores Potiguara.</p>
+      </div>
+      <div>
+        <p class="corpus-label">Europeus</p>
+        <p>relatos, descrições coloniais, etnografia, história natural e vocabulário.</p>
+      </div>
+    </div>
+    <p class="definition-note">O termo organiza um corpus; não apaga a variação regional, os nomes históricos nem os povos concretos envolvidos.</p>
+  </section>
 </div>
+
 <!--
-É importante não tratar essas fontes como fotografias neutras da realidade indígena. Elas são textos coloniais, escritos por europeus, com interesses missionários, administrativos ou econômicos. Mas justamente por virem de posições diferentes, a convergência entre elas é significativa. Anchieta fala como gramático e missionário; Cardim fala como jesuíta em circulação pelas capitanias; Gabriel Soares fala como colono e senhor de engenho. Nenhum deles está fazendo linguística moderna, mas todos registram uma percepção parecida: havia diversidade indígena, havia diferenças regionais, mas havia também uma língua de grande alcance na costa. Esse é o ponto que prepara a próxima etapa: entender por que os jesuítas puderam transformar essa língua em objeto de gramática, catecismo e ensino missionário.
---> -->
+Antes de entrar nas fontes uma por uma, vale fixar o uso terminológico. Nesta oficina, “Tupi Antigo” funciona como uma designação de corpus: é uma forma prática de falar do conjunto finito de textos quinhentistas e seiscentistas que chegaram até nós, produzidos por missionários, autores indígenas e autores europeus. Isso evita duas armadilhas: imaginar uma língua homogênea e sem variação, ou reduzir todo o corpus ao nome de um único povo. O corpus é colonial, fragmentário e mediado, mas é também o nosso principal ponto de acesso histórico.
+-->
 
 ---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Hans Staden — 1557</h1>
+  <p class="corpus-subtitle">relato de cativeiro / vocabulário etnográfico inicial</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Soldado e viajante alemão que viveu uma experiência de cativeiro entre povos tupi-falantes no litoral do Brasil em meados do século XVI.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Um dos primeiros relatos europeus sobre povos tupi-falantes da costa</li>
+        <li>Preserva nomes, práticas rituais, cenas de guerra e itens lexicais</li>
+        <li>Útil para contexto social e etnográfico, mais do que para gramática</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Staden, 1557.</p>
+</div>
+
+<!--
+Staden entra aqui como fonte de contexto e de vocabulário inicial, não como gramático. O valor dele está no testemunho etnográfico europeu muito cedo, ligado a guerra, cativeiro, ritual e contato. Ele ajuda a lembrar que o corpus de Tupi Antigo não é apenas catecismo e gramática jesuítica: também inclui relatos europeus tentando registrar práticas, nomes e palavras que encontravam no litoral.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">André Thevet — 1557</h1>
+  <p class="corpus-subtitle">cosmografia francesa / França Antártica</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Franciscano francês e cosmógrafo real, ligado ao contexto da presença francesa na Guanabara.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Testemunho francês inicial sobre o Brasil costeiro</li>
+        <li>Preserva etnônimos, nomes de plantas e animais e descrições culturais</li>
+        <li>Importante ponto de comparação com Jean de Léry</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Thevet, <em>Les singularitez de la France Antarctique</em>, 1557.</p>
+</div>
+
+<!--
+Thevet representa outra via europeia de registro: a cosmografia francesa. Ele é importante porque nos lembra que a documentação inicial do Brasil costeiro circula também por redes francesas, especialmente no contexto da Guanabara e da França Antártica. Para o corpus, interessa menos como descrição gramatical e mais como inventário de nomes, etnônimos, plantas, animais e cenas culturais.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Jean de Léry — 1578</h1>
+  <p class="corpus-subtitle">relato reformado / vida entre os Tupinambá</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Calvinista francês ligado à França Antártica, autor de um dos relatos mais ricos sobre a vida tupinambá no século XVI.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Descrições etnográficas detalhadas</li>
+        <li>Passagens importantes sobre fala, canto, ritual, escuta e interpretação indígena</li>
+        <li>Preserva vocabulário e cenas de contato cultural</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Léry, <em>Histoire d’un voyage faict en la terre du Brésil</em>, 1578.</p>
+</div>
+
+<!--
+Léry é uma fonte forte para mostrar que o corpus antigo também preserva cenas de interação, canto e interpretação. Ele não escreve uma gramática, mas descreve situações comunicativas e registra vocabulário. Como é um autor reformado e francês, também oferece um contraponto ao olhar jesuítico português.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Pero de Magalhães de Gândavo — 1576</h1>
+  <p class="corpus-subtitle">primeira descrição impressa portuguesa do Brasil</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Humanista e cronista português, autor de uma das primeiras obras impressas sobre o Brasil.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Descreve a terra, os povos e costumes do Brasil colonial inicial</li>
+        <li>Preserva etnônimos e observações culturais</li>
+        <li>Mostra como autores portugueses classificavam povos indígenas da costa</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Gândavo, <em>História da província Santa Cruz</em>, 1576.</p>
+</div>
+
+<!--
+Gândavo ajuda a situar o corpus dentro da escrita portuguesa sobre o Brasil. A contribuição dele é menos linguística em sentido estreito e mais classificatória: povos, costumes, nomes e categorias coloniais. Isso importa porque “Tupi Antigo” como corpus depende também de como os próprios autores coloniais recortavam a costa e seus habitantes.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Gabriel Soares de Sousa — 1587</h1>
+  <p class="corpus-subtitle">descrição colonial / etnografia e história natural</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Colono português estabelecido na Bahia, autor de uma descrição extensa do Brasil no fim do século XVI.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Descrições ricas de povos, geografia, plantas e animais</li>
+        <li>Material lexical e etnográfico importante</li>
+        <li>Útil para comparar categorias coloniais e variação regional</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Gabriel Soares de Sousa, <em>Tratado descritivo do Brasil em 1587</em>.</p>
+</div>
+
+<!--
+Gabriel Soares entra de novo, agora como ficha de corpus. A vantagem dele é a posição de colono e observador da Bahia, não de missionário. Isso amplia o conjunto documental para além da escrita jesuítica e ajuda a comparar classificações coloniais, etnônimos, léxico de plantas e animais e percepções sobre variação.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Fernão Cardim — séc. XVI</h1>
+  <p class="corpus-subtitle">etnografia jesuítica / testemunho de “mesma língua”</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Jesuíta português que percorreu partes do Brasil e descreveu povos indígenas, missões e sociedade colonial.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Enumera vários povos costeiros como falantes de uma mesma língua</li>
+        <li>Menciona separadamente Potiguara, Tupinambá, Tupiniquim, Tamoio e outros</li>
+        <li>Fonte importante para não reduzir o corpus antigo a um único etnônimo</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Rodapé possível: Cardim afirma que diferentes “nações” da costa, embora distintas, “têm a mesma língua”.</p>
+</div>
+
+<!--
+Cardim é uma peça importante para a discussão terminológica. Ele permite dizer que o corpus antigo não cabe confortavelmente em um único etnônimo, porque ele enumera povos diferentes e, ao mesmo tempo, fala de uma língua comum ou principal. É uma fonte jesuítica, então precisa ser lida como fonte missionária, mas a passagem é muito útil para a oficina.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">José de Anchieta — 1595</h1>
+  <p class="corpus-subtitle">primeira gramática impressa</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Jesuíta, missionário, gramático, poeta e dramaturgo ativo no Brasil do século XVI.</p>
+      <p class="terminology-note">O título fala em <strong>“língua mais usada na costa do Brasil”</strong>.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li><em>Arte de grammatica da lingoa mais usada na costa do Brasil</em></li>
+        <li>Descrição gramatical central do corpus antigo</li>
+        <li>Também produziu textos catequéticos, poéticos e teatrais</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Anchieta, <em>Arte de grammatica</em>, 1595.</p>
+</div>
+
+<!--
+Anchieta é a fonte gramatical central. A observação terminológica é essencial: a capa fala em “língua mais usada na costa do Brasil”. Essa fórmula nos ajuda a usar “Tupi Antigo” como rótulo moderno de corpus sem fingir que esse era necessariamente o nome histórico usado no documento.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Antônio de Araújo — 1618</h1>
+  <p class="corpus-subtitle">catecismo em língua brasílica</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Jesuíta associado à principal tradição catequética impressa em língua indígena no Brasil colonial.</p>
+      <p class="terminology-note">O título usa <strong>língua brasílica</strong>.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li><em>Catecismo na lingoa brasilica</em></li>
+        <li>Fonte importante de prosa religiosa</li>
+        <li>Testemunho da norma escrita usada na catequese</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Araújo, <em>Catecismo na lingoa brasilica</em>, 1618.</p>
+</div>
+
+<!--
+Araújo desloca o foco da gramática para a prosa catequética. O ponto para a oficina é que o corpus não é só metalinguagem sobre a língua; também inclui textos longos de doutrina. E, novamente, o título histórico usa “língua brasílica”, o que ajuda a manter a discussão terminológica precisa.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Luís Figueira — 1621</h1>
+  <p class="corpus-subtitle">segunda gramática principal</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Jesuíta português ativo no Brasil e no Maranhão, autor de uma gramática fundamental da língua.</p>
+      <p class="terminology-note">O título usa <strong>língua brasílica</strong>.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li><em>Arte da lingva brasilica</em></li>
+        <li>Fonte gramatical importante depois de Anchieta</li>
+        <li>Especialmente relevante para a tradição missionária do norte/Maranhão-Pará</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Figueira, <em>Arte da lingva brasilica</em>, 1621.</p>
+</div>
+
+<!--
+Figueira mostra continuidade gramatical depois de Anchieta. A obra também é uma ponte para o norte e para a tradição missionária do Maranhão-Pará. Para a definição de corpus, isso ajuda a marcar a passagem entre o núcleo clássico costeiro e a documentação que, mais tarde, se aproxima da Língua Geral Amazônica.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title"><em>Vocabulário na Língua Brasílica</em> — ms. séc. XVII</h1>
+  <p class="corpus-subtitle">grande testemunho lexical</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Nota sobre a fonte</p>
+      <p>Vocabulário manuscrito anônimo, associado à tradição jesuítica e posteriormente editado.</p>
+      <p class="terminology-note">O próprio título usa <strong>língua brasílica</strong>.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Uma das principais fontes lexicais para o Tupi Antigo</li>
+        <li>Preserva extenso vocabulário português–tupi</li>
+        <li>Fundamental para dicionários modernos e reconstruções lexicais</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: <em>Vocabulário na Língua Brasílica</em>, manuscrito do século XVII.</p>
+</div>
+
+<!--
+O Vocabulário é a peça lexical por excelência. Ele ajuda a mostrar que o corpus não é apenas narrativo ou catequético: também inclui instrumentos de consulta, aprendizagem e tradução. A palavra “brasílica” no próprio título reforça de novo que “Tupi Antigo” é uma designação moderna para organizar fontes com nomes históricos variados.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">Cartas dos Camarões — 1645</h1>
+  <p class="corpus-subtitle">textos indígenas em Tupi Antigo</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Nota sobre a fonte</p>
+      <p>Conjunto de cartas escritas por lideranças potiguaras no contexto da guerra luso-neerlandesa em Pernambuco.</p>
+      <p class="terminology-note">Essas cartas são particularmente importantes porque estão ligadas a autores <strong>Potiguara</strong>.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li>Raros textos coloniais em Tupi Antigo escritos por autores indígenas</li>
+        <li>Escrita política, diplomática e militar, não tradução missionária</li>
+        <li>Contraponto essencial ao corpus jesuítico</li>
+        <li>Evidência contra a redução do corpus antigo ao nome de um único povo</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Referência curta: Cartas dos Camarões, 1645.</p>
+</div>
+
+<!--
+As cartas são uma das chaves do bloco. Elas deslocam o corpus para autores indígenas, em uma situação política e militar, e não apenas para tradução missionária. Também são ótimas contra a redução simplificadora do corpus a um único etnônimo, porque estão ligadas ao mundo potiguara.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-card-slide">
+  <h1 class="slide-title corpus-card-title">João Filipe Bettendorff — 1687</h1>
+  <p class="corpus-subtitle">fronteira filológica do corpus clássico</p>
+
+  <section class="corpus-card-grid">
+    <div class="corpus-panel">
+      <p class="corpus-label">Bio curta</p>
+      <p>Jesuíta luxemburguês ativo no Maranhão e Pará no século XVII.</p>
+      <p class="terminology-note">O título usa <strong>língua portuguesa e brasílica</strong>.</p>
+    </div>
+    <div class="corpus-panel">
+      <p class="corpus-label">Contribuições para o corpus</p>
+      <ul class="visual-bullets corpus-list">
+        <li><em>Compendio da Doutrina Christãa na lingua portugueza, e brasilica</em></li>
+        <li>Fonte catequética tardia do século XVII</li>
+        <li>Marco prático de encerramento do corpus clássico de Tupi Antigo</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="corpus-footer">Nota: Bettendorff funciona aqui como fronteira antes da documentação caminhar mais claramente para a Língua Geral Amazônica / Nheengatu.</p>
+</div>
+
+<!--
+Bettendorff funciona como fronteira prática. A ideia não é que em 1687 tudo muda de um dia para o outro, mas que, para a oficina, ele é um bom marco de encerramento do corpus clássico antes de a documentação caminhar de modo mais claro para a Língua Geral Amazônica e o Nheengatu.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas corpus-timeline-slide">
+  <h1 class="slide-title corpus-card-title">Corpus central do Tupi Antigo clássico</h1>
+  <p class="corpus-subtitle">primeiras publicações e testemunhos principais</p>
+
+  <section class="corpus-timeline">
+    <div class="timeline-row"><span>1557</span><p>Staden / Thevet</p></div>
+    <div class="timeline-row"><span>1576</span><p>Gândavo</p></div>
+    <div class="timeline-row"><span>1578</span><p>Léry</p></div>
+    <div class="timeline-row"><span>1587</span><p>Gabriel Soares de Sousa</p></div>
+    <div class="timeline-row"><span>1595</span><p>Anchieta, <em>Arte</em></p></div>
+    <div class="timeline-row"><span>1614</span><p>Claude d’Abbeville</p></div>
+    <div class="timeline-row"><span>1615</span><p>Yves d’Evreux</p></div>
+    <div class="timeline-row"><span>1618</span><p>Araújo, <em>Catecismo</em></p></div>
+    <div class="timeline-row"><span>1621</span><p>Figueira, <em>Arte</em></p></div>
+    <div class="timeline-row"><span>1645</span><p>Cartas dos Camarões</p></div>
+    <div class="timeline-row"><span>séc. XVII</span><p><em>Vocabulário na Língua Brasílica</em></p></div>
+    <div class="timeline-row"><span>1687</span><p>Bettendorff, <em>Compendio</em></p></div>
+  </section>
+
+  <p class="timeline-note">O corpus combina gramáticas, catecismos, vocabulários, relatos europeus e raros textos indígenas.</p>
+</div>
+
+<!--
+Essa linha do tempo não precisa fechar o bloco; ela pode funcionar como um mapa visual. O ponto é deixar claro que “Tupi Antigo” é um recorte documental: gramáticas, catecismos, vocabulários, relatos europeus e textos indígenas raros. Isso prepara o retorno a Anchieta, agora não como “a língua inteira”, mas como uma fonte central dentro de um conjunto maior.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">A língua mais usada na costa do Brasil</h1>
+
+  <section class="body-block pos-left-standard grammar-block grammar-intro">
+    <p class="source-kicker">José de Anchieta, 1595</p>
+    <blockquote class="quote-text compact">
+      <em>Arte de grammatica da lingva mais vsada na costa do Brasil</em>
+    </blockquote>
+    <p>A gramática não se apresenta como descrição de uma língua inventada para a missão, mas de uma língua já percebida como amplamente usada na costa.</p>
+  </section>
+  <DeckImage class="manuscript pos-anchieta-main" image="anchieta-arte-grammatica.png" alt="A capa da gramática de Anchieta, com o título 'Arte de grammatica da lingva mais vsada na costa do Brasil'." />
+
+</div>
+
+<!--
+Antes de entrar nos detalhes gramaticais, o próprio título já importa. Anchieta não chama sua obra de “arte da língua dos jesuítas” ou “língua criada para catequese”, mas de gramática da língua mais usada na costa do Brasil. Esse enquadramento combina muito bem com a ideia de língua geral: uma língua indígena de grande circulação que os missionários passam a descrever e usar sistematicamente.
+
+Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
+-->
+
+<!-- ---
 class: oficina-unb
 ---
 
@@ -406,12 +851,7 @@ class: oficina-unb
     </div>
   </div>
 </div>
-
-<!--
-Antes de entrar nos detalhes gramaticais, o próprio título já importa. Anchieta não chama sua obra de “arte da língua dos jesuítas” ou “língua criada para catequese”, mas de gramática da língua mais usada na costa do Brasil. Esse enquadramento combina muito bem com a ideia de língua geral: uma língua indígena de grande circulação que os missionários passam a descrever e usar sistematicamente.
-
-Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
--->
+ -->
 
 ---
 class: oficina-unb
@@ -431,12 +871,7 @@ class: oficina-unb
     <blockquote class="quote-text compact source-quote">“ha algũa differença na pronunciação, &amp; o vſo de diuerſas partes do Brasil ſera o milhor meſtre.”</blockquote>
   </section>
 
-  <div class="text-shot-placeholder pos-text-shot">
-    <div class="shot-label">screenshot do trecho</div>
-    <div class="shot-lines">
-      <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-    </div>
-  </div>
+  <DeckImage class="manuscript pos-limense" image="apab.png" alt="segundo" />
 </div>
 
 <!--
@@ -460,12 +895,8 @@ class: oficina-unb
     <p>A regra escrita não substitui a experiência com falantes reais.</p>
   </section>
 
-  <div class="text-shot-placeholder pos-text-shot">
-    <div class="shot-label">screenshot da frase</div>
-    <div class="shot-lines">
-      <span></span><span></span><span></span><span></span><span></span>
-    </div>
-  </div>
+  <DeckImage class="manuscript pos-anchieta-main" image="uso.png" alt="segundo" />
+
 </div>
 
 <!--
@@ -487,12 +918,8 @@ class: oficina-unb
     <p>Anchieta descreve uma língua de tradição oral, cujo aprendizado depende da escuta, do uso e da convivência.</p>
   </section>
 
-  <div class="text-shot-placeholder pos-text-shot">
-    <div class="shot-label">screenshot do trecho</div>
-    <div class="shot-lines">
-      <span></span><span></span><span></span><span></span><span></span><span></span>
-    </div>
-  </div>
+  <DeckImage class="manuscript pos-anchieta-main" image="melhor.png" alt="segundo" />
+
 </div>
 
 <!--
@@ -501,26 +928,7 @@ Aqui Anchieta é ainda mais explícito. Ele diz que a língua do Brasil não est
 Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
 -->
 
----
-class: oficina-unb
----
 
-<div class="oficina-canvas anchieta-grammar-slide">
-  <h1 class="slide-title pos-title-left title-tight">Entre o local e o mais geral</h1>
-
-  <section class="body-block pos-left-standard grammar-block universal-block">
-    <blockquote class="quote-text compact">“Mas o mais universal uso [...] é tirar-se a última consoante...”</blockquote>
-    <p class="point-label">Ponto-chave</p>
-    <p>Anchieta não apenas registra diferenças; ele tenta identificar o que lhe parece mais geral.</p>
-  </section>
-
-  <div class="text-shot-placeholder pos-text-shot">
-    <div class="shot-label">screenshot do trecho</div>
-    <div class="shot-lines">
-      <span></span><span></span><span></span><span></span><span></span>
-    </div>
-  </div>
-</div>
 
 <!--
 Essa citação é útil porque mostra a operação típica de uma gramática de língua geral: diante de variação, Anchieta tenta selecionar ou identificar um uso mais universal. Isso não significa que os outros usos sejam inexistentes; significa que o gramático missionário precisa de uma forma ensinável, relativamente geral, para fins de aprendizagem e catequese.

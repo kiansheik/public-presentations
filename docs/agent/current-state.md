@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-15
+Last updated: 2026-05-16
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
@@ -54,3 +54,16 @@ Verified on 2026-05-15:
 - Added `styles/oficina-unb.css` classes for the Anchieta grammar block and right-side text screenshot placeholders.
 - `npm run build` succeeds after the appended slides.
 - A local Slidev server for review is running at `http://localhost:3032/` and returned `HTTP/1.1 200 OK`; no Playwright screenshots were taken.
+
+Verified on 2026-05-16:
+
+- Added a fourteen-slide Tupi Antigo corpus-definition block to `decks/oficina-unb.md` after the Brasil convergence slide and before the Anchieta grammar close-reading slides.
+- The new block defines Tupi Antigo as a finite corpus designation and adds modular source fichas for Staden, Thevet, Léry, Gândavo, Gabriel Soares de Sousa, Cardim, Anchieta, Araújo, Figueira, the `Vocabulário na Língua Brasílica`, the Cartas dos Camarões, Bettendorff, and a central-corpus timeline.
+- Added `styles/oficina-unb.css` classes for the corpus definition slide, two-column source fichas, terminology notes, footers, and timeline layout.
+- `npm run build` succeeds after the corpus block.
+- A static Slidev parser check reports 33 slides, with the new corpus block spanning slides 15-28; no Playwright screenshots were taken.
+- Refined the first three content slides with a scoped `source-quote-block` style so source quotations have warmer color, a subtle dark backing, accent rule, and clearer spacing from source citations.
+- `npm run build` succeeds after the opening quote contrast pass.
+- The user's existing local Slidev server on port `3030` is reachable from this shell at `http://[::1]:3030/` and returns `HTTP/1.1 200 OK`; `127.0.0.1:3030` is not reachable because the process is listening on IPv6 loopback only. No Playwright screenshots were taken.
+- Reworked the Quechua, Nahuatl, and Guarani case-study slides so source entries are no longer same-weight paragraphs: each now uses a `language-case-block` with a label, dated source rows, and a stronger takeaway/note style.
+- `npm run build` succeeds after the language case-slide readability pass.

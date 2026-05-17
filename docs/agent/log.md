@@ -37,3 +37,15 @@
 - Appended five Anchieta grammar/use slides to `decks/oficina-unb.md` with right-side screenshot placeholders and speaker notes.
 - Added Oficina CSS for the new grammar block, regional form lists, point labels, and placeholder text-shot frames.
 - Verified with `npm run build`, a static generated-bundle title check, and `curl -I http://localhost:3032/`; started Slidev locally at `http://localhost:3032/`.
+
+## 2026-05-16
+
+- Inserted a fourteen-slide Tupi Antigo corpus-definition block into `decks/oficina-unb.md`, positioned after the Brasil convergence slide and before the Anchieta grammar slides.
+- Defined Tupi Antigo as a finite corpus designation and added modular source fichas plus a central-corpus timeline.
+- Added matching Oficina CSS for corpus definition, source-card, terminology-note, footer, and timeline layouts.
+- Verified with `npm run build` and a static Slidev parser check showing 33 slides, with the corpus block on slides 15-28.
+- Improved the opening quote-heavy source slides with scoped `source-quote-block` styling: warmer quote color, subtle dark backing, accent rule, tighter quote/source spacing, and softer citation color.
+- Fixed the unclosed `<div>` in the Anchieta variation slide so the deck builds again with the new `apab.png` asset.
+- Verified with `npm run build` and checked the user's existing `3030` Slidev server at `http://[::1]:3030/`; no Playwright screenshots were taken.
+- Reworked the Quechua, Nahuatl, and Guarani case-study slides into clearer `language-case-block` layouts with dated source rows and separate takeaway/note styles.
+- Verified the language case-slide readability pass with `npm run build` and `git diff --check`; no Playwright screenshots were taken.
