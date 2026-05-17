@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-16
+Last updated: 2026-05-17
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
@@ -71,3 +71,23 @@ Verified on 2026-05-16:
 - Added explicit speaker-note bridging from the Brasil coastal-language convergence into the Tupi Antigo corpus-definition block, plus a note to treat the corpus fichas as a quick archive map.
 - Added the missing final Anchieta slide, “Entre o uso local e o uso mais universal,” bringing `decks/oficina-unb.md` to 34 `oficina-unb` slides.
 - `npm run build` succeeds after the transition-note and final Anchieta closeout pass.
+- Added an eight-slide Amazônia/Língua Geral Amazônica block after the Anchieta closeout, moving from Tupi Antigo/Língua Brasílica as a classical corpus into LGA as a living language of aldeamento, contact, and change.
+- The new Amazônia block uses Finbow 2022 and João Daniel to frame LGA through linguistic ecology, demographic collapse, descimentos, multiethnic aldeamentos, Tapuia learners, written-vs-vernacular norms, and continuity plus restructuring rather than a simplistic “Jesuit simplification” thesis.
+- Added `styles/oficina-unb.css` classes for the new `amazonia-slide` layouts, including list, contrast, cycle, two-column, keypoint, and closing-slide treatments.
+- `npm run build` succeeds after the Amazônia block; a static slide count reports 42 `oficina-unb` slides.
+
+Verified on 2026-05-17:
+
+- Fixed the Amazônia block Markdown/HTML spacing so nested `amazonia-*` slide elements render as normal DOM instead of escaped `<pre><code>` blocks.
+- `npm run build` succeeds after the raw-HTML rendering fix.
+- Static generated-module checks find no `<pre>`, `<code>`, or `` `pre` `` markers in generated `dist/oficina-unb/assets/md-*.js` slide modules.
+- Added a João Daniel follow-up slide, “A arte já não garantia entendimento,” after the first “parece outra língua diversa” slide. It quotes Daniel/Finbow on catechism, grammar study, mission speech in the Amazonas, and new nations learning the vernacular mission language.
+- Added `daniel-followup-*` and `takeaway-list` CSS for a quote-plus-takeaways layout.
+- `npm run build` succeeds after the follow-up slide; static slide count reports 43 `oficina-unb` slides.
+- Added two João Maia da Gama follow-up slides after the Daniel/Finbow slide to answer “why Língua Geral if they were Tapuias?” using the Reis 1961 apud Bessa Freire 2003 citation and the daily-exposure argument.
+- Added `maia-*` CSS for the setup question slide and the “missionary instruction vs aldeamento life” answer slide.
+- `npm run build` succeeds after the Maia da Gama slides; generated output includes 44 `md-*.js` slide modules and the generated slide modules contain no `<pre>`, `<code>`, or `` `pre` `` markers.
+- Added two Finbow/Rodrigues caution slides at the end of `decks/oficina-unb.md`: `LGP/LGA: rótulos úteis, mas modernos` and `Paulistas no Maranhão-Pará`.
+- The new slides frame LGP/LGA as useful modern labels that should not be projected rigidly onto 16th- and 17th-century sources, then use Anchieta’s mixed features and the Paulista Maranhão-Pará mission evidence as the stronger intelligibility point.
+- Verified the Revista do GEL article page/PDF for the Finbow citation and source framing.
+- `npm run build` succeeds after the Finbow caution slides; generated `md-*.js` checks find 45 slide modules, both new titles, and no `<pre>`, `<code>`, or `` `pre` `` markers.

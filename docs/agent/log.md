@@ -52,3 +52,18 @@
 - Corrected the speaker note for “A língua geral como objeto de ensino formal” so it focuses on cátedras, Lima/México, and formal missionary formation.
 - Added a transition speaker note before the Tupi Antigo corpus-definition block and a presenter reminder to handle the source fichas as a fast archive map.
 - Added the missing Anchieta closeout slide, “Entre o uso local e o uso mais universal,” and verified the deck with `npm run build`.
+- Added an eight-slide “Quando a língua geral muda de ecologia” Amazônia/LGA block after the Anchieta closeout, using Finbow 2022 and João Daniel as the main scholarly frame.
+- Styled the new block with `amazonia-*` CSS utilities for dense lists, two-column comparisons, demographic cycles, key points, and the closing thesis slide.
+- Verified the expanded deck with `npm run build`; a static count now finds 42 `oficina-unb` slide declarations.
+
+## 2026-05-17
+
+- Fixed raw HTML spacing in the Amazônia/LGA block so nested lists, key points, contrast panels, cycles, and closing text render as slide UI instead of visible code blocks.
+- Rebuilt with `npm run build` and verified generated slide modules contain no `<pre>`, `<code>`, or `` `pre` `` markers.
+- Added a follow-up João Daniel slide, “A arte já não garantia entendimento,” with the Daniel/Finbow catechism-and-arte quote plus four takeaways about book norms, mission speech, Amazonas usage, and new nations learning the vernacular.
+- Added CSS for the follow-up quote/takeaway layout and verified with `npm run build`.
+- Added two João Maia da Gama slides after the Daniel follow-up: one frames the governor's question about non-Tupi aldeados learning Portuguese directly, and the next answers with the social-time contrast between brief Portuguese instruction and daily Língua Geral contact.
+- Added `maia-*` CSS for the question and answer layouts.
+- Verified with `npm run build`, `git diff --check`, generated slide-module raw-HTML checks, and generated `md-*.js` slide-module count.
+- Appended two Finbow/Rodrigues caution slides to `decks/oficina-unb.md`, using the recommended two-slide structure: LGP/LGA as useful modern labels, then the Paulista Maranhão-Pará evidence for broad intelligibility.
+- Verified the Finbow article page/PDF, rebuilt with `npm run build`, checked `git diff --check`, and confirmed generated `md-*.js` modules include both new titles without raw HTML code markers.

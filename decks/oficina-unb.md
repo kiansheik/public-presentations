@@ -860,33 +860,6 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas anchieta-grammar-slide">
-  <h1 class="slide-title pos-title-left title-tight">Uma língua geral não é uma língua uniforme</h1>
-
-  <section class="body-block pos-left-standard grammar-block variation-block">
-    <p>Anchieta observa diferença regional na pronúncia de verbos terminados em consoante:</p>
-    <div class="regional-forms">
-      <p class="region-label">Pitiguares da Paraíba até os Tamoios do Rio de Janeiro:</p>
-      <p class="forms-line">Apâb, Acêm, Apên, Aiûr</p>
-      <p class="region-label">Tupis de São Vicente:</p>
-      <p class="forms-line">Apâ, Acẽ, Apẽ, Aiú</p>
-    </div>
-    <blockquote class="quote-text compact source-quote">“ha algũa differença na pronunciação, &amp; o vſo de diuerſas partes do Brasil ſera o milhor meſtre.”</blockquote>
-  </section>
-
-  <DeckImage class="manuscript pos-limense" image="apab.png" alt="segundo" />
-</div>
-
-<!--
-Isso é uma das passagens mais importantes para a oficina. Anchieta reconhece explicitamente que há diferença de pronúncia entre partes do Brasil. Do Paraíba ao Rio de Janeiro, segundo ele, certos verbos mantêm a consoante final; em São Vicente, essa consoante não é pronunciada. Ou seja: a língua pode ser “mais usada na costa” e, ao mesmo tempo, ter variação regional. Isso é exatamente o que esperaríamos de uma língua de contato de grande extensão.
-
-Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
--->
-
----
-class: oficina-unb
----
-
-<div class="oficina-canvas anchieta-grammar-slide">
   <h1 class="slide-title pos-title-left title-tight">O uso será o melhor mestre</h1>
 
   <section class="body-block pos-left-standard grammar-block use-block">
@@ -895,6 +868,7 @@ class: oficina-unb
     </blockquote>
     <p class="point-label">Ponto-chave</p>
     <p>A regra escrita não substitui a experiência com falantes reais.</p>
+    <p class="slide-footnote">Fonte: <a href="https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html" target="_blank">José de Anchieta, <em>Arte de grammatica da lingva mais vsada na costa do Brasil</em> (1595)</a>.</p>
   </section>
 
   <DeckImage class="manuscript pos-anchieta-main" image="uso.png" alt="segundo" />
@@ -912,12 +886,41 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">Uma língua geral não é uma língua uniforme</h1>
+
+  <section class="body-block pos-left-standard grammar-block variation-block">
+    <p>Anchieta observa diferença regional na pronúncia de verbos terminados em consoante:</p>
+    <div class="regional-forms">
+      <p class="region-label">Pitiguares da Paraíba até os Tamoios do Rio de Janeiro:</p>
+      <p class="forms-line">Apâb, Acêm, Apên, Aiûr</p>
+      <p class="region-label">Tupis de São Vicente:</p>
+      <p class="forms-line">Apâ, Acẽ, Apẽ, Aiú</p>
+    </div>
+    <blockquote class="quote-text compact source-quote">“ha algũa differença na pronunciação, &amp; o vſo de diuerſas partes do Brasil ſera o milhor meſtre.”</blockquote>
+    <p class="slide-footnote">Fonte: <a href="https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html" target="_blank">José de Anchieta, <em>Arte de grammatica da lingva mais vsada na costa do Brasil</em> (1595)</a>.</p>
+  </section>
+
+  <DeckImage class="manuscript pos-limense" image="apab.png" alt="segundo" />
+</div>
+
+<!--
+Isso é uma das passagens mais importantes para a oficina. Anchieta reconhece explicitamente que há diferença de pronúncia entre partes do Brasil. Do Paraíba ao Rio de Janeiro, segundo ele, certos verbos mantêm a consoante final; em São Vicente, essa consoante não é pronunciada. Ou seja: a língua pode ser “mais usada na costa” e, ao mesmo tempo, ter variação regional. Isso é exatamente o que esperaríamos de uma língua de contato de grande extensão.
+
+Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
   <h1 class="slide-title pos-title-left title-tight">No contínuo uso do falar</h1>
 
   <section class="body-block pos-left-standard grammar-block oral-block">
     <blockquote class="quote-text compact">“como a lingoa do Brasil não está em escrito, senão no continuo uso do falar, o mesmo uso, &amp; viva voz ensinará melhor as muitas variedades que tem...”</blockquote>
     <p class="point-label">Ponto-chave</p>
     <p>Anchieta descreve uma língua de tradição oral, cujo aprendizado depende da escuta, do uso e da convivência.</p>
+    <p class="slide-footnote">Fonte: <a href="https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html" target="_blank">José de Anchieta, <em>Arte de grammatica da lingva mais vsada na costa do Brasil</em> (1595)</a>.</p>
   </section>
 
   <DeckImage class="manuscript pos-anchieta-main" image="melhor.png" alt="segundo" />
@@ -944,6 +947,7 @@ class: oficina-unb
     <p class="source">Anchieta, 1595</p>
     <p class="point-label">Ponto-chave</p>
     <p>Anchieta não nega a variação: ele tenta escolher, entre usos diferentes, aquilo que lhe parece mais geral e ensinável.</p>
+    <p class="slide-footnote">Fonte: <a href="https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html" target="_blank">José de Anchieta, <em>Arte de grammatica da lingva mais vsada na costa do Brasil</em> (1595)</a>.</p>
   </section>
   <DeckImage class="manuscript pos-anchieta-main" image="maisuniversal.png" alt="segundo" />
 </div>
@@ -952,4 +956,372 @@ class: oficina-unb
 Essa citação é útil porque mostra a operação típica de uma gramática de língua geral: diante de variação, Anchieta tenta selecionar ou identificar um uso mais universal. Isso não significa que os outros usos sejam inexistentes; significa que o gramático missionário precisa de uma forma ensinável, relativamente geral, para fins de aprendizagem e catequese.
 
 Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (José de Anchieta, 1595): https://kiansheik.io/nhe-enga/docs/primary_sources/emerson_arte_anchieta.html
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Da costa à Amazônia: muda o cenário</h1>
+
+  <section class="amazonia-block">
+    <p class="amazonia-lead">No século XVI, falamos da língua mais usada na costa.</p>
+    <p class="amazonia-lead">Na Amazônia colonial, o cenário muda:</p>
+    <div class="amazonia-list">
+      <p>aldeamentos multiétnicos</p>
+      <p>povos de línguas diferentes</p>
+      <p>descimentos e deslocamentos forçados</p>
+      <p>epidemias e recomposição populacional</p>
+      <p>aprendizagem pela convivência</p>
+    </div>
+  </section>
+</div>
+
+<!--
+Até aqui, nós vimos o Tupi Antigo como uma língua de ampla circulação na costa e como corpus escrito clássico: Anchieta, Araújo, Figueira, vocabulários, catecismos. Agora entramos em outro cenário: a Amazônia colonial. Ali, a língua geral continua sendo central, mas o ambiente social é outro. A língua passa a circular em aldeamentos e vilas com povos de origens linguísticas muito diversas, muitas vezes trazidos por descimentos, guerra, escravização, epidemias e recomposição populacional.
+
+Transição curta possível: Até aqui, vimos o Tupi Antigo como a língua mais usada na costa e como corpus clássico de gramáticas, catecismos, vocabulários e relatos. Mas a história não para aí. Na Amazônia, a língua geral passa para outro ambiente social. Ela continua sendo uma língua de contato, mas agora em aldeamentos compostos por povos de muitas origens linguísticas, afetados por epidemias, deslocamentos forçados e recomposição populacional. É nesse cenário que João Daniel, no século XVIII, percebe que a língua falada nas missões já não correspondia plenamente à língua dos antigos catecismos.
+
+Fonte: Finbow, Thomas. The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model. Revista do GEL, v. 19, n. 2, p. 75-112, 2022.
+-->
+
+---
+class: oficina-unb
+---
+
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">João Daniel: “parece outra língua diversa”</h1>
+  <div class="amazonia-two-column daniel-two-column">
+    <div>
+      <section class="amazonia-block daniel-block">
+        <p>João Daniel escreve, no século XVIII, que a antiga língua dos catecismos já não correspondia bem à fala comum das missões amazônicas.</p>
+        <blockquote class="quote-text daniel-quote">“parece outra língua diversa”</blockquote>
+        <p class="source">João Daniel, 1757-1776, apud Finbow, 2022</p>
+        <div class="amazonia-keypoint">
+          <p class="point-label">Ponto-chave</p>
+          <p>A língua geral amazônica ainda era chamada de “língua geral”, mas já havia se afastado da norma antiga dos catecismos e gramáticas.</p>
+        </div>
+      </section>
+    </div>
+    <div>
+      <blockquote class="amazonia-longquote daniel-longquote">
+        <p>“Nesta língua [Tupinambá] se composeram ao princípio pelos primeiros missionários jesuítas o catecismo, e doutrina; e a reduziram a arte com regras, e termos fáceis de se aprender. Porém, como os primeiros, e verdadeiros topinambares já quase de todo se acabaram, e as missões se foram restabelecendo com outras mui diversas nações, e línguas, se foi corrompendo de tal sorte a língua geral topinambá, que já hoje são raros, os que a falam com a sua nativa pureza, e vigor;”</p>
+        <p class="source">(Daniel, 2004 [1757–1776], p. 365) apud (Finbow, 2022, p. 82)</p>
+      </blockquote>
+    </div>
+  </div>
+</div>
+
+<!--
+João Daniel é importante porque ele fala de dentro do mundo missionário amazônico. Ele não está descrevendo o Tupi Antigo clássico da costa; ele está observando a língua usada nas missões portuguesas do Amazonas no século XVIII. A frase “parece outra língua diversa” é forte justamente porque mostra a percepção de distância entre a língua de livro — o catecismo, a arte, a norma missionária antiga — e a língua efetivamente falada no cotidiano. Finbow cita esse trecho de Daniel, datado de 1757-1776, como uma das evidências centrais para pensar a emergência da Língua Geral Amazônica.
+
+Fonte: Finbow, 2022, p. 82; Daniel, Tesouro descoberto no máximo Rio Amazonas, 2004 [1757-1776], v. 2, p. 365.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">A arte já não garantia entendimento</h1>
+  <div class="daniel-followup-grid">
+    <blockquote class="amazonia-longquote daniel-followup-quote">
+      <p>“mesmos índios não percebem o catecismo, nem os que estudam a arte se entendem com os índios especialmente no Amazonas, como muitas vezes tem experimentado, e confessado os mesmos missionários, e índios, de sorte está viciada, e corrupta que parece outra língua diversa; mas a qual é a que se usa em todas as missões portuguesas do Amazonas, e a que aprendem as novas nações, que vão saindo dos matos […]”</p>
+      <p class="source">(Daniel, 2004 [1757–1776], p. 365) apud (Finbow, 2022, p. 82)</p>
+    </blockquote>
+    <section class="daniel-takeaways">
+      <p class="corpus-label">O que a passagem mostra?</p>
+      <div class="takeaway-list">
+        <p><span>1</span>A norma dos livros já não bastava para a comunicação cotidiana.</p>
+        <p><span>2</span>A distância era percebida por missionários e indígenas.</p>
+        <p><span>3</span>No Amazonas, a variedade “corrupta” era justamente a língua comum das missões.</p>
+        <p><span>4</span>As novas nações aprendiam essa fala viva, não a língua idealizada da arte.</p>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!--
+Essa passagem aprofunda a anterior. Daniel não está apenas dizendo que a língua parece diferente em abstrato. Ele descreve um problema prático de comunicação: os indígenas não entendiam bem o catecismo, e quem estudava a arte não necessariamente conseguia se entender com os indígenas, especialmente no Amazonas. A palavra “corrupta” é o juízo colonial dele; para nós, o dado sociolinguístico é outro: a língua efetivamente usada nas missões portuguesas do Amazonas era a variedade aprendida pelas novas populações descidas dos matos. Ou seja, a fala cotidiana já tinha mais força social do que a norma escrita antiga.
+
+Fonte: Finbow, 2022, p. 82; Daniel, Tesouro descoberto no máximo Rio Amazonas, 2004 [1757-1776], v. 2, p. 365.
+-->
+
+<!--
+Essa é uma das melhores citações para explicar a força social da Língua Geral Amazônica. O indígena recém-chegado talvez recebesse meia hora de instrução em português com o missionário, mas passava o resto do dia e da noite convivendo com outros indígenas em Língua Geral. Então a língua que se aprendia não era necessariamente a que o governo queria impor, mas a que organizava a vida cotidiana. Isso mostra a Língua Geral como língua de rede social, de aldeamento e de contato interétnico.
+
+Fonte: Reis, 1961, p. 495 apud Bessa Freire, 2003, p. 52-53. Ver também a reprodução desse argumento em “Uma babel de línguas”, Observatório da Língua Portuguesa.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">“Os verdadeiros topinambares já quase de todo se acabaram”</h1>
+
+  <section class="amazonia-block">
+    <p class="amazonia-lead">Daniel associa a mudança a dois processos:</p>
+    <div class="amazonia-two-column">
+      <div>
+        <p class="amazonia-number">1.</p>
+        <p>queda dos antigos falantes tupinambá</p>
+      </div>
+      <div>
+        <p class="amazonia-number">2.</p>
+        <p>recomposição das missões com “mui diversas nações, e línguas”</p>
+      </div>
+    </div>
+    <div class="amazonia-keypoint">
+      <p class="point-label">Ponto-chave</p>
+      <p>A língua geral continuou, mas seus falantes e aprendizes mudaram.</p>
+    </div>
+  </section>
+</div>
+
+<!--
+Daniel explica a mudança linguisticamente, mas também demograficamente. Segundo ele, os “primeiros e verdadeiros topinambares” já quase tinham desaparecido, enquanto as missões eram recompostas com povos de “diversas nações e línguas”. A formulação dele é marcada por juízo colonial — ele fala em língua “corrompida” —, mas a informação sociolinguística é valiosa: a base humana da língua geral estava mudando.
+
+Fonte: Finbow, 2022, p. 82; Daniel, Tesouro descoberto no máximo Rio Amazonas, 2004 [1757-1776], v. 2, p. 365.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Aldeamentos multiétnicos e aprendizagem pela imersão</h1>
+
+  <section class="amazonia-block tapuia-block">
+    <p>Na Amazônia, muitos novos aldeados eram chamados de <strong>Tapuias</strong> — aqui, no sentido colonial amplo de povos não falantes do Tupi Antigo/Língua Brasílica.</p>
+    <div class="amazonia-contrast">
+      <div>
+        <p class="contrast-label">não principalmente</p>
+        <p>por gramáticas</p>
+      </div>
+      <div>
+        <p class="contrast-label">mas por</p>
+        <p>imersão no cotidiano dos aldeamentos</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--
+Aqui é importante usar “Tapuia” com cuidado. Não é o nome de um único povo ou uma única língua. É uma categoria colonial ampla, muitas vezes usada para povos não-tupi ou não falantes da língua geral. Finbow descreve que, depois das crises demográficas, a resposta colonial foi “descer” grupos do interior; esses grupos eram frequentemente Tapuias, isto é, não falantes do Tupi Antigo, e aprendiam a língua geral vernacular por imersão não estruturada, não por uma educação formal em gramática.
+
+Fonte: Finbow, 2022, p. 96.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">A língua muda porque a comunidade muda</h1>
+
+  <section class="amazonia-block">
+    <p class="amazonia-lead">Finbow destaca um ciclo decisivo:</p>
+    <div class="amazonia-cycle">
+      <p><span>epidemias</span>morte e desestruturação</p>
+      <p><span>descimentos</span>novos povos trazidos do interior</p>
+      <p><span>aldeamentos</span>convivência multiétnica</p>
+      <p><span>língua geral</span>norma comum de comunicação</p>
+    </div>
+    <div class="amazonia-keypoint">
+      <p class="point-label">Ponto-chave</p>
+      <p>A mudança linguística não vem de uma regra jesuítica, mas da ecologia social da Amazônia colonial.</p>
+    </div>
+  </section>
+</div>
+
+<!--
+Finbow identifica um divisor demográfico e linguístico entre 1660 e 1700. As epidemias devastam populações indígenas nas missões, e a resposta colonial é repovoar aldeamentos com novos grupos vindos do interior. Esses grupos geralmente não tinham a língua geral como língua materna, mas a aprendiam no contato cotidiano. Isso cria uma situação perfeita para mudança: muitos aprendizes adultos, muitos grupos linguísticos diferentes, continuidade da língua como meio comum, mas alteração progressiva da norma falada.
+
+Fonte: Finbow, 2022, p. 96-98.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Duas normas: catecismo e fala cotidiana</h1>
+
+  <section class="amazonia-block">
+    <p class="amazonia-lead">No século XVIII, podemos pensar em uma tensão entre:</p>
+    <div class="amazonia-two-column norm-column">
+      <div>
+        <p class="corpus-label">norma missionária escrita</p>
+        <p>gramáticas, catecismos, “língua correta”</p>
+      </div>
+      <div>
+        <p class="corpus-label">norma vernacular amazônica</p>
+        <p>uso cotidiano, aldeamentos, fala comum</p>
+      </div>
+    </div>
+    <div class="amazonia-keypoint">
+      <p class="point-label">Ponto-chave</p>
+      <p>Daniel compara a fala viva com a norma antiga — e julga a fala viva como “corrupta”.</p>
+    </div>
+  </section>
+</div>
+
+<!--
+A leitura de Finbow é muito útil aqui: Daniel está comparando a língua falada nas missões com uma norma codificada, associada à Língua Brasílica dos catecismos e gramáticas. Por isso ele a chama de “corrupta”. Mas, sociolinguisticamente, isso não quer dizer que a fala comum fosse simplesmente uma versão errada. Era uma norma vernacular viva, usada por todos nas missões, inclusive pelos missionários no trato cotidiano com os indígenas.
+
+Fonte: Finbow, 2022, p. 84-85, 102.
+-->
+
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide maia-question-slide">
+  <h1 class="slide-title pos-title-wide">Por que não ensinar português diretamente?</h1>
+  <section class="maia-question-block">
+    <p>No início do século XVIII, o governador <strong>João Maia da Gama</strong> formulava uma pergunta prática sobre os indígenas não-tupi levados para aldeias próximas a Belém:</p>
+    <blockquote class="quote-text maia-question">Se eles não sabiam nem português nem Língua Geral, por que não aprender diretamente o português?</blockquote>
+    <blockquote>
+      “Intervindo na polêmica entre os jesuítas e os moradores, no início do século XVIII, o governador João Maia da Gama indagava-se sobre a situação dos índios de filiação lingüística não-tupi, que eram trazidos para as aldeias de repartição próximas a Belém. Ele elaborou o seguinte raciocínio: se esse índio desconhecia tanto a língua portuguesa como a Geral, se ambas eram diferentes de sua língua materna, se ele teria que adquirir uma nova língua, por que então não aprendia diretamente o português? A resposta está no discurso do próprio governador, quando descreve que enquanto esse índio dedica diariamente apenas “um quarto de hora ou meia” para aprender o português com o missionário, “o resto do dia e da noite passa fallando, conversando e tractando com os outros Índios e, com este contínuo tracto, aprende mais facilmente a língua geral que a portuguesa, e assim parece justo que na geral se doutrinem [...]””</blockquote>
+    <p class="source">Reis, 1961, p. 495 apud Bessa Freire, 2003, p. 52-53</p>
+  </section>
+</div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide maia-answer-slide">
+  <h1 class="slide-title pos-title-wide">A resposta estava no cotidiano</h1>
+  <section class="maia-answer-grid">
+    <div class="maia-time-card">
+      <p class="time-label">português com o missionário</p>
+      <blockquote>“um quarto de hora ou meia”</blockquote>
+    </div>
+    <div class="maia-time-card dominant">
+      <p class="time-label">vida nos aldeamentos</p>
+      <blockquote>“o resto do dia e da noite passa fallando, conversando e tractando com os outros Índios”</blockquote>
+    </div>
+    <div class="maia-result">
+      <blockquote>“com este contínuo tracto, aprende mais facilmente a língua geral que a portuguesa”</blockquote>
+      <p class="source">Reis, 1961, p. 495 apud Bessa Freire, 2003, p. 52-53</p>
+    </div>
+  </section>
+  <section class="maia-keypoint">
+    <p class="point-label">Ponto-chave</p>
+    <p>A Língua Geral era aprendida porque era a língua da convivência diária nos aldeamentos.</p>
+  </section>
+</div>
+
+<!--
+Essa pergunta é muito reveladora. Do ponto de vista do governador, parecia racional substituir a Língua Geral pelo português: se esses povos já teriam que aprender uma nova língua, por que não aprender logo a língua colonial? Mas a resposta prática mostra que a política linguística não depende apenas de decreto ou intenção. Depende de quem fala com quem, durante quanto tempo, em quais espaços sociais.
+
+Fonte: Reis, 1961, p. 495 apud Bessa Freire, 2003, p. 52-53. Ver também a reprodução desse argumento em “Uma babel de línguas”, Observatório da Língua Portuguesa.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Língua Geral: rótulo funcional</h1>
+
+  <section class="amazonia-block tapuia-block">
+<p>Finbow propõe entender <em>Língua Geral</em> como uma categoria funcional:</p>
+<blockquote class="quote-text compact">
+  “any Tupi-Guarani variety broadly mutually comprehensible with the colonial Old Tupi”
+</blockquote>
+<div class="amazonia-keypoint">
+  <p class="point-label">Ponto-chave</p>
+  <p>O foco não é uma fronteira rígida entre línguas, mas um conjunto de variedades tupi-guarani amplamente compreensíveis entre si em contextos coloniais.</p>
+</div>
+<p class="source">Finbow, 2023, p. 75–76.</p>
+  </section>
+</div>
+
+<!--
+Aqui a ideia é apresentar a posição de Finbow de forma positiva. Para ele, “Língua Geral” é melhor entendida funcionalmente: uma variedade tupi-guarani amplamente compreensível com o Tupi Antigo colonial, e não necessariamente uma língua estruturalmente separada, uma variedade modificada em bloco, ou a fala de um único grupo étnico/social. Isso ajuda a evitar a ideia de que “Língua Geral Paulista” e “Língua Geral Amazônica” sempre funcionaram, desde o início, como línguas separadas no sentido moderno.
+
+Fonte: Finbow, 2023, Revista do GEL 19(2), p. 75–112. O resumo do artigo formula “Língua Geral” como qualquer variedade tupi-guarani amplamente mutuamente compreensível com o Tupi Antigo colonial.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Variação regional, não fronteira limpa</h1>
+
+  <section class="amazonia-block">
+<p class="amazonia-lead">Finbow reconhece diferenças regionais, mas lê as fontes como evidência de continuidade comunicativa.</p>
+<div class="amazonia-cycle">
+  <p><span>Anchieta</span>poesia com traços “sulistas” e “nortenhos”</p>
+  <p><span>séc. XVII</span>paulistas chamados para missões no Maranhão e Pará</p>
+  <p><span>motivo</span>fluência em sua variedade de Língua Geral</p>
+</div>
+<blockquote class="quote-text compact">
+  “This is scarcely what one would expect from speakers of different languages.”
+</blockquote>
+<div class="amazonia-keypoint">
+  <p class="point-label">Ponto-chave</p>
+  <p>A evidência aponta para variedades regionais com inteligibilidade ampla, mais do que para línguas separadas no sentido forte.</p>
+</div>
+<p class="source">Finbow, 2023, p. 78–79.</p>
+  </section>
+</div>
+
+<!--
+Essa slide deve soar calma e filológica, não polêmica. A ideia é: havia diferenças regionais, sim. Anchieta já mostra isso, e Finbow também reconhece traços meridionais como a apócope consonantal. Mas, para os séculos XVI e XVII, as fontes não parecem sustentar uma divisão rígida entre “Língua Geral Paulista” e “Língua Geral Amazônica” como se fossem línguas separadas. Finbow menciona que a poesia de Anchieta mistura traços do sul e do norte, e que paulistas foram procurados para trabalhar nas missões jesuíticas do Maranhão e Pará justamente porque sua fluência em uma variedade de Língua Geral era útil na conversão dos Tupinambá amazônicos.
+
+Fonte: Finbow, 2023, p. 78–79.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Mudança não é invenção</h1>
+
+  <section class="amazonia-block continuity-block">
+<p>A Língua Geral Amazônica não surge do nada.</p>
+<blockquote class="quote-text compact">
+  “a restructured variety of an existing, recognised language”
+</blockquote>
+<p>Ela preserva continuidade com a Língua Brasílica/Tupi Antigo, mas sofre reestruturações em novo ambiente social.</p>
+<p class="continuity-line">continuidade + contato + mudança</p>
+<p class="source">Finbow, 2023, p. 102.</p>
+  </section>
+</div>
+
+<!--
+Esse é o ponto de equilíbrio. Não precisamos dizer que a LGA era simplesmente o mesmo Tupi Antigo da costa, sem mudanças. Mas também não precisamos dizer que era uma língua artificial inventada ou uma língua crioula inteiramente nova. Na conclusão, Finbow diz que a “Língua Geral corrupta” de João Daniel, no século XVIII, não é tanto uma língua totalmente nova, mas uma variedade reestruturada de uma língua existente e reconhecida — a Língua Geral — falada por todos. Isso permite explicar a mudança amazônica sem romper a continuidade histórica.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Duas normas dentro da Língua Geral</h1>
+
+  <section class="amazonia-block">
+<p>Ao ler João Daniel, Finbow observa que tanto a norma escrita quanto a fala cotidiana ainda são chamadas de <em>Língua Geral</em>.</p>
+<blockquote class="quote-text compact">
+  “both the H and the L varieties are referred to as ‘LG’ by Daniel”
+</blockquote>
+<div class="amazonia-keypoint">
+  <p class="point-label">Leitura possível</p>
+  <p>Não uma ruptura absoluta entre línguas, mas uma tensão entre norma catequética antiga e vernáculo amazônico cotidiano.</p>
+</div>
+<p class="source">Finbow, 2023, p. 85.</p>
+  </section>
+</div>
+
+<!--
+Essa slide é útil para evitar exagero. João Daniel diz que a fala cotidiana parecia “outra língua diversa”, mas Finbow nota que Daniel ainda chama tanto a variedade alta, ligada à norma escrita/catequética, quanto a variedade baixa, ligada ao uso cotidiano, de Língua Geral. Então a diferença é real, mas a própria fonte não classifica essas formas como línguas completamente separadas. O melhor enquadramento para a oficina é: havia mudança, reestruturação e distância entre norma escrita e fala comum, mas dentro de uma continuidade reconhecida como Língua Geral.
 -->
