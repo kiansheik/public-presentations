@@ -900,6 +900,79 @@
   line-height: 1.02;
 }
 
+.amazonia-block.finbow-left-block {
+  left: var(--oficina-left-x);
+  top: 28.2%;
+  width: var(--oficina-left-w);
+  font-size: 1.02rem;
+  line-height: 1.18;
+}
+
+.finbow-left-block p + p,
+.finbow-left-block p + blockquote,
+.finbow-left-block blockquote + p,
+.finbow-left-block blockquote + div,
+.finbow-left-block div + p {
+  margin-top: 0.74rem !important;
+}
+
+.finbow-left-block .amazonia-lead {
+  font-size: 1.08rem;
+  line-height: 1.16;
+}
+
+.finbow-left-block .quote-text.compact {
+  border-left: 0.16rem solid #dcc06a;
+  background: rgba(18, 29, 33, 0.26);
+  color: #fff5d6;
+  font-size: 1.02rem;
+  line-height: 1.14;
+  padding: 0.58rem 0.72rem 0.62rem 0.82rem;
+}
+
+.finbow-left-block .amazonia-keypoint {
+  margin-top: 0.82rem;
+  padding-top: 0.56rem;
+}
+
+.finbow-left-block .amazonia-keypoint .point-label {
+  font-size: 0.88rem;
+}
+
+.finbow-left-block .amazonia-keypoint p:last-child {
+  font-size: 1rem;
+  line-height: 1.14;
+}
+
+.finbow-left-block .amazonia-cycle {
+  gap: 0.34rem;
+  margin-top: 0.72rem;
+}
+
+.finbow-left-block .amazonia-cycle p {
+  grid-template-columns: 6.6rem 1fr;
+  gap: 0.72rem;
+  padding-top: 0.36rem;
+  font-size: 0.98rem;
+  line-height: 1.1;
+}
+
+.finbow-left-block .amazonia-cycle span {
+  font-size: 0.96rem;
+}
+
+.finbow-left-block .source {
+  margin-top: 0.72rem !important;
+  font-size: 0.78rem;
+  line-height: 1.14;
+}
+
+.finbow-left-block .continuity-line {
+  margin-top: 1rem !important;
+  font-size: 1.45rem;
+  line-height: 1.05;
+}
+
 .amazonia-block {
   position: absolute;
   left: 6.6%;

@@ -1222,31 +1222,39 @@ Essa pergunta é muito reveladora. Do ponto de vista do governador, parecia raci
 
 Fonte: Reis, 1961, p. 495 apud Bessa Freire, 2003, p. 52-53. Ver também a reprodução desse argumento em “Uma babel de línguas”, Observatório da Língua Portuguesa.
 -->
-
 ---
 class: oficina-unb
 ---
 
 <div class="oficina-canvas amazonia-slide">
-  <h1 class="slide-title pos-title-wide">Língua Geral: rótulo funcional</h1>
+  <h1 class="slide-title pos-title-left title-tight">Língua Geral: rótulo funcional</h1>
 
-  <section class="amazonia-block tapuia-block">
+  <section class="amazonia-block finbow-left-block">
 <p>Finbow propõe entender <em>Língua Geral</em> como uma categoria funcional:</p>
 <blockquote class="quote-text compact">
   “any Tupi-Guarani variety broadly mutually comprehensible with the colonial Old Tupi”
 </blockquote>
 <div class="amazonia-keypoint">
-  <p class="point-label">Ponto-chave</p>
-  <p>O foco não é uma fronteira rígida entre línguas, mas um conjunto de variedades tupi-guarani amplamente compreensíveis entre si em contextos coloniais.</p>
+  <p class="point-label">Em outras palavras</p>
+  <p>Não uma língua rigidamente separada, mas um conjunto de variedades tupi-guarani amplamente compreensíveis com o Tupi Antigo colonial.</p>
 </div>
-<p class="source">Finbow, 2023, p. 75–76.</p>
+<p class="source">Finbow, 2022, p. 75.</p>
   </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="01_finbow2022_p75_lingua_geral_functional_definition.png"
+    alt="Finbow 2022, p. 75, definição funcional de Língua Geral como variedade tupi-guarani amplamente compreensível com o Tupi Antigo colonial"
+  />
 </div>
 
 <!--
-Aqui a ideia é apresentar a posição de Finbow de forma positiva. Para ele, “Língua Geral” é melhor entendida funcionalmente: uma variedade tupi-guarani amplamente compreensível com o Tupi Antigo colonial, e não necessariamente uma língua estruturalmente separada, uma variedade modificada em bloco, ou a fala de um único grupo étnico/social. Isso ajuda a evitar a ideia de que “Língua Geral Paulista” e “Língua Geral Amazônica” sempre funcionaram, desde o início, como línguas separadas no sentido moderno.
+Imagem citada: 01_finbow2022_p75_lingua_geral_functional_definition.png.
+Fonte visual: Finbow, 2022, Revista do GEL 19(2), p. 75.
 
-Fonte: Finbow, 2023, Revista do GEL 19(2), p. 75–112. O resumo do artigo formula “Língua Geral” como qualquer variedade tupi-guarani amplamente mutuamente compreensível com o Tupi Antigo colonial.
+A imagem mostra o resumo do artigo. A formulação central é que, dado o uso contemporâneo, o termo Língua Geral deve ser entendido funcionalmente como “any Tupi-Guarani variety broadly mutually comprehensible with the colonial Old Tupi”, e não como uma variedade estruturalmente modificada ou a fala de um grupo étnico/social particular.
+
+Na fala, vale traduzir assim: “qualquer variedade tupi-guarani amplamente mutuamente compreensível com o Tupi Antigo colonial”. O ponto não é apagar diferenças regionais, mas evitar projetar para trás uma divisão moderna forte demais.
 -->
 
 ---
@@ -1254,30 +1262,74 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas amazonia-slide">
-  <h1 class="slide-title pos-title-wide">Variação regional, não fronteira limpa</h1>
+  <h1 class="slide-title pos-title-left title-tight">Variação regional e continuidade comunicativa</h1>
 
   <section class="amazonia-block">
-<p class="amazonia-lead">Finbow reconhece diferenças regionais, mas lê as fontes como evidência de continuidade comunicativa.</p>
+<p class="amazonia-lead">Finbow reconhece diferenças regionais, mas lê as fontes coloniais como evidência de continuidade comunicativa.</p>
 <div class="amazonia-cycle">
   <p><span>Anchieta</span>poesia com traços “sulistas” e “nortenhos”</p>
   <p><span>séc. XVII</span>paulistas chamados para missões no Maranhão e Pará</p>
-  <p><span>motivo</span>fluência em sua variedade de Língua Geral</p>
+  <p><span>motivo prático</span>fluência em sua variedade de Língua Geral</p>
 </div>
+<div class="amazonia-keypoint">
+  <p class="point-label">Ponto-chave</p>
+  <p>A distinção LGP/LGA é útil para trajetórias posteriores, mas as fontes antigas sugerem variedades regionais ainda amplamente inteligíveis.</p>
+</div>
+<p class="source">Finbow, 2022, p. 79.</p>
+  </section>
+
+  <!-- <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="02_finbow2022_p79_lgp_lga_anachronism_paulistas.png"
+    alt="Finbow 2022, p. 79, discussão sobre variação regional, Anchieta e Paulistas nas missões do Maranhão e Pará"
+  /> -->
+</div>
+
+<!--
+Imagem citada: 02_finbow2022_p79_lgp_lga_anachronism_paulistas.png.
+Fonte visual: Finbow, 2022, p. 79.
+
+A imagem mostra três pontos importantes:
+1. Finbow considera anacrônica a projeção rígida de LGP/LGA como línguas separadas nas fontes antigas.
+2. Ele observa que a poesia de Anchieta mistura traços de variedades sulistas e nortistas.
+3. Ele nota que, no século XVII, paulistas foram procurados para atuar nas missões do Maranhão e Pará justamente porque sua fluência em sua variedade de Língua Geral os tornava úteis na conversão dos Tupinambá amazônicos.
+
+Eu evitaria dizer “isso enfraquece” ou “isso refuta”. A formulação mais calma é: a evidência aponta mais para variação regional dentro de um complexo amplamente inteligível do que para línguas separadas no sentido forte.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-left title-tight">Maranhão: continuidade percebida</h1>
+
+  <section class="amazonia-block finbow-left-block">
+<p>Em 1616, Manoel Gomes descreve povos Tapuia do Maranhão falando a língua geral dos Tupinambá:</p>
 <blockquote class="quote-text compact">
-  “This is scarcely what one would expect from speakers of different languages.”
+  “Ha muitos tapuyas de muitas nações, das quaes quatorze fallão a língua geral dos Tupynambás, que é quase commum no Brazil.”
 </blockquote>
 <div class="amazonia-keypoint">
   <p class="point-label">Ponto-chave</p>
-  <p>A evidência aponta para variedades regionais com inteligibilidade ampla, mais do que para línguas separadas no sentido forte.</p>
+  <p>O Maranhão não aparece como ruptura absoluta: a documentação ainda aproxima sua situação linguística da língua geral conhecida no Brasil costeiro.</p>
 </div>
-<p class="source">Finbow, 2023, p. 78–79.</p>
+<p class="source">Gomes, 1904 [1616], p. 334 apud Finbow, 2025, p. 11, n. 7.</p>
   </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="11_finbow2025_p11_gomes_original_footnote.png"
+    alt="Finbow 2025, p. 11, nota 7, citação de Manoel Gomes sobre Tapuias que falavam a língua geral dos Tupinambás"
+  />
 </div>
 
 <!--
-Essa slide deve soar calma e filológica, não polêmica. A ideia é: havia diferenças regionais, sim. Anchieta já mostra isso, e Finbow também reconhece traços meridionais como a apócope consonantal. Mas, para os séculos XVI e XVII, as fontes não parecem sustentar uma divisão rígida entre “Língua Geral Paulista” e “Língua Geral Amazônica” como se fossem línguas separadas. Finbow menciona que a poesia de Anchieta mistura traços do sul e do norte, e que paulistas foram procurados para trabalhar nas missões jesuíticas do Maranhão e Pará justamente porque sua fluência em uma variedade de Língua Geral era útil na conversão dos Tupinambá amazônicos.
+Imagem citada: 11_finbow2025_p11_gomes_original_footnote.png.
+Fonte visual: Finbow, 2025 preprint, p. 11, nota 7.
 
-Fonte: Finbow, 2023, p. 78–79.
+A imagem mostra a citação portuguesa de Manoel Gomes: “Ha muitos tapuyas de muitas nações, das quaes quatorze fallão a língua geral dos Tupynambás, que é quase commum no Brazil.”
+
+Essa passagem é boa porque mostra que, já no começo do século XVII, havia uma percepção de língua geral dos Tupinambá como algo “quase comum no Brazil”, e que povos chamados Tapuia podiam ser descritos como falando essa língua geral. A ideia não é negar diversidade, mas mostrar continuidade funcional e comunicativa.
 -->
 
 ---
@@ -1285,21 +1337,64 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas amazonia-slide">
-  <h1 class="slide-title pos-title-wide">Mudança não é invenção</h1>
+  <h1 class="slide-title pos-title-left title-tight">Paulistas nas missões do Maranhão-Pará</h1>
 
-  <section class="amazonia-block continuity-block">
-<p>A Língua Geral Amazônica não surge do nada.</p>
+  <section class="amazonia-block finbow-left-block">
+<p>Finbow retoma as tentativas de Antônio Vieira, nos anos 1650 e 1660, de recrutar paulistas falantes nativos de Língua Geral para trabalhar na Amazônia.</p>
+<div class="amazonia-keypoint">
+  <p class="point-label">Leitura possível</p>
+  <p>Se sua variedade era útil para converter Tupinambá amazônicos, a distância entre o sul e o norte provavelmente não era percebida como a de línguas separadas.</p>
+</div>
+<p class="source">Barros, 2003, 2010 apud Finbow, 2025, p. 12.</p>
+  </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="12_finbow2025_p12_vieira_paulistas_maranhao_para.png"
+    alt="Finbow 2025, p. 12, sobre Antônio Vieira recrutar paulistas falantes de Língua Geral para missões no Maranhão e Pará"
+  />
+</div>
+
+<!--
+Imagem citada: 12_finbow2025_p12_vieira_paulistas_maranhao_para.png.
+Fonte visual: Finbow, 2025 preprint, p. 12.
+
+A imagem diz que Vieira tentou recrutar paulistas falantes nativos de Língua Geral para trabalhar na Amazônia, aparentemente porque sua fluência ajudava na conversão dos indígenas. Finbow interpreta isso como evidência de que a Língua Geral meridional não era vista como uma língua distinta daquilo que se falava nas primeiras missões amazônicas, apesar de diferenças estruturais.
+
+Para a apresentação, eu diria isso de modo não polêmico: as fontes sugerem uma escala de variação mais parecida com dialetos/variedades amplamente inteligíveis do que com línguas separadas.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-left title-tight">Mudança de função na Amazônia</h1>
+
+  <section class="amazonia-block finbow-left-block">
+<p>No século XVIII, o termo <em>Língua Geral</em> passa a apontar menos para um bloco geográfico de falantes nativos e mais para uma língua franca supraétnica.</p>
 <blockquote class="quote-text compact">
-  “a restructured variety of an existing, recognised language”
+  “a supra-ethnic lingua franca used as an auxiliary language by many peoples”
 </blockquote>
-<p>Ela preserva continuidade com a Língua Brasílica/Tupi Antigo, mas sofre reestruturações em novo ambiente social.</p>
-<p class="continuity-line">continuidade + contato + mudança</p>
-<p class="source">Finbow, 2023, p. 102.</p>
+<div class="amazonia-keypoint">
+  <p class="point-label">Ponto-chave</p>
+  <p>A mudança do nome e da função acompanha a incorporação forçada de muitos povos não-tupi e não-tupi-guarani ao sistema colonial amazônico.</p>
+</div>
+<p class="source">Finbow, 2025, p. 15.</p>
   </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="14_finbow2025_p15_bluteau_tapuia_lg.png"
+    alt="Finbow 2025, p. 15, Bluteau e a Língua Geral como língua franca supraétnica falada por muitos povos"
+  />
 </div>
 
 <!--
-Esse é o ponto de equilíbrio. Não precisamos dizer que a LGA era simplesmente o mesmo Tupi Antigo da costa, sem mudanças. Mas também não precisamos dizer que era uma língua artificial inventada ou uma língua crioula inteiramente nova. Na conclusão, Finbow diz que a “Língua Geral corrupta” de João Daniel, no século XVIII, não é tanto uma língua totalmente nova, mas uma variedade reestruturada de uma língua existente e reconhecida — a Língua Geral — falada por todos. Isso permite explicar a mudança amazônica sem romper a continuidade histórica.
+Imagem citada: 14_finbow2025_p15_bluteau_tapuia_lg.png.
+Fonte visual: Finbow, 2025 preprint, p. 15.
+
+A imagem mostra Finbow explicando Bluteau: no século XVIII, a Língua Geral já não é pensada apenas como uma língua ou contínuo regional de falantes nativos, mas como língua franca supraétnica usada como língua auxiliar por muitos povos. Essa formulação ajuda a passar da questão “LGP/LGA como variedades regionais” para a questão amazônica: a função social da língua mudou.
 -->
 
 ---
@@ -1307,9 +1402,9 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas amazonia-slide">
-  <h1 class="slide-title pos-title-wide">Duas normas dentro da Língua Geral</h1>
+  <h1 class="slide-title pos-title-left title-tight">Duas normas dentro da Língua Geral</h1>
 
-  <section class="amazonia-block">
+  <section class="amazonia-block finbow-left-block">
 <p>Ao ler João Daniel, Finbow observa que tanto a norma escrita quanto a fala cotidiana ainda são chamadas de <em>Língua Geral</em>.</p>
 <blockquote class="quote-text compact">
   “both the H and the L varieties are referred to as ‘LG’ by Daniel”
@@ -1318,10 +1413,52 @@ class: oficina-unb
   <p class="point-label">Leitura possível</p>
   <p>Não uma ruptura absoluta entre línguas, mas uma tensão entre norma catequética antiga e vernáculo amazônico cotidiano.</p>
 </div>
-<p class="source">Finbow, 2023, p. 85.</p>
+<p class="source">Finbow, 2022, p. 84–85.</p>
   </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="05_finbow2022_p84_85_diglossia_h_l_lg.png"
+    alt="Finbow 2022, pp. 84-85, leitura diglóssica de João Daniel sobre norma escrita e vernáculo cotidiano da Língua Geral"
+  />
 </div>
 
 <!--
-Essa slide é útil para evitar exagero. João Daniel diz que a fala cotidiana parecia “outra língua diversa”, mas Finbow nota que Daniel ainda chama tanto a variedade alta, ligada à norma escrita/catequética, quanto a variedade baixa, ligada ao uso cotidiano, de Língua Geral. Então a diferença é real, mas a própria fonte não classifica essas formas como línguas completamente separadas. O melhor enquadramento para a oficina é: havia mudança, reestruturação e distância entre norma escrita e fala comum, mas dentro de uma continuidade reconhecida como Língua Geral.
+Imagem citada: 05_finbow2022_p84_85_diglossia_h_l_lg.png.
+Fonte visual: Finbow, 2022, pp. 84–85.
+
+A imagem mostra Finbow interpretando João Daniel: a variedade “verdadeira”/codificada, associada à arte e aos catecismos, funcionava como código alto, mantido pelos missionários; a fala cotidiana dos Tapuia e demais habitantes das missões funcionava como vernáculo. Mas Daniel ainda chama as duas de Língua Geral. Por isso, a diferença é real, mas não necessariamente uma separação nominal em duas línguas diferentes.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-left title-tight">Mudança não é invenção</h1>
+
+  <section class="amazonia-block finbow-left-block">
+<p>A Língua Geral Amazônica não surge do nada.</p>
+<blockquote class="quote-text compact">
+  “a restructured variety of an existing, recognised language”
+</blockquote>
+<p>Ela preserva continuidade com a Língua Brasílica/Tupi Antigo, mas sofre reestruturações em novo ambiente social.</p>
+<p class="continuity-line">continuidade + contato + mudança</p>
+<p class="source">Finbow, 2022, p. 102.</p>
+  </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="07_finbow2022_p102_restructured_variety.png"
+    alt="Finbow 2022, p. 102, Língua Geral Amazônica como variedade reestruturada de uma língua existente e reconhecida"
+  />
+</div>
+
+<!--
+Imagem citada: 07_finbow2022_p102_restructured_variety.png.
+Fonte visual: Finbow, 2022, p. 102.
+
+A imagem mostra a conclusão de Finbow: a LGA/NHG não deve ser entendida como uma língua inteiramente nova ou como um crioulo emergente no sentido forte, mas como “a restructured variety of an existing, recognised language”, isto é, a Língua Geral. A tradução mais adequada para a fala é: “uma variedade reestruturada de uma língua existente e reconhecida”.
+
+Esse é o fecho do bloco: não é continuidade sem mudança, nem invenção sem continuidade.
 -->
