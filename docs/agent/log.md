@@ -73,3 +73,6 @@
 - Replaced the proportional timeline styling with a four-card `name-sequence-*` layout, moved the simplified slide before the Nheengatu detail slides, and re-verified with `npm run build`, `git diff --check`, generated-module content checks, and raw-HTML marker checks.
 - Added a single Pombal/Diretório bridge slide between the names/descriptions synthesis and the Nheengatu-name detail slides, framing the Diretório as the state attempt to impose Portuguese and restrict Língua Geral.
 - Retitled the Nheengatu transition to `Depois da repressão, o nome Nheengatu`; verified with `npm run build`, `git diff --check`, and generated-module checks for the new bridge/transition slides.
+- Moved the Pai Nosso comparison table slide after every existing slide and rebuilt its layout in the Oficina dark theme, using a responsive grid/table treatment instead of the temporary white document-page CSS.
+- Enlarged the Pai Nosso table typography after review feedback that the text was too small for the available whitespace.
+- Verified the final slide order and rendering with `npm run build`, `git diff --check`, generated-module checks for `slidev_55`/`slidev_56`, raw HTML marker checks, and headless DOM layout checks on `/56`; no Playwright screenshots were taken.

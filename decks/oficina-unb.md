@@ -978,54 +978,6 @@ class: oficina-unb
   </section>
 </div>
 
----
-class: oficina-unb
----
-
-<div class="oficina-canvas prayer-table-slide">
-  <h1 class="slide-title pos-title-wide">Pai Nosso: Tupi Antigo, Nheengatu e português</h1>
-  <p class="prayer-table-subtitle">Comparação textual de Mt 6.9–13. “Tupi Antigo” é rótulo acadêmico moderno: aparece pelo menos em Ayrosa (1933) e se consolida em Barbosa (1956).</p>
-
-  <section class="prayer-table">
-    <div class="prayer-head"></div>
-    <div class="prayer-head">Tupi Antigo</div>
-    <div class="prayer-head">Nheengatu</div>
-    <div class="prayer-head">Português</div>
-
-    <div class="prayer-num">1</div>
-    <div>oré rub ybakype tekoar<br>imoetepyramo toîkó nde rera.</div>
-    <div>Inde yanepaya iwaka kiti,<br>purangawaa nerera,</div>
-    <div>Pai nosso que estás no céu,<br>santificado seja o teu nome.</div>
-
-    <div class="prayer-num">2</div>
-    <div>tour nde Reino.</div>
-    <div>Reyuiriana yanepiri<br>yaneruixawa arama inde,</div>
-    <div>Venha o teu Reino.</div>
-
-    <div class="prayer-num">3</div>
-    <div>toîemonhang nde remimotara ybype<br>ybakype i îemonhanga îabé.</div>
-    <div>rexari yamunya kuaye reputariwaa yawe ike kua mundu upe<br>aintayawe kuaita iwaka kitiwaraita.</div>
-    <div>Seja feita a tua vontade,<br>assim na terra como no céu.</div>
-
-    <div class="prayer-num">4</div>
-    <div>oré rembi’u ’ara îabi’õndûara<br>eîme’eng kori orébo.</div>
-    <div>Remee yande arama<br>yambau arama muiri ara.</div>
-    <div>O pão nosso de cada dia<br>dá-nos hoje.</div>
-
-    <div class="prayer-num">5</div>
-    <div>ndenhyrõ oré angaîpaba resé orébo<br>orérerekomemûãsara supé orénhyrõ îabé.</div>
-    <div>Reperduari yande neirumu isui kua yamunyawaa inde arama puxuwera kuaye<br>yaperduariwaa yawe yaneirumu kuaita umunyawaita yande arama puxuwera.</div>
-    <div>Perdoa-nos as nossas ofensas,<br>assim como nós perdoamos a quem nos tem ofendido.</div>
-
-    <div class="prayer-num">6</div>
-    <div>orémo’arukar umẽ îepé tentação pupé.<br>orépysyrõte îepé mba’eaíba suí.</div>
-    <div>Terexari amu uganani yande yamunya arama puxuwera maa<br>reyuka yande isui kua puxuwerawa.</div>
-    <div>E não nos deixes cair em tentação,<br>mas livra-nos do mal.</div>
-  </section>
-
-  <p class="prayer-table-note">Fontes: Araújo, 1952; Missão Novas Tribos do Brasil, 2019, Mateus 6.9–13. A grafia do Novo Testamento em Nyengatu (2019) não é a grafia apoiada pela FOIR.</p>
-</div>
-
 <!--
 Até aqui, nós vimos o Tupi Antigo como uma língua de ampla circulação na costa e como corpus escrito clássico: Anchieta, Araújo, Figueira, vocabulários, catecismos. Agora entramos em outro cenário: a Amazônia colonial. Ali, a língua geral continua sendo central, mas o ambiente social é outro. A língua passa a circular em aldeamentos e vilas com povos de origens linguísticas muito diversas, muitas vezes trazidos por descimentos, guerra, escravização, epidemias e recomposição populacional.
 
@@ -1704,4 +1656,65 @@ class: oficina-unb
       <p>Há continuidade, mas uma continuidade por mudança: novos contextos, novos falantes, novas funções e novos nomes.</p>
     </div>
   </section>
+</div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas prayer-table-slide">
+  <h1 class="slide-title pos-title-wide">Pai Nosso: Tupi Antigo, Nheengatu e português</h1>
+  <p class="prayer-justification">A designação ‘tupi antigo’ é um rótulo acadêmico moderno; aparece pelo menos desde Ayrosa (1933) e se consolida na tradição de ensino/gramatização do século XX (Barbosa, 1956).</p>
+
+  <table class="prayer-table">
+    <thead>
+      <tr>
+        <th class="prayer-num-head"></th>
+        <th>Tupi Antigo</th>
+        <th>Nheengatu (Mt 6.9–13)</th>
+        <th>Português</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="prayer-num">1</td>
+        <td>oré rub ybakype tekoar<br>imoetepyramo toîkó nde<br>rera.</td>
+        <td>Inde yanepaya iwaka kiti,<br>purangawaa nerera,</td>
+        <td>Pai nosso que estás no<br>céu, santificado seja o teu<br>nome.</td>
+      </tr>
+      <tr>
+        <td class="prayer-num">2</td>
+        <td>tour nde Reino.</td>
+        <td>Reyuiriana yanepiri<br>yaneruixawa arama inde,</td>
+        <td>Venha o teu Reino.</td>
+      </tr>
+      <tr>
+        <td class="prayer-num">3</td>
+        <td>toîemonhang nde<br>remimotara ybype<br>ybakype i îemonhanga<br>îabé.</td>
+        <td>rexari yamunya kuaye<br>reputariwaa yawe ike kua<br>mundu upe aintayawe<br>kuaita iwaka kitiwaraita.</td>
+        <td>Seja feita a tua vontade,<br>assim na terra como no<br>céu.</td>
+      </tr>
+      <tr>
+        <td class="prayer-num">4</td>
+        <td>oré rembi’u ’ara<br>îabi’õndûara eîme’eng<br>kori orébo.</td>
+        <td>Remee yande arama<br>yambau arama muiri ara.</td>
+        <td>O pão nosso de cada dia<br>dá-nos hoje.</td>
+      </tr>
+      <tr>
+        <td class="prayer-num">5</td>
+        <td>ndenhyrõ oré angaîpaba<br>resé orébo<br>orérerekomemûãsara<br>supé orénhyrõ îabé.</td>
+        <td>Reperduari yande<br>neirumu isui kua<br>yamunyawaa inde arama<br>puxuwera kuaye<br>yaperduariwaa yawe<br>yaneirumu kuaita<br>umunyawaita yande<br>arama puxuwera.</td>
+        <td>Perdoa-nos as nossas<br>ofensas, assim como nós<br>perdoamos a quem nos<br>tem ofendido.</td>
+      </tr>
+      <tr>
+        <td class="prayer-num">6</td>
+        <td>orémo’arukar umẽ îepé<br>tentação pupé.<br>orépysyrõte îepé<br>mba’eaíba suí.</td>
+        <td>Terexari amu uganani<br>yande yamunya arama<br>puxuwera maa reyuka<br>yande isui kua<br>puxuwerawa.</td>
+        <td>E não nos deixes cair em<br>tentação, mas livra-nos<br>do mal.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="prayer-caption"><strong>Table 1:</strong> Pai Nosso: alinhamento entre Tupi Antigo (Araújo, 1952), Nheengatu (Missão Novas Tribos do Brasil, 2019, Mateus 6.9–13) e tradução em português.</p>
+  <p class="prayer-footnote"><sup>1</sup> A grafia do Novo Testamento em Nyengatu (2019) não é a grafia apoiada pela FOIRN (Federação das Organizações Indígenas do Rio Negro).</p>
 </div>

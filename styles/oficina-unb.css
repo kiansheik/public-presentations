@@ -980,75 +980,164 @@
   width: 91%;
 }
 
-.prayer-table-slide .slide-title {
-  top: 4.8%;
-  font-size: 1.96rem;
+.oficina-canvas.prayer-table-slide {
+  box-sizing: border-box;
+  container-type: size;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto auto;
+  row-gap: clamp(0.2rem, 0.95cqh, 0.48rem);
+  height: 100%;
+  overflow: hidden;
+  padding: clamp(1.05rem, 3.6cqh, 1.62rem) 3.41% clamp(0.64rem, 2.1cqh, 0.95rem);
+  background: var(--oficina-bg);
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+  letter-spacing: 0;
+}
+
+.slidev-layout.oficina-unb .prayer-table-slide .slide-title {
+  position: static;
+  left: auto;
+  top: auto;
+  width: auto;
+  color: var(--oficina-title);
+  font-size: clamp(1.52rem, 4.7cqh, 2.36rem);
   line-height: 1.02;
 }
 
-.prayer-table-subtitle {
-  position: absolute;
-  left: 3.41%;
-  right: 3.41%;
-  top: 12.4%;
-  color: var(--oficina-muted);
+.slidev-layout.oficina-unb .prayer-kicker {
+  margin: 0;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: clamp(0.76rem, 2.1cqh, 0.98rem);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.slidev-layout.oficina-unb .prayer-justification {
+  margin: 0;
+  border-left: 0.18rem solid #dcc06a;
+  color: rgba(245, 245, 245, 0.86);
   font-family: var(--oficina-serif);
-  font-size: 0.72rem;
+  font-size: clamp(0.82rem, 2.35cqh, 1.08rem);
   font-weight: 700;
   line-height: 1.16;
+  padding-left: clamp(0.56rem, 1.6cqh, 0.84rem);
 }
 
 .prayer-table {
-  position: absolute;
-  left: 3.41%;
-  right: 3.41%;
-  top: 18.6%;
-  display: grid;
-  grid-template-columns: 1.9rem minmax(0, 1fr) minmax(0, 1.18fr) minmax(0, 0.88fr);
+  align-self: stretch;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: rgba(18, 29, 33, 0.24);
+  border-collapse: collapse;
+  border-top: 0.075rem solid rgba(245, 245, 245, 0.78);
+  border-bottom: 0.075rem solid rgba(245, 245, 245, 0.78);
   color: var(--oficina-body);
   font-family: var(--oficina-serif);
-  font-size: 0.49rem;
-  line-height: 1.12;
-  border-top: 0.06rem solid rgba(216, 221, 221, 0.42);
-  border-left: 0.06rem solid rgba(216, 221, 221, 0.22);
+  font-size: clamp(0.64rem, 1.9cqh, 0.86rem);
+  line-height: 1.1;
+  table-layout: fixed;
 }
 
-.prayer-table > div {
-  min-width: 0;
-  padding: 0.26rem 0.34rem;
-  border-right: 0.06rem solid rgba(216, 221, 221, 0.22);
-  border-bottom: 0.06rem solid rgba(216, 221, 221, 0.22);
-  overflow-wrap: break-word;
+.prayer-table thead {
+  border-bottom: 0.06rem solid rgba(245, 245, 245, 0.62);
 }
 
-.prayer-head {
+.prayer-table th,
+.prayer-table td {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.prayer-table th {
+  padding: clamp(0.16rem, 0.75cqh, 0.28rem) clamp(0.25rem, 1cqh, 0.42rem);
   color: var(--oficina-title);
-  font-family: var(--oficina-heading);
-  font-size: 0.66rem;
-  font-weight: 500;
-  line-height: 1;
-  background: rgba(16, 30, 34, 0.22);
+  font-size: clamp(0.76rem, 2.25cqh, 1rem);
+  font-weight: 700;
+  line-height: 1.05;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.prayer-table td {
+  padding: clamp(0.06rem, 0.34cqh, 0.12rem) clamp(0.25rem, 1cqh, 0.42rem);
+  vertical-align: top;
+}
+
+.prayer-table th:nth-child(1),
+.prayer-table td:nth-child(1) {
+  width: 5.2%;
+  padding-left: 0;
+  padding-right: clamp(0.18rem, 0.75cqh, 0.32rem);
+}
+
+.prayer-table th:nth-child(2),
+.prayer-table td:nth-child(2) {
+  width: 31.8%;
+}
+
+.prayer-table th:nth-child(3),
+.prayer-table td:nth-child(3) {
+  width: 32.2%;
+}
+
+.prayer-table th:nth-child(4),
+.prayer-table td:nth-child(4) {
+  width: 30.8%;
+  padding-right: 0;
 }
 
 .prayer-num {
   color: #dcc06a;
   font-family: var(--oficina-heading);
-  font-size: 0.62rem;
-  font-weight: 500;
-  text-align: center;
+  font-size: clamp(0.7rem, 1.95cqh, 0.88rem);
+  font-weight: 400;
+  text-align: left;
 }
 
-.prayer-table-note {
-  position: absolute;
-  left: 3.41%;
-  right: 3.41%;
-  bottom: 3.9%;
-  color: rgba(216, 221, 221, 0.82);
+.slidev-layout.oficina-unb .prayer-caption {
+  align-self: start;
+  margin: 0;
+  color: var(--oficina-title);
   font-family: var(--oficina-serif);
-  font-size: 0.58rem;
-  line-height: 1.15;
-  border-top: 0.06rem solid rgba(216, 221, 221, 0.3);
-  padding-top: 0.34rem;
+  font-size: clamp(0.68rem, 1.9cqh, 0.9rem);
+  font-weight: 400;
+  line-height: 1.08;
+}
+
+.slidev-layout.oficina-unb .prayer-caption strong {
+  font-weight: 700;
+}
+
+.slidev-layout.oficina-unb .prayer-footnote {
+  position: relative;
+  align-self: start;
+  margin: 0;
+  padding-top: clamp(0.18rem, 0.78cqh, 0.28rem);
+  color: rgba(216, 221, 221, 0.76);
+  font-family: var(--oficina-serif);
+  font-size: clamp(0.56rem, 1.55cqh, 0.72rem);
+  font-weight: 400;
+  line-height: 1.08;
+}
+
+.slidev-layout.oficina-unb .prayer-footnote::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39%;
+  border-top: 0.045rem solid rgba(216, 221, 221, 0.48);
+  content: "";
+}
+
+.slidev-layout.oficina-unb .prayer-footnote sup {
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: super;
 }
 
 .amazonia-slide .slide-title {

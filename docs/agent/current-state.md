@@ -98,3 +98,8 @@ Verified on 2026-05-17:
 - Added a concise Pombal/Diretório bridge slide, `Quando o Estado tenta substituir a Língua Geral`, after the names/descriptions synthesis and before the Nheengatu-name detail slides.
 - Retitled the following transition slide to `Depois da repressão, o nome Nheengatu` and reframed its text around post-Diretório naming rather than only asking when the name appears.
 - `npm run build` and `git diff --check` succeed after the Pombal bridge; generated checks find the new `slidev_51` bridge and `slidev_52` transition without raw HTML code markers.
+- Moved the `Pai Nosso: Tupi Antigo, Nheengatu e português` comparison slide to the physical end of `decks/oficina-unb.md`, after `Nome posterior, continuidade histórica`.
+- Restyled the Pai Nosso slide to stay in the Oficina dark visual system while preserving the academic table structure: title, justification note, ruled comparison table, caption, and FOIRN footnote.
+- The Pai Nosso slide CSS now uses a grid with height-responsive spacing and enlarged type sizing so the table fills the available slide area without the white document-page treatment.
+- `npm run build`, `git diff --check`, generated-module raw-HTML marker checks, and a headless DOM layout check on `http://localhost:3033/56` succeed; the final DOM check reports no overflow and table/body/header/caption font sizes of roughly `10.24px` / `12.16px` / `10.88px` inside the Slidev canvas. No screenshots were taken.
+- A local Slidev dev server is running at `http://localhost:3033/` for review.
