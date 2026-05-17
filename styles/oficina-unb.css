@@ -780,51 +780,54 @@
 
 .name-sequence-grid {
   position: absolute;
-  left: 4.4%;
-  right: 4.4%;
-  top: 28%;
+  left: 3.41%;
+  right: 3.41%;
+  top: 27.4%;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-auto-rows: minmax(10.8rem, auto);
+  gap: 0.68rem;
+  align-items: stretch;
 }
 
 .name-sequence-card {
-  min-height: 13.8rem;
-  border-top: 0.16rem solid #dcc06a;
+  min-width: 0;
+  border-top: 0.14rem solid #dcc06a;
   background: rgba(16, 30, 34, 0.22);
-  padding: 1rem 0.9rem 0.95rem;
+  padding: 0.82rem 0.72rem 0.78rem;
   color: var(--oficina-body);
   font-family: var(--oficina-serif);
-  font-size: 0.78rem;
-  line-height: 1.2;
+  font-size: 0.72rem;
+  line-height: 1.16;
+  overflow-wrap: break-word;
 }
 
 .name-sequence-card span {
   display: block;
-  margin-bottom: 0.52rem;
+  margin-bottom: 0.44rem;
   color: #dcc06a;
   font-family: var(--oficina-heading);
-  font-size: 0.96rem;
+  font-size: 0.86rem;
   line-height: 1;
 }
 
 .name-sequence-card strong {
   display: block;
-  min-height: 3.55rem;
+  min-height: 3.05rem;
   color: var(--oficina-title);
   font-family: var(--oficina-heading);
-  font-size: 1.06rem;
+  font-size: 0.92rem;
   font-weight: 500;
   line-height: 1.08;
 }
 
 .name-sequence-card p {
-  margin-top: 0.72rem !important;
+  margin-top: 0.52rem !important;
 }
 
 .name-sequence-source {
   color: rgba(216, 221, 221, 0.82);
-  font-size: 0.74rem;
+  font-size: 0.66rem;
   line-height: 1.16;
 }
 

@@ -1468,8 +1468,8 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas name-timeline-slide">
-<h1 class="slide-title pos-title-wide">Quatro nomes na documentação</h1>
-<p class="name-timeline-subtitle">O que aparece, onde aparece primeiro nesta sequência, e quando.</p>
+<h1 class="slide-title pos-title-wide">Nomes e descrições na documentação</h1>
+<p class="name-timeline-subtitle">A história não é uma troca limpa de nomes: cada rótulo nasce em um documento e em uma situação social diferente.</p>
 
 <section class="name-sequence-grid">
   <div class="name-sequence-card">
@@ -1480,34 +1480,55 @@ class: oficina-unb
   </div>
 
   <div class="name-sequence-card">
-    <span>1618</span>
-    <strong>“lingoa brasílica”</strong>
-    <p class="name-sequence-source">Araújo, <em>Catecismo na lingoa brasilica</em></p>
-    <p>Nome missionário/editorial para o corpus escrito.</p>
+    <span>1605</span>
+    <strong>“esta lingoa he a jeral”</strong>
+    <p class="name-sequence-source">Pero Rodrigues apud Finbow</p>
+    <p>Uso explícito de “geral” para a grande extensão da língua no domínio português.</p>
   </div>
 
-  <div class="name-sequence-card">
+  <!-- <div class="name-sequence-card">
     <span>1616</span>
     <strong>“língua geral dos Tupynambás”</strong>
     <p class="name-sequence-source">Manoel Gomes, Maranhão</p>
-    <p>A língua aparece como meio comum para além de um único grupo.</p>
+    <p>Formulação amazônico-maranhense: uma língua dos Tupinambá “quase comum no Brazil”.</p>
+  </div> -->
+
+  <div class="name-sequence-card">
+    <span>1618–1621</span>
+    <strong>“língua brasílica”</strong>
+    <p class="name-sequence-source">Araújo; Figueira</p>
+    <p>Nome missionário/editorial dominante em catecismos e gramáticas jesuíticas.</p>
   </div>
+
+  <div class="name-sequence-card">
+    <span>séc. XVIII</span>
+    <strong>“Língua Geral”</strong>
+    <p class="name-sequence-source">dicionários, doutrinas e documentação amazônica</p>
+    <p>Passa a designar cada vez mais a língua franca supraétnica da Amazônia colonial.</p>
+  </div>
+
+  <!-- <div class="name-sequence-card">
+    <span>séc. XVII? / ed. 1952</span>
+    <strong>“nheengatu”</strong>
+    <p class="name-sequence-source"><em>Vocabulário na Língua Brasílica</em>, p. 35</p>
+    <p>Registro antigo da palavra, mas ainda não como nome de língua.</p>
+  </div> -->
 
   <div class="name-sequence-card">
     <span>1853</span>
     <strong>“Nheengatu”</strong>
-    <p class="name-sequence-source">Seixas, <em>Vocabulario da lingua indigena geral</em></p>
+    <p class="name-sequence-source">Seixas, <em>Vocabulario da lingua indigena geral</em>, p. 37</p>
     <p>Passa a funcionar como nome/descritor da língua geral.</p>
   </div>
 </section>
 
-<p class="name-timeline-note">A história não é uma troca limpa de nomes: cada rótulo nasce em um tipo de documento e em uma situação social diferente.</p>
+<p class="name-timeline-note">A mesma continuidade linguística recebeu descrições diferentes conforme mudavam o lugar, a função social e o olhar de quem escrevia.</p>
 </div>
 
 <!--
-Esta síntese substitui a timeline comparativa pesada por quatro nomes internos à trajetória Brasil/Amazônia. A leitura oral deve enfatizar que cada nome vem de um lugar documental diferente: Anchieta descreve alcance costeiro; Araújo usa língua brasílica no título catequético; Manoel Gomes fala em língua geral dos Tupynambás no Maranhão; Seixas mostra Nheengatu funcionando como nome/descritor no século XIX.
+Atenção: “língua geral dos Tupynambás” não deve aparecer como o primeiro uso de “língua geral” para esse complexo. Antes de Manoel Gomes, Finbow cita Pero Rodrigues, em 1605: “esta lingoa he a jeral...”. A melhor leitura é que “Língua Brasílica” e “Língua Geral” circularam simultaneamente; não houve uma simples substituição linear de um nome pelo outro.
 
-O ponto central é que não estamos vendo uma língua com um nome único e estável. Estamos vendo uma continuidade histórica descrita por observadores diferentes, em contextos sociais diferentes. “Nheengatu” aparece primeiro como palavra no VLB; como nome/descritor de língua, a evidência usada aqui é Seixas, 1853.
+Para o VLB, marcar “séc. XVII? / ed. 1952” evita confundir a data do manuscrito com a data da edição moderna. Para Seixas, 1853 é a data da fonte publicada que você está usando.
 -->
 ---
 class: oficina-unb
@@ -1597,7 +1618,7 @@ class: oficina-unb
     <p>É um nome que se consolida em uma etapa posterior da história da Língua Geral Amazônica.</p>
     <p class="continuity-line">Língua Brasílica → Língua Geral Amazônica → Nheengatu</p>
     <div class="amazonia-keypoint">
-      <p class="point-label">Leitura da oficina</p>
+      <p class="point-label">Reflexão</p>
       <p>Há continuidade, mas uma continuidade por mudança: novos contextos, novos falantes, novas funções e novos nomes.</p>
     </div>
   </section>
