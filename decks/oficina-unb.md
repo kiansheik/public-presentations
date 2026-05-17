@@ -107,9 +107,7 @@ class: oficina-unb
 </div>
 
 <!--
-Para catequizar, era preciso saber a língua indígena de maior circulação local.
-
-Aqui vemos a língua geral como critério institucional. A questão não era simplesmente traduzir algumas palavras indígenas, mas formar religiosos capazes de administrar a doutrina numa língua compreendida pelos povos indígenas sob sua responsabilidade. Isso mostra que a “língua geral” fazia parte de uma política missionária concreta, não apenas de uma preferência individual de certos padres.
+Aqui damos um passo além. A língua geral não aparece apenas como algo que o missionário deveria aprender na prática ou saber antes de assumir uma doutrina. Ela também aparece como objeto de ensino formal, com cátedras previstas em centros como Lima e México. Isso mostra que, no mundo colonial hispânico, certas línguas indígenas de grande circulação foram incorporadas a uma infraestrutura institucional de formação missionária e administração sacramental.
 -->
 
 ---
@@ -405,7 +403,11 @@ class: oficina-unb
 </div>
 
 <!--
+Até aqui falamos de uma língua de ampla circulação na costa. Agora, para fins desta oficina, precisamos definir o nosso objeto documental: quando eu digo “Tupi Antigo”, estou falando de um corpus colonial finito, não de uma essência linguística homogênea.
+
 Antes de entrar nas fontes uma por uma, vale fixar o uso terminológico. Nesta oficina, “Tupi Antigo” funciona como uma designação de corpus: é uma forma prática de falar do conjunto finito de textos quinhentistas e seiscentistas que chegaram até nós, produzidos por missionários, autores indígenas e autores europeus. Isso evita duas armadilhas: imaginar uma língua homogênea e sem variação, ou reduzir todo o corpus ao nome de um único povo. O corpus é colonial, fragmentário e mediado, mas é também o nosso principal ponto de acesso histórico.
+
+As próximas fichas podem ser passadas rapidamente como mapa do arquivo, não como catálogo para ler em detalhe. Na fala, agrupar: Staden/Thevet/Léry/Gândavo como relatos europeus iniciais; Anchieta/Figueira/Araújo/Vocabulário como tradição missionária de gramática, catequese e léxico; Cartas dos Camarões como raríssimo contraponto indígena escrito; Bettendorff como fronteira tardia do corpus clássico.
 -->
 
 ---
@@ -929,6 +931,22 @@ Fonte: Kiansheik, Arte de gramática da língua mais usada na costa do Brasil (J
 -->
 
 
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas anchieta-grammar-slide">
+  <h1 class="slide-title pos-title-left title-tight">Entre o uso local e o uso mais universal</h1>
+
+  <section class="body-block pos-left-standard grammar-block universal-block">
+    <blockquote class="quote-text compact">“Mas o mais universal uso...”</blockquote>
+    <p class="source">Anchieta, 1595</p>
+    <p class="point-label">Ponto-chave</p>
+    <p>Anchieta não nega a variação: ele tenta escolher, entre usos diferentes, aquilo que lhe parece mais geral e ensinável.</p>
+  </section>
+  <DeckImage class="manuscript pos-anchieta-main" image="maisuniversal.png" alt="segundo" />
+</div>
 
 <!--
 Essa citação é útil porque mostra a operação típica de uma gramática de língua geral: diante de variação, Anchieta tenta selecionar ou identificar um uso mais universal. Isso não significa que os outros usos sejam inexistentes; significa que o gramático missionário precisa de uma forma ensinável, relativamente geral, para fins de aprendizagem e catequese.

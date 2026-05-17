@@ -67,3 +67,7 @@ Verified on 2026-05-16:
 - The user's existing local Slidev server on port `3030` is reachable from this shell at `http://[::1]:3030/` and returns `HTTP/1.1 200 OK`; `127.0.0.1:3030` is not reachable because the process is listening on IPv6 loopback only. No Playwright screenshots were taken.
 - Reworked the Quechua, Nahuatl, and Guarani case-study slides so source entries are no longer same-weight paragraphs: each now uses a `language-case-block` with a label, dated source rows, and a stronger takeaway/note style.
 - `npm run build` succeeds after the language case-slide readability pass.
+- Corrected the cátedra slide speaker note so it emphasizes formal university formation rather than repeating the mission-requirement note.
+- Added explicit speaker-note bridging from the Brasil coastal-language convergence into the Tupi Antigo corpus-definition block, plus a note to treat the corpus fichas as a quick archive map.
+- Added the missing final Anchieta slide, “Entre o uso local e o uso mais universal,” bringing `decks/oficina-unb.md` to 34 `oficina-unb` slides.
+- `npm run build` succeeds after the transition-note and final Anchieta closeout pass.

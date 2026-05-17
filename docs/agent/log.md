@@ -49,3 +49,6 @@
 - Verified with `npm run build` and checked the user's existing `3030` Slidev server at `http://[::1]:3030/`; no Playwright screenshots were taken.
 - Reworked the Quechua, Nahuatl, and Guarani case-study slides into clearer `language-case-block` layouts with dated source rows and separate takeaway/note styles.
 - Verified the language case-slide readability pass with `npm run build` and `git diff --check`; no Playwright screenshots were taken.
+- Corrected the speaker note for “A língua geral como objeto de ensino formal” so it focuses on cátedras, Lima/México, and formal missionary formation.
+- Added a transition speaker note before the Tupi Antigo corpus-definition block and a presenter reminder to handle the source fichas as a fast archive map.
+- Added the missing Anchieta closeout slide, “Entre o uso local e o uso mais universal,” and verified the deck with `npm run build`.
