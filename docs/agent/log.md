@@ -76,3 +76,12 @@
 - Moved the Pai Nosso comparison table slide after every existing slide and rebuilt its layout in the Oficina dark theme, using a responsive grid/table treatment instead of the temporary white document-page CSS.
 - Enlarged the Pai Nosso table typography after review feedback that the text was too small for the available whitespace.
 - Verified the final slide order and rendering with `npm run build`, `git diff --check`, generated-module checks for `slidev_55`/`slidev_56`, raw HTML marker checks, and headless DOM layout checks on `/56`; no Playwright screenshots were taken.
+- Added an eight-slide `O que mudou do Tupi Antigo ao Nheengatu?` grammar-change block after the Pai Nosso slide, using the user's shorter workshop sequence: thesis, estatives, gerund loss, negation, future, phonetic composition, Indicative II fossilization, and conclusion.
+- Added shared `change-*` CSS for the new grammar-change cards and comparison layouts.
+- Verified with `npm run build`, `git diff --check`, generated-module title/raw-HTML checks, `curl -I http://localhost:3033/`, and a headless DOM bounds check for slides 57-64; the first DOM attempt failed because it selected the wrong visible Slidev canvas, then the corrected indexed check passed. No screenshots were taken.
+- Replaced the shortened grammar examples with full gloss blocks from `/Users/kian/code/latex/nheengatu_loss/main.tex`, preserving original line, morpheme gloss, and translation for the new linguistic example slides.
+- Added denser `change-gloss` and `change-dense-grid` styling so the full paper examples fit within the existing eight-slide sequence.
+- Verified with `npm run build`, `git diff --check`, generated-module raw-HTML checks, generated full-string checks, `curl -I http://localhost:3033/`, and a headless DOM bounds check for slides 57-64. `pdftotext` was not installed, so the adjacent paper source was used instead. No screenshots were taken.
+- Added a dedicated `Switch reference: o sujeito ainda é o mesmo?` slide before the grammar-change synthesis, contrasting Old Tupi `-bo`/`-reme` with Nheengatu `ramé` in DS and SS contexts.
+- Added `switch-reference-grid`, `switch-panel`, `switch-tag`, and `switch-keypoint` CSS under the shared grammar-change styles after the slide markup was added.
+- Verified with `npm run build`, `git diff --check`, generated-module checks for the new title/examples, generated `<pre>/<code` checks, and `curl -I http://localhost:3033/64`; no Playwright screenshots were taken.

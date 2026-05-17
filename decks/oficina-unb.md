@@ -1718,3 +1718,367 @@ class: oficina-unb
   <p class="prayer-caption"><strong>Table 1:</strong> Pai Nosso: alinhamento entre Tupi Antigo (Araújo, 1952), Nheengatu (Missão Novas Tribos do Brasil, 2019, Mateus 6.9–13) e tradução em português.</p>
   <p class="prayer-footnote"><sup>1</sup> A grafia do Novo Testamento em Nyengatu (2019) não é a grafia apoiada pela FOIRN (Federação das Organizações Indígenas do Rio Negro).</p>
 </div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide change-thesis-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">Continuidade não significa imobilidade</h1>
+
+  <section class="change-thesis-copy">
+    <p>O Nheengatu continua sendo uma língua tupi-guarani.</p>
+    <p>Mas, entre o Tupi Antigo e o Nheengatu moderno, vários mecanismos mudaram.</p>
+  </section>
+
+  <section class="change-card-grid">
+    <div class="change-card">
+      <span>perda</span>
+      <p>formas antigas desaparecem</p>
+    </div>
+    <div class="change-card">
+      <span>reanálise</span>
+      <p>formas antigas passam a cumprir novas funções</p>
+    </div>
+    <div class="change-card">
+      <span>fossilização</span>
+      <p>morfologia produtiva vira vestígio lexical</p>
+    </div>
+    <div class="change-card">
+      <span>substituição funcional</span>
+      <p>estratégias novas ocupam funções antigas</p>
+    </div>
+  </section>
+
+  <p class="change-final-line">Não é ruptura total; é continuidade por reestruturação.</p>
+</div>
+
+<!--
+Este slide abre o bloco gramatical depois do Pai Nosso. A tese deve ficar simples: continuidade histórica não é imobilidade estrutural.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">Nem tudo desaparece: os estativos continuam</h1>
+
+  <section class="change-comparison-grid">
+    <div class="change-example-card">
+      <p class="change-card-label">Tupi Antigo</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Xe-r-oryb nde só resé.</p>
+        <p class="gloss-morpheme">me-GEN-happy you going about</p>
+        <p class="gloss-translation">‘I am happy about you going’</p>
+      </div>
+      <p class="change-source">Anchieta, 1595.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Nheengatu</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Ixé se r-urí.</p>
+        <p class="gloss-morpheme">I me GEN-happy</p>
+        <p class="gloss-translation">‘I am happy.’</p>
+      </div>
+      <p class="change-source">Studart, 1926.</p>
+    </div>
+    <div class="change-example-card change-wide-card">
+      <p class="change-card-label">Outro Nheengatu</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Se r-urí a-ikú.</p>
+        <p class="gloss-morpheme">me GEN-happy I-am.CONT</p>
+        <p class="gloss-translation">‘I am (being) happy’</p>
+      </div>
+      <p class="change-source">Costa, 1909; Hartt, 1938.</p>
+    </div>
+  </section>
+
+  <p class="change-keypoint">Aqui não vemos perda simples: vemos continuidade estrutural, com novas possibilidades aspectuais.</p>
+</div>
+
+<!--
+Na fala, destacar visualmente xe/se + r + raiz. Este é o exemplo de continuidade forte antes dos casos de perda e substituição.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">Subordinação antiga: perda do gerúndio</h1>
+
+  <section class="change-comparison-grid two-up">
+    <div class="change-example-card">
+      <p class="change-card-label">Tupi Antigo</p>
+      <div class="change-gloss">
+        <p class="gloss-original">A-s-esyr xe r-embi'u gûi-tekó-bo.</p>
+        <p class="gloss-morpheme">I-it-roast my GEN-food I-am.CONT</p>
+        <p class="gloss-translation">‘I am cooking my food.’</p>
+      </div>
+      <p class="change-source">Hartt, 1938.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Nheengatu</p>
+      <div class="change-gloss">
+        <p class="gloss-original">A-mixiri a-ikú se r-imbiú.</p>
+        <p class="gloss-morpheme">I-roast I-am.CONT my GEN-food</p>
+        <p class="gloss-translation">‘I am roasting my food.’</p>
+      </div>
+      <p class="change-source">Hartt, 1938.</p>
+    </div>
+  </section>
+
+  <p class="change-keypoint">O Nheengatu substitui o gerúndio antigo por duas formas indicativas justapostas.</p>
+</div>
+
+<!--
+A continuidade está no verbo ikó / ikú, mas a morfologia mudou. O Tupi Antigo subordinava; o Nheengatu justapõe.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">De n(a)-...-i para ti</h1>
+
+  <section class="change-comparison-grid two-up">
+    <div class="change-example-card">
+      <p class="change-card-label">Tupi Antigo</p>
+      <div class="change-gloss">
+        <p class="gloss-original">na-xe-r-oryb-i</p>
+        <p class="gloss-morpheme">NEG-me-GEN-happy-NEG</p>
+        <p class="gloss-translation">‘I am not happy’</p>
+      </div>
+      <p class="change-source">Anchieta, 1595, <em>Arte</em>, 34v.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Nheengatu</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Ti se manduári.</p>
+        <p class="gloss-morpheme">NEG me remember</p>
+        <p class="gloss-translation">‘I do not remember.’</p>
+      </div>
+      <p class="change-source">Hartt, 1938.</p>
+    </div>
+  </section>
+
+  <p class="change-keypoint">A negação deixa de ser uma moldura morfológica e passa a ser uma partícula independente.</p>
+</div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">De ne / -xûé para kurí</h1>
+
+  <section class="change-comparison-grid change-dense-grid">
+    <div class="change-example-card">
+      <p class="change-card-label">Futuro em Tupi Antigo</p>
+      <div class="change-gloss">
+        <p class="gloss-original">O-ury bé-pe irã Jesus Cristo ybaka suí-ne?</p>
+        <p class="gloss-morpheme">3p-come again-INT? FUT Jesus Christ heaven from-FUT</p>
+        <p class="gloss-translation">‘Will Jesus Christ come again from Heaven?’</p>
+      </div>
+      <p class="change-source">Anchieta, <em>Doutrina Cristã</em>, 1993.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Negação futura</p>
+      <div class="change-gloss">
+        <p class="gloss-original">N-i ma'enduar-i xûé-ne.</p>
+        <p class="gloss-morpheme">NEG-3p remember-NEG FUT-FUT</p>
+        <p class="gloss-translation">‘They will not remember.’</p>
+      </div>
+      <p class="change-source">Figueira, 1621.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Nheengatu</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Uií se kweré xinga, amu-sawa kurí a-sú pe irumu.</p>
+        <p class="gloss-morpheme">today me tired slightly, another-time FUT I-go y'all with</p>
+        <p class="gloss-translation">‘Today I'm a bit tired, another time I'll go with you all.’</p>
+      </div>
+      <p class="change-source">Ávila, 2016.</p>
+    </div>
+  </section>
+
+  <p class="change-keypoint">O Nheengatu perde a antiga morfologia de futuro negativo e generaliza uma partícula nova.</p>
+</div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">Menos fusão, mais palavras separadas</h1>
+
+  <section class="change-comparison-grid two-up">
+    <div class="change-example-card">
+      <p class="change-card-label">Tupi Antigo</p>
+      <div class="change-gloss">
+        <p class="gloss-original">ko'ẽ-me</p>
+        <p class="gloss-morpheme">morning-WHEN</p>
+        <p class="gloss-translation">‘In the morning...’</p>
+      </div>
+      <p class="change-source"><em>Vocabulário na Língua Brasílica</em>, 1952.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Nheengatu</p>
+      <div class="change-gloss">
+        <p class="gloss-original">kuẽma ramé...</p>
+        <p class="gloss-morpheme">morning when...</p>
+        <p class="gloss-translation">‘In the morning...’</p>
+      </div>
+      <p class="change-source">Magalhães, 1876.</p>
+    </div>
+  </section>
+
+  <p class="change-keypoint">O Nheengatu tende a preservar raízes mais estáveis e postposições mais separadas.</p>
+</div>
+
+<!--
+Esse é um dos lugares onde a diferença estrutural é muito visível: o Tupi Antigo fazia muita composição fonética; o Nheengatu caminha para formas mais transparentes e segmentáveis.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">Indicativo II: perdido, mas fossilizado</h1>
+
+  <section class="change-comparison-grid change-dense-grid">
+    <div class="change-example-card">
+      <p class="change-card-label">Tupi Antigo</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Oîeí, Pedro João îuká-û</p>
+        <p class="gloss-morpheme">Earlier.today 3p.SUBJ 3p.OBJ kill-IND2...</p>
+        <p class="gloss-translation">‘Earlier today, Pedro killed John’</p>
+      </div>
+      <p class="change-source">Adaptado de Anchieta, 1595.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Vestígio antigo</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Amõ îuká-potá-ø ûĩ s-ekó-û a-'é.</p>
+        <p class="gloss-morpheme">someone kill-want-GER 2P.VIS.DEM 3P.SUBJ-to.be-IND2 1P.SUBJ-conclude</p>
+        <p class="gloss-translation">‘I concluded that he wants to kill someone.’</p>
+      </div>
+      <p class="change-source"><em>Vocabulário na Língua Brasílica</em>, 1952, II, 16.</p>
+    </div>
+    <div class="change-example-card">
+      <p class="change-card-label">Nheengatu</p>
+      <div class="change-gloss">
+        <p class="gloss-original">xukũi pukura</p>
+        <p class="gloss-morpheme">EXIST.CONCR grape.black</p>
+        <p class="gloss-translation">‘Behold the black grape.’</p>
+      </div>
+      <p class="change-source">Cruz, 2011.</p>
+    </div>
+  </section>
+
+  <p class="change-keypoint">Uma morfologia antiga deixa de ser produtiva, mas sobrevive como vestígio gramaticalizado.</p>
+</div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide switch-reference-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">Switch reference: o sujeito ainda é o mesmo?</h1>
+
+  <section class="switch-reference-grid">
+    <div class="switch-panel">
+      <p class="switch-panel-label">Tupi Antigo: contraste morfológico</p>
+      <div class="switch-example-row">
+        <p class="switch-tag">Mesmo sujeito</p>
+        <div class="change-gloss">
+          <p class="gloss-original">A-nhe'eng gûi-xó-bo.</p>
+          <p class="gloss-morpheme">1SG-speak 1SG.GER-go-SS</p>
+          <p class="gloss-translation">‘I speak/spoke while going.’</p>
+        </div>
+      </div>
+      <div class="switch-example-row">
+        <p class="switch-tag">Sujeito diferente</p>
+        <div class="change-gloss">
+          <p class="gloss-original">A-nhe'eng nde-só-reme.</p>
+          <p class="gloss-morpheme">1SG-speak 2SG.CONJ-go-DS</p>
+          <p class="gloss-translation">‘I speak/spoke while you are/were going.’</p>
+        </div>
+      </div>
+      <p class="change-source">Anchieta, 1595, 29v.</p>
+    </div>
+    <div class="switch-panel">
+      <p class="switch-panel-label">Nheengatu: ramé cobre os dois casos</p>
+      <div class="switch-example-row">
+        <p class="switch-tag">Sujeito diferente</p>
+        <div class="change-gloss">
+          <p class="gloss-original">Awá ramé u-muaíwa Deus r-uka, Deus kurí u-xari...</p>
+          <p class="gloss-morpheme">anyone if 3-ruin God GEN-house, God FUT 3-make...</p>
+          <p class="gloss-translation">‘If anyone ruins God's temple, God will cause them to perish.’</p>
+        </div>
+      </div>
+      <div class="switch-example-row">
+        <p class="switch-tag">Mesmo sujeito</p>
+        <div class="change-gloss">
+          <p class="gloss-original">Ya-manú ramé, makití ya-sú?</p>
+          <p class="gloss-morpheme">1INCL-die when, to.where 1INCL-go</p>
+          <p class="gloss-translation">‘When we die, to where do we go?’</p>
+        </div>
+      </div>
+      <p class="change-source">Novo Testamento em Nyengatu, 2019; Aguiar, 1898.</p>
+    </div>
+  </section>
+
+  <p class="change-keypoint switch-keypoint">O sistema antigo escolhia a forma subordinada pelo sujeito; o Nheengatu deixa essa distinção para pronomes, ordem SVO e contexto.</p>
+</div>
+
+<!--
+No paper de switch reference, o levantamento de 62 citações com -(r/n)eme retorna 60 DS e 2 SS. Os dois casos SS encontrados não são de terceira pessoa. Para a oficina, a leitura principal é: no Tupi Antigo, -bo/-reme participa de um sistema de referência de sujeito; no Nheengatu, ramé aparece tanto com DS quanto com SS.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas change-block-slide change-closing-slide">
+  <p class="change-section-label">O que mudou do Tupi Antigo ao Nheengatu?</p>
+  <h1 class="slide-title pos-title-wide">O que mudou? O que ficou?</h1>
+
+  <section class="change-two-lists">
+    <div>
+      <p class="change-card-label">Perdeu ou reduziu</p>
+      <ul class="change-list">
+        <li>prefixos correferenciais</li>
+        <li>gerúndio antigo</li>
+        <li>switch reference por -bo / -reme</li>
+        <li>Indicativo II produtivo</li>
+        <li>composição fonética complexa</li>
+        <li>tempo nominal produtivo</li>
+        <li>parte do sistema vocálico antigo</li>
+      </ul>
+    </div>
+    <div>
+      <p class="change-card-label">Preservou e reanalisou</p>
+      <ul class="change-list">
+        <li>estativos</li>
+        <li>raízes tupi-guarani</li>
+        <li>partículas de futuro, negação e existência</li>
+        <li>estruturas antigas fossilizadas</li>
+        <li>estratégias próprias de uma língua viva de contato</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="change-final-line">Nheengatu não é “Tupi Antigo simplificado”: é uma continuação histórica reestruturada.</p>
+</div>

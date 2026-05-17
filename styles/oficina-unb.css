@@ -1140,6 +1140,330 @@
   vertical-align: super;
 }
 
+.change-block-slide {
+  box-sizing: border-box;
+  background: var(--oficina-bg);
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+}
+
+.change-section-label {
+  position: absolute;
+  left: 3.41%;
+  top: 5.15%;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.94rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.change-thesis-copy {
+  position: absolute;
+  left: 6.88%;
+  top: 27%;
+  width: 82%;
+  color: var(--oficina-title);
+  font-size: 1.48rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.change-thesis-copy p + p {
+  margin-top: 0.72rem !important;
+  color: var(--oficina-body);
+  font-weight: 400;
+}
+
+.change-card-grid {
+  position: absolute;
+  left: 5.6%;
+  right: 5.6%;
+  top: 47%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.86rem;
+}
+
+.change-card,
+.change-example-card,
+.change-two-lists > div {
+  border-top: 0.14rem solid rgba(245, 245, 245, 0.78);
+  background: rgba(18, 29, 33, 0.22);
+  padding: 0.78rem 0.86rem 0.86rem;
+}
+
+.change-card span,
+.change-card-label {
+  display: block;
+  margin-bottom: 0.52rem !important;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 1.04rem;
+  font-weight: 500;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.change-card p {
+  color: var(--oficina-title);
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.13;
+}
+
+.change-final-line {
+  position: absolute;
+  left: 6.88%;
+  right: 6.88%;
+  bottom: 7.3%;
+  border-left: 0.18rem solid #dcc06a;
+  padding-left: 1rem;
+  color: #fff5d6;
+  font-family: var(--oficina-heading);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+.change-comparison-grid {
+  position: absolute;
+  left: 5.6%;
+  right: 5.6%;
+  top: 25.4%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.change-comparison-grid.two-up {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.change-dense-grid {
+  gap: 0.78rem;
+}
+
+.change-example-card {
+  min-width: 0;
+  min-height: 13.2rem;
+  color: var(--oficina-body);
+  font-size: 1.02rem;
+  line-height: 1.15;
+}
+
+.change-dense-grid .change-example-card {
+  padding-left: 0.68rem;
+  padding-right: 0.68rem;
+}
+
+.change-example-card blockquote {
+  margin: 0 0 0.62rem !important;
+  border-left: 0.16rem solid #dcc06a;
+  background: rgba(18, 29, 33, 0.32);
+  color: #fff5d6;
+  font-family: var(--oficina-serif);
+  font-size: 1.44rem;
+  font-weight: 700;
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+  padding: 0.56rem 0.66rem 0.62rem 0.78rem;
+}
+
+.change-gloss {
+  border-left: 0.16rem solid #dcc06a;
+  background: rgba(18, 29, 33, 0.32);
+  padding: 0.56rem 0.64rem 0.62rem 0.74rem;
+}
+
+.change-gloss p + p {
+  margin-top: 0.28rem !important;
+}
+
+.gloss-original {
+  color: #fff5d6 !important;
+  font-family: var(--oficina-serif);
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  line-height: 1.08 !important;
+  overflow-wrap: anywhere;
+}
+
+.gloss-morpheme {
+  color: rgba(216, 221, 221, 0.82) !important;
+  font-family: var(--oficina-heading);
+  font-size: 0.84rem !important;
+  font-weight: 400 !important;
+  line-height: 1.08 !important;
+  overflow-wrap: anywhere;
+}
+
+.gloss-translation {
+  color: var(--oficina-title) !important;
+  font-size: 0.92rem !important;
+  font-weight: 700 !important;
+  line-height: 1.12 !important;
+}
+
+.change-dense-grid .gloss-original {
+  font-size: 0.96rem !important;
+}
+
+.change-dense-grid .gloss-morpheme {
+  font-size: 0.7rem !important;
+}
+
+.change-dense-grid .gloss-translation {
+  font-size: 0.78rem !important;
+}
+
+.change-example-card p {
+  color: var(--oficina-body);
+}
+
+.change-example-card p:not(.change-card-label):not(.change-source) {
+  color: var(--oficina-title);
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.change-source {
+  margin-top: 0.64rem !important;
+  border-top: 0.06rem solid rgba(220, 192, 106, 0.34);
+  padding-top: 0.46rem;
+  color: rgba(245, 245, 245, 0.66) !important;
+  font-size: 0.76rem;
+  line-height: 1.14;
+}
+
+.change-keypoint {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  bottom: 8.2%;
+  border-top: 0.08rem solid rgba(220, 192, 106, 0.72);
+  padding-top: 0.7rem;
+  color: var(--oficina-title);
+  font-family: var(--oficina-serif);
+  font-size: 1.32rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.switch-reference-grid {
+  position: absolute;
+  left: 5.6%;
+  right: 5.6%;
+  top: 25.2%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.02rem;
+  align-items: stretch;
+}
+
+.switch-panel {
+  min-width: 0;
+  border-top: 0.14rem solid rgba(245, 245, 245, 0.78);
+  background: rgba(18, 29, 33, 0.22);
+  padding: 0.68rem 0.74rem 0.74rem;
+}
+
+.switch-panel-label {
+  margin-bottom: 0.58rem !important;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.98rem;
+  font-weight: 500;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.switch-example-row {
+  display: grid;
+  gap: 0.26rem;
+}
+
+.switch-example-row + .switch-example-row {
+  margin-top: 0.52rem;
+}
+
+.switch-tag {
+  color: rgba(216, 221, 221, 0.72) !important;
+  font-family: var(--oficina-heading);
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  text-transform: uppercase;
+}
+
+.switch-reference-slide .change-gloss {
+  padding: 0.45rem 0.54rem 0.5rem 0.62rem;
+}
+
+.switch-reference-slide .gloss-original {
+  font-size: 0.92rem !important;
+}
+
+.switch-reference-slide .gloss-morpheme {
+  font-size: 0.65rem !important;
+}
+
+.switch-reference-slide .gloss-translation {
+  font-size: 0.74rem !important;
+}
+
+.switch-reference-slide .change-source {
+  margin-top: 0.54rem !important;
+  font-size: 0.68rem;
+}
+
+.switch-keypoint {
+  bottom: 6.8%;
+  font-size: 1.04rem;
+}
+
+.change-two-lists {
+  position: absolute;
+  left: 5.6%;
+  right: 5.6%;
+  top: 25.5%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.18rem;
+}
+
+.slidev-layout.oficina-unb .change-list {
+  display: grid;
+  gap: 0.36rem;
+  list-style: none;
+  padding: 0;
+}
+
+.slidev-layout.oficina-unb .change-list li {
+  position: relative;
+  padding-left: 1.05rem;
+  color: var(--oficina-title);
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.slidev-layout.oficina-unb .change-list li::before {
+  position: absolute;
+  left: 0;
+  top: -0.03rem;
+  color: #dcc06a;
+  content: "•";
+}
+
+.change-closing-slide .change-final-line {
+  font-size: 1.58rem;
+}
+
 .amazonia-slide .slide-title {
   line-height: 1.02;
 }

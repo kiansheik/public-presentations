@@ -103,3 +103,12 @@ Verified on 2026-05-17:
 - The Pai Nosso slide CSS now uses a grid with height-responsive spacing and enlarged type sizing so the table fills the available slide area without the white document-page treatment.
 - `npm run build`, `git diff --check`, generated-module raw-HTML marker checks, and a headless DOM layout check on `http://localhost:3033/56` succeed; the final DOM check reports no overflow and table/body/header/caption font sizes of roughly `10.24px` / `12.16px` / `10.88px` inside the Slidev canvas. No screenshots were taken.
 - A local Slidev dev server is running at `http://localhost:3033/` for review.
+- Added an eight-slide grammar-change block after the Pai Nosso slide: `Continuidade não significa imobilidade`, estative continuity, gerund loss, negation shift to `ti`, future shift to `kurí`, less phonetic fusion, Indicative II fossilization, and a closing changed/preserved synthesis.
+- Added `change-*` CSS classes in `styles/oficina-unb.css` for the grammar-change cards, comparison examples, key points, and closing two-column list.
+- `npm run build`, `git diff --check`, generated-module raw-HTML marker checks, generated-title checks, and a headless DOM bounds check for slides 57-64 succeed after the grammar-change block. No screenshots were taken.
+- Replaced shortened examples in the grammar-change slides with full original/gloss/translation blocks from `/Users/kian/code/latex/nheengatu_loss/main.tex`, the LaTeX source adjacent to the user-provided `main.pdf`.
+- `pdftotext` was unavailable in this environment, so the checked-in paper source was used to preserve the `\gla`, `\glb`, and `\glft` lines exactly.
+- `npm run build`, `git diff --check`, generated-module checks for the full example strings, raw-HTML marker checks, and headless DOM bounds checks for slides 57-64 succeed after the full-gloss pass. No screenshots were taken.
+- Added a dedicated switch-reference slide before the grammar-change synthesis slide, using examples from `/Users/kian/code/latex/swith_ref_tupi_2025/main.tex` plus the Nheengatu `ramé` examples from `/Users/kian/code/latex/nheengatu_loss/main.tex`.
+- Added `switch-*` CSS in `styles/oficina-unb.css` for the new two-panel switch-reference layout; the generated slide is `slidev_64`, and the closing synthesis moved to `slidev_65`.
+- `npm run build`, `git diff --check`, generated-module content checks, generated `<pre>/<code` checks, and `curl -I http://localhost:3033/64` succeed after the switch-reference slide. No screenshots were taken.
