@@ -95,3 +95,6 @@ Verified on 2026-05-17:
 - The simplified slide now shows only the Brazil/Amazônia sequence requested by the user: `lingva mais vsada na costa do Brasil` (Anchieta, 1595), `lingoa brasílica` (Araújo, 1618), `língua geral dos Tupynambás` (Manoel Gomes, 1616), and `Nheengatu` (Seixas, 1853).
 - Replaced the dense proportional rail/comparative-language layout with a four-card `name-sequence-*` layout in `styles/oficina-unb.css`.
 - `npm run build` and `git diff --check` succeed after the simplified name-sequence slide; generated checks find the new slide module without raw HTML code markers.
+- Added a concise Pombal/Diretório bridge slide, `Quando o Estado tenta substituir a Língua Geral`, after the names/descriptions synthesis and before the Nheengatu-name detail slides.
+- Retitled the following transition slide to `Depois da repressão, o nome Nheengatu` and reframed its text around post-Diretório naming rather than only asking when the name appears.
+- `npm run build` and `git diff --check` succeed after the Pombal bridge; generated checks find the new `slidev_51` bridge and `slidev_52` transition without raw HTML code markers.

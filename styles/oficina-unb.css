@@ -980,6 +980,77 @@
   width: 91%;
 }
 
+.prayer-table-slide .slide-title {
+  top: 4.8%;
+  font-size: 1.96rem;
+  line-height: 1.02;
+}
+
+.prayer-table-subtitle {
+  position: absolute;
+  left: 3.41%;
+  right: 3.41%;
+  top: 12.4%;
+  color: var(--oficina-muted);
+  font-family: var(--oficina-serif);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.prayer-table {
+  position: absolute;
+  left: 3.41%;
+  right: 3.41%;
+  top: 18.6%;
+  display: grid;
+  grid-template-columns: 1.9rem minmax(0, 1fr) minmax(0, 1.18fr) minmax(0, 0.88fr);
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+  font-size: 0.49rem;
+  line-height: 1.12;
+  border-top: 0.06rem solid rgba(216, 221, 221, 0.42);
+  border-left: 0.06rem solid rgba(216, 221, 221, 0.22);
+}
+
+.prayer-table > div {
+  min-width: 0;
+  padding: 0.26rem 0.34rem;
+  border-right: 0.06rem solid rgba(216, 221, 221, 0.22);
+  border-bottom: 0.06rem solid rgba(216, 221, 221, 0.22);
+  overflow-wrap: break-word;
+}
+
+.prayer-head {
+  color: var(--oficina-title);
+  font-family: var(--oficina-heading);
+  font-size: 0.66rem;
+  font-weight: 500;
+  line-height: 1;
+  background: rgba(16, 30, 34, 0.22);
+}
+
+.prayer-num {
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.62rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.prayer-table-note {
+  position: absolute;
+  left: 3.41%;
+  right: 3.41%;
+  bottom: 3.9%;
+  color: rgba(216, 221, 221, 0.82);
+  font-family: var(--oficina-serif);
+  font-size: 0.58rem;
+  line-height: 1.15;
+  border-top: 0.06rem solid rgba(216, 221, 221, 0.3);
+  padding-top: 0.34rem;
+}
+
 .amazonia-slide .slide-title {
   line-height: 1.02;
 }
@@ -1369,6 +1440,63 @@
   font-size: 1.22rem;
   font-weight: 700;
   line-height: 1.15;
+}
+
+.pombal-source-block {
+  position: absolute;
+  left: 3.41%;
+  top: 20.4%;
+  width: 58.8%;
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+}
+
+.pombal-source-block .source-kicker {
+  margin-bottom: 0.58rem !important;
+  color: #dcc06a;
+  font-size: 0.78rem;
+}
+
+.pombal-source-block blockquote {
+  border-left: 0.16rem solid rgba(220, 192, 106, 0.8);
+  padding-left: 0.78rem;
+  color: var(--oficina-title);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.pombal-source-block strong {
+  color: #dcc06a;
+  font-weight: 700;
+}
+
+.pombal-source-block .source {
+  margin-top: 0.58rem !important;
+  font-size: 0.66rem;
+}
+
+.pombal-argument-block {
+  position: absolute;
+  left: 65.2%;
+  top: 27.5%;
+  width: 28.7%;
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+  font-size: 1.02rem;
+  line-height: 1.18;
+}
+
+.pombal-argument-block p + p {
+  margin-top: 0.82rem !important;
+}
+
+.pombal-argument-block .amazonia-keypoint {
+  margin-top: 1.06rem;
+}
+
+.pombal-argument-block .amazonia-keypoint p:last-child {
+  font-size: 1.1rem;
 }
 
 .amazonia-two-column {

@@ -71,3 +71,5 @@
 - Added `name-timeline-*` CSS for the proportional rail and dense staggered labels; verified with `npm run build`, `git diff --check`, and generated slide-module raw-HTML checks.
 - Simplified that dense names/glottonyms slide into `Quatro nomes na documentação`, limited to the Brazil/Amazônia labels requested by the user: Anchieta 1595, Araújo 1618, Manoel Gomes 1616, and Seixas 1853.
 - Replaced the proportional timeline styling with a four-card `name-sequence-*` layout, moved the simplified slide before the Nheengatu detail slides, and re-verified with `npm run build`, `git diff --check`, generated-module content checks, and raw-HTML marker checks.
+- Added a single Pombal/Diretório bridge slide between the names/descriptions synthesis and the Nheengatu-name detail slides, framing the Diretório as the state attempt to impose Portuguese and restrict Língua Geral.
+- Retitled the Nheengatu transition to `Depois da repressão, o nome Nheengatu`; verified with `npm run build`, `git diff --check`, and generated-module checks for the new bridge/transition slides.

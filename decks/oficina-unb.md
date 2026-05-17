@@ -978,6 +978,54 @@ class: oficina-unb
   </section>
 </div>
 
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas prayer-table-slide">
+  <h1 class="slide-title pos-title-wide">Pai Nosso: Tupi Antigo, Nheengatu e português</h1>
+  <p class="prayer-table-subtitle">Comparação textual de Mt 6.9–13. “Tupi Antigo” é rótulo acadêmico moderno: aparece pelo menos em Ayrosa (1933) e se consolida em Barbosa (1956).</p>
+
+  <section class="prayer-table">
+    <div class="prayer-head"></div>
+    <div class="prayer-head">Tupi Antigo</div>
+    <div class="prayer-head">Nheengatu</div>
+    <div class="prayer-head">Português</div>
+
+    <div class="prayer-num">1</div>
+    <div>oré rub ybakype tekoar<br>imoetepyramo toîkó nde rera.</div>
+    <div>Inde yanepaya iwaka kiti,<br>purangawaa nerera,</div>
+    <div>Pai nosso que estás no céu,<br>santificado seja o teu nome.</div>
+
+    <div class="prayer-num">2</div>
+    <div>tour nde Reino.</div>
+    <div>Reyuiriana yanepiri<br>yaneruixawa arama inde,</div>
+    <div>Venha o teu Reino.</div>
+
+    <div class="prayer-num">3</div>
+    <div>toîemonhang nde remimotara ybype<br>ybakype i îemonhanga îabé.</div>
+    <div>rexari yamunya kuaye reputariwaa yawe ike kua mundu upe<br>aintayawe kuaita iwaka kitiwaraita.</div>
+    <div>Seja feita a tua vontade,<br>assim na terra como no céu.</div>
+
+    <div class="prayer-num">4</div>
+    <div>oré rembi’u ’ara îabi’õndûara<br>eîme’eng kori orébo.</div>
+    <div>Remee yande arama<br>yambau arama muiri ara.</div>
+    <div>O pão nosso de cada dia<br>dá-nos hoje.</div>
+
+    <div class="prayer-num">5</div>
+    <div>ndenhyrõ oré angaîpaba resé orébo<br>orérerekomemûãsara supé orénhyrõ îabé.</div>
+    <div>Reperduari yande neirumu isui kua yamunyawaa inde arama puxuwera kuaye<br>yaperduariwaa yawe yaneirumu kuaita umunyawaita yande arama puxuwera.</div>
+    <div>Perdoa-nos as nossas ofensas,<br>assim como nós perdoamos a quem nos tem ofendido.</div>
+
+    <div class="prayer-num">6</div>
+    <div>orémo’arukar umẽ îepé tentação pupé.<br>orépysyrõte îepé mba’eaíba suí.</div>
+    <div>Terexari amu uganani yande yamunya arama puxuwera maa<br>reyuka yande isui kua puxuwerawa.</div>
+    <div>E não nos deixes cair em tentação,<br>mas livra-nos do mal.</div>
+  </section>
+
+  <p class="prayer-table-note">Fontes: Araújo, 1952; Missão Novas Tribos do Brasil, 2019, Mateus 6.9–13. A grafia do Novo Testamento em Nyengatu (2019) não é a grafia apoiada pela FOIR.</p>
+</div>
+
 <!--
 Até aqui, nós vimos o Tupi Antigo como uma língua de ampla circulação na costa e como corpus escrito clássico: Anchieta, Araújo, Figueira, vocabulários, catecismos. Agora entramos em outro cenário: a Amazônia colonial. Ali, a língua geral continua sendo central, mas o ambiente social é outro. A língua passa a circular em aldeamentos e vilas com povos de origens linguísticas muito diversas, muitas vezes trazidos por descimentos, guerra, escravização, epidemias e recomposição populacional.
 
@@ -1530,15 +1578,49 @@ Atenção: “língua geral dos Tupynambás” não deve aparecer como o primeir
 
 Para o VLB, marcar “séc. XVII? / ed. 1952” evita confundir a data do manuscrito com a data da edição moderna. Para Seixas, 1853 é a data da fonte publicada que você está usando.
 -->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide pombal-slide">
+  <h1 class="slide-title pos-title-wide">Quando o Estado tenta substituir a Língua Geral</h1>
+
+  <section class="pombal-source-block">
+    <p class="source-kicker">A linguagem do Diretório dos Índios, §6</p>
+    <blockquote>
+      “Sempre foi máxima inevitavelmente praticada em todas as nações, que conquistaram novos domínios, introduzir logo nos povos conquistados o seu próprio idioma, por ser indisputável que este é um dos meios mais eficazes para desterrar dos povos rústicos a barbaridade dos seus antigos costumes e ter mostrado a experiência que, ao mesmo tempo que se introduz neles o uso da língua do príncipe que os conquistou, se lhes radica também o afeto, a veneração e a obediência ao mesmo príncipe. Observando, pois, todas as nações polidas do mundo este prudente e sólido sistema, nesta Conquista se praticou tanto pelo contrário, que só cuidaram os primeiros conquistadores estabelecer nela o uso da <strong>lingua que chamam geral</strong>, invenção verdadeiramente <strong>abominável e diabólica</strong>, para que, privados os índios de todos aqueles meios que os podiam civilizar, permanecessem na rústica e bárbara sujeição em que até agora se conservaram. Para desterrar este pernicioso abuso será um dos principais cuidados dos diretores estabelecer nas suas respectivas povoações o uso da <strong>lingua portuguesa</strong>, não consentindo por modo algum que os meninos e meninas que pertencem às escolas e todos aqueles índios que forem capazes de instrução nessas matérias usem a língua própria das suas nações, ou da chamada geral, mas unicamente a portuguesa, na forma que sua Majestade tem recomendado em repetidas ordens, que até agora não observaram, com total ruína espiritual e temporal do Estado.”
+    </blockquote>
+    <p class="source">(DIRECTORIO..., 1757)</p>
+  </section>
+
+  <section class="pombal-argument-block">
+    <p><strong>Diretório dos Índios</strong>: 1757, confirmado por alvará régio em 1758.</p>
+    <p>A política pombalina tenta impor o português e restringir o uso das línguas indígenas e da língua geral nas escolas e povoações.</p>
+    <div class="amazonia-keypoint">
+      <p class="point-label">Ponto-chave</p>
+      <p>Uma língua irrelevante não precisaria ser combatida com tanta força.</p>
+    </div>
+    <p class="source">Cf. <em>Diretório dos Índios</em>; Damasceno, 2014; Museu da Língua Portuguesa.</p>
+  </section>
+</div>
+
+<!--
+Esta é uma ponte curta, não um novo bloco histórico. O objetivo é marcar a ruptura política pombalina entre a Língua Geral como infraestrutura colonial cotidiana e a história posterior de repressão, sobrevivência e renomeação.
+
+Use 1757 como data do Diretório no Estado do Grão-Pará e Maranhão, mas mencione oralmente que ele foi confirmado em 1758. Isso evita simplificar demais a cronologia legal.
+-->
+
 ---
 class: oficina-unb
 ---
 
 <div class="oficina-canvas amazonia-slide">
-  <h1 class="slide-title pos-title-wide">Quando aparece o nome “Nheengatu”?</h1>
+  <h1 class="slide-title pos-title-wide">Depois da repressão, o nome Nheengatu</h1>
 
   <section class="amazonia-block continuity-block">
-    <p>Até aqui, acompanhamos a <strong>Língua Geral</strong> como uma língua de contato em mudança.</p>
+    <p>Depois do Diretório, a pergunta não é só como a <strong>Língua Geral</strong> continuou.</p>
+    <p>Também precisamos perguntar como ela passou a ser nomeada.</p>
     <p>Agora podemos separar duas perguntas:</p>
     <div class="amazonia-contrast">
       <div>
