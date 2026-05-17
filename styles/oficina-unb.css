@@ -2057,3 +2057,591 @@
   font-weight: 700;
   line-height: 1.14;
 }
+
+.ms1089-slide {
+  box-sizing: border-box;
+  background: var(--oficina-bg);
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+}
+
+.ms1089-slide .slide-title {
+  top: 8.2%;
+  font-size: 2.28rem;
+  line-height: 1.02;
+}
+
+.ms1089-section-label {
+  position: absolute;
+  left: 3.41%;
+  top: 5.15%;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.ms1089-hero-grid,
+.ms1089-comparison-grid,
+.ms1089-rule-grid,
+.ms1089-evidence-grid,
+.ms1089-trajectory-grid,
+.ms1089-position-grid {
+  position: absolute;
+  left: 5.6%;
+  right: 5.6%;
+  top: 25.4%;
+  display: grid;
+  gap: 1rem;
+}
+
+.ms1089-hero-grid {
+  grid-template-columns: minmax(0, 1.16fr) minmax(0, 0.84fr);
+  align-items: stretch;
+}
+
+.ms1089-comparison-grid,
+.ms1089-rule-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ms1089-evidence-grid {
+  grid-template-columns: minmax(0, 0.74fr) minmax(0, 1.26fr);
+}
+
+.ms1089-trajectory-grid,
+.ms1089-position-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ms1089-document-card,
+.ms1089-argument-card,
+.ms1089-example-panel,
+.ms1089-rule-card,
+.ms1089-evidence-card,
+.ms1089-step-card,
+.ms1089-position-card {
+  min-width: 0;
+  border-top: 0.14rem solid rgba(245, 245, 245, 0.78);
+  background: rgba(18, 29, 33, 0.22);
+  padding: 0.78rem 0.86rem 0.86rem;
+}
+
+.ms1089-highlight-panel,
+.ms1089-position-card.active {
+  border-top-color: #dcc06a;
+  background: rgba(220, 192, 106, 0.1);
+}
+
+.ms1089-kicker,
+.ms1089-card-label {
+  display: block;
+  margin-bottom: 0.56rem !important;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.ms1089-document-title {
+  color: var(--oficina-title) !important;
+  font-size: 1.23rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.ms1089-document-card blockquote {
+  margin-top: 0.92rem !important;
+  border-left: 0.16rem solid #dcc06a;
+  background: rgba(18, 29, 33, 0.32);
+  padding: 0.58rem 0.72rem 0.62rem 0.82rem;
+  color: #fff5d6;
+  font-family: var(--oficina-serif);
+  font-size: 1.36rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.ms1089-source,
+.ms1089-footsource {
+  color: rgba(245, 245, 245, 0.64) !important;
+  font-size: 0.68rem;
+  line-height: 1.14;
+}
+
+.ms1089-source {
+  margin-top: 0.72rem !important;
+  border-top: 0.06rem solid rgba(220, 192, 106, 0.34);
+  padding-top: 0.48rem;
+}
+
+.ms1089-argument-card p:not(.ms1089-card-label),
+.ms1089-rule-card p:not(.ms1089-card-label):not(.ms1089-rule-form),
+.ms1089-evidence-card p:not(.ms1089-card-label):not(.ms1089-note),
+.ms1089-position-card p:not(.ms1089-card-label) {
+  color: var(--oficina-title);
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.ms1089-argument-card p + p {
+  margin-top: 0.86rem !important;
+}
+
+.ms1089-argument-card strong {
+  color: #fff5d6;
+}
+
+.ms1089-slide .change-gloss {
+  padding: 0.52rem 0.62rem 0.58rem 0.72rem;
+}
+
+.ms1089-slide .gloss-original {
+  font-size: 1.1rem !important;
+}
+
+.ms1089-slide .gloss-morpheme {
+  font-size: 0.72rem !important;
+}
+
+.ms1089-slide .gloss-translation {
+  font-size: 0.86rem !important;
+}
+
+.ms1089-note {
+  margin-top: 0.62rem !important;
+  color: rgba(216, 221, 221, 0.78) !important;
+  font-family: var(--oficina-heading);
+  font-size: 0.78rem;
+  line-height: 1.12;
+  text-transform: uppercase;
+}
+
+.ms1089-note strong {
+  color: #dcc06a;
+  font-weight: 500;
+}
+
+.ms1089-keypoint {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  bottom: 11.6%;
+  border-top: 0.08rem solid rgba(220, 192, 106, 0.72);
+  padding-top: 0.68rem;
+  color: var(--oficina-title);
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.ms1089-footsource {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  bottom: 6.2%;
+}
+
+.ms1089-rule-form {
+  margin-bottom: 0.72rem !important;
+  color: #fff5d6 !important;
+  font-family: var(--oficina-heading);
+  font-size: 2.15rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.ms1089-rule-card.muted {
+  border-top-color: rgba(216, 221, 221, 0.5);
+}
+
+.ms1089-mini-contrast {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.72rem;
+}
+
+.ms1089-mini-contrast div {
+  border-left: 0.14rem solid #dcc06a;
+  background: rgba(18, 29, 33, 0.32);
+  padding: 0.56rem 0.64rem 0.62rem;
+}
+
+.ms1089-mini-contrast span {
+  display: block;
+  margin-bottom: 0.42rem;
+  color: rgba(216, 221, 221, 0.72);
+  font-family: var(--oficina-heading);
+  font-size: 0.68rem;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.ms1089-mini-contrast p {
+  color: #fff5d6 !important;
+  font-size: 1.26rem !important;
+  font-weight: 700 !important;
+  line-height: 1.08 !important;
+}
+
+.ms1089-evidence-card.wide .ms1089-note {
+  margin-top: 0.54rem !important;
+}
+
+.ms1089-trajectory-slide .slide-title {
+  font-size: 2.16rem;
+}
+
+.ms1089-trajectory-line {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  bottom: 15.5%;
+  border-left: 0.18rem solid #dcc06a;
+  padding-left: 1rem;
+  color: #fff5d6;
+  font-family: var(--oficina-heading);
+  font-size: 2.15rem;
+  font-weight: 500;
+  line-height: 1.04;
+}
+
+.ms1089-trajectory-slide .ms1089-footsource {
+  bottom: 7.3%;
+}
+
+.ms1089-position-card {
+  min-height: 12.2rem;
+}
+
+.ms1089-position-card p:not(.ms1089-card-label) {
+  font-size: 1.26rem;
+  line-height: 1.1;
+}
+
+.ms1089-position-card span {
+  display: block;
+  margin-top: 0.78rem;
+  border-top: 0.06rem solid rgba(220, 192, 106, 0.34);
+  padding-top: 0.58rem;
+  color: rgba(216, 221, 221, 0.76);
+  font-size: 0.8rem;
+  line-height: 1.16;
+}
+
+.retomada-slide {
+  box-sizing: border-box;
+  background:
+    linear-gradient(90deg, rgba(18, 29, 33, 0.32), rgba(55, 71, 79, 0) 58%),
+    var(--oficina-bg);
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+}
+
+.retomada-slide .slide-title {
+  top: 8%;
+  font-size: 2.28rem;
+  line-height: 1.02;
+}
+
+.retomada-section-label {
+  position: absolute;
+  left: 3.41%;
+  top: 5.15%;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.retomada-card-label {
+  display: block;
+  margin-bottom: 0.56rem !important;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.retomada-left-stack {
+  position: absolute;
+  left: 5.6%;
+  top: 25.2%;
+  width: 42.2%;
+  display: grid;
+  gap: 0.82rem;
+}
+
+.retomada-left-stack.compact {
+  top: 23.6%;
+  gap: 0.78rem;
+}
+
+.retomada-statement-card,
+.retomada-bullets-card,
+.retomada-word-panel,
+.retomada-modern-card,
+.retomada-closing-card {
+  min-width: 0;
+  border-top: 0.14rem solid rgba(245, 245, 245, 0.72);
+  background: rgba(18, 29, 33, 0.26);
+  padding: 0.78rem 0.86rem 0.86rem;
+}
+
+.retomada-statement-card.active,
+.retomada-bullets-card {
+  border-top-color: #dcc06a;
+  background: rgba(220, 192, 106, 0.1);
+}
+
+.retomada-statement-card p:not(.retomada-card-label),
+.retomada-bullets-card p:not(.retomada-card-label),
+.retomada-modern-card p:not(.retomada-card-label),
+.retomada-closing-card p:not(.retomada-card-label) {
+  color: var(--oficina-title);
+  font-size: 1.06rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.retomada-statement-card.active p:not(.retomada-card-label) {
+  color: #fff5d6;
+  font-size: 1.25rem;
+}
+
+.retomada-pill-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.42rem;
+}
+
+.retomada-pill-grid span {
+  border-left: 0.12rem solid rgba(220, 192, 106, 0.78);
+  background: rgba(245, 245, 245, 0.08);
+  padding: 0.38rem 0.44rem 0.42rem;
+  color: var(--oficina-title);
+  font-family: var(--oficina-heading);
+  font-size: 0.82rem;
+  line-height: 1.04;
+}
+
+.retomada-list {
+  margin: 0;
+  padding-left: 1.08rem;
+  color: var(--oficina-title);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.17;
+}
+
+.retomada-list li + li {
+  margin-top: 0.36rem;
+}
+
+.retomada-keypoint {
+  position: absolute;
+  left: 5.6%;
+  bottom: 11.4%;
+  width: 42.2%;
+  border-top: 0.08rem solid rgba(220, 192, 106, 0.72);
+  padding-top: 0.68rem;
+  color: var(--oficina-title);
+  font-size: 1.14rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.retomada-keypoint.inline {
+  position: static;
+  width: auto;
+  margin-top: 0 !important;
+  font-size: 1.03rem;
+}
+
+.retomada-source {
+  position: absolute;
+  left: 5.6%;
+  right: 5.6%;
+  bottom: 5.6%;
+  color: rgba(245, 245, 245, 0.66);
+  font-size: 0.68rem;
+  line-height: 1.14;
+}
+
+.retomada-source-image {
+  position: absolute;
+  right: 5.2%;
+  width: 39.4%;
+  border: 0.08rem solid rgba(245, 245, 245, 0.2);
+  box-shadow: 0 1.15rem 2.3rem rgba(10, 16, 18, 0.36);
+  object-fit: cover;
+}
+
+.retomada-source-context,
+.retomada-source-contemporary {
+  top: 17.6%;
+  height: 67.4%;
+  object-position: 50% 54%;
+}
+
+.retomada-source-retomadas {
+  top: 18.2%;
+  height: 67.2%;
+}
+
+.retomada-source-retomadas.top-focus {
+  object-position: 50% 29%;
+}
+
+.retomada-source-retomadas.middle-focus {
+  object-position: 50% 52%;
+}
+
+.retomada-source-retomadas.bottom-focus {
+  object-position: 50% 82%;
+}
+
+.retomada-vocab-grid {
+  position: absolute;
+  left: 5.6%;
+  top: 24.2%;
+  width: 42.2%;
+  display: grid;
+  gap: 0.78rem;
+}
+
+.retomada-word-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.44rem;
+}
+
+.retomada-word-cloud span {
+  border-left: 0.14rem solid #dcc06a;
+  background: rgba(245, 245, 245, 0.08);
+  padding: 0.34rem 0.5rem 0.4rem;
+  color: #fff5d6;
+  font-family: var(--oficina-heading);
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.retomada-vocab-slide .retomada-keypoint {
+  bottom: 13.2%;
+}
+
+.retomada-modern-grid {
+  position: absolute;
+  left: 5.6%;
+  top: 24%;
+  width: 39.8%;
+  display: grid;
+  gap: 0.74rem;
+}
+
+.retomada-modern-card {
+  padding: 0.7rem 0.82rem 0.76rem;
+}
+
+.retomada-modern-card p:not(.retomada-card-label) {
+  font-size: 0.98rem;
+}
+
+.retomada-media-collage {
+  position: absolute;
+  right: 4.2%;
+  top: 14.6%;
+  width: 48.2%;
+  height: 70.6%;
+}
+
+.retomada-media-img {
+  position: absolute;
+  border: 0.08rem solid rgba(245, 245, 245, 0.2);
+  box-shadow: 0 0.92rem 1.75rem rgba(10, 16, 18, 0.32);
+  object-fit: cover;
+}
+
+.retomada-media-img.media-dic {
+  left: 0;
+  top: 7%;
+  width: 47%;
+  height: 44%;
+  object-position: 50% 26%;
+}
+
+.retomada-media-img.media-gint {
+  right: 3%;
+  top: 0;
+  width: 47%;
+  height: 42%;
+  object-position: 50% 28%;
+}
+
+.retomada-media-img.media-trad {
+  left: 8%;
+  bottom: 0;
+  width: 44%;
+  height: 45%;
+  object-position: 50% 24%;
+}
+
+.retomada-media-img.media-quiz {
+  right: 0;
+  bottom: 5%;
+  width: 43%;
+  height: 39%;
+  object-position: 50% 18%;
+}
+
+.retomada-media-slide .retomada-source {
+  left: 5.6%;
+  right: 5.6%;
+}
+
+.retomada-closing-grid {
+  position: absolute;
+  left: 5.8%;
+  right: 5.8%;
+  top: 24.4%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.78rem;
+}
+
+.retomada-closing-card {
+  min-height: 12.1rem;
+}
+
+.retomada-closing-card p:not(.retomada-card-label) {
+  font-size: 1.02rem;
+  line-height: 1.16;
+}
+
+.retomada-final-line {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  bottom: 15.5%;
+  border-left: 0.18rem solid #dcc06a;
+  padding-left: 1rem;
+  color: #fff5d6;
+  font-family: var(--oficina-heading);
+  font-size: 2.05rem;
+  font-weight: 500;
+  line-height: 1.04;
+}
+
+.retomada-closing-slide .retomada-source {
+  bottom: 7.2%;
+}

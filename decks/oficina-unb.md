@@ -1467,6 +1467,202 @@ Esse é o fecho do bloco: não é continuidade sem mudança, nem invenção sem 
 class: oficina-unb
 ---
 
+<div class="oficina-canvas ms1089-slide ms1089-transition-slide">
+  <p class="ms1089-section-label">Língua Geral Amazônica em transição</p>
+  <h1 class="slide-title pos-title-wide">Um manuscrito de transição</h1>
+  <section class="ms1089-hero-grid">
+    <div class="ms1089-document-card">
+      <p class="ms1089-kicker">Biblioteca da Universidade de Coimbra, ms. 1089</p>
+      <p class="ms1089-document-title"><em>Doutrina christaã em lingoa geral dos Indios do Estado do Brasil e Maranhão...</em></p>
+      <blockquote>“traduzida em lingoa geral e irregular, e vulgar uzada nesses tempos”</blockquote>
+      <p class="ms1089-source">Barros &amp; Monserrat, 2015, p. 240, 244; BUC, ms. 1089, s.d.</p>
+    </div>
+    <div class="ms1089-argument-card">
+      <p class="ms1089-card-label">Ponto-chave</p>
+      <p>Este manuscrito já não representa simplesmente a norma clássica da Língua Brasílica impressa.</p>
+      <p>Ele se apresenta como tradução para a Língua Geral <strong>vulgar</strong> usada naquele tempo.</p>
+    </div>
+  </section>
+</div>
+
+<!--
+Este é um documento perfeito para a transição. Não estamos ainda no Nheengatu moderno, mas também já não estamos simplesmente na norma de Anchieta, Araújo ou Figueira. O próprio título diz que se trata de uma tradução para a língua geral “irregular” e “vulgar” usada naquele momento. Isso mostra uma fase intermediária da Língua Geral Amazônica.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas ms1089-slide">
+  <p class="ms1089-section-label">Língua Geral Amazônica em transição</p>
+  <h1 class="slide-title pos-title-wide">Duas formas de dizer “não tem corpo”</h1>
+  <section class="ms1089-comparison-grid">
+    <div class="ms1089-example-panel">
+      <p class="ms1089-card-label">Catecismo oficial de 1740</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Nacetei.</p>
+        <p class="gloss-morpheme">n-a-c-eté-i</p>
+        <p class="gloss-translation">“Não tem corpo.”</p>
+      </div>
+      <p class="ms1089-note">negação clássica: <strong>n-...-i</strong></p>
+    </div>
+    <div class="ms1089-example-panel ms1089-highlight-panel">
+      <p class="ms1089-card-label">Doutrina vulgar, ms. 1089</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Nitíu ceté.</p>
+        <p class="gloss-morpheme">nitíu c-eté</p>
+        <p class="gloss-translation">“Não tem corpo.”</p>
+      </div>
+      <p class="ms1089-note">forma vulgar: <strong>nitíu</strong></p>
+    </div>
+  </section>
+  <p class="ms1089-keypoint">A mesma resposta catequética aparece em duas normas diferentes: uma conserva a moldura clássica, outra usa uma forma vulgar já mais independente.</p>
+  <p class="ms1089-footsource">Doutrina Christam de 1740 apud Códice 1757, fl. 132; <em>Doutrina</em>, ms. 1089, fl. 10, apud Barros &amp; Monserrat, 2015, p. 244.</p>
+</div>
+
+<!--
+Aqui está o exemplo mais claro. A pergunta é quase a mesma: Deus tem corpo como nós? Na versão oficial de 1740, a resposta mantém a negação clássica do Tupi Antigo: n-...-i. No manuscrito 1089, aparece “Nitíu ceté”. Essa forma já aponta para a trajetória que vai levar ao “ti” negativo do Nheengatu.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas ms1089-slide">
+  <p class="ms1089-section-label">Língua Geral Amazônica em transição</p>
+  <h1 class="slide-title pos-title-wide">O catecismo oficial conserva a norma antiga</h1>
+  <section class="ms1089-rule-grid">
+    <div class="ms1089-rule-card">
+      <p class="ms1089-card-label">Norma aprovada</p>
+      <p class="ms1089-rule-form">n-...-i</p>
+      <p>o padrão das obras impressas e da tradição catequética clássica</p>
+    </div>
+    <div class="ms1089-rule-card muted">
+      <p class="ms1089-card-label">Forma excluída</p>
+      <p class="ms1089-rule-form">nitio / nitíu</p>
+      <p>a regra associada ao tupi “corrupto” ou vulgar em circulação</p>
+    </div>
+  </section>
+  <p class="ms1089-keypoint">A hierarquia jesuítica ainda tentava manter o Tupi catequético antigo; o ms. 1089 leva a variedade vulgar para dentro do catecismo.</p>
+  <p class="ms1089-footsource">Barros, 2003, p. 145.</p>
+</div>
+
+<!--
+Isto mostra que a diferença não é acidental. A hierarquia jesuítica sabia que havia uma forma vulgar em circulação, mas o catecismo oficial de 1740 opta pela forma tradicional. O manuscrito 1089 faz a escolha oposta: leva a variedade vulgar para dentro do gênero catequético.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas ms1089-slide">
+  <p class="ms1089-section-label">Língua Geral Amazônica em transição</p>
+  <h1 class="slide-title pos-title-wide">Antes de “ti”: nitio / nitíu</h1>
+  <section class="ms1089-evidence-grid">
+    <div class="ms1089-evidence-card">
+      <p class="ms1089-card-label">1739</p>
+      <p>Barros menciona o dicionário português-tupi de <strong>Frei João de Arronches</strong> como o documento datado mais antigo com essa forma.</p>
+    </div>
+    <div class="ms1089-evidence-card wide">
+      <p class="ms1089-card-label">Eckart contrapõe duas normas</p>
+      <div class="ms1089-mini-contrast">
+        <div>
+          <span>modo “genuíno” tupinambá</span>
+          <p>Tupã nomanói</p>
+        </div>
+        <div>
+          <span>missões paraenses</span>
+          <p>Tupã nitiú omanó</p>
+        </div>
+      </div>
+      <p class="ms1089-note">ambas: “Deus não morre.”</p>
+    </div>
+  </section>
+  <p class="ms1089-keypoint">O ms. 1089 não é um caso isolado: ele registra, no gênero catequético, uma inovação que já circulava em materiais setecentistas.</p>
+  <p class="ms1089-footsource">Barros, 2003, p. 143–144.</p>
+</div>
+
+<!--
+Então o ms. 1089 não é um caso isolado. A negação com nitio ou nitiú já circulava em outros materiais setecentistas. O que torna o ms. 1089 especial é que ele a coloca em um diálogo doutrinário, justamente onde a norma oficial tendia a ser mais conservadora.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas ms1089-slide ms1089-trajectory-slide">
+  <p class="ms1089-section-label">Língua Geral Amazônica em transição</p>
+  <h1 class="slide-title pos-title-wide">Da moldura verbal à partícula negativa</h1>
+  <section class="ms1089-trajectory-grid">
+    <div class="ms1089-step-card">
+      <p class="ms1089-card-label">Tupi Antigo / norma clássica</p>
+      <div class="change-gloss">
+        <p class="gloss-original">na-s-eté-i</p>
+        <p class="gloss-morpheme">NEG-3-body-NEG</p>
+        <p class="gloss-translation">“não tem corpo”</p>
+      </div>
+    </div>
+    <div class="ms1089-step-card">
+      <p class="ms1089-card-label">Língua Geral vulgar, séc. XVIII</p>
+      <div class="change-gloss">
+        <p class="gloss-original">nitíu ceté</p>
+        <p class="gloss-morpheme">NEG 3-body</p>
+        <p class="gloss-translation">“não tem corpo”</p>
+      </div>
+    </div>
+    <div class="ms1089-step-card">
+      <p class="ms1089-card-label">Nheengatu moderno</p>
+      <div class="change-gloss">
+        <p class="gloss-original">Ti se manduári.</p>
+        <p class="gloss-morpheme">NEG me remember</p>
+        <p class="gloss-translation">“não me lembro”</p>
+      </div>
+    </div>
+  </section>
+  <p class="ms1089-trajectory-line">n-...-i → nitio / nitíu → ti</p>
+  <p class="ms1089-footsource">Bettendorff, 1686; <em>Doutrina</em>, BUC ms. 1089, fl. 10; Hartt, 1938.</p>
+</div>
+
+<!--
+Essa é uma transformação muito didática. No Tupi Antigo, a negação envolve o predicado: n-...-i. No século XVIII amazônico, aparece nitio ou nitiú como uma forma já mais independente. No Nheengatu moderno, temos ti como partícula negativa. Isso mostra mudança, mas não ruptura completa: há uma trajetória interna de gramaticalização.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas ms1089-slide ms1089-position-slide">
+  <p class="ms1089-section-label">Língua Geral Amazônica em transição</p>
+  <h1 class="slide-title pos-title-wide">Nem Tupi Antigo clássico, nem ainda “Nheengatu”</h1>
+  <section class="ms1089-position-grid">
+    <div class="ms1089-position-card">
+      <p class="ms1089-card-label">Não é apenas</p>
+      <p>a norma impressa antiga</p>
+      <span>Anchieta, Araújo, Figueira, Bettendorff</span>
+    </div>
+    <div class="ms1089-position-card">
+      <p class="ms1089-card-label">Não é ainda</p>
+      <p>o Nheengatu moderno por nome</p>
+      <span>Seixas, Hartt, Couto de Magalhães, século XIX</span>
+    </div>
+    <div class="ms1089-position-card active">
+      <p class="ms1089-card-label">É</p>
+      <p>Língua Geral Amazônica em mudança</p>
+      <span>vulgar, usada, adaptada ao cotidiano das missões</span>
+    </div>
+  </section>
+  <p class="ms1089-keypoint">O ms. 1089 conserva o gênero catequético jesuítico, mas já traz marcas da Língua Geral vulgar amazônica.</p>
+  <p class="ms1089-footsource">Barros, 2003; Barros &amp; Monserrat, 2015.</p>
+</div>
+
+<!--
+Por isso eu apresentaria esse manuscrito como uma das melhores provas da continuidade por mudança. Ele está no meio do caminho: conserva o gênero catequético jesuítico, mas já traz marcas da Língua Geral vulgar amazônica. Para a história da negação, ele é uma ponte perfeita entre o Tupi Antigo e o Nheengatu.
+-->
+
+---
+class: oficina-unb
+---
+
 <div class="oficina-canvas name-timeline-slide">
 <h1 class="slide-title pos-title-wide">Nomes e descrições na documentação</h1>
 <p class="name-timeline-subtitle">A história não é uma troca limpa de nomes: cada rótulo nasce em um documento e em uma situação social diferente.</p>
@@ -2082,3 +2278,241 @@ class: oficina-unb
 
   <p class="change-final-line">Nheengatu não é “Tupi Antigo simplificado”: é uma continuação histórica reestruturada.</p>
 </div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas retomada-slide retomada-vocab-slide">
+  <p class="retomada-section-label">Retomadas atuais</p>
+  <h1 class="slide-title pos-title-left title-tight">O Tupi que o Brasil já fala</h1>
+
+  <section class="retomada-vocab-grid">
+    <div class="retomada-word-panel">
+      <p class="retomada-card-label">Português brasileiro</p>
+      <div class="retomada-word-cloud">
+        <span>pipoca</span>
+        <span>jacaré</span>
+        <span>tatu</span>
+        <span>capivara</span>
+        <span>caju</span>
+        <span>mandioca</span>
+      </div>
+    </div>
+    <div class="retomada-word-panel">
+      <p class="retomada-card-label">Outras línguas</p>
+      <div class="retomada-word-cloud">
+        <span>jaguar</span>
+        <span>maraca</span>
+        <span>açaí</span>
+        <span>cashew</span>
+        <span>manatee</span>
+        <span>capybara</span>
+      </div>
+    </div>
+  </section>
+
+  <p class="retomada-keypoint">O Tupi não está só no arquivo: ele continua nos nomes cotidianos da natureza, da comida e do território.</p>
+  <DeckImage class="manuscript retomada-source-image retomada-source-context" image="qualification-contemporary-p21.png" alt="Página 21 da qualificação, com continuidade do contexto histórico e vocabulário tupi no cotidiano" />
+  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 7, 21.</p>
+</div>
+
+<!--
+Esta slide traz o público de volta para algo familiar depois da parte histórica e gramatical pesada. A qualificação começa justamente com palavras como pipoca, jacaré, tatu, capivara, caju e mandioca, e depois lembra que o Tupi Antigo continua em nomes de lugares, plantas, animais e até em palavras internacionais como jaguar, maraca, açaí, cashew, manatee e capybara.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas retomada-slide">
+  <p class="retomada-section-label">Retomadas atuais</p>
+  <h1 class="slide-title pos-title-left title-tight">Tupi Antigo hoje: sem falantes nativos, mas em retomada</h1>
+
+  <section class="retomada-left-stack">
+    <div class="retomada-statement-card active">
+      <p class="retomada-card-label">Ponto de partida</p>
+      <p>Não há falantes nativos confirmados de Tupi Antigo hoje.</p>
+    </div>
+    <div class="retomada-statement-card">
+      <p class="retomada-card-label">Mas a língua circula em</p>
+      <div class="retomada-pill-grid">
+        <span>retomadas indígenas</span>
+        <span>escolas</span>
+        <span>universidade</span>
+        <span>material didático</span>
+        <span>música e vídeo</span>
+        <span>comunidades online</span>
+      </div>
+    </div>
+  </section>
+
+  <DeckImage class="manuscript retomada-source-image retomada-source-contemporary" image="qualification-contemporary-p21.png" alt="Página 21 da qualificação, seção Contemporary Context" />
+  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 21; resumo em inglês da qualificação.</p>
+</div>
+
+<!--
+Aqui é importante separar Tupi Antigo de Nheengatu. O Nheengatu é uma língua viva amazônica, descendente da Língua Geral. O Tupi Antigo, como corpus colonial costeiro, não tem falantes nativos confirmados hoje. Mas isso não significa que esteja morto: ele está sendo retomado, ensinado, recriado e usado em novos contextos.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas retomada-slide">
+  <p class="retomada-section-label">Retomadas atuais</p>
+  <h1 class="slide-title pos-title-left">Potiguara: escola, Toré e material próprio</h1>
+
+  <section class="retomada-left-stack compact">
+    <div class="retomada-bullets-card">
+      <p class="retomada-card-label">Desde os anos 2000</p>
+      <ul class="retomada-list">
+        <li>ensino de Tupi em escolas Potiguara;</li>
+        <li>apoio da USP e de Eduardo Navarro;</li>
+        <li>letras em Tupi no Toré;</li>
+        <li>material pedagógico feito por Potiguara;</li>
+        <li>neologismos em usos didáticos, literários e virtuais.</li>
+      </ul>
+    </div>
+    <p class="retomada-keypoint inline">O Tupi Potiguara moderno parte do Tupi Antigo, mas responde às necessidades de uma comunidade viva.</p>
+  </section>
+
+  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas top-focus" image="qualification-retomadas-p22.png" alt="Página 22 da qualificação, trecho sobre a retomada Potiguara" />
+  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 21-22; Araújo Potiguara, 2024; Cabral, 2024.</p>
+</div>
+
+<!--
+Este é talvez o exemplo mais forte para mostrar “retomada atual” de forma concreta. Os Potiguara não estão apenas estudando textos coloniais: estão criando material próprio, usando a língua em escola, canto, cultura e produção pedagógica.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas retomada-slide">
+  <p class="retomada-section-label">Retomadas atuais</p>
+  <h1 class="slide-title pos-title-left">Tupinambá: língua, escola e território</h1>
+
+  <section class="retomada-left-stack compact">
+    <div class="retomada-bullets-card">
+      <p class="retomada-card-label">Em Olivença, Bahia</p>
+      <ul class="retomada-list">
+        <li>escolas indígenas e currículo diferenciado;</li>
+        <li>Projeto Tupinambá;</li>
+        <li>convenção ortográfica;</li>
+        <li>formação de professores;</li>
+        <li>luta territorial e política linguística.</li>
+      </ul>
+    </div>
+    <p class="retomada-keypoint inline">A língua aparece como parte de um projeto mais amplo de fortalecimento comunitário.</p>
+  </section>
+
+  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas middle-focus" image="qualification-retomadas-p22.png" alt="Página 22 da qualificação, referência ao Projeto Tupinambá" />
+  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 22; Costa, 2013; Santos &amp; Porto, 2023.</p>
+</div>
+
+<!--
+No caso Tupinambá, eu enfatizaria que a língua não aparece isolada: ela está ligada à escola, à cultura, ao território e à política de consulta. Isso ajuda o público da História a ver que revitalização linguística também é história indígena contemporânea.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas retomada-slide">
+  <p class="retomada-section-label">Retomadas atuais</p>
+  <h1 class="slide-title pos-title-left">Tupinakyîa: Tupi em música e vídeo</h1>
+
+  <section class="retomada-left-stack compact">
+    <div class="retomada-bullets-card">
+      <p class="retomada-card-label">Espírito Santo, Bahia e Rio de Janeiro</p>
+      <ul class="retomada-list">
+        <li>retomada menos apoiada academicamente;</li>
+        <li>base nos mesmos materiais de Tupi Antigo;</li>
+        <li>música contemporânea;</li>
+        <li>filmes e vídeos em Tupi;</li>
+        <li>canal Akangatara, de T-Kaûe / Tiago Mateus.</li>
+      </ul>
+    </div>
+    <p class="retomada-keypoint inline">A língua entra em novos gêneros: audiovisual, performance, rede social e cotidiano.</p>
+  </section>
+
+  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas bottom-focus" image="qualification-retomadas-p22.png" alt="Página 22 da qualificação, trecho sobre Tupinakyîa e Akangatara" />
+  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 22; Navarro, 2005, 2013; Akangatara Produções.</p>
+</div>
+
+<!--
+Esta slide fecha bem o contraste com o começo da oficina. Começamos com manuscritos, gramáticas e catecismos coloniais; agora vemos a língua em vídeos, músicas e redes sociais. É outra materialidade da língua.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas retomada-slide retomada-media-slide">
+  <p class="retomada-section-label">Retomadas atuais</p>
+  <h1 class="slide-title pos-title-left">Entre universidade, internet e tecnologia</h1>
+
+  <section class="retomada-modern-grid">
+    <div class="retomada-modern-card">
+      <p class="retomada-card-label">USP</p>
+      <p>ensino acadêmico, tradução e leitura de textos coloniais</p>
+    </div>
+    <div class="retomada-modern-card">
+      <p class="retomada-card-label">comunidades online</p>
+      <p>grupos de estudo, neologismos, conversação e recursos digitais</p>
+    </div>
+    <div class="retomada-modern-card">
+      <p class="retomada-card-label">criadores de conteúdo</p>
+      <p>vídeos, vocabulário, gramática e leitura de fontes antigas</p>
+    </div>
+  </section>
+
+  <div class="retomada-media-collage" aria-hidden="true">
+    <DeckImage class="manuscript retomada-media-img media-dic" image="qualification-dic.png" alt="Dicionário expandido da qualificação" />
+    <DeckImage class="manuscript retomada-media-img media-gint" image="qualification-gint.png" alt="Gramática interativa da qualificação" />
+    <DeckImage class="manuscript retomada-media-img media-trad" image="qualification-trad.png" alt="Tradutor da qualificação" />
+    <DeckImage class="manuscript retomada-media-img media-quiz" image="qualification-quiz.png" alt="Quiz de conjugação da qualificação" />
+  </div>
+
+  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 23-24, 48-51.</p>
+</div>
+
+<!--
+Aqui eu faria uma distinção importante: estudar Tupi Antigo na universidade não é a mesma coisa que retomada indígena. A USP mantém uma tradição acadêmica fundamental, mas a revitalização busca criar falantes e usos vivos. Já as comunidades online ocupam um espaço intermediário: incluem indígenas e não indígenas, aprendizes, professores, curiosos, criadores de material e pessoas tentando usar a língua no dia a dia.
+-->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas retomada-slide retomada-closing-slide">
+  <p class="retomada-section-label">Retomadas atuais</p>
+  <h1 class="slide-title pos-title-wide">Do arquivo à retomada</h1>
+
+  <section class="retomada-closing-grid">
+    <div class="retomada-closing-card">
+      <p class="retomada-card-label">arquivo colonial</p>
+      <p>gramáticas, catecismos, vocabulários, relatos, cartas</p>
+    </div>
+    <div class="retomada-closing-card">
+      <p class="retomada-card-label">patrimônio brasileiro</p>
+      <p>topônimos, nomes de plantas, animais e objetos</p>
+    </div>
+    <div class="retomada-closing-card">
+      <p class="retomada-card-label">retomada indígena</p>
+      <p>escola, canto, território, material didático, neologismos</p>
+    </div>
+    <div class="retomada-closing-card">
+      <p class="retomada-card-label">tecnologia</p>
+      <p>dicionários, gramáticas digitais, tradutores, áudio sintético</p>
+    </div>
+  </section>
+
+  <p class="retomada-final-line">A língua não volta igual ao passado — ela volta porque ainda importa no presente.</p>
+  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 21-24, 48-51.</p>
+</div>
+
+<!--
+Esta é a frase de encerramento conceitual. A oficina não precisa terminar com “o Tupi morreu”. Pelo contrário: a história que contamos mostra transformação. A língua dos documentos coloniais não é a mesma coisa que as retomadas atuais, mas os documentos ajudam a dar base para novos usos, novas pedagogias e novas formas de pertencimento.
+-->
