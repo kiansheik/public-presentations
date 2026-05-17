@@ -1462,3 +1462,143 @@ A imagem mostra a conclusão de Finbow: a LGA/NHG não deve ser entendida como u
 
 Esse é o fecho do bloco: não é continuidade sem mudança, nem invenção sem continuidade.
 -->
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas name-timeline-slide">
+<h1 class="slide-title pos-title-wide">Quatro nomes na documentação</h1>
+<p class="name-timeline-subtitle">O que aparece, onde aparece primeiro nesta sequência, e quando.</p>
+
+<section class="name-sequence-grid">
+  <div class="name-sequence-card">
+    <span>1595</span>
+    <strong>“lingva mais vsada na costa do Brasil”</strong>
+    <p class="name-sequence-source">Anchieta, <em>Arte de grammatica</em></p>
+    <p>Descrição de alcance: a língua mais usada na costa.</p>
+  </div>
+
+  <div class="name-sequence-card">
+    <span>1618</span>
+    <strong>“lingoa brasílica”</strong>
+    <p class="name-sequence-source">Araújo, <em>Catecismo na lingoa brasilica</em></p>
+    <p>Nome missionário/editorial para o corpus escrito.</p>
+  </div>
+
+  <div class="name-sequence-card">
+    <span>1616</span>
+    <strong>“língua geral dos Tupynambás”</strong>
+    <p class="name-sequence-source">Manoel Gomes, Maranhão</p>
+    <p>A língua aparece como meio comum para além de um único grupo.</p>
+  </div>
+
+  <div class="name-sequence-card">
+    <span>1853</span>
+    <strong>“Nheengatu”</strong>
+    <p class="name-sequence-source">Seixas, <em>Vocabulario da lingua indigena geral</em></p>
+    <p>Passa a funcionar como nome/descritor da língua geral.</p>
+  </div>
+</section>
+
+<p class="name-timeline-note">A história não é uma troca limpa de nomes: cada rótulo nasce em um tipo de documento e em uma situação social diferente.</p>
+</div>
+
+<!--
+Esta síntese substitui a timeline comparativa pesada por quatro nomes internos à trajetória Brasil/Amazônia. A leitura oral deve enfatizar que cada nome vem de um lugar documental diferente: Anchieta descreve alcance costeiro; Araújo usa língua brasílica no título catequético; Manoel Gomes fala em língua geral dos Tupynambás no Maranhão; Seixas mostra Nheengatu funcionando como nome/descritor no século XIX.
+
+O ponto central é que não estamos vendo uma língua com um nome único e estável. Estamos vendo uma continuidade histórica descrita por observadores diferentes, em contextos sociais diferentes. “Nheengatu” aparece primeiro como palavra no VLB; como nome/descritor de língua, a evidência usada aqui é Seixas, 1853.
+-->
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Quando aparece o nome “Nheengatu”?</h1>
+
+  <section class="amazonia-block continuity-block">
+    <p>Até aqui, acompanhamos a <strong>Língua Geral</strong> como uma língua de contato em mudança.</p>
+    <p>Agora podemos separar duas perguntas:</p>
+    <div class="amazonia-contrast">
+      <div>
+        <p class="contrast-label">história da língua</p>
+        <p>continuidade, contato e reestruturação</p>
+      </div>
+      <div>
+        <p class="contrast-label">história do nome</p>
+        <p>quando começa a ser chamada de <em>Nheengatu</em>?</p>
+      </div>
+    </div>
+<br>
+    <p class="source">Cf. Vocabulário na Língua Brasílica, 1952, p. 35; Seixas, 1853, p. 37.</p>
+  </section>
+</div>
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-left title-tight">Antes de ser nome de língua</h1>
+
+  <section class="amazonia-block finbow-left-block">
+    <p>A palavra <strong>nheengatu</strong> já aparece no <em>Vocabulário na Língua Brasílica</em>.</p>
+    <p>Mas ali ela ainda não nomeia uma língua.</p>
+    <blockquote class="quote-text compact">
+      “eu falo bem”
+    </blockquote>
+    <div class="amazonia-keypoint">
+      <p class="point-label">Ponto-chave</p>
+      <p>Temos um registro antigo da palavra, mas não ainda o glotônimo <em>Nheengatu</em>.</p>
+    </div>
+    <p class="source"><em>Vocabulário na Língua Brasílica</em>, 1952, p. 35.</p>
+  </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="SEU_ARQUIVO_VLB_NHEENGATU.png"
+    alt="Registro da palavra nheengatu no Vocabulário na Língua Brasílica, p. 35"
+  />
+</div>
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-left title-tight">Nheengatu como nome de língua</h1>
+
+  <section class="amazonia-block finbow-left-block">
+    <p>No século XIX, a palavra aparece como nome ou descritor da <strong>língua geral</strong>.</p>
+    <blockquote class="quote-text compact">
+      “boa-fala não difícil se-falar”
+    </blockquote>
+    <div class="amazonia-keypoint">
+      <p class="point-label">Ponto-chave</p>
+      <p>Em Seixas, <em>Nheengatu</em> já não é apenas uma expressão lexical: passa a funcionar como modo de nomear ou caracterizar a língua.</p>
+    </div>
+    <p class="source">Seixas, <em>Vocabulario da lingua indigena geral</em>, 1853, p. 37.</p>
+  </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="boafala.png"
+    alt="Entrada nheengatu em Seixas 1853, p. 37, usada como nome ou descritor da língua geral"
+  />
+</div>
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-wide">Nome posterior, continuidade histórica</h1>
+
+  <section class="amazonia-block continuity-block">
+    <p><strong>Nheengatu</strong> não é simplesmente o nome antigo de todo o Tupi colonial.</p>
+    <p>É um nome que se consolida em uma etapa posterior da história da Língua Geral Amazônica.</p>
+    <p class="continuity-line">Língua Brasílica → Língua Geral Amazônica → Nheengatu</p>
+    <div class="amazonia-keypoint">
+      <p class="point-label">Leitura da oficina</p>
+      <p>Há continuidade, mas uma continuidade por mudança: novos contextos, novos falantes, novas funções e novos nomes.</p>
+    </div>
+  </section>
+</div>

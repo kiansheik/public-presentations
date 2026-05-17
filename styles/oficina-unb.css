@@ -761,6 +761,87 @@
   text-align: center;
 }
 
+.name-timeline-slide .slide-title {
+  top: 7.2%;
+  font-size: 2.42rem;
+  line-height: 1.02;
+}
+
+.name-timeline-subtitle {
+  position: absolute;
+  left: 3.41%;
+  top: 16.8%;
+  width: 72%;
+  color: var(--oficina-muted);
+  font-family: var(--oficina-heading);
+  font-size: 1.1rem;
+  line-height: 1.05;
+}
+
+.name-sequence-grid {
+  position: absolute;
+  left: 4.4%;
+  right: 4.4%;
+  top: 28%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.name-sequence-card {
+  min-height: 13.8rem;
+  border-top: 0.16rem solid #dcc06a;
+  background: rgba(16, 30, 34, 0.22);
+  padding: 1rem 0.9rem 0.95rem;
+  color: var(--oficina-body);
+  font-family: var(--oficina-serif);
+  font-size: 0.78rem;
+  line-height: 1.2;
+}
+
+.name-sequence-card span {
+  display: block;
+  margin-bottom: 0.52rem;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 0.96rem;
+  line-height: 1;
+}
+
+.name-sequence-card strong {
+  display: block;
+  min-height: 3.55rem;
+  color: var(--oficina-title);
+  font-family: var(--oficina-heading);
+  font-size: 1.06rem;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+.name-sequence-card p {
+  margin-top: 0.72rem !important;
+}
+
+.name-sequence-source {
+  color: rgba(216, 221, 221, 0.82);
+  font-size: 0.74rem;
+  line-height: 1.16;
+}
+
+.name-timeline-note {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 8.2%;
+  border-top: 0.06rem solid rgba(216, 221, 221, 0.34);
+  padding-top: 0.72rem;
+  color: rgba(216, 221, 221, 0.82);
+  font-family: var(--oficina-serif);
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .anchieta-grammar-slide .slide-title {
   line-height: 1.02;
 }

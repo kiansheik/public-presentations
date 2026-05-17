@@ -91,3 +91,7 @@ Verified on 2026-05-17:
 - The new slides frame LGP/LGA as useful modern labels that should not be projected rigidly onto 16th- and 17th-century sources, then use Anchieta’s mixed features and the Paulista Maranhão-Pará mission evidence as the stronger intelligibility point.
 - Verified the Revista do GEL article page/PDF for the Finbow citation and source framing.
 - `npm run build` succeeds after the Finbow caution slides; generated `md-*.js` checks find 45 slide modules, both new titles, and no `<pre>`, `<code>`, or `` `pre` `` markers.
+- Simplified the names/glotonyms synthesis slide to `Quatro nomes na documentação`, positioned before the Nheengatu-name detail slides.
+- The simplified slide now shows only the Brazil/Amazônia sequence requested by the user: `lingva mais vsada na costa do Brasil` (Anchieta, 1595), `lingoa brasílica` (Araújo, 1618), `língua geral dos Tupynambás` (Manoel Gomes, 1616), and `Nheengatu` (Seixas, 1853).
+- Replaced the dense proportional rail/comparative-language layout with a four-card `name-sequence-*` layout in `styles/oficina-unb.css`.
+- `npm run build` and `git diff --check` succeed after the simplified name-sequence slide; generated checks find the new slide module without raw HTML code markers.

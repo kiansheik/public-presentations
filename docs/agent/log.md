@@ -67,3 +67,7 @@
 - Verified with `npm run build`, `git diff --check`, generated slide-module raw-HTML checks, and generated `md-*.js` slide-module count.
 - Appended two Finbow/Rodrigues caution slides to `decks/oficina-unb.md`, using the recommended two-slide structure: LGP/LGA as useful modern labels, then the Paulista Maranhão-Pará evidence for broad intelligibility.
 - Verified the Finbow article page/PDF, rebuilt with `npm run build`, checked `git diff --check`, and confirmed generated `md-*.js` modules include both new titles without raw HTML code markers.
+- Added a proportional names/glottonyms timeline slide before the Nheengatu-name block, covering 1547 through today across comparative Iberian, Brazil/Amazônia, and modern-label lanes.
+- Added `name-timeline-*` CSS for the proportional rail and dense staggered labels; verified with `npm run build`, `git diff --check`, and generated slide-module raw-HTML checks.
+- Simplified that dense names/glottonyms slide into `Quatro nomes na documentação`, limited to the Brazil/Amazônia labels requested by the user: Anchieta 1595, Araújo 1618, Manoel Gomes 1616, and Seixas 1853.
+- Replaced the proportional timeline styling with a four-card `name-sequence-*` layout, moved the simplified slide before the Nheengatu detail slides, and re-verified with `npm run build`, `git diff --check`, generated-module content checks, and raw-HTML marker checks.
