@@ -12,7 +12,11 @@ const props = defineProps({
   },
 })
 
-const images = import.meta.glob('../../public/assets/oficina-unb/*.png', {
+const images = import.meta.glob([
+  '../../public/assets/oficina-unb/*.png',
+  '../../public/assets/oficina-unb/*.jpg',
+  '../../public/assets/oficina-unb/*.jpeg',
+], {
   eager: true,
   import: 'default',
 })

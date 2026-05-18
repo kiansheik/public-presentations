@@ -21,3 +21,10 @@ Qualification-derived assets:
 - `qualification-retomadas-p22.png` maps to `/Users/kian/code/latex/qualification/qualificationtr.pdf`, p. 22.
 - `qualification-online-p23.png` maps to `/Users/kian/code/latex/qualification/qualificationtr.pdf`, p. 23.
 - `qualification-dic.png`, `qualification-quiz.png`, `qualification-gint.png`, and `qualification-trad.png` map to the qualification appendix figures for the dictionary, quiz, interactive grammar, and translator.
+
+Toré PDF-derived assets:
+
+- `tore-potiguara-revitalizacao.jpg` maps to `/Users/kian/Downloads/A Língua Tupinambá nas músicas do Toré (1).pptx.pdf` by José Romildo Araújo da Silva, embedded slide “A revitalização do Tupi e o protagonismo Potiguara”.
+- `tore-tupinamba-olivenca.jpg` maps to the same PDF, embedded slide “Tupinambá de Olivença”.
+- `tore-nada-sem-nos.jpg` maps to the same PDF, embedded “Nada para nós sem nós” graphic.
+- `tore-rorypaba.jpg` maps to the same PDF, embedded Toré Rorypaba song/translation slide.

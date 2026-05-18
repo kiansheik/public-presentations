@@ -37,47 +37,161 @@
 }
 
 .slidev-layout.oficina-unb .title-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  background:
+    linear-gradient(90deg, rgba(18, 29, 33, 0.78) 0 58%, rgba(55, 71, 79, 0.54) 58% 100%),
+    repeating-linear-gradient(90deg, rgba(245, 245, 245, 0.045) 0 1px, transparent 1px 5.2rem),
+    var(--oficina-bg);
+}
+
+.slidev-layout.oficina-unb .title-slide::before {
+  content: "";
+  position: absolute;
+  left: 5.55%;
+  top: 11.2%;
+  width: 0.18rem;
+  height: 48%;
+  background: #dcc06a;
+}
+
+.slidev-layout.oficina-unb .title-slide::after {
+  content: "";
+  position: absolute;
+  left: 5.55%;
+  right: 5.55%;
+  bottom: 10.7%;
+  height: 0.06rem;
+  background: rgba(220, 192, 106, 0.44);
+}
+
+.title-hero {
+  position: absolute;
+  left: 7.1%;
+  top: 10.8%;
+  width: 52.2%;
+}
+
+.title-kicker {
+  margin-bottom: 0.52rem !important;
+  color: #dcc06a;
+  font-family: var(--oficina-heading);
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .slidev-layout.oficina-unb .title-main {
-  position: absolute;
-  left: 10.3%;
-  top: 11.5%;
-  width: 79.4%;
   color: var(--oficina-title);
   font-family: var(--oficina-heading);
-  font-size: 6.55rem;
+  font-size: 7.05rem;
   font-weight: 700;
-  line-height: 0.98;
+  line-height: 0.86;
   letter-spacing: 0;
 }
 
-.slidev-layout.oficina-unb .title-dots {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 37.8%;
-  color: var(--oficina-title);
+.slidev-layout.oficina-unb .title-subtitle {
+  width: 79%;
+  margin-top: 1.2rem !important;
+  color: #fff5d6;
   font-family: var(--oficina-serif);
-  font-size: 2.1rem;
+  font-size: 1.82rem;
   font-weight: 700;
-  letter-spacing: 0.18em;
+  line-height: 1.08;
 }
 
-.slidev-layout.oficina-unb .title-subtitle {
+.title-topic-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+  width: 92%;
+  margin-top: 1.32rem;
+}
+
+.title-topic-strip span {
+  border-left: 0.12rem solid rgba(220, 192, 106, 0.74);
+  background: rgba(245, 245, 245, 0.08);
+  padding: 0.32rem 0.5rem 0.36rem;
+  color: rgba(245, 245, 245, 0.84);
+  font-family: var(--oficina-heading);
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.title-presenter {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 46.8%;
+  left: 7.1%;
+  bottom: 14.5%;
+  width: 45%;
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.78rem;
+  row-gap: 0.18rem;
+  align-items: baseline;
+}
+
+.title-presenter-label {
+  grid-row: 1 / span 2;
+  border-top: 0.12rem solid #dcc06a;
+  padding-top: 0.34rem;
+  color: rgba(245, 245, 245, 0.66);
+  font-family: var(--oficina-heading);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.title-presenter-name {
   color: var(--oficina-body);
+  font-family: var(--oficina-heading);
+  font-size: 1.42rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.title-presenter-role {
+  color: rgba(216, 221, 221, 0.78);
   font-family: var(--oficina-serif);
-  font-size: 1.45rem;
+  font-size: 0.92rem;
   font-weight: 700;
-  line-height: 0.95;
+  line-height: 1.08;
+}
+
+.title-source-panel {
+  position: absolute;
+  right: 6.1%;
+  top: 9.7%;
+  width: 31%;
+  height: 74%;
+  border: 0.08rem solid rgba(220, 192, 106, 0.44);
+  background: rgba(245, 245, 245, 0.92);
+  box-shadow: 0 1.3rem 2.5rem rgba(10, 16, 18, 0.32);
+}
+
+.title-source-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 49% 50%;
+  opacity: 0.86;
+  filter: sepia(0.18) contrast(1.04);
+}
+
+.title-source-caption {
+  position: absolute;
+  left: 0.72rem;
+  bottom: 0.62rem;
+  background: rgba(18, 29, 33, 0.78);
+  padding: 0.3rem 0.46rem 0.34rem;
+  color: rgba(245, 245, 245, 0.86);
+  font-family: var(--oficina-heading);
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .slidev-layout.oficina-unb .slide-title {
@@ -2486,6 +2600,12 @@
   object-fit: cover;
 }
 
+.retomada-source-image.source-contain {
+  background: rgba(245, 245, 245, 0.96);
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+
 .retomada-source-context,
 .retomada-source-contemporary {
   top: 17.6%;
@@ -2534,6 +2654,142 @@
   font-size: 1.05rem;
   font-weight: 500;
   line-height: 1;
+}
+
+.vocab-lookup {
+  position: absolute;
+  inset: 0;
+}
+
+.vocab-selector {
+  position: absolute;
+  left: 5.6%;
+  top: 24.2%;
+  width: 42.2%;
+  display: grid;
+  gap: 0.78rem;
+}
+
+.vocab-selector-panel {
+  padding-bottom: 0.74rem;
+}
+
+.vocab-button-cloud {
+  gap: 0.42rem;
+}
+
+.vocab-button-cloud button {
+  min-height: 1.86rem;
+  border: 0;
+  border-left: 0.14rem solid #dcc06a;
+  appearance: none;
+  background: rgba(245, 245, 245, 0.08);
+  padding: 0.34rem 0.5rem 0.4rem;
+  color: #fff5d6;
+  cursor: pointer;
+  font-family: var(--oficina-heading);
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+}
+
+.vocab-button-cloud button:hover,
+.vocab-button-cloud button:focus-visible {
+  background: rgba(245, 245, 245, 0.14);
+  outline: 0.08rem solid rgba(220, 192, 106, 0.58);
+  outline-offset: 0.08rem;
+}
+
+.vocab-button-cloud button.active {
+  background: rgba(220, 192, 106, 0.24);
+  color: var(--oficina-title);
+}
+
+.vocab-definition-panel {
+  position: absolute;
+  right: 5.2%;
+  top: 17.6%;
+  width: 39.4%;
+  min-height: 67.4%;
+  border-top: 0.14rem solid #dcc06a;
+  background: rgba(18, 29, 33, 0.3);
+  box-shadow: 0 1.15rem 2.3rem rgba(10, 16, 18, 0.18);
+  padding: 0.86rem 1rem 1rem;
+}
+
+.vocab-entry-head {
+  display: grid;
+  grid-template-columns: minmax(0, auto) max-content minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0.46rem;
+  margin-bottom: 0.44rem;
+}
+
+.vocab-query,
+.vocab-headword {
+  color: #fff5d6;
+  font-family: var(--oficina-heading);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.vocab-query {
+  font-size: 2.05rem;
+  line-height: 1;
+}
+
+.vocab-arrow {
+  color: rgba(220, 192, 106, 0.78);
+  font-size: 1.32rem;
+  line-height: 1;
+}
+
+.vocab-headword {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 1.55rem;
+  line-height: 1.02;
+}
+
+.vocab-kind {
+  display: inline-block;
+  margin-bottom: 0.84rem !important;
+  border-left: 0.12rem solid rgba(220, 192, 106, 0.78);
+  background: rgba(245, 245, 245, 0.08);
+  padding: 0.32rem 0.46rem 0.36rem;
+  color: rgba(245, 245, 245, 0.82);
+  font-family: var(--oficina-heading);
+  font-size: 0.78rem;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.vocab-definition {
+  color: var(--oficina-title);
+  font-size: 1.22rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.vocab-context {
+  margin-top: 0.84rem !important;
+  border-top: 0.06rem solid rgba(220, 192, 106, 0.36);
+  padding-top: 0.72rem;
+  color: rgba(216, 221, 221, 0.88);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.vocab-entry-source {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.88rem;
+  color: rgba(245, 245, 245, 0.58);
+  font-size: 0.62rem;
+  line-height: 1.12;
 }
 
 .retomada-vocab-slide .retomada-keypoint {

@@ -13,12 +13,28 @@ css: unocss
 ---
 
 <div class="oficina-canvas title-slide">
-  <h1 class="title-main">Tupi Antigo</h1>
-  <div class="title-dots">...</div>
-  <div class="title-subtitle">
-    <div>uma língua de contato no Brasil colonial</div>
-    <div>Kian Sheik (USP)</div>
-  </div>
+  <section class="title-hero">
+    <p class="title-kicker">Oficina UnB</p>
+    <h1 class="title-main">Tupi Antigo</h1>
+    <p class="title-subtitle">uma língua de contato no Brasil colonial</p>
+    <div class="title-topic-strip" aria-hidden="true">
+      <span>línguas gerais</span>
+      <span>corpus colonial</span>
+      <span>Nheengatu</span>
+      <span>retomadas atuais</span>
+    </div>
+  </section>
+
+  <section class="title-presenter" aria-label="Apresentador">
+    <p class="title-presenter-label">com</p>
+    <p class="title-presenter-name">Kian Sheik</p>
+    <p class="title-presenter-role">Doutorando em Linguística · USP</p>
+  </section>
+
+  <aside class="title-source-panel" aria-hidden="true">
+    <DeckImage class="title-source-image" image="anchieta-arte-grammatica.png" alt="" />
+    <p class="title-source-caption">Anchieta, 1595</p>
+  </aside>
 </div>
 
 ---
@@ -1123,7 +1139,7 @@ class: oficina-unb
   <h1 class="slide-title pos-title-wide">A língua muda porque a comunidade muda</h1>
 
   <section class="amazonia-block">
-    <p class="amazonia-lead">Finbow destaca um ciclo decisivo:</p>
+    <p class="amazonia-lead">Finbow (2025) destaca um ciclo decisivo:</p>
     <div class="amazonia-cycle">
       <p><span>epidemias</span>morte e desestruturação</p>
       <p><span>descimentos</span>novos povos trazidos do interior</p>
@@ -2287,38 +2303,11 @@ class: oficina-unb
   <p class="retomada-section-label">Retomadas atuais</p>
   <h1 class="slide-title pos-title-left title-tight">O Tupi que o Brasil já fala</h1>
 
-  <section class="retomada-vocab-grid">
-    <div class="retomada-word-panel">
-      <p class="retomada-card-label">Português brasileiro</p>
-      <div class="retomada-word-cloud">
-        <span>pipoca</span>
-        <span>jacaré</span>
-        <span>tatu</span>
-        <span>capivara</span>
-        <span>caju</span>
-        <span>mandioca</span>
-      </div>
-    </div>
-    <div class="retomada-word-panel">
-      <p class="retomada-card-label">Outras línguas</p>
-      <div class="retomada-word-cloud">
-        <span>jaguar</span>
-        <span>maraca</span>
-        <span>açaí</span>
-        <span>cashew</span>
-        <span>manatee</span>
-        <span>capybara</span>
-      </div>
-    </div>
-  </section>
-
-  <p class="retomada-keypoint">O Tupi não está só no arquivo: ele continua nos nomes cotidianos da natureza, da comida e do território.</p>
-  <DeckImage class="manuscript retomada-source-image retomada-source-context" image="qualification-contemporary-p21.png" alt="Página 21 da qualificação, com continuidade do contexto histórico e vocabulário tupi no cotidiano" />
-  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 7, 21.</p>
+  <TupiVocabularyLookup />
 </div>
 
 <!--
-Esta slide traz o público de volta para algo familiar depois da parte histórica e gramatical pesada. A qualificação começa justamente com palavras como pipoca, jacaré, tatu, capivara, caju e mandioca, e depois lembra que o Tupi Antigo continua em nomes de lugares, plantas, animais e até em palavras internacionais como jaguar, maraca, açaí, cashew, manatee e capybara.
+Esta slide traz o público de volta para algo familiar depois da parte histórica e gramatical pesada. Agora ela também funciona como painel interativo: as palavras à esquerda selecionam verbetes resumidos do dicionário em kiansheik.io/nhe-enga. A ideia é mostrar que a presença do Tupi no português e em outras línguas precisa de verificação lexical: alguns casos são diretos, outros passam pelo português, e outros, como manatee/açaí, exigem cuidado histórico maior.
 -->
 
 ---
@@ -2335,24 +2324,25 @@ class: oficina-unb
       <p>Não há falantes nativos confirmados de Tupi Antigo hoje.</p>
     </div>
     <div class="retomada-statement-card">
-      <p class="retomada-card-label">Mas a língua circula em</p>
+      <p class="retomada-card-label">Mas a língua circula em retomada</p>
       <div class="retomada-pill-grid">
-        <span>retomadas indígenas</span>
-        <span>escolas</span>
+        <span>Potiguara Tupi</span>
+        <span>Tupinambá Tupi</span>
+        <span>Tupinakyîa Tupi</span>
+        <span>escolas indígenas</span>
         <span>universidade</span>
-        <span>material didático</span>
-        <span>música e vídeo</span>
-        <span>comunidades online</span>
+        <span>redes e vídeo</span>
       </div>
     </div>
+    <p class="retomada-keypoint inline">As retomadas partem do corpus antigo, mas criam variedades modernas adaptadas a cada comunidade.</p>
   </section>
 
-  <DeckImage class="manuscript retomada-source-image retomada-source-contemporary" image="qualification-contemporary-p21.png" alt="Página 21 da qualificação, seção Contemporary Context" />
-  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 21; resumo em inglês da qualificação.</p>
+  <DeckImage class="manuscript retomada-source-image retomada-source-contemporary source-contain" image="tore-nada-sem-nos.jpg" alt="Década Internacional das Línguas Indígenas: Nada para nós sem nós" />
+  <p class="retomada-source">Sheik, <em>A Computational Grammar of Old Tupi</em>, seção Contemporary; Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slide “Nada para nós sem nós”.</p>
 </div>
 
 <!--
-Aqui é importante separar Tupi Antigo de Nheengatu. O Nheengatu é uma língua viva amazônica, descendente da Língua Geral. O Tupi Antigo, como corpus colonial costeiro, não tem falantes nativos confirmados hoje. Mas isso não significa que esteja morto: ele está sendo retomado, ensinado, recriado e usado em novos contextos.
+Aqui é importante separar Tupi Antigo de Nheengatu. O Nheengatu é uma língua viva amazônica, descendente da Língua Geral. O Tupi Antigo, como corpus colonial costeiro, não tem falantes nativos confirmados hoje. Mas isso não significa que esteja morto: ele está sendo retomado, ensinado, recriado e usado em novos contextos. O trabalho maior chama atenção para três variedades modernas em retomada — Potiguara Tupi, Tupinambá Tupi e Tupinakyîa Tupi — baseadas no corpus antigo, mas adaptadas a comunidades vivas.
 -->
 
 ---
@@ -2365,24 +2355,25 @@ class: oficina-unb
 
   <section class="retomada-left-stack compact">
     <div class="retomada-bullets-card">
-      <p class="retomada-card-label">Desde os anos 2000</p>
+      <p class="retomada-card-label">Desde 2001</p>
       <ul class="retomada-list">
         <li>ensino de Tupi em escolas Potiguara;</li>
         <li>apoio da USP e de Eduardo Navarro;</li>
         <li>letras em Tupi no Toré;</li>
         <li>material pedagógico feito por Potiguara;</li>
-        <li>neologismos em usos didáticos, literários e virtuais.</li>
+        <li>“Toikobé iandé tupinhê’enga!”</li>
+        <li>adaptação viva: “Tupi Potiguara”.</li>
       </ul>
     </div>
     <p class="retomada-keypoint inline">O Tupi Potiguara moderno parte do Tupi Antigo, mas responde às necessidades de uma comunidade viva.</p>
   </section>
 
-  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas top-focus" image="qualification-retomadas-p22.png" alt="Página 22 da qualificação, trecho sobre a retomada Potiguara" />
-  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 21-22; Araújo Potiguara, 2024; Cabral, 2024.</p>
+  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas source-contain" image="tore-rorypaba.jpg" alt="Slide Toré Rorypaba com letra em Tupi e tradução em português" />
+  <p class="retomada-source">Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slides “Toré Rorypaba” e “A revitalização do Tupi e o protagonismo Potiguara”; Sheik, <em>A Computational Grammar of Old Tupi</em>, seção Potiguara.</p>
 </div>
 
 <!--
-Este é talvez o exemplo mais forte para mostrar “retomada atual” de forma concreta. Os Potiguara não estão apenas estudando textos coloniais: estão criando material próprio, usando a língua em escola, canto, cultura e produção pedagógica.
+Este é talvez o exemplo mais forte para mostrar “retomada atual” de forma concreta. Os Potiguara não estão apenas estudando textos coloniais: estão criando material próprio, usando a língua em escola, canto, cultura e produção pedagógica. O PDF do Toré formula isso como protagonismo Potiguara: a língua é chamada Tupi Potiguara para evidenciar identidade linguística e cultural do povo.
 -->
 
 ---
@@ -2401,18 +2392,18 @@ class: oficina-unb
         <li>Projeto Tupinambá;</li>
         <li>convenção ortográfica;</li>
         <li>formação de professores;</li>
-        <li>luta territorial e política linguística.</li>
+        <li>língua, escola, cultura e território juntos.</li>
       </ul>
     </div>
     <p class="retomada-keypoint inline">A língua aparece como parte de um projeto mais amplo de fortalecimento comunitário.</p>
   </section>
 
-  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas middle-focus" image="qualification-retomadas-p22.png" alt="Página 22 da qualificação, referência ao Projeto Tupinambá" />
-  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 22; Costa, 2013; Santos &amp; Porto, 2023.</p>
+  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas source-contain" image="tore-tupinamba-olivenca.jpg" alt="Slide com imagens e título Tupinambá de Olivença" />
+  <p class="retomada-source">Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slide “Tupinambá de Olivença”; Sheik, <em>A Computational Grammar of Old Tupi</em>, seções Nomenclature e Tupinambá.</p>
 </div>
 
 <!--
-No caso Tupinambá, eu enfatizaria que a língua não aparece isolada: ela está ligada à escola, à cultura, ao território e à política de consulta. Isso ajuda o público da História a ver que revitalização linguística também é história indígena contemporânea.
+No caso Tupinambá, eu enfatizaria que a língua não aparece isolada: ela está ligada à escola, à cultura, ao território e à política de consulta. Isso ajuda o público da História a ver que revitalização linguística também é história indígena contemporânea. A seção de nomenclatura do trabalho maior também ajuda aqui: chamar o corpus antigo simplesmente de “Tupinambá” apaga que Tupinambá Tupi hoje é uma retomada contemporânea própria.
 -->
 
 ---
