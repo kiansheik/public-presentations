@@ -97,3 +97,21 @@
 - Verified with `npm run build`, `git diff --check`, generated-module checks for the interactive component and Toré assets, generated `<pre>/<code` checks, `curl -I` checks on slides 72/74/75, and a headless DOM click/image-load check. Starting Slidev inside the sandbox failed with `EPERM`; rerunning with approved escalation started `http://localhost:3033/`. No screenshots were taken.
 - Redesigned the Oficina UnB title slide with a clearer title/subtitle/presenter hierarchy, topic chips, an accent rail, and a right-side Anchieta source panel.
 - Verified the title-slide redesign with `npm run build`, `git diff --check`, generated-module checks, generated `<pre>/<code` checks, `curl -I http://localhost:3033/1`, and a headless DOM bounds/image-load check. No screenshots were taken.
+
+## 2026-05-18
+
+- Added a `Roteiro da oficina` roadmap slide after the title slide to summarize the major arcs of the deck.
+- Added seven section-divider slides before the main transitions: línguas gerais, Brazil coast/Tupi Antigo corpus, Anchieta/use/variation, Amazonian language ecology, naming/Nheengatu, grammar change, and modern retomadas.
+- Added shared `section-map-*` and `section-divider-*` CSS for the new pacing slides, keeping them in the Oficina visual system.
+- Verified with `npm run build`, `git diff --check`, generated-module checks for all new section titles, generated `<pre>/<code` checks, `curl -I http://localhost:3033/2`, and a no-screenshot DOM overflow check for the roadmap/divider slides.
+- Replaced the previous interactive `O Tupi que o Brasil já fala` vocabulary slide with three `O Tupi que o português já fala` table slides: actions, food/body/slang, and people/animals/names.
+- Deleted the now-unused `decks/components/TupiVocabularyLookup.vue` component and replaced its old CSS with reusable `tupi-word-table` styling.
+- Verified with `npm run build`, `git diff --check`, generated-module content checks for the new vocabulary slides, stale interactive-vocabulary checks, generated `<pre>/<code` checks, `curl -I http://localhost:3033/80`, and a no-screenshot DOM overflow check for routes 80-82. The first DOM pass caught horizontal table overflow; wrapping rules fixed it.
+- Expanded visible Finbow slide footnotes so the cited work title and year appear directly on the relevant Amazônia/Língua Geral slides instead of bare `Finbow, 2022/2025` references.
+- Added compact `finbow-source` citation styling and added missing visible source lines to Finbow-derived argument slides that had only speaker-note citations.
+- Verified with `npm run build`, `git diff --check`, generated-module citation checks, stale bare-Finbow checks, generated `<pre>/<code` checks, `curl -I http://localhost:3033/40`, and a no-screenshot DOM overflow check for routes 40-45, 48-54, and 62.
+- Added a new map slide immediately after `Três olhares, uma convergência`, with `/Users/kian/code/latex/mestrado/tupi_dist_mapa.jpg` copied as `public/assets/oficina-unb/tupi-dist-mapa.jpg` on the left and `/Users/kian/code/latex/mestrado/rendtrans.png` copied as `public/assets/oficina-unb/rendtrans.png` on the right.
+- Added `distribution-map-*` CSS to keep the two map cards contained above an estimate caveat, and documented the new mestrado-derived assets in `public/assets/oficina-unb/README.md`.
+- Verified with `npm run build`, `git diff --check`, generated-module checks for the slide/assets/caveat, generated `<pre>/<code` checks, and a no-screenshot Playwright DOM image/bounds check on route `/18`. Starting Slidev inside the sandbox failed with `EPERM`, then the approved local server ran at `http://localhost:3034/`.
+- Polished the `Língua geral: não uma língua, mas uma categoria` concept slide CSS into a cleaner two-column contrast, with the definition spanning the bottom instead of being squeezed into one side.
+- Verified with `npm run build`, `git diff --check`, generated-module checks for the concept slide, generated `<pre>/<code` checks, and `curl -I http://localhost:3034/11`. A headless DOM check could not run because `playwright` is not installed in this checkout; no screenshots were taken.

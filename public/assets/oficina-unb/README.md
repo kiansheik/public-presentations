@@ -28,3 +28,8 @@ Toré PDF-derived assets:
 - `tore-tupinamba-olivenca.jpg` maps to the same PDF, embedded slide “Tupinambá de Olivença”.
 - `tore-nada-sem-nos.jpg` maps to the same PDF, embedded “Nada para nós sem nós” graphic.
 - `tore-rorypaba.jpg` maps to the same PDF, embedded Toré Rorypaba song/translation slide.
+
+Mestrado-derived map assets:
+
+- `tupi-dist-mapa.jpg` maps to `/Users/kian/code/latex/mestrado/tupi_dist_mapa.jpg`; estimate of Indigenous peoples of the Brazilian coast in the 16th century.
+- `rendtrans.png` maps to `/Users/kian/code/latex/mestrado/rendtrans.png`; reconstruction/estimate of linguistic identities and Indigenous peoples in 16th-century Brazil.

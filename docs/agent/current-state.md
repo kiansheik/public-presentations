@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-17
+Last updated: 2026-05-18
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
@@ -115,10 +115,10 @@ Verified on 2026-05-17:
 - Added a six-slide Coimbra ms. 1089 bridge block after `Mudança não é invenção` and before `Nomes e descrições na documentação`, framing the manuscript as mid-18th-century Língua Geral Amazônica rather than classical Tupi Antigo or Nheengatu by name.
 - The bridge covers: `Um manuscrito de transição`, `Duas formas de dizer “não tem corpo”`, `O catecismo oficial conserva a norma antiga`, `Antes de “ti”: nitio / nitíu`, `Da moldura verbal à partícula negativa`, and `Nem Tupi Antigo clássico, nem ainda “Nheengatu”`.
 - Added `ms1089-*` CSS in `styles/oficina-unb.css` for the bridge layouts and compact gloss panels. `npm run build`, `git diff --check`, generated-module content checks, generated `<pre>/<code` checks, and `curl -I` checks for `http://localhost:3033/50` and `/55` succeed. A local Slidev server is running at `http://localhost:3033/`; no screenshots were taken.
-- Added the final retomadas atuais block after the Nheengatu grammar-change synthesis: `O Tupi que o Brasil já fala`, `Tupi Antigo hoje: sem falantes nativos, mas em retomada`, Potiguara, Tupinambá, Tupinakyîa, universidade/internet/tecnologia, and `Do arquivo à retomada`.
+- Added the final retomadas atuais block after the Nheengatu grammar-change synthesis: three `O Tupi que o português já fala` vocabulary slides, `Tupi Antigo hoje: sem falantes nativos, mas em retomada`, Potiguara, Tupinambá, Tupinakyîa, universidade/internet/tecnologia, and `Do arquivo à retomada`.
 - The retomadas block uses qualification-derived assets from `/Users/kian/code/latex/qualification/qualificationtr.pdf` and appendix figures: `qualification-contemporary-p21.png`, `qualification-retomadas-p22.png`, `qualification-dic.png`, `qualification-gint.png`, `qualification-trad.png`, and `qualification-quiz.png`.
 - Added `retomada-*` CSS in `styles/oficina-unb.css` for the new cards, word-cloud panels, PDF page crops, media collage, and closing grid. `npm run build`, `git diff --check`, generated-title checks, generated `<pre>/<code` checks, and headless DOM bounds checks for slides 72-78 succeed. No screenshots were taken.
-- Replaced the static `O Tupi que o Brasil já fala` word-cloud slide with the interactive `TupiVocabularyLookup` Vue component. The component keeps the same word set as clickable chips and shows inline summarized definitions from Navarro dictionary data fetched from `kiansheik.io/nhe-enga` on 2026-05-17.
+- Replaced the earlier interactive `TupiVocabularyLookup` vocabulary slide with three static table slides: actions (`mutirão`, `socar`, `cutucar`, `pocar`), food/body/slang (`paçoca`, `pamonha`, `peba`, `pereba`, `pitiú`), and people/animals/names (`curumim`, `cunhantã`, `capivara`, `Potiguara`). The obsolete Vue component was deleted.
 - Extended `DeckImage.vue` to include JPG/JPEG assets and extracted Toré PDF images from `/Users/kian/Downloads/A Língua Tupinambá nas músicas do Toré (1).pptx.pdf` by José Romildo Araújo da Silva.
 - Replaced right-side qualification screenshots in the retomadas overview, Potiguara, and Tupinambá slides with Toré-derived images: `tore-nada-sem-nos.jpg`, `tore-rorypaba.jpg`, and `tore-tupinamba-olivenca.jpg`.
 - Added more context from the supplied PDFs: Potiguara revitalization since 2001, Tupi Potiguara as a community-adapted identity label, Toré lyrics as living use, and the caution that contemporary Tupinambá Tupi should not be collapsed into the colonial corpus label.
@@ -127,3 +127,21 @@ Verified on 2026-05-17:
 - Redesigned the title slide so `Tupi Antigo` is the clear title, the workshop subtitle is separated, and `Kian Sheik` appears only in a distinct presenter block labeled `com`.
 - The new cover adds an Oficina UnB kicker, topic chips, an accent rail, and a right-side Anchieta 1595 source-image panel using `DeckImage`.
 - `npm run build`, `git diff --check`, generated-module checks, generated `<pre>/<code` checks, `curl -I http://localhost:3033/1`, and a headless DOM bounds/image-load check for slide 1 succeed. No screenshots were taken.
+
+Verified on 2026-05-18:
+
+- Added a `Roteiro da oficina` roadmap slide after the title slide, summarizing the deck into seven large arcs: Línguas gerais, Costa do Brasil, Anchieta, Amazônia, Nheengatu, mudança gramatical, and Retomadas.
+- Added seven typographic section-divider slides before the major turns in `decks/oficina-unb.md`: colonial línguas gerais, Brazil coast/Tupi Antigo corpus, Anchieta/use/variation, Amazonian language ecology, naming/Nheengatu, grammar change, and modern retomadas.
+- Added shared `section-map-*` and `section-divider-*` CSS in `styles/oficina-unb.css` for the pacing slides; no inline per-slide styling was needed.
+- `npm run build` succeeds and now emits 86 slide modules.
+- `git diff --check`, generated-module checks for all new roadmap/divider titles, generated `<pre>/<code` checks, `curl -I http://localhost:3033/2`, and a no-screenshot headless DOM overflow check for slides 2, 3, 12, 32, 38, 61, 69, and 79 all succeed.
+- Replaced the end vocabulary slide with three source-backed `O Tupi que o português já fala` table slides on routes 80-82 and deleted `decks/components/TupiVocabularyLookup.vue`.
+- `npm run build` succeeds and now emits 88 slide modules. `git diff --check`, generated-module checks for the new vocabulary titles/content, generated `<pre>/<code` checks, stale interactive-vocabulary checks, `curl -I http://localhost:3033/80`, and a no-screenshot headless DOM overflow check for routes 80-82 all succeed.
+- Expanded visible Finbow citations across the Amazônia/Língua Geral block so slide footnotes name the full 2022 article, `The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model`, or the full 2025 SciELO preprint, `A sociophilological account of the formation and evolution of the term Língua Geral, with emphasis on Amazonia`.
+- Added `finbow-source` CSS to keep the longer academic footnotes compact. `npm run build`, `git diff --check`, generated-module citation checks, stale bare-Finbow checks, generated `<pre>/<code` checks, `curl -I http://localhost:3033/40`, and a no-screenshot DOM overflow check for routes 40-45, 48-54, and 62 all succeed.
+- Added a side-by-side estimated-distribution map slide after `Três olhares, uma convergência`, using `tupi-dist-mapa.jpg` on the left and `rendtrans.png` on the right.
+- Copied the source images from `/Users/kian/code/latex/mestrado/` into `public/assets/oficina-unb/` and documented their provenance in the Oficina asset README.
+- Added `distribution-map-*` CSS for contained two-column map cards and a visible caveat that the maps are estimates of 16th-century geographic distributions, not fixed boundaries.
+- `npm run build`, `git diff --check`, generated-module content checks, generated `<pre>/<code` checks, and a no-screenshot headless DOM image/bounds check on `http://localhost:3034/18` all succeed. A local Slidev server is running at `http://localhost:3034/`.
+- Reworked the concept slide `Língua geral: não uma língua, mas uma categoria` CSS so the content reads as a two-column contrast: muted rejected question, accented preferred question, and the working definition spanning the bottom.
+- `npm run build`, `git diff --check`, generated-module checks for the concept slide, generated `<pre>/<code` checks, and `curl -I http://localhost:3034/11` succeed after the concept-slide polish. A Playwright DOM check could not run because the `playwright` package is not installed in this checkout; no screenshots were taken.
