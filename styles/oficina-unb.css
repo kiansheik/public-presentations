@@ -428,7 +428,15 @@
 }
 
 .slidev-layout.oficina-unb .finbow-source {
-  font-size: 0.68rem;
+  position: absolute;
+  left: 3.41%;
+  right: 3.41%;
+  bottom: 6.5%;
+  border-top: 0.06rem solid rgba(216, 221, 221, 0.36);
+  padding-top: 0.62rem;
+  color: var(--oficina-muted);
+  font-family: var(--oficina-serif);
+  font-size: 0.62rem;
   line-height: 1.1;
 }
 
@@ -2970,6 +2978,33 @@
 
 .retomada-source-retomadas.bottom-focus {
   object-position: 50% 82%;
+}
+
+.retomada-right-stack {
+  position: absolute;
+  right: 5.2%;
+  top: 23.6%;
+  width: 39.4%;
+  display: grid;
+  gap: 0.78rem;
+}
+
+.retomada-right-stack .retomada-bullets-card {
+  min-height: 19rem;
+}
+
+.retomada-right-stack .retomada-list {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.retomada-right-note {
+  border-top: 0.08rem solid rgba(220, 192, 106, 0.72);
+  padding-top: 0.68rem;
+  color: #fff5d6;
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.14;
 }
 
 .tupi-word-table {

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Text Layout</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #ddd;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrapper {
+      width: 90vw;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      aspect-ratio: 2479 / 3508;
+      width: 2479px;
+      height: 3508px;
+      position: relative;
+      background: white;
+      border: 3px solid black;
+      transform-origin: top left;
+    }
+
+    .line {
+      position: absolute;
+      font-family: sans-serif;
+      white-space: nowrap;
+      transform-origin: left bottom;
+    }
+
+    .text {
+      display: inline-block;
+      transform-origin: left bottom;
+    }
+
+    @media print {
+      html, body {
+        background: white !important;
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrapper {
+        all: unset;
+      }
+
+      #scale-container {
+        all: unset;
+      }
+
+      .box {
+        transform: none !important;
+        border: none;
+        margin: 0 auto;
+        page-break-inside: avoid;
+        box-shadow: none;
+      }
+
+      .line {
+        color: black;
+      }
+
+      body * {
+        visibility: hidden;
+      }
+
+      .box, .box * {
+        visibility: visible;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="scale-container">
+      <div class="box">
+        <div class="line" style="
+          left: 119px;
+          top: 265px;
+          transform: rotate(0.0rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.0608660130718954, 2.0608660130718954);">
+              ¶	 I_ cęçacáng; cóáracý çüí obeba
+            </span>
+        </div>
+        <div class="line" style="
+          left: 155px;
+          top: 414px;
+          transform: rotate(0.023161880371504337rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.7990936718590993, 1.7990936718590993);">
+              -rábberàb.
+            </span>
+        </div>
+        <div class="line" style="
+          left: 122px;
+          top: 537px;
+          transform: rotate(0.006696328480024197rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.074120576528953, 2.074120576528953);">
+              Cetá abé imbäé?
+            </span>
+        </div>
+        <div class="line" style="
+          left: 113px;
+          top: 670px;
+          transform: rotate(0.01905486498271325rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.036725953216406, 2.036725953216406);">
+              ¶	 J. mbäé etá etá, Tupána opacatú
+            </span>
+        </div>
+        <div class="line" style="
+          left: 110px;
+          top: 800px;
+          transform: rotate(0.002921121194786866rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.3006370557457614, 2.3006370557457614);">
+              mbäé jára imbäérama cecoû recé,
+            </span>
+        </div>
+        <div class="line" style="
+          left: 101px;
+          top: 907px;
+          transform: rotate(0.016696036570587984rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.2021043051875884, 2.2021043051875884);">
+              opacatú amé mbäébe Tupána remimon-
+            </span>
+        </div>
+        <div class="line" style="
+          left: 59px;
+          top: 1030px;
+          transform: rotate(0.0rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.0213293650793656, 2.0213293650793656);">
+              - hánga imbäérama cecó recé.
+            </span>
+        </div>
+        <div class="line" style="
+          left: 113px;
+          top: 1176px;
+          transform: rotate(0.013042738630607622rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.916829703210776, 1.916829703210776);">
+              Imöétépŷreté cerã cecoû?
+            </span>
+        </div>
+        <div class="line" style="
+          left: 119px;
+          top: 1310px;
+          transform: rotate(0.018106672884694433rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.9177526321534233, 1.9177526321534233);">
+              ¶	 Imöetépŷreté cecoû, morobixábeté
+            </span>
+        </div>
+        <div class="line" style="
+          left: 134px;
+          top: 1436px;
+          transform: rotate(0.023275148347428956rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.213861282012061, 2.213861282012061);">
+              pabé Tupã irúmo cecó recé, Tupã
+            </span>
+        </div>
+        <div class="line" style="
+          left: 107px;
+          top: 1561px;
+          transform: rotate(0.019435997186822495rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.6925711430582364, 1.6925711430582364);">
+              raýretá cecoû recé
+            </span>
+        </div>
+        <div class="line" style="
+          left: 101px;
+          top: 1704px;
+          transform: rotate(0.008712267461795492rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.049680963197549, 2.049680963197549);">
+              Opabenhé mbäé monháng, cuapára cerá
+            </span>
+        </div>
+        <div class="line" style="
+          left: 203px;
+          top: 1821px;
+          transform: rotate(0.0rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.8981481481481484, 1.8981481481481484);">
+              cecoû?
+            </span>
+        </div>
+        <div class="line" style="
+          left: 86px;
+          top: 1925px;
+          transform: rotate(0.027238468478518043rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.1514056902375023, 2.1514056902375023);">
+              ¶	 Imonhang cuapára cecoû: Tupã,
+            </span>
+        </div>
+        <div class="line" style="
+          left: 101px;
+          top: 2063px;
+          transform: rotate(0.020982321707064835rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.9031967110290817, 1.9031967110290817);">
+              opacatú mbäé monháng cuapára, remimotára
+            </span>
+        </div>
+        <div class="line" style="
+          left: 98px;
+          top: 2191px;
+          transform: rotate(0.02209585088384504rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.8858770156231175, 1.8858770156231175);">
+              çüí, nitiú poir recé
+            </span>
+        </div>
+        <div class="line" style="
+          left: 98px;
+          top: 2337px;
+          transform: rotate(0.03165928392548812rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.0684968686929146, 2.0684968686929146);">
+              Ojocuábcatútäé ybâkapóretá, ojomon-
+            </span>
+        </div>
+        <div class="line" style="
+          left: 119px;
+          top: 2460px;
+          transform: rotate(0.02556261242367693rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.2229484723500446, 2.2229484723500446);">
+              -guetá abé!
+            </span>
+        </div>
+        <div class="line" style="
+          left: 101px;
+          top: 2594px;
+          transform: rotate(0.029901354493536047rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.9909693526558656, 1.9909693526558656);">
+              ¶	 Ojocuábcatú, ojomonguetácatúnbé,
+            </span>
+        </div>
+        <div class="line" style="
+          left: 131px;
+          top: 2725px;
+          transform: rotate(0.035238051432758905rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.7919373431671661, 1.7919373431671661);">
+              opacatú nhëénga cuapára recóreme.
+            </span>
+        </div>
+        <div class="line" style="
+          left: 107px;
+          top: 2869px;
+          transform: rotate(0.03540753916246277rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.961699642373236, 1.961699642373236);">
+              Çorŷbeté abé abá ybâkypé?
+            </span>
+        </div>
+        <div class="line" style="
+          left: 104px;
+          top: 2991px;
+          transform: rotate(0.05126289550879545rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.919960436295862, 1.919960436295862);">
+              ¶	 Çorýbeté, ceté mbäé cuapába pabé
+            </span>
+        </div>
+        <div class="line" style="
+          left: 104px;
+          top: 3095px;
+          transform: rotate(0.06782035445618875rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.2357796065460365, 2.2357796065460365);">
+              pupé, i_ánga ecatuába pabá pupébé
+            </span>
+        </div>
+        <div class="line" style="
+          left: 113px;
+          top: 3233px;
+          transform: rotate(0.06223406955837677rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.9540142865734271, 1.9540142865734271);">
+              aujeramanhé.
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1238px;
+          top: 262px;
+          transform: rotate(-0.010238550072900357rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.769416412797533, 1.769416412797533);">
+              ¶	 Sunt tra nt parentia
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1221px;
+          top: 543px;
+          transform: rotate(0.005917090706027325rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.8531026157235209, 1.8531026157235209);">
+              sunt etiam divites?
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1241px;
+          top: 689px;
+          transform: rotate(0.024765577770366122rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.7208559854627699, 1.7208559854627699);">
+              ¶	 Sunt difiss<sup>mi:</sup> quia illorum est Deus,
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1250px;
+          top: 818px;
+          transform: rotate(0.008015860375971122rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.0384641822164804, 2.0384641822164804);">
+              qui continet omnia, et illorum est
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1274px;
+          top: 940px;
+          transform: rotate(0.0029382873324804923rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.1485782984725796, 2.1485782984725796);">
+              omne reliquum, quod creavit Deus.
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1244px;
+          top: 1722px;
+          transform: rotate(0.01181047445431509rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.138196261932751, 2.138196261932751);">
+              Ad faciendum quidlibet potentesne
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1274px;
+          top: 1830px;
+          transform: rotate(-0.018865686021670786rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.8406053167636904, 1.8406053167636904);">
+              erunt?
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1812px;
+          top: 1985px;
+          transform: rotate(0.020758263544051837rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.0073769237982018, 2.0073769237982018);">
+              quia à Dei
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1313px;
+          top: 2092px;
+          transform: rotate(0.019799392566392866rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.9132537886249668, 1.9132537886249668);">
+              omnipotentis voluntate
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1233px;
+          top: 2209px;
+          transform: rotate(0.007194120490292076rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.608837929117583, 1.608837929117583);">
+              non se separabunt.
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1241px;
+          top: 2373px;
+          transform: rotate(0.0028301811227080522rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.8402851480460376, 1.8402851480460376);">
+              Cognoscunt le invicem beati, ac sibi lo-
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1283px;
+          top: 2480px;
+          transform: rotate(0.0447462314546156rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.587466456343706, 2.587466456343706);">
+              -quentur?
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1307px;
+          top: 2779px;
+          transform: rotate(0.017935296372170506rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.787146406685344, 1.787146406685344);">
+              quia scient omnes linguas.
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1233px;
+          top: 2931px;
+          transform: rotate(0.031836373427114574rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.9249950693226647, 1.9249950693226647);">
+              Summéne gaudebunt
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1230px;
+          top: 3069px;
+          transform: rotate(0.02199306923914002rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(1.8659815679057783, 1.8659815679057783);">
+              ¶	 hummè gaudebunt in omnibus tris sensibus,
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1262px;
+          top: 3185px;
+          transform: rotate(0.02478831003729964rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.169125167905055, 2.169125167905055);">
+              et animae huc potentiis omnibus
+            </span>
+        </div>
+        <div class="line" style="
+          left: 1230px;
+          top: 3328px;
+          transform: rotate(0.019478055816527538rad);
+          font-size: 24px;">
+<span class="text" style="transform: scale(2.1392946945485227, 2.1392946945485227);">
+              in sempiternum.
+            </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const box = document.querySelector(".box");
+    const wrapper = document.querySelector(".wrapper");
+    const scaleContainer = document.getElementById("scale-container");
+
+    function resize() {
+      const scaleX = wrapper.clientWidth / box.offsetWidth;
+      const scaleY = wrapper.clientHeight / box.offsetHeight;
+      const scale = Math.min(scaleX, scaleY);
+      scaleContainer.style.transform = `scale(${scale})`;
+    }
+
+    window.addEventListener("load", resize);
+    window.addEventListener("resize", resize);
+  </script>
+</body>
+</html>

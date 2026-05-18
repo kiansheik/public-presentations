@@ -418,7 +418,8 @@ class: oficina-unb
   </section>
 
 
-  <DeckImage class="manuscript pos-anchieta-main" image="cardimtratados.png" alt="um texto jesuítico descrevendo a extensão da Língua Geral na costa brasileira. (Cardim, 1925 [1584], p. 194)" />
+  <DeckImage style="top:-0.8%" class="manuscript pos-anchieta-main" image="cardimtratados.png" alt="um texto jesuítico descrevendo a extensão da Língua Geral na costa brasileira. (Cardim, 1925 [1584], p. 194)" />
+  <p class="corpus-footer">Referência curta: Cardim, <em>Fernão. Tratados da terra e gente do Brasil. Rio de Janeiro: J. Leite & Cia., 1925 [1584]. Textos do séc. XVI (inclui materiais redigidos no período colonial; frequentemente citados com data do manuscrito, p.ex. 1584).</em></p>
 </div>
 
 <!--
@@ -447,8 +448,9 @@ class: oficina-unb
     <p class="source">Gabriel Soares de Sousa, 1587</p>
   </section> -->
 
-  <DeckImage class="manuscript pos-sousa-top" image="sousatop.png" alt="Um trecho jesuítico descrevendo a extensão da Língua Geral na costa brasileira em muitas detalhes (Sousa, 1938 [1587], p. 351)." />
-  <DeckImage class="manuscript pos-sousa-bottom" image="sousabottom.png" alt="Um trecho jesuítico descrevendo a extensão da Língua Geral na costa brasileira em muitas detalhes (Sousa, 1938 [1587], p. 351)." />
+  <DeckImage class="manuscript pos-anchieta-main" image="sousatop.png" alt="Um trecho jesuítico descrevendo a extensão da Língua Geral na costa brasileira em muitas detalhes (Sousa, 1938 [1587], p. 351)." />
+
+  <p class="corpus-footer">Referência curta: SOUSA, Gabriel Soares de. <em>Tratado descriptivo do Brasil em 1587. Ed. by Francisco Adolfo de Varnhagen. São Paulo: Companhia Editora Nacional, 1938 [1587]. Edição da série Brasiliana; obra originalmente escrita em 1587.</em></p>
 </div>
 
 <!--
@@ -490,7 +492,6 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas distribution-map-slide">
-  <p class="source-kicker">Estimativas cartográficas</p>
   <h1 class="slide-title pos-title-wide">Distribuições estimadas no Brasil do século XVI</h1>
 
   <section class="distribution-map-grid">
@@ -528,7 +529,7 @@ class: oficina-unb
       </div>
       <div>
         <p class="corpus-label">Indígenas</p>
-        <p>cartas e usos escritos raros, especialmente ligados a autores Potiguara.</p>
+        <p>cartas e usos escritos raros, ligados a autores Potiguara.</p>
       </div>
       <div>
         <p class="corpus-label">Europeus</p>
@@ -552,7 +553,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Hans Staden — 1557</h1>
+  <h1 class="slide-title corpus-card-title">Hans Staden, 1557</h1>
   <p class="corpus-subtitle">relato de cativeiro / vocabulário etnográfico inicial</p>
 
   <section class="corpus-card-grid">
@@ -582,7 +583,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">André Thevet — 1557</h1>
+  <h1 class="slide-title corpus-card-title">André Thevet, 1557</h1>
   <p class="corpus-subtitle">cosmografia francesa / França Antártica</p>
 
   <section class="corpus-card-grid">
@@ -612,7 +613,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Jean de Léry — 1578</h1>
+  <h1 class="slide-title corpus-card-title">Jean de Léry, 1578</h1>
   <p class="corpus-subtitle">relato reformado / vida entre os Tupinambá</p>
 
   <section class="corpus-card-grid">
@@ -642,7 +643,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Pero de Magalhães de Gândavo — 1576</h1>
+  <h1 class="slide-title corpus-card-title">Pero de Magalhães de Gândavo, 1576</h1>
   <p class="corpus-subtitle">primeira descrição impressa portuguesa do Brasil</p>
 
   <section class="corpus-card-grid">
@@ -672,7 +673,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Gabriel Soares de Sousa — 1587</h1>
+  <h1 class="slide-title corpus-card-title">Gabriel Soares de Sousa, 1587</h1>
   <p class="corpus-subtitle">descrição colonial / etnografia e história natural</p>
 
   <section class="corpus-card-grid">
@@ -702,7 +703,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Fernão Cardim — séc. XVI</h1>
+  <h1 class="slide-title corpus-card-title">Fernão Cardim, séc. XVI</h1>
   <p class="corpus-subtitle">etnografia jesuítica / testemunho de “mesma língua”</p>
 
   <section class="corpus-card-grid">
@@ -732,7 +733,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">José de Anchieta — 1595</h1>
+  <h1 class="slide-title corpus-card-title">José de Anchieta, 1595</h1>
   <p class="corpus-subtitle">primeira gramática impressa</p>
 
   <section class="corpus-card-grid">
@@ -763,7 +764,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Antônio de Araújo — 1618</h1>
+  <h1 class="slide-title corpus-card-title">Antônio de Araújo, 1618</h1>
   <p class="corpus-subtitle">catecismo em língua brasílica</p>
 
   <section class="corpus-card-grid">
@@ -794,7 +795,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Luís Figueira — 1621</h1>
+  <h1 class="slide-title corpus-card-title">Luís Figueira, 1621</h1>
   <p class="corpus-subtitle">segunda gramática principal</p>
 
   <section class="corpus-card-grid">
@@ -825,7 +826,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title"><em>Vocabulário na Língua Brasílica</em> — ms. séc. XVII</h1>
+  <h1 class="slide-title corpus-card-title"><em>Vocabulário na Língua Brasílica</em>, ms. séc. XVII</h1>
   <p class="corpus-subtitle">grande testemunho lexical</p>
 
   <section class="corpus-card-grid">
@@ -856,7 +857,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">Cartas dos Camarões — 1645</h1>
+  <h1 class="slide-title corpus-card-title">Cartas dos Camarões, 1645</h1>
   <p class="corpus-subtitle">textos indígenas em Tupi Antigo</p>
 
   <section class="corpus-card-grid">
@@ -888,7 +889,7 @@ class: oficina-unb
 ---
 
 <div class="oficina-canvas corpus-card-slide">
-  <h1 class="slide-title corpus-card-title">João Filipe Bettendorff — 1687</h1>
+  <h1 class="slide-title corpus-card-title">João Filipe Bettendorff, 1687</h1>
   <p class="corpus-subtitle">fronteira filológica do corpus clássico</p>
 
   <section class="corpus-card-grid">
@@ -951,7 +952,7 @@ class: oficina-unb
 <div class="oficina-canvas section-divider-slide">
   <p class="section-divider-number">Parte 3</p>
   <h1 class="section-divider-title">Anchieta entre regra, uso e variação</h1>
-  <p class="section-divider-copy">Depois de mapear o corpus, voltamos a Anchieta para perguntar como uma gramática missionária lidava com uma língua usada em situações reais.</p>
+  <p class="section-divider-copy">Depois de mapear o corpus, voltamos a Anchieta para perguntar como uma gramática missionária lidava com variação.</p>
   <section class="section-divider-points">
     <p>a língua mais usada na costa</p>
     <p>o uso como mestre da descrição</p>
@@ -1165,6 +1166,28 @@ Fonte: Finbow, Thomas. The Nature and Emergence of the Língua Geral Amazônica 
 class: oficina-unb
 ---
 
+<div class="oficina-canvas amazonia-slide">
+  <h1 class="slide-title pos-title-left title-tight">Paulistas nas missões do Maranhão-Pará</h1>
+
+  <section class="amazonia-block finbow-left-block">
+<p>Finbow retoma as tentativas de Antônio Vieira, nos anos 1650 e 1660, de recrutar paulistas falantes nativos de Língua Geral para trabalhar na Amazônia.</p>
+<div class="amazonia-keypoint">
+  <p class="point-label">Leitura possível</p>
+  <p>Se sua variedade era útil para converter Tupinambá amazônicos, a distância entre a variedade do sul e a do norte provavelmente não era percebida como a de línguas separadas.</p>
+</div>
+  </section>
+
+  <DeckImage
+    class="manuscript pos-anchieta-main"
+    image="12_finbow2025_p12_vieira_paulistas_maranhao_para.png"
+    alt="Finbow 2025, p. 12, sobre Antônio Vieira recrutar paulistas falantes de Língua Geral para missões no Maranhão e Pará"
+  />
+  <p class="source finbow-source">Barros, 2003, 2010, apud Finbow, Thomas. “A sociophilological account of the formation and evolution of the term Língua Geral, with emphasis on Amazonia.” SciELO Preprints, 2025, p. 12.</p>
+</div>
+
+---
+class: oficina-unb
+---
 
 <div class="oficina-canvas amazonia-slide">
   <h1 class="slide-title pos-title-wide">João Daniel: “parece outra língua diversa”</h1>
@@ -1172,8 +1195,6 @@ class: oficina-unb
     <div>
       <section class="amazonia-block daniel-block">
         <p>João Daniel escreve, no século XVIII, que a antiga língua dos catecismos já não correspondia bem à fala comum das missões amazônicas.</p>
-        <blockquote class="quote-text daniel-quote">“parece outra língua diversa”</blockquote>
-        <p class="source finbow-source">João Daniel, 1757-1776, apud Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 82.</p>
         <div class="amazonia-keypoint">
           <p class="point-label">Ponto-chave</p>
           <p>A língua geral amazônica ainda era chamada de “língua geral”, mas já havia se afastado da norma antiga dos catecismos e gramáticas.</p>
@@ -1182,15 +1203,15 @@ class: oficina-unb
     </div>
     <div>
       <blockquote class="amazonia-longquote daniel-longquote">
-        <p>“Nesta língua [Tupinambá] se composeram ao princípio pelos primeiros missionários jesuítas o catecismo, e doutrina; e a reduziram a arte com regras, e termos fáceis de se aprender. Porém, como os primeiros, e verdadeiros topinambares já quase de todo se acabaram, e as missões se foram restabelecendo com outras mui diversas nações, e línguas, se foi corrompendo de tal sorte a língua geral topinambá, que já hoje são raros, os que a falam com a sua nativa pureza, e vigor;”</p>
-        <p class="source finbow-source">Daniel, 2004 [1757–1776], p. 365, apud Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 82.</p>
+        <p>“Nesta língua se composeram ao princípio pelos primeiros missionários jesuítas o catecismo, e doutrina; e a reduziram a arte com regras, e termos fáceis de se aprender. Porém, como os primeiros, e verdadeiros topinambares já quase de todo se acabaram, e as missões se foram restabelecendo com outras mui diversas nações, e línguas, se foi corrompendo de tal sorte a língua geral topinambá, que já hoje são raros, os que a falam com a sua nativa pureza, e vigor;”</p>
       </blockquote>
     </div>
   </div>
+  <p class="source finbow-source">Daniel, 2004 [1757–1776], p. 365, apud Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 82.</p>
 </div>
 
 <!--
-João Daniel é importante porque ele fala de dentro do mundo missionário amazônico. Ele não está descrevendo o Tupi Antigo clássico da costa; ele está observando a língua usada nas missões portuguesas do Amazonas no século XVIII. A frase “parece outra língua diversa” é forte justamente porque mostra a percepção de distância entre a língua de livro — o catecismo, a arte, a norma missionária antiga — e a língua efetivamente falada no cotidiano. Finbow cita esse trecho de Daniel, datado de 1757-1776, como uma das evidências centrais para pensar a emergência da Língua Geral Amazônica.
+João Daniel é importante porque ele fala de dentro do mundo missionário amazônico. Ele não está descrevendo o Tupi Antigo clássico da costa; ele está observando a língua usada nas missões portuguesas do Amazonas no século XVIII. A frase “parece outra língua diversa” é forte justamente porque mostra a percepção de distância entre a língua de livro, o catecismo, a arte, a norma missionária antiga, e a língua efetivamente falada no cotidiano. Finbow cita esse trecho de Daniel, datado de 1757-1776, como uma das evidências centrais para pensar a emergência da Língua Geral Amazônica.
 
 Fonte: Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” Revista do GEL, 19(2), 2022, p. 82; Daniel, Tesouro descoberto no máximo Rio Amazonas, 2004 [1757-1776], v. 2, p. 365.
 -->
@@ -1203,8 +1224,7 @@ class: oficina-unb
   <h1 class="slide-title pos-title-wide">A arte já não garantia entendimento</h1>
   <div class="daniel-followup-grid">
     <blockquote class="amazonia-longquote daniel-followup-quote">
-      <p>“mesmos índios não percebem o catecismo, nem os que estudam a arte se entendem com os índios especialmente no Amazonas, como muitas vezes tem experimentado, e confessado os mesmos missionários, e índios, de sorte está viciada, e corrupta que parece outra língua diversa; mas a qual é a que se usa em todas as missões portuguesas do Amazonas, e a que aprendem as novas nações, que vão saindo dos matos […]”</p>
-      <p class="source finbow-source">Daniel, 2004 [1757–1776], p. 365, apud Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 82.</p>
+      <p>“índios não percebem o catecismo, nem os que estudam a arte se entendem com os índios especialmente no Amazonas, como muitas vezes tem experimentado, e confessado os mesmos missionários, e índios, de sorte está viciada, e corrupta que parece outra língua diversa; mas a qual é a que se usa em todas as missões portuguesas do Amazonas, e a que aprendem as novas nações, que vão saindo dos matos […]”</p>
     </blockquote>
     <section class="daniel-takeaways">
       <p class="corpus-label">O que a passagem mostra?</p>
@@ -1216,6 +1236,7 @@ class: oficina-unb
       </div>
     </section>
   </div>
+  <p class="source finbow-source">Daniel, 2004 [1757–1776], p. 365, apud Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 82.</p>
 </div>
 
 <!--
@@ -1253,12 +1274,12 @@ class: oficina-unb
       <p class="point-label">Ponto-chave</p>
       <p>A língua geral continuou, mas seus falantes e aprendizes mudaram.</p>
     </div>
-    <p class="source finbow-source">Daniel, 2004 [1757–1776], p. 365, apud Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 82.</p>
   </section>
+  <p class="source finbow-source">Daniel, 2004 [1757–1776], p. 365, apud Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 82.</p>
 </div>
 
 <!--
-Daniel explica a mudança linguisticamente, mas também demograficamente. Segundo ele, os “primeiros e verdadeiros topinambares” já quase tinham desaparecido, enquanto as missões eram recompostas com povos de “diversas nações e línguas”. A formulação dele é marcada por juízo colonial — ele fala em língua “corrompida” —, mas a informação sociolinguística é valiosa: a base humana da língua geral estava mudando.
+Daniel explica a mudança linguisticamente, mas também demograficamente. Segundo ele, os “primeiros e verdadeiros topinambares” já quase tinham desaparecido, enquanto as missões eram recompostas com povos de “diversas nações e línguas”. A formulação dele é marcada por juízo colonial, ele fala em língua “corrompida” —, mas a informação sociolinguística é valiosa: a base humana da língua geral estava mudando.
 
 Fonte: Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” Revista do GEL, 19(2), 2022, p. 82; Daniel, Tesouro descoberto no máximo Rio Amazonas, 2004 [1757-1776], v. 2, p. 365.
 -->
@@ -1271,7 +1292,7 @@ class: oficina-unb
   <h1 class="slide-title pos-title-wide">Aldeamentos multiétnicos e aprendizagem pela imersão</h1>
 
   <section class="amazonia-block tapuia-block">
-    <p>Na Amazônia, muitos novos aldeados eram chamados de <strong>Tapuias</strong> — aqui, no sentido colonial amplo de povos não falantes do Tupi Antigo/Língua Brasílica.</p>
+    <p>Na Amazônia, muitos novos aldeados eram chamados de <strong>Tapuias</strong>, aqui, no sentido colonial amplo de povos não falantes do Tupi Antigo/Língua Brasílica.</p>
     <div class="amazonia-contrast">
       <div>
         <p class="contrast-label">não principalmente</p>
@@ -1282,8 +1303,8 @@ class: oficina-unb
         <p>imersão no cotidiano dos aldeamentos</p>
       </div>
     </div>
-    <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 96.</p>
   </section>
+  <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 96.</p>
 </div>
 
 <!--
@@ -1311,8 +1332,8 @@ class: oficina-unb
       <p class="point-label">Ponto-chave</p>
       <p>A mudança linguística não vem de uma regra jesuítica, mas da ecologia social da Amazônia colonial.</p>
     </div>
-    <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 96–98.</p>
   </section>
+  <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 96–98.</p>
 </div>
 
 <!--
@@ -1342,10 +1363,10 @@ class: oficina-unb
     </div>
     <div class="amazonia-keypoint">
       <p class="point-label">Ponto-chave</p>
-      <p>Daniel compara a fala viva com a norma antiga — e julga a fala viva como “corrupta”.</p>
+      <p>Daniel compara a fala viva com a norma antiga, e julga a fala viva como “corrupta”.</p>
     </div>
-    <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 84–85, 102.</p>
   </section>
+  <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 84–85, 102.</p>
 </div>
 
 <!--
@@ -1417,7 +1438,6 @@ class: oficina-unb
   <p class="point-label">Em outras palavras</p>
   <p>Não uma língua rigidamente separada, mas um conjunto de variedades tupi-guarani amplamente compreensíveis com o Tupi Antigo colonial.</p>
 </div>
-<p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 75.</p>
   </section>
 
   <DeckImage
@@ -1425,6 +1445,7 @@ class: oficina-unb
     image="01_finbow2022_p75_lingua_geral_functional_definition.png"
     alt="Finbow 2022, p. 75, definição funcional de Língua Geral como variedade tupi-guarani amplamente compreensível com o Tupi Antigo colonial"
   />
+  <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 75.</p>
 </div>
 
 <!--
@@ -1454,8 +1475,8 @@ class: oficina-unb
   <p class="point-label">Ponto-chave</p>
   <p>A distinção LGP/LGA é útil para trajetórias posteriores, mas as fontes antigas sugerem variedades regionais ainda amplamente inteligíveis.</p>
 </div>
-<p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 79.</p>
   </section>
+  <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 79.</p>
 
   <!-- <DeckImage
     class="manuscript pos-anchieta-main"
@@ -1476,7 +1497,7 @@ A imagem mostra três pontos importantes:
 Eu evitaria dizer “isso enfraquece” ou “isso refuta”. A formulação mais calma é: a evidência aponta mais para variação regional dentro de um complexo amplamente inteligível do que para línguas separadas no sentido forte.
 -->
 
----
+<!-- ---
 class: oficina-unb
 ---
 
@@ -1492,7 +1513,6 @@ class: oficina-unb
   <p class="point-label">Ponto-chave</p>
   <p>O Maranhão não aparece como ruptura absoluta: a documentação ainda aproxima sua situação linguística da língua geral conhecida no Brasil costeiro.</p>
 </div>
-<p class="source finbow-source">Gomes, 1904 [1616], p. 334, apud Finbow, Thomas. “A sociophilological account of the formation and evolution of the term Língua Geral, with emphasis on Amazonia.” SciELO Preprints, 2025, p. 11, n. 7.</p>
   </section>
 
   <DeckImage
@@ -1500,7 +1520,8 @@ class: oficina-unb
     image="11_finbow2025_p11_gomes_original_footnote.png"
     alt="Finbow 2025, p. 11, nota 7, citação de Manoel Gomes sobre Tapuias que falavam a língua geral dos Tupinambás"
   />
-</div>
+  <p class="source finbow-source">Gomes, 1904 [1616], p. 334, apud Finbow, Thomas. “A sociophilological account of the formation and evolution of the term Língua Geral, with emphasis on Amazonia.” SciELO Preprints, 2025, p. 11, n. 7.</p>
+</div> -->
 
 <!--
 Imagem citada: 11_finbow2025_p11_gomes_original_footnote.png.
@@ -1511,28 +1532,7 @@ A imagem mostra a citação portuguesa de Manoel Gomes: “Ha muitos tapuyas de 
 Essa passagem é boa porque mostra que, já no começo do século XVII, havia uma percepção de língua geral dos Tupinambá como algo “quase comum no Brazil”, e que povos chamados Tapuia podiam ser descritos como falando essa língua geral. A ideia não é negar diversidade, mas mostrar continuidade funcional e comunicativa.
 -->
 
----
-class: oficina-unb
----
 
-<div class="oficina-canvas amazonia-slide">
-  <h1 class="slide-title pos-title-left title-tight">Paulistas nas missões do Maranhão-Pará</h1>
-
-  <section class="amazonia-block finbow-left-block">
-<p>Finbow retoma as tentativas de Antônio Vieira, nos anos 1650 e 1660, de recrutar paulistas falantes nativos de Língua Geral para trabalhar na Amazônia.</p>
-<div class="amazonia-keypoint">
-  <p class="point-label">Leitura possível</p>
-  <p>Se sua variedade era útil para converter Tupinambá amazônicos, a distância entre o sul e o norte provavelmente não era percebida como a de línguas separadas.</p>
-</div>
-<p class="source finbow-source">Barros, 2003, 2010, apud Finbow, Thomas. “A sociophilological account of the formation and evolution of the term Língua Geral, with emphasis on Amazonia.” SciELO Preprints, 2025, p. 12.</p>
-  </section>
-
-  <DeckImage
-    class="manuscript pos-anchieta-main"
-    image="12_finbow2025_p12_vieira_paulistas_maranhao_para.png"
-    alt="Finbow 2025, p. 12, sobre Antônio Vieira recrutar paulistas falantes de Língua Geral para missões no Maranhão e Pará"
-  />
-</div>
 
 <!--
 Imagem citada: 12_finbow2025_p12_vieira_paulistas_maranhao_para.png.
@@ -1559,7 +1559,6 @@ class: oficina-unb
   <p class="point-label">Ponto-chave</p>
   <p>A mudança do nome e da função acompanha a incorporação forçada de muitos povos não-tupi e não-tupi-guarani ao sistema colonial amazônico.</p>
 </div>
-<p class="source finbow-source">Finbow, Thomas. “A sociophilological account of the formation and evolution of the term Língua Geral, with emphasis on Amazonia.” SciELO Preprints, 2025, p. 15.</p>
   </section>
 
   <DeckImage
@@ -1567,6 +1566,7 @@ class: oficina-unb
     image="14_finbow2025_p15_bluteau_tapuia_lg.png"
     alt="Finbow 2025, p. 15, Bluteau e a Língua Geral como língua franca supraétnica falada por muitos povos"
   />
+  <p class="source finbow-source">Finbow, Thomas. “A sociophilological account of the formation and evolution of the term Língua Geral, with emphasis on Amazonia.” SciELO Preprints, 2025, p. 15.</p>
 </div>
 
 <!--
@@ -1576,7 +1576,7 @@ Fonte visual: Finbow, Thomas. “A sociophilological account of the formation an
 A imagem mostra Finbow explicando Bluteau: no século XVIII, a Língua Geral já não é pensada apenas como uma língua ou contínuo regional de falantes nativos, mas como língua franca supraétnica usada como língua auxiliar por muitos povos. Essa formulação ajuda a passar da questão “LGP/LGA como variedades regionais” para a questão amazônica: a função social da língua mudou.
 -->
 
----
+<!-- ---
 class: oficina-unb
 ---
 
@@ -1592,7 +1592,6 @@ class: oficina-unb
   <p class="point-label">Leitura possível</p>
   <p>Não uma ruptura absoluta entre línguas, mas uma tensão entre norma catequética antiga e vernáculo amazônico cotidiano.</p>
 </div>
-<p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 84–85.</p>
   </section>
 
   <DeckImage
@@ -1600,7 +1599,8 @@ class: oficina-unb
     image="05_finbow2022_p84_85_diglossia_h_l_lg.png"
     alt="Finbow 2022, pp. 84-85, leitura diglóssica de João Daniel sobre norma escrita e vernáculo cotidiano da Língua Geral"
   />
-</div>
+  <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 84–85.</p>
+</div> -->
 
 <!--
 Imagem citada: 05_finbow2022_p84_85_diglossia_h_l_lg.png.
@@ -1623,7 +1623,6 @@ class: oficina-unb
 </blockquote>
 <p>Ela preserva continuidade com a Língua Brasílica/Tupi Antigo, mas sofre reestruturações em novo ambiente social.</p>
 <p class="continuity-line">continuidade + contato + mudança</p>
-<p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 102.</p>
   </section>
 
   <DeckImage
@@ -1631,6 +1630,7 @@ class: oficina-unb
     image="07_finbow2022_p102_restructured_variety.png"
     alt="Finbow 2022, p. 102, Língua Geral Amazônica como variedade reestruturada de uma língua existente e reconhecida"
   />
+  <p class="source finbow-source">Finbow, Thomas. “The Nature and Emergence of the Língua Geral Amazônica according to Mufwene’s Language Ecology Model.” <em>Revista do GEL</em>, 19(2), 2022, p. 102.</p>
 </div>
 
 <!--
@@ -1667,6 +1667,19 @@ class: oficina-unb
 <!--
 Este é um documento perfeito para a transição. Não estamos ainda no Nheengatu moderno, mas também já não estamos simplesmente na norma de Anchieta, Araújo ou Figueira. O próprio título diz que se trata de uma tradução para a língua geral “irregular” e “vulgar” usada naquele momento. Isso mostra uma fase intermediária da Língua Geral Amazônica.
 -->
+
+
+---
+class: oficina-unb
+---
+
+<div class="oficina-canvas distribution-map-slide">
+  <section style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; width: 100%; height: 100%;">
+    <DeckImage image="manuscrito.jpg" alt="Manuscrito 1089" style="width: 100%; height: 100%; object-fit: contain;" />
+    <DeckImage image="facsimile.png" alt="Exemplar de facsimile" style="width: 100%; height: 100%; object-fit: contain;" />
+  </section>
+</div>
+
 
 ---
 class: oficina-unb
@@ -2587,31 +2600,31 @@ class: oficina-unb
         <td><strong>paçoca</strong></td>
         <td><span class="tupi-form">apa- + sok</span></td>
         <td>intensificação/completude + socar, pilar</td>
-        <td class="tupi-example"><em>abati soka</em> — “pilar milho.” <span>Figueira, <em>Arte</em>, 73</span></td>
+        <td class="tupi-example"><em>abati soka</em>, “pilar milho.” <span>Figueira, <em>Arte</em>, 73</span></td>
       </tr>
       <tr>
         <td><strong>pamonha</strong></td>
         <td><span class="tupi-form">apa- + (e)mimõîa</span></td>
         <td>coisa cozida; cozido</td>
-        <td class="tupi-example"><em>xe remimõîa</em> — “meu cozido.” <span>Figueira, <em>Arte</em>, 79</span></td>
+        <td class="tupi-example"><em>xe remimõîa</em>, “meu cozido.” <span>Figueira, <em>Arte</em>, 79</span></td>
       </tr>
       <tr>
         <td><strong>peba</strong></td>
         <td><span class="tupi-form">peba / peb</span></td>
         <td>achatamento; plano; largo</td>
-        <td class="tupi-example"><em>Xe rera “Kururupeba”.</em> — “Meu nome é ‘Sapo Achatado’.” <span>Anchieta, <em>Teatro</em>, 90</span></td>
+        <td class="tupi-example"><em>Xe rera “Kururupeba”.</em>, “Meu nome é ‘Sapo Achatado’.” <span>Anchieta, <em>Teatro</em>, 90</span></td>
       </tr>
       <tr>
         <td><strong>pereba</strong></td>
         <td><span class="tupi-form">pereba / pereb</span></td>
         <td>ferida, chaga; perebento</td>
-        <td class="tupi-example"><em>Xe pereb.</em> — “Eu tenho ferida.” <span><em>VLB</em>, I, 60</span></td>
+        <td class="tupi-example"><em>Xe pereb.</em>, “Eu tenho ferida.” <span><em>VLB</em>, I, 60</span></td>
       </tr>
       <tr>
         <td><strong>pitiú</strong></td>
         <td><span class="tupi-form">pyti’u</span></td>
         <td>cheiro de peixe fresco cru</td>
-        <td class="tupi-example"><em>Xe pyti’ugûasu.</em> — “Eu tenho muito pitiú.” <span><em>VLB</em>, I, 73</span></td>
+        <td class="tupi-example"><em>Xe pyti’ugûasu.</em>, “Eu tenho muito pitiú.” <span><em>VLB</em>, I, 73</span></td>
       </tr>
     </tbody>
   </table>
@@ -2643,13 +2656,13 @@ class: oficina-unb
         <td><strong>curumim</strong></td>
         <td><span class="tupi-form">kunumĩ</span></td>
         <td>menino; moço; infância</td>
-        <td class="tupi-example"><em>Kunumĩ turusu.</em> — “O menino é grande.” <span>Figueira, <em>Arte</em>, 75</span></td>
+        <td class="tupi-example"><em>Kunumĩ turusu.</em>, “O menino é grande.” <span>Figueira, <em>Arte</em>, 75</span></td>
       </tr>
       <tr>
         <td><strong>cunhantã</strong></td>
         <td><span class="tupi-form">kunhataĩ</span></td>
         <td>menina, moça jovem</td>
-        <td class="tupi-example"><em>Eresugûykápe kunhataĩ amõ?</em> — “Desvirginaste alguma menina?” <span>Araújo, <em>Catecismo</em>, 103v</span></td>
+        <td class="tupi-example"><em>Eresugûykápe kunhataĩ amõ?</em>, “Desvirginaste alguma menina?” <span>Araújo, <em>Catecismo</em>, 103v</span></td>
       </tr>
       <tr>
         <td><strong>capivara</strong></td>
@@ -2699,11 +2712,11 @@ class: oficina-unb
   </section>
 
   <DeckImage class="manuscript retomada-source-image retomada-source-contemporary source-contain" image="tore-nada-sem-nos.jpg" alt="Década Internacional das Línguas Indígenas: Nada para nós sem nós" />
-  <p class="retomada-source">Sheik, <em>A Computational Grammar of Old Tupi</em>, seção Contemporary; Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slide “Nada para nós sem nós”.</p>
+  <p class="retomada-source">Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slide “Nada para nós sem nós”; Navarro, <em>Método Moderno de Tupi Antigo</em> (2005) e <em>Dicionário de Tupi Antigo</em> (2013).</p>
 </div>
 
 <!--
-Aqui é importante separar Tupi Antigo de Nheengatu. O Nheengatu é uma língua viva amazônica, descendente da Língua Geral. O Tupi Antigo, como corpus colonial costeiro, não tem falantes nativos confirmados hoje. Mas isso não significa que esteja morto: ele está sendo retomado, ensinado, recriado e usado em novos contextos. O trabalho maior chama atenção para três variedades modernas em retomada — Potiguara Tupi, Tupinambá Tupi e Tupinakyîa Tupi — baseadas no corpus antigo, mas adaptadas a comunidades vivas.
+Aqui é importante separar Tupi Antigo de Nheengatu. O Nheengatu é uma língua viva amazônica, descendente da Língua Geral. O Tupi Antigo, como corpus colonial costeiro, não tem falantes nativos confirmados hoje. Mas isso não significa que esteja morto: ele está sendo retomado, ensinado, recriado e usado em novos contextos. A formulação aqui chama atenção para três variedades modernas em retomada, Potiguara Tupi, Tupinambá Tupi e Tupinakyîa Tupi, baseadas no corpus antigo, mas adaptadas a comunidades vivas.
 -->
 
 ---
@@ -2730,7 +2743,7 @@ class: oficina-unb
   </section>
 
   <DeckImage class="manuscript retomada-source-image retomada-source-retomadas source-contain" image="tore-rorypaba.jpg" alt="Slide Toré Rorypaba com letra em Tupi e tradução em português" />
-  <p class="retomada-source">Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slides “Toré Rorypaba” e “A revitalização do Tupi e o protagonismo Potiguara”; Sheik, <em>A Computational Grammar of Old Tupi</em>, seção Potiguara.</p>
+  <p class="retomada-source">Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slides “Toré Rorypaba” e “A revitalização do Tupi e o protagonismo Potiguara”; Araújo da Silva Guyraakanga Potiguara, <em>Tupi Potiguara Kuapa</em> (2024); Cabral (2024).</p>
 </div>
 
 <!--
@@ -2760,11 +2773,11 @@ class: oficina-unb
   </section>
 
   <DeckImage class="manuscript retomada-source-image retomada-source-retomadas source-contain" image="tore-tupinamba-olivenca.jpg" alt="Slide com imagens e título Tupinambá de Olivença" />
-  <p class="retomada-source">Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slide “Tupinambá de Olivença”; Sheik, <em>A Computational Grammar of Old Tupi</em>, seções Nomenclature e Tupinambá.</p>
+  <p class="retomada-source">Araújo da Silva, <em>A Língua Tupinambá nas músicas do Ritual do Toré</em>, slide “Tupinambá de Olivença”; Costa (2013); Santos & Porto (2020); Santana & Cohn (2018); Pavelic (2023).</p>
 </div>
 
 <!--
-No caso Tupinambá, eu enfatizaria que a língua não aparece isolada: ela está ligada à escola, à cultura, ao território e à política de consulta. Isso ajuda o público da História a ver que revitalização linguística também é história indígena contemporânea. A seção de nomenclatura do trabalho maior também ajuda aqui: chamar o corpus antigo simplesmente de “Tupinambá” apaga que Tupinambá Tupi hoje é uma retomada contemporânea própria.
+No caso Tupinambá, eu enfatizaria que a língua não aparece isolada: ela está ligada à escola, à cultura, ao território e à política de consulta. Isso ajuda o público da História a ver que revitalização linguística também é história indígena contemporânea. O cuidado terminológico também é importante aqui: chamar o corpus antigo simplesmente de “Tupinambá” apaga que Tupinambá Tupi hoje é uma retomada contemporânea própria.
 -->
 
 ---
@@ -2789,8 +2802,18 @@ class: oficina-unb
     <p class="retomada-keypoint inline">A língua entra em novos gêneros: audiovisual, performance, rede social e cotidiano.</p>
   </section>
 
-  <DeckImage class="manuscript retomada-source-image retomada-source-retomadas bottom-focus" image="qualification-retomadas-p22.png" alt="Página 22 da qualificação, trecho sobre Tupinakyîa e Akangatara" />
-  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 22; Navarro, 2005, 2013; Akangatara Produções.</p>
+  <section class="retomada-right-stack">
+    <div class="retomada-bullets-card">
+      <p class="retomada-card-label">Fontes e circulação</p>
+      <ul class="retomada-list">
+        <li>Navarro como base didática e lexical;</li>
+        <li>uso público em vídeos, filmes e música;</li>
+        <li>Akangatara Produções como referência audiovisual.</li>
+      </ul>
+    </div>
+    <p class="retomada-right-note">Aqui, a evidência principal não é uma edição acadêmica do projeto, mas a circulação pública em rede.</p>
+  </section>
+  <p class="retomada-source">Navarro, <em>Método Moderno de Tupi Antigo</em> (2005); Navarro, <em>Dicionário de Tupi Antigo</em> (2013); Akangatara Produções.</p>
 </div>
 
 <!--
@@ -2821,13 +2844,13 @@ class: oficina-unb
   </section>
 
   <div class="retomada-media-collage" aria-hidden="true">
-    <DeckImage class="manuscript retomada-media-img media-dic" image="qualification-dic.png" alt="Dicionário expandido da qualificação" />
-    <DeckImage class="manuscript retomada-media-img media-gint" image="qualification-gint.png" alt="Gramática interativa da qualificação" />
-    <DeckImage class="manuscript retomada-media-img media-trad" image="qualification-trad.png" alt="Tradutor da qualificação" />
-    <DeckImage class="manuscript retomada-media-img media-quiz" image="qualification-quiz.png" alt="Quiz de conjugação da qualificação" />
+    <DeckImage class="manuscript retomada-media-img media-dic" image="qualification-dic.png" alt="Dicionário digital de Tupi Antigo" />
+    <DeckImage class="manuscript retomada-media-img media-gint" image="qualification-gint.png" alt="Gramática interativa de Tupi Antigo" />
+    <DeckImage class="manuscript retomada-media-img media-trad" image="qualification-trad.png" alt="Tradutor experimental de Tupi Antigo" />
+    <DeckImage class="manuscript retomada-media-img media-quiz" image="qualification-quiz.png" alt="Quiz de conjugação em Tupi Antigo" />
   </div>
 
-  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 23-24, 48-51.</p>
+  <p class="retomada-source">Navarro, <em>Método Moderno de Tupi Antigo</em> (2005) e <em>Dicionário de Tupi Antigo</em> (2013); Akangatara Produções; Araújo da Silva Guyraakanga Potiguara, <em>Tupi Potiguara Kuapa</em> (2024).</p>
 </div>
 
 <!--
@@ -2862,7 +2885,7 @@ class: oficina-unb
   </section>
 
   <p class="retomada-final-line">A língua não volta igual ao passado — ela volta porque ainda importa no presente.</p>
-  <p class="retomada-source">Sheik, <em>qualificationtr.pdf</em>, p. 21-24, 48-51.</p>
+  <p class="retomada-source">Síntese a partir de Navarro (2005, 2013), Araújo da Silva Guyraakanga Potiguara (2024), Cabral (2024), Costa (2013), Santos & Porto (2020) e Akangatara Produções.</p>
 </div>
 
 <!--
