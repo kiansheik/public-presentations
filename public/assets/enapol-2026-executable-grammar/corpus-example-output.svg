@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Placeholder corpus example output">
+  <rect width="1000" height="700" fill="#fffaf0"/>
+  <rect x="50" y="50" width="900" height="600" fill="#f4efe4" stroke="#4f8a82" stroke-width="8"/>
+  <text x="90" y="135" fill="#20201d" font-family="Georgia, serif" font-size="48" font-weight="700">SAIDA GERADA</text>
+  <text x="90" y="195" fill="#6b6155" font-family="Arial, sans-serif" font-size="28">Forma/anotacao da mesma linha</text>
+  <g fill="#20201d" font-family="Menlo, Consolas, monospace" font-size="30">
+    <text x="90" y="315">forma-superficial</text>
+    <text x="90" y="375">morfema  morfema  morfema</text>
+    <text x="90" y="435">GLOSSA   GLOSSA   GLOSSA</text>
+  </g>
+  <rect x="90" y="510" width="820" height="72" fill="#e7dfcf" stroke="#4f8a82" stroke-width="7"/>
+</svg>

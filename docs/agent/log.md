@@ -137,3 +137,14 @@
 - Registered the deck in `scripts/build-all.mjs`, `package.json`, and `README.md`, including `npm run dev:enapol-2026` and `npm run export:enapol-2026:pdf`.
 - Updated `docs/agent/current-state.md` and `docs/agent/repo-map.md` to reflect the new built deck.
 - Verified with `npm run build`, `git diff --check`, generated Markdown-module raw-marker checks, and `curl -I http://localhost:3035/`. Starting Slidev first failed with unsupported `--host`, then with sandbox `EPERM`, then succeeded after approved escalation at `http://localhost:3035/`.
+
+## 2026-08-24
+
+- Inspected PR #1, `enapol presentation`, on branch `enapol-kian`; no push, commit, merge, or PR mutation was performed.
+- Reworked the existing ENAPOL deck instead of rebuilding from scratch, keeping it to nine slides and tightening the argument around executable grammar as linguistic description with computational methods.
+- Moved the worked corpus example to slide 3, removed the phrase `ground truth`, added clearer citation/result placeholders, and expanded the Portuguese speaker notes into a rehearsable 10-minute path.
+- Replaced the ENAPOL CSS with stable grid/flex layouts and tuned slides 1, 3, 6, and 7 after visual QA caught collisions, clipping, and raw HTML rendering.
+- Simplified the ENAPOL asset placeholders to ten logical SVG files and updated `EnapolImage.vue` so same-basename `.png`, `.jpg`, or `.jpeg` replacements take precedence automatically.
+- Recreated `public/assets/enapol-2026-executable-grammar/README.md` as a detailed checklist listing each remaining asset, slide use, capture target, source guidance, crop guidance, and replacement status.
+- Verified with `npm run build`, `git diff --check`, generated Markdown-module `<pre>`/`<code>` checks, all-slide dev-server visual screenshots, and `npm run export:enapol-2026:pdf`.
+- A fresh dev server is running at `http://localhost:3036/`. PDF export produced `enapol-2026-executable-grammar-export.pdf`; full all-page PDF raster QA was limited because `pdfinfo`/`pdftoppm` are unavailable and Ghostscript is missing `gs_init.ps`.

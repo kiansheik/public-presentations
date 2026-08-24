@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Placeholder dictionary project screenshot">
+  <rect width="1000" height="700" fill="#fffaf0"/>
+  <rect x="50" y="50" width="900" height="600" fill="#f4efe4" stroke="#4f8a82" stroke-width="8"/>
+  <text x="90" y="135" fill="#20201d" font-family="Georgia, serif" font-size="50" font-weight="700">DICIONARIO / CONJUGACAO</text>
+  <text x="90" y="195" fill="#6b6155" font-family="Arial, sans-serif" font-size="28">Substituir por screenshot real</text>
+  <g stroke="#c8b99f" stroke-width="16">
+    <line x1="90" y1="300" x2="870" y2="300"/><line x1="90" y1="370" x2="760" y2="370"/><line x1="90" y1="440" x2="840" y2="440"/>
+  </g>
+</svg>

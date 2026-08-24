@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-08-23
+Last updated: 2026-08-24
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
@@ -16,6 +16,7 @@ Shared presentation infrastructure:
 
 - `AGENTS.md` is the repo-local instruction file for future agents. It explicitly says not to take Playwright screenshots unless the user requests screenshots.
 - `decks/components/DeckImage.vue` renders Oficina UnB manuscript images as real `<img>` tags by importing files from `public/assets/oficina-unb/`. This avoids Slidev rewriting raw `/assets/...` or `../public/assets/...` paths in slide Markdown.
+- `decks/components/EnapolImage.vue` renders ENAPOL assets from `public/assets/enapol-2026-executable-grammar/`. It supports extensionless logical names and prefers real `.png`, `.jpg`, or `.jpeg` replacements over checked-in `.svg` placeholders.
 - `decks/styles/index.css` is the active global Slidev style entry for the `decks/` user root and imports `styles/oficina-unb.css`. Do not rely on a deck-level `<style>` tag for shared Oficina CSS; Slidev scopes slide `<style>` tags by default.
 - `components/` contains reusable Vue slide components for the older root-level starter decks.
 - `styles/custom.css` contains the shared visual language.
@@ -171,3 +172,16 @@ Verified on 2026-08-23:
 - `npm run build` succeeds for both built decks; `git diff --check` succeeds.
 - A generated Markdown-module check found nine ENAPOL slide modules and no `<pre>`, `<code>`, or `` `pre` `` markers in `dist/enapol-2026-executable-grammar/assets/md-*.js`.
 - Starting the local Slidev server without escalation failed first because this Slidev version does not accept `--host`, then failed with sandbox `EPERM` on `::1:3035`; the approved rerun started `http://localhost:3035/`, and `curl -I http://localhost:3035/` returned `HTTP/1.1 200 OK`.
+
+Verified on 2026-08-24:
+
+- Inspected GitHub PR #1, `enapol presentation`, on branch `enapol-kian`; no PR mutation, merge, push, or commit was performed.
+- Reworked the ENAPOL deck in place as a second-pass 9-slide/10-minute argument: problem, worked corpus example, programming as metalanguage, four-century comparison, bootstrapping loop, implemented outputs versus doctorate direction, significance, and close.
+- Moved the worked corpus example early, removed the phrase `ground truth`, and added explicit placeholders for exact citations, the corpus line, analysis/glosses, and one empirical result still to be supplied manually.
+- Replaced the ENAPOL CSS with grid/flex layouts that preserve the dark archival visual identity while avoiding brittle absolute positioning and text/image collisions.
+- Reduced the placeholder image set to ten stable logical assets and rewrote `public/assets/enapol-2026-executable-grammar/README.md` as the required screenshot/page-crop checklist.
+- Extended `EnapolImage.vue` so real `.png`, `.jpg`, or `.jpeg` files with matching basenames override the SVG placeholders without Markdown edits.
+- `npm run build`, `git diff --check`, generated Markdown-module checks for raw `<pre>`/`<code>` markers, and `npm run export:enapol-2026:pdf` succeed after the second pass.
+- A local Slidev server is running at `http://localhost:3036/` for review. Visual QA screenshots of all nine dev-server slides were taken because the user explicitly requested visual QA.
+- The final dev-server visual pass found no outside-canvas elements across all nine slides, and the previously observed slide 1, 3, 6, and 7 collisions/raw-HTML issues were fixed.
+- PDF export produced `enapol-2026-executable-grammar-export.pdf`; only the first-page macOS thumbnail was visually inspected because `pdfinfo`/`pdftoppm` are unavailable and local Ghostscript cannot find `gs_init.ps`.

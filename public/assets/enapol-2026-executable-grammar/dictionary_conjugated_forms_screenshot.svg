@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="TODO dictionary with conjugated forms">
-  <rect width="720" height="520" fill="#fffaf0"/>
-  <rect x="38" y="38" width="644" height="444" fill="#f4efe4" stroke="#4f8a82" stroke-width="5"/>
-  <text x="68" y="100" fill="#20201d" font-family="Georgia, serif" font-size="34" font-weight="700">Dicionario</text>
-  <text x="68" y="148" fill="#6b6155" font-family="Arial, sans-serif" font-size="22">TODO: formas flexionadas</text>
-  <g stroke="#c8b99f" stroke-width="10"><line x1="68" y1="220" x2="620" y2="220"/><line x1="68" y1="270" x2="560" y2="270"/><line x1="68" y1="320" x2="610" y2="320"/></g>
-</svg>

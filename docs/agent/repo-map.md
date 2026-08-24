@@ -18,7 +18,7 @@ Each deck imports shared CSS with:
 
 - `AGENTS.md` is the repo-local instruction file for future agents. It points agents to the wiki and forbids Playwright screenshots unless the user explicitly requests them.
 - `decks/components/DeckImage.vue` renders Oficina UnB image assets from `public/assets/oficina-unb/` through `import.meta.glob`. Use it inside `decks/oficina-unb.md` instead of raw `<img src="../public/...">` or `<img src="/assets/...">`.
-- `decks/components/EnapolImage.vue` renders ENAPOL 2026 image assets from `public/assets/enapol-2026-executable-grammar/` through `import.meta.glob`.
+- `decks/components/EnapolImage.vue` renders ENAPOL 2026 image assets from `public/assets/enapol-2026-executable-grammar/` through `import.meta.glob`; deck Markdown can use extensionless logical names, and real `.png`/`.jpg`/`.jpeg` files override SVG placeholders.
 - `decks/styles/index.css` imports `../../styles/oficina-unb.css` as the global CSS entry for decks under `decks/`.
 - `decks/styles/index.css` also imports `../../styles/enapol-2026-executable-grammar.css`.
 - `components/QuoteSlide.vue` renders a quote slide with source and optional note.

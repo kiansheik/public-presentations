@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="TODO one historical corpus line">
-  <rect width="720" height="520" fill="#fffaf0"/>
-  <text x="50" y="86" fill="#20201d" font-family="Georgia, serif" font-size="32" font-weight="700">Fonte historica</text>
-  <text x="50" y="132" fill="#6b6155" font-family="Arial, sans-serif" font-size="22">TODO: uma linha curta de Araujo ou Bettendorff</text>
-  <rect x="50" y="210" width="620" height="90" fill="#f4efe4" stroke="#a5432d" stroke-width="5"/>
-  <line x1="82" y1="255" x2="628" y2="255" stroke="#7e6f5e" stroke-width="10"/>
-  <text x="50" y="368" fill="#6b6155" font-family="Arial, sans-serif" font-size="20">A fonte sera o ground truth visual desta slide.</text>
-</svg>

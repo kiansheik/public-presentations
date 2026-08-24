@@ -22,7 +22,19 @@ const images = import.meta.glob([
   import: 'default',
 })
 
-const src = computed(() => images[`../../public/assets/enapol-2026-executable-grammar/${props.image}`])
+const src = computed(() => {
+  const base = '../../public/assets/enapol-2026-executable-grammar/'
+  const requested = `${base}${props.image}`
+
+  if (images[requested]) return images[requested]
+
+  for (const extension of ['png', 'jpg', 'jpeg', 'svg']) {
+    const candidate = `${requested}.${extension}`
+    if (images[candidate]) return images[candidate]
+  }
+
+  return undefined
+})
 </script>
 
 <template>

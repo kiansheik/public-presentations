@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Placeholder public facing project screenshot">
+  <rect width="1000" height="700" fill="#fffaf0"/>
+  <rect x="50" y="50" width="900" height="600" fill="#f4efe4" stroke="#20201d" stroke-width="8"/>
+  <text x="90" y="135" fill="#20201d" font-family="Georgia, serif" font-size="50" font-weight="700">SAIDA PUBLICA</text>
+  <text x="90" y="195" fill="#6b6155" font-family="Arial, sans-serif" font-size="28">TupiTrail, neologismos ou material comunitario</text>
+  <circle cx="190" cy="360" r="70" fill="#d1a74f"/>
+  <g stroke="#c8b99f" stroke-width="16">
+    <line x1="310" y1="320" x2="850" y2="320"/><line x1="310" y1="390" x2="770" y2="390"/><line x1="90" y1="510" x2="850" y2="510"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Placeholder source Anchieta">
+  <rect width="900" height="1200" fill="#fffaf0"/>
+  <rect x="54" y="54" width="792" height="1092" fill="#f4efe4" stroke="#a5432d" stroke-width="10"/>
+  <text x="100" y="180" fill="#20201d" font-family="Georgia, serif" font-size="72" font-weight="700">ANCHIETA</text>
+  <text x="100" y="250" fill="#20201d" font-family="Georgia, serif" font-size="42">fonte historica</text>
+  <text x="100" y="330" fill="#6b6155" font-family="Arial, sans-serif" font-size="30">SUBSTITUIR POR PNG/JPG</text>
+  <line x1="100" y1="440" x2="760" y2="440" stroke="#d1a74f" stroke-width="10"/>
+  <g stroke="#c8b99f" stroke-width="16">
+    <line x1="100" y1="520" x2="760" y2="520"/><line x1="100" y1="590" x2="720" y2="590"/><line x1="100" y1="660" x2="780" y2="660"/><line x1="100" y1="730" x2="700" y2="730"/><line x1="100" y1="800" x2="750" y2="800"/>
+  </g>
+</svg>

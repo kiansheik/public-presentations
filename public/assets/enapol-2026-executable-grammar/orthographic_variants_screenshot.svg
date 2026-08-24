@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="TODO orthographic variants screenshot">
-  <rect width="720" height="520" fill="#fffaf0"/>
-  <rect x="38" y="38" width="644" height="444" fill="#f4efe4" stroke="#d1a74f" stroke-width="5"/>
-  <text x="68" y="100" fill="#20201d" font-family="Georgia, serif" font-size="34" font-weight="700">Variantes</text>
-  <text x="68" y="148" fill="#6b6155" font-family="Arial, sans-serif" font-size="22">TODO: ortografia, tokenizacao ou corpus</text>
-  <g fill="#4f8a82"><rect x="68" y="214" width="160" height="54"/><rect x="254" y="214" width="160" height="54"/><rect x="440" y="214" width="160" height="54"/></g>
-  <g stroke="#c8b99f" stroke-width="10"><line x1="68" y1="330" x2="620" y2="330"/><line x1="68" y1="380" x2="560" y2="380"/></g>
-</svg>

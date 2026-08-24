@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="TODO conjugation quiz screenshot">
-  <rect width="720" height="520" fill="#fffaf0"/>
-  <rect x="38" y="38" width="644" height="444" fill="#f4efe4" stroke="#a5432d" stroke-width="5"/>
-  <text x="68" y="100" fill="#20201d" font-family="Georgia, serif" font-size="34" font-weight="700">Quiz</text>
-  <text x="68" y="148" fill="#6b6155" font-family="Arial, sans-serif" font-size="22">TODO: exercicio de conjugacao</text>
-  <rect x="68" y="220" width="584" height="72" fill="#fffaf0" stroke="#d1a74f" stroke-width="4"/>
-  <rect x="68" y="322" width="270" height="66" fill="#4f8a82"/>
-  <rect x="382" y="322" width="270" height="66" fill="#d1a74f"/>
-</svg>
