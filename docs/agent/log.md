@@ -128,3 +128,12 @@
 - Normalized the title/body spacing on the final six project and participation slides by adding scoped `retomada-project-slide` and `retomada-project-block` classes.
 - Removed the inline top/margin spacing overrides from those six slides and moved the shared rhythm into `styles/oficina-unb.css`.
 - Verified with `npm run build`, `git diff --check`, generated `<pre>/<code` checks, generated-module checks for the new classes, `curl -I http://localhost:3034/89`, and a no-screenshot Playwright DOM check on routes 89-94. The first browser launch failed under sandbox permissions, then the approved rerun passed; a first selector attempt selected hidden Slidev canvases and was corrected by choosing the visible canvas.
+
+## 2026-08-23
+
+- Added `decks/enapol-2026-executable-grammar.md`, a 9-slide ENAPOL 2026 deck for Kian Arad Sheik's `Corpus Computacional e Gramática Executável do Tupi Antigo` project.
+- Added `styles/enapol-2026-executable-grammar.css`, imported it through `decks/styles/index.css`, and kept the visual system scoped to `class: enapol-exec`.
+- Added `decks/components/EnapolImage.vue` and SVG placeholder assets under `public/assets/enapol-2026-executable-grammar/`, with `README.md` listing every screenshot/page crop still needed.
+- Registered the deck in `scripts/build-all.mjs`, `package.json`, and `README.md`, including `npm run dev:enapol-2026` and `npm run export:enapol-2026:pdf`.
+- Updated `docs/agent/current-state.md` and `docs/agent/repo-map.md` to reflect the new built deck.
+- Verified with `npm run build`, `git diff --check`, generated Markdown-module raw-marker checks, and `curl -I http://localhost:3035/`. Starting Slidev first failed with unsupported `--host`, then with sandbox `EPERM`, then succeeded after approved escalation at `http://localhost:3035/`.

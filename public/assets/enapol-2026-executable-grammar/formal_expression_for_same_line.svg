@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="TODO formal expression for same line">
+  <rect width="720" height="520" fill="#181c1a"/>
+  <rect x="38" y="38" width="644" height="444" fill="#202620" stroke="#d1a74f" stroke-width="5"/>
+  <text x="66" y="92" fill="#d1a74f" font-family="Menlo, Consolas, monospace" font-size="24">TODO: expressao formal</text>
+  <text x="66" y="158" fill="#f7f1e6" font-family="Menlo, Consolas, monospace" font-size="22">clause(</text>
+  <text x="108" y="204" fill="#9fd0c8" font-family="Menlo, Consolas, monospace" font-size="22">subject=...</text>
+  <text x="108" y="250" fill="#f0b5a4" font-family="Menlo, Consolas, monospace" font-size="22">predicate=...</text>
+  <text x="108" y="296" fill="#e6c77a" font-family="Menlo, Consolas, monospace" font-size="22">mood=...</text>
+  <text x="66" y="342" fill="#f7f1e6" font-family="Menlo, Consolas, monospace" font-size="22">)</text>
+</svg>

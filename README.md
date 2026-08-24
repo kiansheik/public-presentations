@@ -4,13 +4,17 @@ Repositório de apresentações públicas em Slidev. A ideia é manter cada apre
 
 O deck principal atual é [decks/oficina-unb.md](./decks/oficina-unb.md), uma recriação editável da oficina UnB a partir dos arquivos exportados do Google Slides. O texto continua em Markdown/HTML editável, e as imagens são assets locais extraídos do PPTX.
 
+Também há um deck curto para ENAPOL 2026 em [decks/enapol-2026-executable-grammar.md](./decks/enapol-2026-executable-grammar.md), com assets em [public/assets/enapol-2026-executable-grammar/](./public/assets/enapol-2026-executable-grammar/).
+
 ## Comandos
 
 ```bash
 npm install
 npm run dev:oficina-unb
+npm run dev:enapol-2026
 npm run build
 npm run export:oficina-unb:pdf
+npm run export:enapol-2026:pdf
 ```
 
 `npm run dev` também abre `decks/oficina-unb.md`.
@@ -27,6 +31,7 @@ O build usa [scripts/build-all.mjs](./scripts/build-all.mjs) e gera:
 
 - `dist/index.html`
 - `dist/oficina-unb/`
+- `dist/enapol-2026-executable-grammar/`
 
 Em GitHub Actions, o base path de cada deck usa o nome do repositório vindo de `GITHUB_REPOSITORY`, por exemplo `/public-presentations/oficina-unb/`. Para testar outro base path localmente:
 
@@ -66,6 +71,7 @@ Exports disponíveis:
 
 ```bash
 npm run export:oficina-unb:pdf
+npm run export:enapol-2026:pdf
 npm run export:oficina:pdf
 npm run export:oficina:pptx
 npm run export:oficina:png
@@ -76,6 +82,7 @@ npm run export:anchieta:pdf
 ## Estrutura
 
 - `decks/oficina-unb.md` — deck editável da oficina UnB
+- `decks/enapol-2026-executable-grammar.md` — deck ENAPOL 2026 sobre corpus computacional e gramática executável
 - `decks/components/` — componentes Vue disponíveis para decks dentro de `decks/`
 - `decks/styles/index.css` — entrada global de CSS para decks dentro de `decks/`
 - `scripts/build-all.mjs` — build multi-deck para GitHub Pages
@@ -84,6 +91,7 @@ npm run export:anchieta:pdf
 - `styles/oficina-unb.css` — estilo fiel ao visual do Google Slides original
 - `styles/custom.css` — estilo dos decks iniciais de rascunho
 - `public/assets/oficina-unb/` — imagens extraídas do PPTX da oficina
+- `public/assets/enapol-2026-executable-grammar/` — placeholders e futuros screenshots do deck ENAPOL 2026
 - `public/assets/shared/` — assets reutilizáveis entre apresentações
 
 ## Decks e estilos

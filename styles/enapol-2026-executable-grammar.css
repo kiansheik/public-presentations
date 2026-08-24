@@ -1,0 +1,418 @@
+:root {
+  --enapol-bg: #1f2421;
+  --enapol-panel: #f4efe4;
+  --enapol-ink: #20201d;
+  --enapol-text: #f7f1e6;
+  --enapol-muted: #c8c3b7;
+  --enapol-red: #a5432d;
+  --enapol-gold: #d1a74f;
+  --enapol-teal: #4f8a82;
+  --enapol-serif: "Average", Georgia, "Times New Roman", serif;
+  --enapol-heading: "Oswald", "Avenir Next Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+}
+
+.slidev-layout.enapol-exec {
+  background: var(--enapol-bg);
+  color: var(--enapol-text);
+  font-family: var(--enapol-serif);
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.slidev-layout.enapol-exec h1,
+.slidev-layout.enapol-exec h2,
+.slidev-layout.enapol-exec p {
+  margin: 0;
+}
+
+.enapol-canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(165, 67, 45, 0.22) 0 1.2%, transparent 1.2%),
+    repeating-linear-gradient(90deg, rgba(247, 241, 230, 0.045) 0 1px, transparent 1px 5.5rem),
+    var(--enapol-bg);
+}
+
+.enapol-kicker {
+  color: var(--enapol-gold);
+  font-family: var(--enapol-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.slidev-layout.enapol-exec h1 {
+  color: var(--enapol-text);
+  font-family: var(--enapol-heading);
+  font-size: 3.55rem;
+  font-weight: 700;
+  line-height: 0.96;
+  letter-spacing: 0;
+}
+
+.enapol-title-slide {
+  background:
+    linear-gradient(90deg, rgba(18, 21, 19, 0.92) 0 64%, rgba(165, 67, 45, 0.28) 64% 100%),
+    repeating-linear-gradient(90deg, rgba(247, 241, 230, 0.06) 0 1px, transparent 1px 5.5rem),
+    var(--enapol-bg);
+}
+
+.enapol-title-slide::before,
+.enapol-title-slide::after {
+  content: "";
+  position: absolute;
+  left: 6.2%;
+  background: var(--enapol-gold);
+}
+
+.enapol-title-slide::before {
+  top: 12%;
+  width: 0.22rem;
+  height: 46%;
+}
+
+.enapol-title-slide::after {
+  right: 6.2%;
+  bottom: 12%;
+  height: 0.08rem;
+  opacity: 0.72;
+}
+
+.enapol-title-main {
+  position: absolute;
+  left: 8%;
+  top: 12%;
+  width: 69%;
+}
+
+.enapol-title-main h1 {
+  margin-top: 1rem !important;
+  font-size: 4.8rem !important;
+  line-height: 0.91 !important;
+}
+
+.enapol-subtitle {
+  width: 70%;
+  margin-top: 1.2rem !important;
+  color: #fff1cf;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.enapol-presenter {
+  position: absolute;
+  left: 8%;
+  bottom: 15.2%;
+  border-left: 0.16rem solid var(--enapol-gold);
+  padding-left: 0.78rem;
+}
+
+.enapol-presenter p {
+  color: var(--enapol-text);
+  font-family: var(--enapol-heading);
+  font-size: 1.42rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.enapol-presenter span {
+  display: block;
+  margin-top: 0.34rem;
+  color: var(--enapol-muted);
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.enapol-copy {
+  position: absolute;
+  left: 6.4%;
+  top: 13%;
+  width: 42%;
+}
+
+.enapol-copy h1,
+.metalanguage-slide h1,
+.programming-slide h1,
+.corpus-line-slide h1,
+.loop-slide h1,
+.accountability-slide h1,
+.closing-slide h1 {
+  margin-top: 0.72rem !important;
+}
+
+.enapol-large {
+  margin-top: 1.15rem !important;
+  color: var(--enapol-muted);
+  font-size: 1.58rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.source-collage {
+  position: absolute;
+  right: 6.1%;
+  top: 10%;
+  width: 44%;
+  height: 77%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.76rem;
+}
+
+.source-collage img,
+.product-grid img,
+.three-panel-grid img,
+.line-pipeline img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0.08rem solid rgba(209, 167, 79, 0.62);
+  background: var(--enapol-panel);
+  box-shadow: 0 0.7rem 1.8rem rgba(0, 0, 0, 0.26);
+}
+
+.metalanguage-slide > .enapol-kicker,
+.programming-slide > .enapol-kicker,
+.corpus-line-slide > .enapol-kicker,
+.loop-slide > .enapol-kicker,
+.accountability-slide > .enapol-kicker,
+.closing-slide > .enapol-kicker {
+  position: absolute;
+  left: 6.4%;
+  top: 10.5%;
+}
+
+.metalanguage-slide > h1,
+.programming-slide > h1,
+.corpus-line-slide > h1,
+.loop-slide > h1,
+.accountability-slide > h1,
+.closing-slide > h1 {
+  position: absolute;
+  left: 6.4%;
+  top: 13.6%;
+  width: 82%;
+}
+
+.three-panel-grid {
+  position: absolute;
+  left: 6.4%;
+  right: 6.4%;
+  top: 33%;
+  height: 43%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.82rem;
+}
+
+.three-panel-grid article {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 0.58rem;
+}
+
+.three-panel-grid h2 {
+  color: var(--enapol-text);
+  font-family: var(--enapol-heading);
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.enapol-bottom-line {
+  position: absolute;
+  left: 6.4%;
+  right: 6.4%;
+  bottom: 10.5%;
+  border-left: 0.18rem solid var(--enapol-red);
+  padding-left: 0.8rem;
+  color: #fff1cf;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.formal-layers {
+  position: absolute;
+  left: 6.4%;
+  right: 6.4%;
+  top: 36%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.62rem;
+}
+
+.formal-layers div,
+.version-contrast div {
+  min-height: 10.5rem;
+  border-top: 0.2rem solid var(--enapol-gold);
+  background: rgba(244, 239, 228, 0.1);
+  padding: 0.9rem;
+}
+
+.formal-layers span,
+.version-contrast span,
+.line-pipeline span,
+.loop-diagram div {
+  color: var(--enapol-gold);
+  font-family: var(--enapol-heading);
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.formal-layers p,
+.version-contrast p {
+  margin-top: 0.78rem !important;
+  color: var(--enapol-text);
+  font-size: 1.26rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.enapol-thesis {
+  position: absolute;
+  left: 6.4%;
+  right: 6.4%;
+  bottom: 12%;
+  color: #fff1cf;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.line-pipeline {
+  position: absolute;
+  left: 6.4%;
+  right: 6.4%;
+  top: 34%;
+  height: 40%;
+  display: grid;
+  grid-template-columns: 1.08fr 1fr 1fr;
+  gap: 0.74rem;
+}
+
+.line-pipeline article {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 0.52rem;
+}
+
+.ground-truth {
+  position: absolute;
+  left: 6.4%;
+  bottom: 12%;
+  width: 52%;
+  border-left: 0.18rem solid var(--enapol-teal);
+  padding-left: 0.82rem;
+  color: var(--enapol-text);
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.loop-diagram {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  top: 36%;
+  height: 32%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: center;
+  gap: 0.46rem;
+}
+
+.loop-diagram div {
+  position: relative;
+  display: grid;
+  min-height: 6.1rem;
+  align-items: center;
+  border: 0.08rem solid rgba(209, 167, 79, 0.64);
+  background: rgba(244, 239, 228, 0.1);
+  padding: 0.76rem;
+  text-align: center;
+  line-height: 1.08;
+}
+
+.loop-diagram div:not(:last-child)::after {
+  content: ">";
+  position: absolute;
+  right: -0.45rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--enapol-gold);
+  font-family: var(--enapol-heading);
+  font-size: 1.25rem;
+  z-index: 2;
+}
+
+.product-grid {
+  position: absolute;
+  right: 6.1%;
+  top: 11%;
+  width: 44%;
+  height: 76%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.version-contrast {
+  position: absolute;
+  left: 6.4%;
+  right: 6.4%;
+  top: 48%;
+  display: grid;
+  grid-template-columns: 0.9fr 1.35fr;
+  gap: 1rem;
+}
+
+.version-contrast div {
+  min-height: 8.8rem;
+}
+
+.version-contrast div:last-child {
+  border-top-color: var(--enapol-teal);
+}
+
+.accountability-slide h1 {
+  width: 74% !important;
+  font-size: 4.6rem !important;
+}
+
+.closing-slide h1 {
+  width: 74% !important;
+  font-size: 4.3rem !important;
+}
+
+.closing-statement {
+  position: absolute;
+  left: 6.4%;
+  top: 46%;
+  width: 63%;
+  color: var(--enapol-muted);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.final-line {
+  position: absolute;
+  left: 6.4%;
+  right: 6.4%;
+  bottom: 12%;
+  border-top: 0.14rem solid var(--enapol-gold);
+  padding-top: 1rem;
+  color: #fff1cf;
+  font-size: 2.02rem;
+  font-weight: 700;
+  line-height: 1.1;
+}

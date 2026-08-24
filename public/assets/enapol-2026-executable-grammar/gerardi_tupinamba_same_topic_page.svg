@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="TODO Gerardi Tupinamba page for selected topic">
+  <rect width="720" height="520" fill="#fffaf0"/>
+  <text x="48" y="78" fill="#20201d" font-family="Georgia, serif" font-size="34" font-weight="700">Gerardi</text>
+  <text x="48" y="120" fill="#6b6155" font-family="Arial, sans-serif" font-size="22">TODO: mesmo topico, gramatica moderna</text>
+  <rect x="48" y="158" width="592" height="98" fill="#e7dfcf" stroke="#4f8a82" stroke-width="5"/>
+  <g stroke="#c8b99f" stroke-width="9">
+    <line x1="48" y1="304" x2="650" y2="304"/><line x1="48" y1="342" x2="610" y2="342"/><line x1="48" y1="380" x2="640" y2="380"/><line x1="48" y1="418" x2="550" y2="418"/>
+  </g>
+</svg>

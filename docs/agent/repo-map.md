@@ -3,6 +3,7 @@
 ## Root Decks
 
 - `decks/oficina-unb.md` is the active Oficina UnB deck and is built by `scripts/build-all.mjs`.
+- `decks/enapol-2026-executable-grammar.md` is a short ENAPOL 2026 deck and is built by `scripts/build-all.mjs`.
 - `oficina-tupi-antigo.md` is the original starter deck, renamed from `slides.md`.
 - `lingua-geral-brasil.md` is a starter deck for a later presentation on Língua Geral.
 - `anchieta-contexto.md` is a starter deck for a later presentation on Anchieta and colonial writing.
@@ -17,7 +18,9 @@ Each deck imports shared CSS with:
 
 - `AGENTS.md` is the repo-local instruction file for future agents. It points agents to the wiki and forbids Playwright screenshots unless the user explicitly requests them.
 - `decks/components/DeckImage.vue` renders Oficina UnB image assets from `public/assets/oficina-unb/` through `import.meta.glob`. Use it inside `decks/oficina-unb.md` instead of raw `<img src="../public/...">` or `<img src="/assets/...">`.
+- `decks/components/EnapolImage.vue` renders ENAPOL 2026 image assets from `public/assets/enapol-2026-executable-grammar/` through `import.meta.glob`.
 - `decks/styles/index.css` imports `../../styles/oficina-unb.css` as the global CSS entry for decks under `decks/`.
+- `decks/styles/index.css` also imports `../../styles/enapol-2026-executable-grammar.css`.
 - `components/QuoteSlide.vue` renders a quote slide with source and optional note.
 - `components/PersonBio.vue` renders a speaker/person profile slide.
 - `components/ContextTimeline.vue` renders a simple timeline slide.
@@ -28,6 +31,7 @@ Each deck imports shared CSS with:
 ## Assets
 
 - `public/assets/oficina-unb/`
+- `public/assets/enapol-2026-executable-grammar/`
 - `public/assets/oficina-tupi-antigo/`
 - `public/assets/lingua-geral-brasil/`
 - `public/assets/anchieta-contexto/`
@@ -40,7 +44,7 @@ Use deck-specific folders for presentation-only assets and `shared/` for reusabl
 - `README.md` documents the expected workflow for commands, deck structure, styling, image handling, and adding new decks.
 - `Makefile` wraps the common build and branch-deploy commands. `make deploy-gh-pages` builds `dist/`, copies it into a `.gh-pages` worktree, commits there with an automatic message, and pushes `HEAD` to the configured Pages branch. `make prepare-gh-pages` keeps the same flow without the push.
 - `package.json` exposes one dev command per deck.
-- `scripts/build-all.mjs` is the deck manifest and build loop. It currently builds `decks/oficina-unb.md`.
+- `scripts/build-all.mjs` is the deck manifest and build loop. It currently builds `decks/oficina-unb.md` and `decks/enapol-2026-executable-grammar.md`.
 - The build output is `dist/index.html` plus one folder per deck.
 - `.github/workflows/deploy.yml` installs with `npm ci` and runs `npm run build` as a CI build check. It does not deploy Pages.
 

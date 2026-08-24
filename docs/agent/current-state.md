@@ -1,12 +1,13 @@
 # Current State
 
-Last updated: 2026-05-18
+Last updated: 2026-08-23
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
 Current decks:
 
-- `decks/oficina-unb.md` is the active Oficina UnB deck and the only deck in the current build manifest.
+- `decks/oficina-unb.md` is the active Oficina UnB deck and remains in the current build manifest.
+- `decks/enapol-2026-executable-grammar.md` is a short ENAPOL 2026 deck about Kian Arad Sheik's `Corpus Computacional e Gramática Executável do Tupi Antigo` project.
 - `oficina-tupi-antigo.md`
 - `lingua-geral-brasil.md`
 - `anchieta-contexto.md`
@@ -158,3 +159,15 @@ Verified on 2026-05-18:
 - Normalized the final six project/participation slides by adding `retomada-project-slide` and `retomada-project-block` classes instead of repeating inline spacing overrides.
 - The final six slide bodies now start at `top: 21.8%`; a no-screenshot DOM layout check on routes 89-94 reports a consistent `42.1px` title-to-body gap and no overflow.
 - `npm run build`, `git diff --check`, generated `<pre>/<code` checks, generated-module checks for the new classes, `curl -I http://localhost:3034/89`, and the route 89-94 DOM check succeed after the spacing pass.
+
+Verified on 2026-08-23:
+
+- Added `decks/enapol-2026-executable-grammar.md`, a 9-slide/10-minute ENAPOL 2026 deck focused on executable grammar as an additional formal layer for linguistic description rather than an NLP-first project.
+- Added `styles/enapol-2026-executable-grammar.css` and imported it from `decks/styles/index.css`.
+- Added `decks/components/EnapolImage.vue`, scoped to assets in `public/assets/enapol-2026-executable-grammar/`.
+- Added SVG placeholder assets plus `public/assets/enapol-2026-executable-grammar/README.md` as the asset replacement checklist.
+- Registered the deck in `scripts/build-all.mjs` with slug `enapol-2026-executable-grammar`, added `npm run dev:enapol-2026`, and added `npm run export:enapol-2026:pdf`.
+- Updated `README.md` and `docs/agent/repo-map.md` for the new deck, asset folder, build output, and commands.
+- `npm run build` succeeds for both built decks; `git diff --check` succeeds.
+- A generated Markdown-module check found nine ENAPOL slide modules and no `<pre>`, `<code>`, or `` `pre` `` markers in `dist/enapol-2026-executable-grammar/assets/md-*.js`.
+- Starting the local Slidev server without escalation failed first because this Slidev version does not accept `--host`, then failed with sandbox `EPERM` on `::1:3035`; the approved rerun started `http://localhost:3035/`, and `curl -I http://localhost:3035/` returned `HTTP/1.1 200 OK`.

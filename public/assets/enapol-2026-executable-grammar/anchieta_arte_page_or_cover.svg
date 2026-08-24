@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="TODO Anchieta Arte cover or page">
+  <rect width="720" height="520" fill="#f4efe4"/>
+  <rect x="34" y="34" width="652" height="452" fill="#fffaf0" stroke="#a5432d" stroke-width="6"/>
+  <text x="70" y="120" fill="#20201d" font-family="Georgia, serif" font-size="42" font-weight="700">ANCHIETA</text>
+  <text x="70" y="174" fill="#20201d" font-family="Georgia, serif" font-size="30">Arte de grammatica</text>
+  <text x="70" y="222" fill="#6b6155" font-family="Arial, sans-serif" font-size="22">TODO: capa ou pagina da fonte</text>
+  <line x1="70" y1="290" x2="560" y2="290" stroke="#d1a74f" stroke-width="6"/>
+  <line x1="70" y1="330" x2="620" y2="330" stroke="#d6c8af" stroke-width="10"/>
+  <line x1="70" y1="366" x2="590" y2="366" stroke="#d6c8af" stroke-width="10"/>
+  <line x1="70" y1="402" x2="520" y2="402" stroke="#d6c8af" stroke-width="10"/>
+</svg>
