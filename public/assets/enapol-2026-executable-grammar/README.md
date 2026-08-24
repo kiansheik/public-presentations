@@ -126,6 +126,35 @@ Recommended capture rules:
 - Crop guidance: keep the actual interface readable; avoid decorative landing-page areas.
 - Replacement status: REQUIRED
 
+## Generated QR Assets
+
+These QR codes were generated from verified live URLs on 2026-08-24. Regenerate
+them if the canonical URL changes.
+
+### `qr-dictionary.svg`
+
+- Logical name: `qr-dictionary`
+- Used on slide 10: Dicionario / dictionary resource.
+- URL: `https://kiansheik.io/nhe-enga/`
+- Verification: `curl -I` returned `HTTP/2 200`.
+- Replacement status: GENERATED
+
+### `qr-corpus.svg`
+
+- Logical name: `qr-corpus`
+- Used on slide 10: grammar/corpus implementation resource.
+- URL: `https://github.com/kiansheik/oldtupicorpus`
+- Verification: `curl -I` returned `HTTP/2 200`.
+- Replacement status: GENERATED
+
+### `qr-neo.svg`
+
+- Logical name: `qr-neo`
+- Used on slide 10: Dicionario de Tupi / neologism-public-app resource.
+- URL: `https://neo.academiatupi.com`
+- Verification: `curl -I` returned `HTTP/2 200`.
+- Replacement status: GENERATED
+
 ## Non-Image Information To Provide Manually
 
 1. Exact corpus line for slide 3, with source, page, and transcription.
@@ -136,6 +165,7 @@ Recommended capture rules:
 6. Exact page references for the Anchieta passage and modern-source passage on slide 5.
 7. One empirical result for slide 7, such as number of encoded rules, number of corpus lines tested, number of generated forms, a rule revision caused by a corpus counterexample, or an ambiguity class found by the implementation.
 8. Final bibliography entries for all primary and modern sources shown in screenshots.
+9. Switch-reference citation version: ResearchGate's public abstract reports 53 examples and 96.23% DS, while the local LaTeX source and dataset currently report 62 examples, 60 DS, 2 SS, 96.77% DS and 3.23% SS. Choose which version should be cited in the live talk.
 
 ## Exact Replacement Workflow
 

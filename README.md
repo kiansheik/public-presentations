@@ -15,6 +15,7 @@ npm run dev:enapol-2026
 npm run build
 npm run export:oficina-unb:pdf
 npm run export:enapol-2026:pdf
+npm run export:enapol-2026:pdf:clicks
 ```
 
 `npm run dev` também abre `decks/oficina-unb.md`.
@@ -72,6 +73,7 @@ Exports disponíveis:
 ```bash
 npm run export:oficina-unb:pdf
 npm run export:enapol-2026:pdf
+npm run export:enapol-2026:pdf:clicks
 npm run export:oficina:pdf
 npm run export:oficina:pptx
 npm run export:oficina:png

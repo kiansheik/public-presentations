@@ -148,3 +148,10 @@
 - Recreated `public/assets/enapol-2026-executable-grammar/README.md` as a detailed checklist listing each remaining asset, slide use, capture target, source guidance, crop guidance, and replacement status.
 - Verified with `npm run build`, `git diff --check`, generated Markdown-module `<pre>`/`<code>` checks, all-slide dev-server visual screenshots, and `npm run export:enapol-2026:pdf`.
 - A fresh dev server is running at `http://localhost:3036/`. PDF export produced `enapol-2026-executable-grammar-export.pdf`; full all-page PDF raster QA was limited because `pdfinfo`/`pdftoppm` are unavailable and Ghostscript is missing `gs_init.ps`.
+- Refined the committed second-pass ENAPOL deck on branch `enapol-kian`: removed repeated vertical-line backgrounds everywhere, replaced the old bootstrapping oval with a click-revealed arrow methodology, and expanded the deck to 10 logical slides.
+- Added the mestrado-to-Doutorado Direto trajectory, an Amazônicas X switch-reference payoff slide, a full-corpus research-infrastructure slide, and a QR/resource closing slide retaining the core closing sentence.
+- Verified the installed Slidev exporter supports `--with-clicks`, added `npm run export:enapol-2026:pdf:clicks`, and configured it to write `enapol-2026-executable-grammar-clicks-export.pdf` separately from the normal export.
+- Generated three QR SVGs for verified live URLs: `kiansheik.io/nhe-enga`, `github.com/kiansheik/oldtupicorpus`, and `neo.academiatupi.com`.
+- Added `notes/enapol-2026-executable-grammar.md`, a slide-by-slide Portuguese rehearsal script with approximate timing, click cues, full spoken script, and transitions.
+- Verified the switch-reference data against local paper/dataset files. Current local source files report 62 examples, 60 DS, 2 SS, 96.77% DS, and 3.23% SS; the ENAPOL asset README records the discrepancy with the ResearchGate abstract's 53-example version.
+- Final checks passed: `npm run build`, `git diff --check`, stale raw-marker search for repeated backgrounds/old cycle/raw code tags, Chromium screenshot/bounds checks for all 10 slides and slide 6 click states, normal PDF export, and click-state PDF export.
