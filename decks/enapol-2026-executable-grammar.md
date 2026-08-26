@@ -381,45 +381,37 @@ class: enapol-exec
 ---
 
 <div class="enapol-canvas resource-slide public-output-slide neo-only-slide">
-  <header class="slide-header compact">
-    <p class="eyebrow">Uma saída pública da mesma infraestrutura</p>
-    <h1>O código da gramática já alimenta um dicionário colaborativo de neologismos.</h1>
-  </header>
-
-  <section class="neo-only-layout">
-    <article class="neo-qr-card">
-      <EnapolImage image="qr-neo" alt="QR code para o dicionário de neologismos" />
-      <h2>neo.academiatupi.com</h2>
-      <p>dicionário de neologismos em Tupi Antigo</p>
-    </article>
-
-    <article class="neo-stats-card simplified-neo-card">
-      <span>check this out</span>
-      <h2>Mais de 1000 verbetes, com áudio, citações e revisão comunitária</h2>
-      <p>É uma saída pública, aberta e financiada coletivamente. A comunidade cadastra propostas, exemplos e votos; o sistema registra perfis, karma, fontes e revisões.</p>
-
-      <div class="stats-grid">
-        <div><strong>24</strong><span>usuários</span></div>
-        <div><strong>1096</strong><span>verbetes</span></div>
-        <div><strong>189</strong><span>exemplos</span></div>
-        <div><strong>619</strong><span>pendentes</span></div>
-        <div><strong>0</strong><span>relatórios abertos</span></div>
-        <div><strong>40</strong><span>votos no mês</span></div>
-      </div>
-
-      <p class="stats-note">Não é o centro da pesquisa: é uma consequência concreta da gramática executável sendo usada fora do slide.</p>
-    </article>
-  </section>
-
-  <footer class="resource-closing">
-    <strong>Cada linha validada vira um teste. Cada saída pública mostra uma consequência possível da descrição.</strong>
-  </footer>
+<header class="slide-header compact">
+<p class="eyebrow">Uma saída pública da mesma infraestrutura</p>
+<h1>O código da gramática já alimenta um dicionário colaborativo.</h1>
+</header>
+<section class="neo-only-layout">
+<article class="neo-qr-card">
+<EnapolImage image="qr-neo" alt="QR code para o dicionário de neologismos" />
+<h2>neo.academiatupi.com</h2>
+<p>dicionário colaborativo de neologismos em Tupi Antigo</p>
+</article>
+<article class="neo-stats-card simplified-neo-card">
+<span>uma consequência concreta</span>
+<h2>Mais de 1000 verbetes, com áudio, citações e revisão comunitária</h2>
+<p>Aberto e financiado coletivamente. A comunidade propõe verbetes e exemplos, vota, revisa fontes e participa por meio de perfis e karma.</p>
+<div class="stats-grid">
+<div><strong>1096</strong><span>verbetes</span></div>
+<div><strong>189</strong><span>exemplos</span></div>
+<div><strong>24</strong><span>usuários</span></div>
+</div>
+<p class="stats-note">Não é o objeto da pesquisa. É um lugar em que a gramática executável já está sendo usada por uma comunidade.</p>
+</article>
+</section>
+<footer class="resource-closing">
+<strong>A gramática executável não termina no teste: ela também pode sustentar ferramentas abertas.</strong>
+</footer>
 </div>
 
 <!--
-Tempo: 0:45.
-Fecho com um convite para ver uma consequência pública do trabalho.
-O dicionário de neologismos não é o centro científico da apresentação, mas mostra que o código da gramática já é usado em uma ferramenta real.
+Tempo: 0:40.
+Fecho com uma consequência concreta do trabalho.
+O dicionário colaborativo de neologismos não é o centro científico da apresentação, mas o código da gramática já está sendo usado ali.
 Ele é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária.
-Mesmo sem divulgação ampla ao público geral, já passou de mil verbetes e tem uma pequena comunidade ativa em torno dele.
+Mesmo sem divulgação ampla ao público geral, já passou de mil verbetes e reúne uma pequena comunidade em torno dele.
 -->
