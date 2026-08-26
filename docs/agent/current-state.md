@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-08-24
+Last updated: 2026-08-26
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
@@ -205,3 +205,10 @@ Verified on 2026-08-26:
 - Updated `notes/enapol-2026-executable-grammar.md` and embedded slide comments to match the 8-slide pacing.
 - Updated `scripts/build-all.mjs` so the generated public homepage lists `ENAPOL 2026 — Corpus Computacional e Gramática Executável do Tupi Antigo` with context `29º ENAPOL, USP, 2026`; `dist/index.html` confirmed the generated link after build.
 - Verification passed: `npm run build`, `git diff --check`, generated homepage link check, generated ENAPOL slide count of 8, generated ENAPOL `<pre>`/`<code>` marker checks, fresh local Slidev server at `http://localhost:3038/`, no-screenshot Chromium layout/image-load check for slides 1-8, normal PDF export, and click-expanded PDF export.
+- Reworked the ENAPOL deck again directly on `main` into a 10-slide synthesis of the focused Araújo-line rewrite and the stronger earlier PR process/QR close.
+- The current ENAPOL sequence is: title, project definition, grammar-as-test comparison, problem, Araújo example, executable analysis, tree visualization, bootstrapping/regression tests, research possibilities, and QR links.
+- Removed explicit `zoom` wording and the old vertical background-line treatment from the live ENAPOL deck and CSS.
+- Added `public/assets/enapol-2026-executable-grammar/araujo-line-tree.svg`, a hand-drawn tree/structure asset for `araujo_catecismo_1686:0007`; a source check found `build_graphviz` only in `/Users/kian/code/nhe-enga/test_pydicate.py` as demo/test code, not a ready export path for this exact line.
+- Added `public/assets/enapol-2026-executable-grammar/qr-presentation.svg` for `https://kiansheik.github.io/public-presentations/enapol-2026-executable-grammar/` and restored the QR/resource close using the existing corpus, dictionary, and neologism QR assets.
+- Updated `notes/enapol-2026-executable-grammar.md` to a 10-slide, roughly 10-minute script with click cues for the bootstrapping/regression slide.
+- Verification passed: required `git log --oneline --decorate -n 10`, `npm run build`, generated homepage link check, generated ENAPOL slide count of 10, generated ENAPOL `<pre>`/`<code>` marker checks, stale `zoom`/old background-pattern checks, `git diff --check`, `curl -I http://localhost:3039/`, normal PDF export, and click-expanded PDF export. A fresh dev server is running at `http://localhost:3039/`. The no-screenshot DOM/browser check could not run because the repo checkout does not have the `playwright` package installed.

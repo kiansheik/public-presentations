@@ -50,11 +50,19 @@ Recommended capture rules:
 - What to capture: the manuscript/scan crop for that line, or a comparable Araújo/Bettendorff line if the worked example changes.
 - Status: TODO, SVG fallback present.
 
-## Existing QR Assets
+### `araujo-line-tree.svg`
 
-These are no longer part of the focused 8-slide deck, but remain available if a
-later version adds a compact resources slide.
+- Logical name: `araujo-line-tree`
+- Used on slide 7.
+- Purpose: provide a readable tree/structure visualization for the worked Araújo line.
+- Source: hand-drawn SVG synthesis of the current expression shown on slide 6, created because the reusable `build_graphviz` helper currently lives in `nhe-enga/test_pydicate.py` as demo/test code rather than as a ready export path for this exact corpus line.
+- Status: active SVG asset; replace with a generated Graphviz export only if the exact line can be rendered cleanly.
 
+## Current QR Assets
+
+These are used on the final links slide.
+
+- `qr-presentation.svg`: `https://kiansheik.github.io/public-presentations/enapol-2026-executable-grammar/`
 - `qr-dictionary.svg`: `https://kiansheik.io/nhe-enga/`
 - `qr-corpus.svg`: `https://github.com/kiansheik/oldtupicorpus`
 - `qr-neo.svg`: `https://neo.academiatupi.com`
@@ -63,6 +71,6 @@ later version adds a compact resources slide.
 
 1. Save the real crop/screenshot using the exact `.png` basename listed above.
 2. Keep the SVG fallback in place.
-3. Run `npm run dev:enapol-2026 -- --port 3037` and inspect slides 3 and 5.
+3. Run `npm run dev:enapol-2026 -- --port 3038` and inspect slides 3, 5, 7, and 10.
 4. Run `npm run build`.
 5. Run `npm run export:enapol-2026:pdf` and, if using click exports, `npm run export:enapol-2026:pdf:clicks`.

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" role="img" aria-labelledby="title desc">
+  <title id="title">Árvore formal da linha de Araújo</title>
+  <desc id="desc">Estrutura hierárquica para oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe.</desc>
+  <defs>
+    <style>
+      .bg{fill:#fffaf0}
+      .edge{stroke:#6f5b35;stroke-width:3;fill:none}
+      .edge2{stroke:#4f8a82;stroke-width:3;fill:none}
+      .node{fill:#f7f1e6;stroke:#6f5b35;stroke-width:2.5}
+      .node2{fill:#ecf4ef;stroke:#4f8a82;stroke-width:2.5}
+      .node3{fill:#f7e6de;stroke:#a5432d;stroke-width:2.5}
+      .small{font:600 18px Arial, sans-serif;fill:#2a302c}
+      .label{font:700 22px Arial, sans-serif;fill:#1f2421}
+      .mono{font:700 19px Menlo, Consolas, monospace;fill:#1f2421}
+      .caption{font:600 16px Arial, sans-serif;fill:#6b6257}
+      .surface{font:700 28px Georgia, serif;fill:#1f2421}
+      .tag{font:700 15px Arial, sans-serif;fill:#a5432d}
+    </style>
+  </defs>
+  <rect class="bg" width="1180" height="720"/>
+
+  <text x="590" y="48" text-anchor="middle" class="surface">oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe</text>
+  <text x="590" y="76" text-anchor="middle" class="caption">araujo_catecismo_1686:0007 · forma gerada e alvo normalizado</text>
+
+  <rect x="462" y="102" width="256" height="66" rx="6" class="node3"/>
+  <text x="590" y="130" text-anchor="middle" class="tag">SENTENÇA</text>
+  <text x="590" y="154" text-anchor="middle" class="label">pedido imperativo</text>
+
+  <path d="M590 168 V203" class="edge"/>
+  <rect x="462" y="204" width="256" height="64" rx="6" class="node3"/>
+  <text x="590" y="230" text-anchor="middle" class="tag">VP</text>
+  <text x="590" y="254" text-anchor="middle" class="mono">eîme'eng</text>
+
+  <path d="M590 268 V315" class="edge"/>
+  <path d="M590 304 H175 V315" class="edge"/>
+  <path d="M590 304 H406 V315" class="edge"/>
+  <path d="M590 304 H774 V315" class="edge2"/>
+  <path d="M590 304 H1005 V315" class="edge"/>
+
+  <rect x="58" y="316" width="234" height="72" rx="6" class="node2"/>
+  <text x="175" y="344" text-anchor="middle" class="tag">TEMA / OBJETO</text>
+  <text x="175" y="370" text-anchor="middle" class="mono">oré rembi'u</text>
+
+  <rect x="304" y="316" width="204" height="72" rx="6" class="node"/>
+  <text x="406" y="344" text-anchor="middle" class="tag">TEMPO</text>
+  <text x="406" y="370" text-anchor="middle" class="mono">kori</text>
+
+  <rect x="636" y="316" width="276" height="72" rx="6" class="node2"/>
+  <text x="774" y="344" text-anchor="middle" class="tag">MODIFICADOR</text>
+  <text x="774" y="370" text-anchor="middle" class="mono">'ara îabi'õndûara</text>
+
+  <rect x="902" y="316" width="206" height="72" rx="6" class="node"/>
+  <text x="1005" y="344" text-anchor="middle" class="tag">DATIVO</text>
+  <text x="1005" y="370" text-anchor="middle" class="mono">orébe</text>
+
+  <path d="M175 388 V438" class="edge2"/>
+  <path d="M175 428 H102 V438" class="edge2"/>
+  <path d="M175 428 H248 V438" class="edge2"/>
+  <rect x="28" y="438" width="148" height="74" rx="6" class="node"/>
+  <text x="102" y="466" text-anchor="middle" class="tag">POSSUIDOR</text>
+  <text x="102" y="492" text-anchor="middle" class="mono">oré</text>
+  <rect x="194" y="438" width="108" height="74" rx="6" class="node"/>
+  <text x="248" y="466" text-anchor="middle" class="tag">N</text>
+  <text x="248" y="492" text-anchor="middle" class="mono">u</text>
+
+  <path d="M248 512 V558" class="edge"/>
+  <rect x="151" y="558" width="194" height="74" rx="6" class="node3"/>
+  <text x="248" y="586" text-anchor="middle" class="tag">NOMINALIZADOR</text>
+  <text x="248" y="612" text-anchor="middle" class="mono">emi + u → rembi'u</text>
+
+  <path d="M774 388 V438" class="edge2"/>
+  <path d="M774 428 H686 V438" class="edge2"/>
+  <path d="M774 428 H861 V438" class="edge2"/>
+  <rect x="613" y="438" width="146" height="74" rx="6" class="node"/>
+  <text x="686" y="466" text-anchor="middle" class="tag">N</text>
+  <text x="686" y="492" text-anchor="middle" class="mono">'ara</text>
+  <rect x="788" y="438" width="146" height="74" rx="6" class="node"/>
+  <text x="861" y="466" text-anchor="middle" class="tag">QUANT.</text>
+  <text x="861" y="492" text-anchor="middle" class="mono">îabi'õ</text>
+
+  <path d="M861 512 V558" class="edge"/>
+  <rect x="745" y="558" width="232" height="74" rx="6" class="node3"/>
+  <text x="861" y="586" text-anchor="middle" class="tag">RELACIONAL</text>
+  <text x="861" y="612" text-anchor="middle" class="mono">nduara</text>
+
+  <path d="M1005 388 V438" class="edge"/>
+  <path d="M1005 428 H953 V438" class="edge"/>
+  <path d="M1005 428 H1057 V438" class="edge"/>
+  <rect x="902" y="438" width="102" height="74" rx="6" class="node"/>
+  <text x="953" y="466" text-anchor="middle" class="tag">PRON.</text>
+  <text x="953" y="492" text-anchor="middle" class="mono">oré</text>
+  <rect x="1024" y="438" width="116" height="74" rx="6" class="node"/>
+  <text x="1082" y="466" text-anchor="middle" class="tag">POSP.</text>
+  <text x="1082" y="492" text-anchor="middle" class="mono">supé</text>
+  <text x="1020" y="548" text-anchor="middle" class="caption">decomposição interna possível</text>
+</svg>
