@@ -1,0 +1,100 @@
+.enapol-exec .statement-panel,
+.enapol-exec .source-code-panel {
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(111, 92, 65, 0.22);
+  border-radius: 12px;
+  background: rgba(255, 252, 245, 0.82);
+}
+
+.enapol-exec .statement-panel {
+  padding: 1.1rem 1.15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.enapol-exec .statement-panel strong {
+  font-size: 1.15rem;
+}
+
+.enapol-exec .statement-panel p {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.enapol-exec .supe-grid figure {
+  min-width: 0;
+}
+
+.enapol-exec .supe-grid figure > img,
+.enapol-exec .supe-grid figure > .enapol-image,
+.enapol-exec .supe-grid figure > div:not(.source-code-panel) {
+  max-height: 280px;
+}
+
+.enapol-exec .source-code-panel {
+  padding: 0.9rem 1rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  overflow: hidden;
+}
+
+.enapol-exec .source-code-panel p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.enapol-exec .source-code-panel .indent-1 { padding-left: 1rem; }
+.enapol-exec .source-code-panel .indent-2 { padding-left: 2rem; }
+.enapol-exec .source-code-panel .indent-3 { padding-left: 3rem; }
+.enapol-exec .source-code-panel .code-gap { margin-top: 0.75rem; }
+.enapol-exec .source-code-panel .code-keyword { font-weight: 700; }
+
+.enapol-exec .layered-analysis-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.enapol-exec .layer-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.85fr) minmax(0, 1.15fr);
+  gap: 0.8rem;
+  align-items: baseline;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(111, 92, 65, 0.18);
+}
+
+.enapol-exec .layer-row strong {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.enapol-exec .executable-tree-layout {
+  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+}
+
+.enapol-exec .executable-code-card .code-block {
+  margin: 0.65rem 0 0.75rem;
+}
+
+.enapol-exec .executable-code-card .code-gap {
+  opacity: 0.45;
+  margin: 0.35rem 0;
+}
+
+.enapol-exec .resource-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.enapol-exec .resource-grid article {
+  min-width: 0;
+}
+
+.enapol-exec .resource-grid article p {
+  overflow-wrap: anywhere;
+}
