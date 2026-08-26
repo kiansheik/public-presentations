@@ -104,13 +104,20 @@ Com esse método em mente, fica mais claro por que o projeto mudou de escala no 
 
 ## Slide 7
 
-Approximate time: 1:00
+Approximate time: 1:10
 
-Click cues: none
+Click cues:
+
+- [CLICK] reveal the current expert bottleneck.
+- [CLICK] reveal production to editing as future direction.
 
 Script:
 
-Aqui eu separo as aplicações do objeto científico. O projeto começou no mestrado com a construção da gramática computacional. Essa gramática amadureceu o suficiente para gerar ferramentas: conjugação, dicionários, exercícios, transformações ortográficas, neologismos e infraestrutura de anotação. Essas saídas são importantes porque mostram que a gramática já tinha capacidade formal real. Mas elas não são o centro científico do doutorado. O centro é a própria gramática e o método de testá-la. Com a maturação dessa gramática, o projeto foi aprovado para Doutorado Direto, e a escala passa a ser implementar sistematicamente o corpus conhecido do Tupi Antigo, linha por linha.
+Aqui eu mostro progresso, dificuldade e direção futura no mesmo movimento. O projeto começou no mestrado com a construção da gramática computacional. Com a maturação dessa gramática, o projeto foi aprovado para Doutorado Direto. O ponto não é listar produtos, mas mostrar que a gramática ficou suficientemente real para produzir saídas: flexão, dicionários, exercícios, transformações ortográficas, neologismos, anotação e ferramentas experimentais. No doutorado, a escala passa a ser implementar o corpus conhecido do Tupi Antigo e deixar que esse processo aperfeiçoe simultaneamente a gramática e o método.
+
+[CLICK] A dificuldade também muda. Hoje, a primeira implementação ainda exige na mesma pessoa conhecimento da fonte histórica, da gramática do Tupi, da segmentação e glosa, das decisões representacionais e de parte da camada técnica. O gargalo atual é a interface entre análise linguística e implementação.
+
+[CLICK] A direção metodológica é deslocar o trabalho de produção para edição. O sistema não substitui o linguista. A ideia é que, conforme gramática e léxico ganham cobertura, ele proponha análises progressivamente mais completas. O linguista passa a revisar, corrigir, rejeitar, refinar e interpretar os casos difíceis. O objetivo não é retirar o linguista do processo, mas deslocar seu trabalho da produção para a edição.
 
 Transition:
 

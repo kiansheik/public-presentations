@@ -289,8 +289,8 @@ class: enapol-exec
 
 <div class="enapol-canvas doctorate-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Do mestrado ao Doutorado Direto</p>
-    <h1>As aplicações são saídas. O objeto científico é a gramática.</h1>
+    <p class="eyebrow">Progresso e dificuldades</p>
+    <h1>A gramática amadurece; o gargalo muda.</h1>
   </header>
 
   <section class="trajectory-row" aria-label="Trajetória do projeto">
@@ -303,34 +303,40 @@ class: enapol-exec
     <div>corpus integral + metodologia</div>
   </section>
 
-  <section class="doctorate-grid">
-    <article class="implemented-panel">
-      <h2>Primeira fase</h2>
-      <p>O projeto começou no mestrado com a construção da gramática computacional. Ela amadureceu o bastante para sustentar flexão, dicionários, ensino, ortografia, neologismos e infraestrutura de anotação.</p>
-      <div class="screenshot-row">
-        <EnapolImage image="project-dictionary" alt="Placeholder para dicionário ou conjugação" />
-        <EnapolImage image="project-public-facing" alt="Placeholder para aplicação pública ou material de acesso comunitário" />
+  <section class="doctorate-grid" aria-label="Progresso, gargalo atual e direção metodológica">
+    <article class="progress-panel">
+      <h2>Progresso</h2>
+      <p>O projeto começou no mestrado; com a maturação da gramática computacional, foi aprovado para Doutorado Direto.</p>
+      <p>A gramática já ficou suficientemente real para produzir saídas: flexão, dicionários, exercícios, ortografia, neologismos, anotação e ferramentas experimentais.</p>
+      <div class="result-box">
+        <span>tarefa do doutorado</span>
+        <p>implementar o corpus conhecido do Tupi Antigo e deixar que esse processo aperfeiçoe simultaneamente a gramática e o método.</p>
       </div>
     </article>
-    <article class="doctorate-panel">
-      <h2>Agora, no doutorado</h2>
-      <p>Com a maturação da gramática computacional, o projeto foi aprovado para Doutorado Direto.</p>
-      <p>O objetivo agora é implementar sistematicamente o corpus conhecido do Tupi Antigo dentro dessa gramática e, ao fazê-lo, aperfeiçoar simultaneamente a gramática e o método.</p>
-      <div class="result-box">
-        <span>mudança de escala</span>
-        <p>de ferramentas geradas pela gramática para uma gramática testada linha por linha pelo corpus.</p>
+    <article class="bottleneck-panel" v-click>
+      <h2>Gargalo atual</h2>
+      <p>Hoje, a primeira implementação ainda exige na mesma pessoa conhecimento linguístico e conhecimento técnico.</p>
+      <p class="bottleneck-line">O gargalo atual é a interface entre análise linguística e implementação.</p>
+    </article>
+    <article class="direction-panel" v-click>
+      <div class="production-shift" aria-label="Direção metodológica">
+        <strong>produção</strong>
+        <span>→</span>
+        <strong>edição</strong>
       </div>
+      <p>Propostas progressivamente mais completas; cada vez menos trabalho começa do zero.</p>
+      <p class="direction-line">O objetivo não é retirar o linguista do processo, mas deslocar seu trabalho da produção para a edição.</p>
     </article>
   </section>
 </div>
 
 <!--
-Tempo: 1:00.
-Aqui eu quero contar a trajetória sem transformar a slide em burocracia acadêmica.
-O projeto começou no mestrado, com a construção da gramática computacional e das ferramentas que ela permitia gerar.
-Essas aplicações são importantes porque demonstraram que a gramática já tinha substância formal suficiente para produzir saídas úteis: conjugação, dicionários, exercícios, transformações ortográficas, neologismos e apoio à anotação.
-Mas o objeto científico não é a lista de aplicativos. O objeto científico é a gramática e o método de testá-la.
-Com essa maturação, o projeto foi aprovado para Doutorado Direto, e a escala passa a ser implementar sistematicamente o corpus conhecido do Tupi Antigo.
+Tempo: 1:10.
+Esta slide tem dois cliques.
+Primeiro, a trajetória: o projeto começou no mestrado com a construção da gramática computacional. Com a maturação dessa gramática, o projeto foi aprovado para Doutorado Direto.
+O ponto não é listar produtos, mas mostrar progresso científico: a gramática já ficou real o suficiente para produzir flexão, dicionários, exercícios, transformações ortográficas, neologismos, anotação e ferramentas experimentais. Agora, no doutorado, a escala é implementar o corpus conhecido do Tupi Antigo e deixar que esse processo aperfeiçoe simultaneamente a gramática e o método.
+[CLICK] A dificuldade também muda. Hoje, a primeira implementação ainda exige na mesma pessoa conhecimento da fonte histórica, da gramática do Tupi, da segmentação e glosa, das decisões representacionais e de parte da camada técnica. O gargalo atual é a interface entre análise linguística e implementação.
+[CLICK] A direção metodológica é deslocar o trabalho de produção para edição. O sistema não substitui o linguista; ele deve propor análises progressivamente mais completas, para que o linguista revise, corrija, rejeite, refine e interprete os casos difíceis.
 Transição: agora mostro que essa estruturação já produziu resultado linguístico concreto antes mesmo do corpus completo.
 -->
 
