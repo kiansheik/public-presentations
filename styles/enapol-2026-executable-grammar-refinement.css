@@ -54,32 +54,57 @@
 
 .enapol-exec .supe-grid figure {
   min-width: 0;
+  min-height: 0;
   display: grid;
   grid-template-rows: minmax(0, 1fr) auto;
   gap: 0.55rem;
+  background: transparent;
+  overflow: hidden;
 }
 
 .enapol-exec .supe-grid .source-shot {
-  background: rgba(24, 20, 16, 0.48);
+  background: rgba(24, 20, 16, 0.62);
   border-radius: 14px;
   padding: 0.55rem;
   border: 1px solid rgba(226, 191, 118, 0.22);
 }
 
-.enapol-exec .supe-grid figure > img,
-.enapol-exec .supe-grid figure > .enapol-image,
-.enapol-exec .supe-grid figure > div:not(.source-code-panel) {
+.enapol-exec .source-image-frame {
+  min-height: 0;
+  height: 236px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  overflow: hidden;
+  background: #191613;
+  border: 1px solid rgba(226, 191, 118, 0.18);
+}
+
+.enapol-exec .source-image-frame img {
   width: 100%;
-  height: 252px;
-  max-height: 252px;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
   object-fit: contain;
   object-position: center;
-  border-radius: 8px;
-  background: rgba(248, 239, 225, 0.94);
+  background: transparent;
+}
+
+.enapol-exec .supe-grid figcaption {
+  position: relative;
+  z-index: 2;
+  min-height: 2.7rem;
+  margin: 0;
+  padding: 0 0.08rem;
+  line-height: 1.18;
+  background: transparent;
+  overflow: visible;
 }
 
 .enapol-exec .source-code-panel {
-  padding: 0.72rem 0.72rem;
+  padding: 0.72rem;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: 0.58rem;
   line-height: 1.22;
@@ -88,7 +113,9 @@
 
 .enapol-exec .source-code-panel p {
   margin: 0;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .enapol-exec .source-code-panel .indent-1 { padding-left: 0.72rem; }
@@ -158,23 +185,18 @@
 }
 
 .enapol-exec .public-output-slide .resource-closing {
-  margin-top: 0.7rem;
+  margin-top: 0.55rem;
 }
 
-.enapol-exec .resource-showcase {
+.enapol-exec .neo-only-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  grid-template-columns: minmax(220px, 0.62fr) minmax(0, 1.38fr);
   gap: 1rem;
+  min-height: 0;
   align-items: stretch;
 }
 
-.enapol-exec .resource-links-compact {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.72rem;
-}
-
-.enapol-exec .resource-links-compact article,
+.enapol-exec .neo-qr-card,
 .enapol-exec .neo-stats-card {
   border: 1px solid rgba(226, 191, 118, 0.24);
   border-radius: 14px;
@@ -183,34 +205,35 @@
   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.2);
 }
 
-.enapol-exec .resource-links-compact article {
-  padding: 0.72rem;
-  display: grid;
-  grid-template-columns: 74px minmax(0, 1fr);
-  grid-template-rows: auto auto;
-  column-gap: 0.62rem;
+.enapol-exec .neo-qr-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.55rem;
 }
 
-.enapol-exec .resource-links-compact img {
-  width: 74px;
-  height: 74px;
-  grid-row: 1 / span 2;
+.enapol-exec .neo-qr-card img {
+  width: 178px;
+  height: 178px;
+  max-width: 100%;
+  object-fit: contain;
   background: #fff;
-  border-radius: 7px;
+  border-radius: 10px;
+  padding: 0.35rem;
 }
 
-.enapol-exec .resource-links-compact h2 {
+.enapol-exec .neo-qr-card h2 {
   margin: 0;
-  font-size: 0.95rem;
   color: #ffd98a;
+  font-size: 1rem;
 }
 
-.enapol-exec .resource-links-compact p {
-  margin: 0.1rem 0 0;
-  font-size: 0.62rem;
-  line-height: 1.15;
-  overflow-wrap: anywhere;
+.enapol-exec .neo-qr-card p {
+  margin: 0;
+  font-size: 0.76rem;
   opacity: 0.88;
 }
 
