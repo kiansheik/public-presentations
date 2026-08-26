@@ -48,6 +48,7 @@
 .problem-grid span,
 .question-panel span,
 .line-card span,
+.declarations-card span,
 .code-card span,
 .output-card span,
 .analysis-grid span,
@@ -182,6 +183,7 @@
 .problem-grid article,
 .question-panel,
 .line-card,
+.declarations-card,
 .code-card,
 .output-card,
 .analysis-grid div,
@@ -196,6 +198,7 @@
 .project-grid article,
 .problem-grid article,
 .line-card,
+.declarations-card,
 .code-card,
 .output-card,
 .analysis-grid div,
@@ -208,6 +211,7 @@
 .project-grid p,
 .problem-grid p,
 .line-card p,
+.declarations-card p,
 .output-card p,
 .analysis-grid p,
 .tree-explain p,
@@ -323,30 +327,6 @@
   font-size: 1.06rem !important;
 }
 
-.orebe-note {
-  border-top: 0.08rem solid rgba(209, 167, 79, 0.46);
-  padding-top: 0.52rem;
-  display: grid;
-  gap: 0.25rem;
-}
-
-.orebe-note strong {
-  color: #fff1cf;
-  font-family: var(--enapol-heading);
-  font-size: 1.12rem;
-  font-weight: 650;
-  line-height: 1;
-}
-
-.orebe-note span {
-  color: var(--enapol-text);
-  font-family: var(--enapol-serif);
-  font-size: 0.88rem;
-  font-weight: 720;
-  line-height: 1.12;
-  text-transform: none;
-}
-
 .difficulty-strip {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -382,9 +362,10 @@
 }
 
 .encoding-grid {
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.16fr) minmax(0, 0.86fr);
 }
 
+.declarations-card,
 .code-card,
 .output-card {
   display: grid;
@@ -393,11 +374,51 @@
   border-left: 0.22rem solid var(--enapol-teal);
 }
 
-.code-line {
+.declarations-card {
+  align-content: start;
+  gap: 0.5rem;
+}
+
+.declaration-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.22rem 0.46rem;
+}
+
+.declaration-list p {
+  min-width: 0;
+  color: var(--enapol-text);
+  font-size: 0.53rem;
+  font-weight: 720;
+  line-height: 1.06;
+}
+
+.declaration-list .inline-code {
+  display: inline-block;
+  min-width: 2.85rem;
+  font-size: 0.94em;
+}
+
+.code-block {
+  display: grid;
+  gap: 0.22rem;
+  border: 0.08rem solid rgba(247, 241, 230, 0.18);
+  background: rgba(18, 21, 19, 0.38);
+  padding: 0.62rem 0.72rem;
+}
+
+.code-line,
+.code-block p {
   overflow-wrap: anywhere;
-  font-size: 1.15rem;
+  color: #fff1cf;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.74rem;
   font-weight: 760;
-  line-height: 1.18;
+  line-height: 1.12;
+}
+
+.code-block .indent-1 {
+  padding-left: 1.1rem;
 }
 
 .analysis-grid {

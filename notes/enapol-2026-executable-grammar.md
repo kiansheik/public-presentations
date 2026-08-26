@@ -44,7 +44,7 @@ Approximate time: 0:55
 
 Script:
 
-O problema não é simplesmente digitalizar uma fonte. Uma linha histórica concentra decisões de vários tipos: leitura da fonte, normalização ortográfica, segmentação, glossas, morfemas abstratos, relações sintáticas e interpretação. Além disso, nenhuma decisão fica isolada. Quando eu crio uma regra para uma linha, essa regra pode afetar outras linhas já analisadas. Então a pergunta da fala é concreta: como transformar uma frase histórica em uma hipótese gramatical testável?
+Esta é a dificuldade principal: o sistema não automatiza a análise. Ele exige o mesmo trabalho gramatical que aparece em Anchieta, em Gerardi e em outras descrições: analisar formas, formular categorias e justificar relações. A diferença é que a metalinguagem não é só uma língua europeia em prosa descritiva; é Python, com uma camada pequena em cima dele. Isso abre muitas possibilidades, porque Python já circula inclusive dentro da linguística computacional, mas cria um gargalo no começo. Nesta etapa, a mesma pessoa precisa saber linguística, analisar Tupi Antigo e programar. Depois que o primeiro caso estiver consolidado, esse caminho deve ficar mais fácil para outros pesquisadores, inclusive com agentes e ferramentas de edição. Por enquanto, o processo iterativo revela necessidades que eu não poderia ter previsto no começo do mestrado.
 
 Transition:
 
@@ -56,7 +56,7 @@ Approximate time: 1:20
 
 Script:
 
-O exemplo vem de Araújo, Catecismo de 1686, na oração do Padre Nosso. A linha corresponde a "dá-nos hoje o nosso alimento de cada dia". O alvo normalizado atual é: oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe. A frase é pequena, mas já obriga várias decisões: posse nominal, nominalização em rembi'u, expressão temporal, imperativo e destinatário. Aqui é importante tratar orébe com cuidado. Na superfície, orébe é a forma própria que aparece na sentença; em uma análise mais profunda, ela pode ser decomposta como oré mais supé.
+O exemplo vem de Araújo, Catecismo de 1686, na oração do Padre Nosso. A linha corresponde a "dá-nos hoje o nosso alimento de cada dia". O alvo normalizado atual é: oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe. A frase é pequena, mas já obriga várias decisões: posse nominal, nominalização em rembi'u, expressão temporal, imperativo e destinatário. Na superfície aparece orébe, mas a análise que a gramática manipula por baixo é o dativo supé aplicado a oré.
 
 Transition:
 
@@ -68,7 +68,7 @@ Approximate time: 1:20
 
 Script:
 
-Esta é a mesma análise, agora escrita em uma metalinguagem executável. Eu não preciso explicar cada operador na fala, mas preciso deixar claro o princípio. Cada morfema é definido ou reaproveitado como objeto; a sentença é composta com relações explícitas; depois a estrutura é avaliada. O spell-out gera a forma de superfície padronizada. Se a forma, a estrutura e os rótulos batem com a análise aprovada, essa linha vira teste. Se não batem, a falha aponta para uma decisão linguística a revisar, não apenas para um erro técnico.
+Esta é a mesma análise, agora escrita em uma metalinguagem executável. Eu não preciso explicar cada operador na fala, mas preciso deixar claro o princípio. Cada morfema de base é definido ou reaproveitado como objeto; a sentença é composta com relações explícitas; depois a estrutura é avaliada. Por isso, orébe não aparece aqui como morfema de base. Ele é a forma de superfície gerada por supé aplicado a oré, com variação 1. O spell-out gera a forma de superfície padronizada. Se a forma, a estrutura e os rótulos batem com a análise aprovada, essa linha vira teste. Se não batem, a falha aponta para uma decisão linguística a revisar, não apenas para um erro técnico.
 
 Transition:
 
@@ -80,7 +80,7 @@ Approximate time: 0:55
 
 Script:
 
-Esta árvore mostra por que o resultado não é apenas uma string correta. A estrutura explicita que rembi'u pertence a uma relação de posse, que a expressão temporal modifica o pedido, que eîme'eng está no imperativo e que orébe é tratado como forma dativa própria, sem impedir uma decomposição mais profunda como oré mais supé. Isso faz a análise ficar consultável: posso perguntar por morfemas, alomorfes, relações e ambientes.
+Esta árvore mostra por que o resultado não é apenas uma string correta. A estrutura explicita que rembi'u pertence a uma relação de posse, que a expressão temporal modifica o pedido, que eîme'eng está no imperativo e que o nó dativo tem base supé e argumento oré, gerando a superfície orébe. Isso faz a análise ficar consultável: posso perguntar por morfemas, alomorfes, relações e ambientes.
 
 Transition:
 
