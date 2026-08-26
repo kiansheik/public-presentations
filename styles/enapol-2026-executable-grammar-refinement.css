@@ -57,7 +57,7 @@
   min-height: 0;
   display: grid;
   grid-template-rows: minmax(0, 1fr) auto;
-  gap: 0.55rem;
+  gap: 0.72rem;
   background: transparent;
   overflow: hidden;
 }
@@ -71,7 +71,7 @@
 
 .enapol-exec .source-image-frame {
   min-height: 0;
-  height: 236px;
+  height: 228px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,13 +94,29 @@
 
 .enapol-exec .supe-grid figcaption {
   position: relative;
-  z-index: 2;
-  min-height: 2.7rem;
+  z-index: 3;
+  min-height: 3rem;
   margin: 0;
-  padding: 0 0.08rem;
-  line-height: 1.18;
-  background: transparent;
-  overflow: visible;
+  padding: 0.48rem 0.58rem 0.52rem;
+  border-radius: 8px;
+  border: 1px solid rgba(226, 191, 118, 0.16);
+  background: rgba(17, 15, 13, 0.9);
+  color: rgba(219, 209, 193, 0.86) !important;
+  font-size: 0.62rem;
+  line-height: 1.16;
+  overflow: hidden;
+}
+
+.enapol-exec .supe-grid figcaption strong {
+  display: block;
+  margin-bottom: 0.12rem;
+  color: rgba(239, 208, 142, 0.9);
+  font-size: 0.68rem;
+  line-height: 1.08;
+}
+
+.enapol-exec .supe-grid figcaption span {
+  color: rgba(203, 193, 178, 0.82);
 }
 
 .enapol-exec .source-code-panel {
