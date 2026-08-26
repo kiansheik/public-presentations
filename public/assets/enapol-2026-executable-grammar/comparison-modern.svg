@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-label="Placeholder comparison modern">
+  <rect width="1100" height="760" fill="#fffaf0"/>
+  <rect x="50" y="50" width="1000" height="660" fill="#f4efe4" stroke="#4f8a82" stroke-width="9"/>
+  <text x="90" y="140" fill="#20201d" font-family="Georgia, serif" font-size="56" font-weight="700">DESCRICAO MODERNA</text>
+  <text x="90" y="205" fill="#6b6155" font-family="Arial, sans-serif" font-size="30">Mesmo fenomeno da passagem de Anchieta</text>
+  <rect x="90" y="275" width="890" height="115" fill="#e7dfcf" stroke="#4f8a82" stroke-width="7"/>
+  <g stroke="#c8b99f" stroke-width="14">
+    <line x1="90" y1="460" x2="980" y2="460"/><line x1="90" y1="515" x2="910" y2="515"/><line x1="90" y1="570" x2="960" y2="570"/>
+  </g>
+</svg>

@@ -16,6 +16,11 @@ const decks = [
     slug: "oficina-unb",
     title: "Tupi Antigo: uma língua de contato no Brasil colonial",
   },
+  {
+    file: "decks/enapol-2026-executable-grammar.md",
+    slug: "enapol-2026-executable-grammar",
+    title: "Corpus Computacional e Gramática Executável do Tupi Antigo",
+  },
 ];
 
 rmSync("dist", { recursive: true, force: true });

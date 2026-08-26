@@ -1,12 +1,13 @@
 # Current State
 
-Last updated: 2026-05-18
+Last updated: 2026-08-24
 
 This is a Slidev repository for public presentations. The active deck lives under `decks/`; older starter decks still live at the repository root.
 
 Current decks:
 
-- `decks/oficina-unb.md` is the active Oficina UnB deck and the only deck in the current build manifest.
+- `decks/oficina-unb.md` is the active Oficina UnB deck and remains in the current build manifest.
+- `decks/enapol-2026-executable-grammar.md` is a short ENAPOL 2026 deck about Kian Arad Sheik's `Corpus Computacional e Gramática Executável do Tupi Antigo` project.
 - `oficina-tupi-antigo.md`
 - `lingua-geral-brasil.md`
 - `anchieta-contexto.md`
@@ -15,6 +16,7 @@ Shared presentation infrastructure:
 
 - `AGENTS.md` is the repo-local instruction file for future agents. It explicitly says not to take Playwright screenshots unless the user requests screenshots.
 - `decks/components/DeckImage.vue` renders Oficina UnB manuscript images as real `<img>` tags by importing files from `public/assets/oficina-unb/`. This avoids Slidev rewriting raw `/assets/...` or `../public/assets/...` paths in slide Markdown.
+- `decks/components/EnapolImage.vue` renders ENAPOL assets from `public/assets/enapol-2026-executable-grammar/`. It supports extensionless logical names and prefers real `.png`, `.jpg`, or `.jpeg` replacements over checked-in `.svg` placeholders.
 - `decks/styles/index.css` is the active global Slidev style entry for the `decks/` user root and imports `styles/oficina-unb.css`. Do not rely on a deck-level `<style>` tag for shared Oficina CSS; Slidev scopes slide `<style>` tags by default.
 - `components/` contains reusable Vue slide components for the older root-level starter decks.
 - `styles/custom.css` contains the shared visual language.
@@ -158,3 +160,38 @@ Verified on 2026-05-18:
 - Normalized the final six project/participation slides by adding `retomada-project-slide` and `retomada-project-block` classes instead of repeating inline spacing overrides.
 - The final six slide bodies now start at `top: 21.8%`; a no-screenshot DOM layout check on routes 89-94 reports a consistent `42.1px` title-to-body gap and no overflow.
 - `npm run build`, `git diff --check`, generated `<pre>/<code` checks, generated-module checks for the new classes, `curl -I http://localhost:3034/89`, and the route 89-94 DOM check succeed after the spacing pass.
+
+Verified on 2026-08-23:
+
+- Added `decks/enapol-2026-executable-grammar.md`, a 9-slide/10-minute ENAPOL 2026 deck focused on executable grammar as an additional formal layer for linguistic description rather than an NLP-first project.
+- Added `styles/enapol-2026-executable-grammar.css` and imported it from `decks/styles/index.css`.
+- Added `decks/components/EnapolImage.vue`, scoped to assets in `public/assets/enapol-2026-executable-grammar/`.
+- Added SVG placeholder assets plus `public/assets/enapol-2026-executable-grammar/README.md` as the asset replacement checklist.
+- Registered the deck in `scripts/build-all.mjs` with slug `enapol-2026-executable-grammar`, added `npm run dev:enapol-2026`, and added `npm run export:enapol-2026:pdf`.
+- Updated `README.md` and `docs/agent/repo-map.md` for the new deck, asset folder, build output, and commands.
+- `npm run build` succeeds for both built decks; `git diff --check` succeeds.
+- A generated Markdown-module check found nine ENAPOL slide modules and no `<pre>`, `<code>`, or `` `pre` `` markers in `dist/enapol-2026-executable-grammar/assets/md-*.js`.
+- Starting the local Slidev server without escalation failed first because this Slidev version does not accept `--host`, then failed with sandbox `EPERM` on `::1:3035`; the approved rerun started `http://localhost:3035/`, and `curl -I http://localhost:3035/` returned `HTTP/1.1 200 OK`.
+
+Verified on 2026-08-24:
+
+- Inspected GitHub PR #1, `enapol presentation`, on branch `enapol-kian`; no PR mutation, merge, push, or commit was performed.
+- Reworked the ENAPOL deck in place as a second-pass 9-slide/10-minute argument: problem, worked corpus example, programming as metalanguage, four-century comparison, bootstrapping loop, implemented outputs versus doctorate direction, significance, and close.
+- Moved the worked corpus example early, removed the phrase `ground truth`, and added explicit placeholders for exact citations, the corpus line, analysis/glosses, and one empirical result still to be supplied manually.
+- Replaced the ENAPOL CSS with grid/flex layouts that preserve the dark archival visual identity while avoiding brittle absolute positioning and text/image collisions.
+- Reduced the placeholder image set to ten stable logical assets and rewrote `public/assets/enapol-2026-executable-grammar/README.md` as the required screenshot/page-crop checklist.
+- Extended `EnapolImage.vue` so real `.png`, `.jpg`, or `.jpeg` files with matching basenames override the SVG placeholders without Markdown edits.
+- `npm run build`, `git diff --check`, generated Markdown-module checks for raw `<pre>`/`<code>` markers, and `npm run export:enapol-2026:pdf` succeed after the second pass.
+- A local Slidev server is running at `http://localhost:3036/` for review. Visual QA screenshots of all nine dev-server slides were taken because the user explicitly requested visual QA.
+- The final dev-server visual pass found no outside-canvas elements across all nine slides, and the previously observed slide 1, 3, 6, and 7 collisions/raw-HTML issues were fixed.
+- PDF export produced `enapol-2026-executable-grammar-export.pdf`; only the first-page macOS thumbnail was visually inspected because `pdfinfo`/`pdftoppm` are unavailable and local Ghostscript cannot find `gs_init.ps`.
+- A later refinement on the same date removed all ENAPOL repeated-line backgrounds, replaced the old bootstrapping oval with a click-revealed arrow methodology slide, expanded the deck to 10 logical slides, and added doctorate trajectory, switch-reference payoff, full-corpus infrastructure, and QR/resource closeout slides.
+- Added `notes/enapol-2026-executable-grammar.md` as a standalone 10-minute rehearsal script with click cues and transitions, while keeping presenter notes in the slide comments.
+- Added `npm run export:enapol-2026:pdf:clicks`, which uses Slidev's verified `--with-clicks` option and outputs `enapol-2026-executable-grammar-clicks-export.pdf` without replacing the normal PDF.
+- Generated QR SVGs for the verified live URLs `https://kiansheik.io/nhe-enga/`, `https://github.com/kiansheik/oldtupicorpus`, and `https://neo.academiatupi.com`; each returned `HTTP/2 200` during `curl -I` checks.
+- Verified the switch-reference numbers against local source-of-truth files: `/Users/kian/code/latex/swith_ref_tupi_2025/main.tex` and `/Users/kian/code/tupi-antigo-switch-reference/annotated_citations.json` currently report 62 examples, 60 DS, 2 SS, 96.77% DS, and 3.23% SS. The asset README notes that the ResearchGate public abstract reports an older 53-example version.
+- Final checks after this refinement: `npm run build`, `git diff --check`, stale raw-marker search for `repeating-linear-gradient`, `cycle-diagram`, `loop-slide`, `<code`, and `<pre`, all-slide Chromium visual screenshots on `http://localhost:3037/`, normal PDF export, and click-state PDF export all succeeded.
+- A later surgical ENAPOL pass on the same date fixed slide 6 final-click spacing without changing the methodology sequence: the persistent `GRAMÁTICA + LÉXICO` panel is narrower, the flowchart has more horizontal room, YES/NO branches have a dedicated band, and the final callout has a separate bottom band.
+- The `Do mestrado ao Doutorado Direto` slide is now `Progresso e dificuldades`, retaining the mestrado-to-Doutorado Direto trajectory while explicitly covering progress, the expert bottleneck at the analysis/implementation interface, and the future shift from `produção` to `edição`.
+- Embedded presenter notes and `notes/enapol-2026-executable-grammar.md` now match that updated slide 7 framing and keep the talk at roughly 10 minutes.
+- Verification after the surgical pass: `npm run build`, `git diff --check`, generated ENAPOL `<pre>`/`<code>` marker checks, browser screenshots for slide 6 click states 0-5 and slide 7 click states 0-2 on `http://localhost:3037/`, `curl -I http://localhost:3037/`, normal PDF export, and click-expanded PDF export all succeeded. The server's `/svg/6?clicks=5` path returned Slidev 404 in this local dev server, so visual QA used the live slide route `/6?clicks=5`.

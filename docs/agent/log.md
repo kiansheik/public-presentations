@@ -128,3 +128,35 @@
 - Normalized the title/body spacing on the final six project and participation slides by adding scoped `retomada-project-slide` and `retomada-project-block` classes.
 - Removed the inline top/margin spacing overrides from those six slides and moved the shared rhythm into `styles/oficina-unb.css`.
 - Verified with `npm run build`, `git diff --check`, generated `<pre>/<code` checks, generated-module checks for the new classes, `curl -I http://localhost:3034/89`, and a no-screenshot Playwright DOM check on routes 89-94. The first browser launch failed under sandbox permissions, then the approved rerun passed; a first selector attempt selected hidden Slidev canvases and was corrected by choosing the visible canvas.
+
+## 2026-08-23
+
+- Added `decks/enapol-2026-executable-grammar.md`, a 9-slide ENAPOL 2026 deck for Kian Arad Sheik's `Corpus Computacional e Gramática Executável do Tupi Antigo` project.
+- Added `styles/enapol-2026-executable-grammar.css`, imported it through `decks/styles/index.css`, and kept the visual system scoped to `class: enapol-exec`.
+- Added `decks/components/EnapolImage.vue` and SVG placeholder assets under `public/assets/enapol-2026-executable-grammar/`, with `README.md` listing every screenshot/page crop still needed.
+- Registered the deck in `scripts/build-all.mjs`, `package.json`, and `README.md`, including `npm run dev:enapol-2026` and `npm run export:enapol-2026:pdf`.
+- Updated `docs/agent/current-state.md` and `docs/agent/repo-map.md` to reflect the new built deck.
+- Verified with `npm run build`, `git diff --check`, generated Markdown-module raw-marker checks, and `curl -I http://localhost:3035/`. Starting Slidev first failed with unsupported `--host`, then with sandbox `EPERM`, then succeeded after approved escalation at `http://localhost:3035/`.
+
+## 2026-08-24
+
+- Inspected PR #1, `enapol presentation`, on branch `enapol-kian`; no push, commit, merge, or PR mutation was performed.
+- Reworked the existing ENAPOL deck instead of rebuilding from scratch, keeping it to nine slides and tightening the argument around executable grammar as linguistic description with computational methods.
+- Moved the worked corpus example to slide 3, removed the phrase `ground truth`, added clearer citation/result placeholders, and expanded the Portuguese speaker notes into a rehearsable 10-minute path.
+- Replaced the ENAPOL CSS with stable grid/flex layouts and tuned slides 1, 3, 6, and 7 after visual QA caught collisions, clipping, and raw HTML rendering.
+- Simplified the ENAPOL asset placeholders to ten logical SVG files and updated `EnapolImage.vue` so same-basename `.png`, `.jpg`, or `.jpeg` replacements take precedence automatically.
+- Recreated `public/assets/enapol-2026-executable-grammar/README.md` as a detailed checklist listing each remaining asset, slide use, capture target, source guidance, crop guidance, and replacement status.
+- Verified with `npm run build`, `git diff --check`, generated Markdown-module `<pre>`/`<code>` checks, all-slide dev-server visual screenshots, and `npm run export:enapol-2026:pdf`.
+- A fresh dev server is running at `http://localhost:3036/`. PDF export produced `enapol-2026-executable-grammar-export.pdf`; full all-page PDF raster QA was limited because `pdfinfo`/`pdftoppm` are unavailable and Ghostscript is missing `gs_init.ps`.
+- Refined the committed second-pass ENAPOL deck on branch `enapol-kian`: removed repeated vertical-line backgrounds everywhere, replaced the old bootstrapping oval with a click-revealed arrow methodology, and expanded the deck to 10 logical slides.
+- Added the mestrado-to-Doutorado Direto trajectory, an Amazônicas X switch-reference payoff slide, a full-corpus research-infrastructure slide, and a QR/resource closing slide retaining the core closing sentence.
+- Verified the installed Slidev exporter supports `--with-clicks`, added `npm run export:enapol-2026:pdf:clicks`, and configured it to write `enapol-2026-executable-grammar-clicks-export.pdf` separately from the normal export.
+- Generated three QR SVGs for verified live URLs: `kiansheik.io/nhe-enga`, `github.com/kiansheik/oldtupicorpus`, and `neo.academiatupi.com`.
+- Added `notes/enapol-2026-executable-grammar.md`, a slide-by-slide Portuguese rehearsal script with approximate timing, click cues, full spoken script, and transitions.
+- Verified the switch-reference data against local paper/dataset files. Current local source files report 62 examples, 60 DS, 2 SS, 96.77% DS, and 3.23% SS; the ENAPOL asset README records the discrepancy with the ResearchGate abstract's 53-example version.
+- Final checks passed: `npm run build`, `git diff --check`, stale raw-marker search for repeated backgrounds/old cycle/raw code tags, Chromium screenshot/bounds checks for all 10 slides and slide 6 click states, normal PDF export, and click-state PDF export.
+- Made a surgical follow-up pass on the latest `enapol-kian` state without committing or merging: slide 6 keeps the same cumulative methodology but has tighter boxes, wider flowchart space, separated YES/NO branch and callout bands, and no visible branch/regression collisions in the final click state.
+- Reframed the doctorate trajectory slide as `Progresso e dificuldades`: first state covers mestrado progress and approval for Doutorado Direto; click reveals the current expert bottleneck; final click centers `produção → edição` as the methodological direction.
+- Updated both embedded presenter notes and `notes/enapol-2026-executable-grammar.md` for the new slide 7 timing, click cues, bottleneck language, and production-to-editing explanation.
+- Regenerated `enapol-2026-executable-grammar-export.pdf` and `enapol-2026-executable-grammar-clicks-export.pdf`.
+- Verified with `npm run build`, `git diff --check`, stale source marker checks, generated ENAPOL `<pre>/<code>` checks, `curl -I http://localhost:3037/`, and Chromium screenshots for slide 6 click states 0-5 plus slide 7 click states 0-2. The local dev server returns 404 for `/svg/6?clicks=5`, so the browser visual QA used `/6?clicks=5`.

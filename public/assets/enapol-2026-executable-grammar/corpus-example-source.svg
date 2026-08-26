@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Placeholder corpus example source">
+  <rect width="1000" height="700" fill="#fffaf0"/>
+  <rect x="50" y="50" width="900" height="600" fill="#f4efe4" stroke="#a5432d" stroke-width="8"/>
+  <text x="90" y="135" fill="#20201d" font-family="Georgia, serif" font-size="48" font-weight="700">LINHA ATESTADA</text>
+  <text x="90" y="195" fill="#6b6155" font-family="Arial, sans-serif" font-size="28">A mesma linha deve alimentar todos os paineis</text>
+  <rect x="90" y="310" width="820" height="95" fill="#fffaf0" stroke="#a5432d" stroke-width="7"/>
+  <line x1="130" y1="358" x2="860" y2="358" stroke="#7e6f5e" stroke-width="16"/>
+</svg>
