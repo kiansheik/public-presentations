@@ -2,7 +2,7 @@
 theme: seriph
 title: "Corpus Computacional e Gramática Executável do Tupi Antigo"
 info: |
-  Apresentação ENAPOL 2026 sobre uma gramática executável que transforma análises de linhas históricas em testes cumulativos do corpus de Tupi Antigo.
+  Apresentação ENAPOL 2026 sobre descrição linguística executável e teste cumulativo contra o corpus de Tupi Antigo.
 class: enapol-exec
 layout: default
 highlighter: shiki
@@ -13,6 +13,8 @@ css: unocss
 ---
 
 <div class="enapol-canvas title-slide">
+  <img class="fflch-logo" src="https://linguistica.fflch.usp.br/themes/contrib/fflch-theme/images/logo.png" alt="FFLCH USP" />
+
   <main class="title-block">
     <p class="eyebrow">29º ENAPOL, USP, 2026</p>
     <h1>Corpus Computacional e Gramática Executável do Tupi Antigo</h1>
@@ -27,10 +29,9 @@ css: unocss
 
 <!--
 Tempo: 0:35.
-Hoje eu apresento o projeto Corpus Computacional e Gramática Executável do Tupi Antigo.
-O ponto central não é apresentar uma aplicação de PLN, nem uma demonstração de ferramentas.
-O objeto científico é uma gramática: uma descrição formal capaz de gerar, anotar e testar as próprias linhas do corpus que ela pretende explicar.
-Transição: começo situando exatamente o que o projeto faz.
+O projeto tem um objetivo amplo: construir uma descrição computacional do Tupi Antigo ancorada no corpus histórico.
+Hoje eu não vou tentar mostrar o projeto inteiro. Vou mostrar um problema pequeno, mas representativo: como uma forma histórica deixa de ser apenas texto e entra numa análise formal que pode ser executada e testada.
+O objeto científico não é uma aplicação de PLN. É a gramática executável.
 -->
 
 ---
@@ -39,36 +40,35 @@ class: enapol-exec
 
 <div class="enapol-canvas project-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">O que o projeto faz</p>
-    <h1>Transformo análise linguística em uma gramática executável.</h1>
+    <p class="eyebrow">O que eu faço</p>
+    <h1>Da fonte histórica a uma hipótese gramatical que pode falhar.</h1>
   </header>
 
   <section class="project-grid">
     <article>
-      <span>corpus</span>
-      <p>cada ocorrência recebe fonte, leitura, alvo normalizado, segmentação, glosas e interpretação controladas.</p>
+      <span>1 · corpus</span>
+      <p>localizo a ocorrência, preservo a fonte e estabeleço leitura, normalização, glosas e interpretação.</p>
     </article>
     <article>
-      <span>gramática</span>
-      <p>morfemas, alomorfes, relações sintáticas e valores semânticos são escritos como objetos formais reutilizáveis.</p>
+      <span>2 · descrição</span>
+      <p>morfemas, alomorfes e relações gramaticais viram objetos formais reutilizáveis.</p>
     </article>
     <article>
-      <span>teste</span>
-      <p>a estrutura roda, gera uma forma de superfície e confronta a hipótese com a análise linguística daquela linha.</p>
+      <span>3 · teste</span>
+      <p>a estrutura é executada e confrontada com a linha que pretende explicar.</p>
     </article>
   </section>
 
-  <p class="focus-line">O caso concreto é Tupi Antigo; a contribuição maior é um método reutilizável para línguas de corpus.</p>
+  <p class="focus-line">O computador não substitui a análise linguística. Ele obriga a análise a ser explícita.</p>
 </div>
 
 <!--
 Tempo: 0:55.
-Antes de entrar no exemplo, quero deixar claro o que eu faço na prática.
-Eu parto de linhas do corpus histórico: fonte, leitura, alvo normalizado, segmentação, glosas e interpretação.
-Depois escrevo os elementos da análise como objetos formais: morfemas, alomorfes, relações sintáticas e valores semânticos.
-Por fim, rodo a estrutura. A gramática faz o spell-out e produz uma forma de superfície que pode ser comparada ao alvo analisado.
-O Tupi Antigo é o caso concreto; a contribuição maior é um método para línguas de corpus com documentação delimitada.
-Transição: isso muda a forma como uma gramática presta contas.
+Na prática, começo pela fonte. Não começo por um modelo, um tokenizer ou uma aplicação.
+Primeiro preciso decidir o que estou lendo e qual análise linguística quero defender.
+Depois escrevo essa análise numa representação formal reutilizável.
+Por fim, a representação roda e precisa voltar à linha histórica que motivou a análise.
+É nesse último passo que a gramática deixa de ser apenas uma descrição que parece plausível e passa a poder falhar de maneira observável.
 -->
 
 ---
@@ -77,36 +77,92 @@ class: enapol-exec
 
 <div class="enapol-canvas comparison-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Da gramática como texto à gramática como teste</p>
-    <h1>A metalinguagem muda; a hipótese gramatical continua.</h1>
+    <p class="eyebrow">Duas camadas complementares</p>
+    <h1>A proposta não é substituir a gramática escrita.</h1>
   </header>
 
   <section class="comparison-grid">
     <figure>
-      <EnapolImage image="TODO_anchieta_grammar_page_same_topic" alt="TODO: página de Anchieta sobre o mesmo tópico gramatical" />
-      <figcaption>gramática histórica<br><span>Anchieta, 1595</span></figcaption>
+      <div class="statement-panel">
+        <strong>descrição escrita</strong>
+        <p>explica categorias, generalizações, exceções e argumentos em linguagem humana.</p>
+      </div>
+      <figcaption>indispensável para interpretar e justificar</figcaption>
     </figure>
     <figure>
-      <EnapolImage image="TODO_gerardi_tupinamba_page_same_topic" alt="TODO: página de Gerardi ou gramática moderna sobre o mesmo tópico" />
-      <figcaption>descrição moderna<br><span>Gerardi / descrição atual</span></figcaption>
+      <div class="statement-panel executable-panel">
+        <strong>camada executável</strong>
+        <p>obriga essas decisões a terem forma suficiente para gerar, anotar e ser testadas.</p>
+      </div>
+      <figcaption>uma hipótese formal que o corpus pode contrariar</figcaption>
     </figure>
     <figure>
-      <EnapolImage image="TODO_pydicate_executable_grammar_screenshot" alt="TODO: screenshot de uma representação pydicate" />
-      <figcaption>camada executável<br><span>mesma análise, novo modo de teste</span></figcaption>
+      <div class="statement-panel consequence-panel">
+        <strong>efeito metodológico</strong>
+        <p>cada decisão nova precisa continuar compatível com as linhas já validadas.</p>
+      </div>
+      <figcaption>descrição cumulativa, não exemplos isolados</figcaption>
     </figure>
   </section>
 
-  <p class="keyline">A proposta não substitui a gramática escrita; acrescenta uma camada formal que pode ser executada, versionada e corrigida.</p>
+  <p class="keyline">A proposta não é substituir a gramática escrita. É acrescentar uma camada formal executável.</p>
 </div>
 
 <!--
-Tempo: 1:00.
-Aqui eu situo o projeto dentro de uma continuidade de descrição gramatical.
-Não estou contrapondo Anchieta, gramática moderna e código como se uma etapa apagasse a outra.
-O projeto depende das gramáticas históricas e das descrições modernas.
-O que muda é a metalinguagem: além da prosa gramatical e da análise publicada, acrescento uma camada formal que pode ser rodada.
-Com isso, uma decisão gramatical deixa rastros: ela gera formas, produz estrutura, falha quando a análise não está suficientemente explícita e pode ser corrigida depois.
-Transição: a necessidade aparece melhor quando olhamos para o tipo de problema que uma linha histórica cria.
+Tempo: 0:50.
+A gramática escrita continua sendo essencial. É nela que se argumenta, compara fontes e explica por que uma análise é preferível a outra.
+A camada executável acrescenta outra obrigação: certas decisões precisam ser suficientemente explícitas para participar de operações formais e produzir resultados verificáveis.
+Isso transforma a descrição num objeto cumulativo: uma regra nova não responde só pelo exemplo que estou olhando agora, mas também pelo que já foi analisado antes.
+-->
+
+---
+class: enapol-exec
+---
+
+<div class="enapol-canvas comparison-slide supe-comparison-slide">
+  <header class="slide-header compact">
+    <p class="eyebrow">Um mesmo problema em três metalinguagens</p>
+    <h1><span class="inline-code">çupê / supe / supé</span>: da descrição à execução</h1>
+  </header>
+
+  <section class="comparison-grid supe-grid">
+    <figure class="source-shot">
+      <div class="source-image-frame">
+        <EnapolImage image="anchietaSupe" alt="Recorte da gramática de Anchieta com çupê" />
+      </div>
+      <figcaption><strong>Anchieta</strong><br><span>“çupê”: dativo, para, por</span></figcaption>
+    </figure>
+    <figure class="source-shot">
+      <div class="source-image-frame">
+        <EnapolImage image="gerardiSupe" alt="Recorte de Gerardi com supe" />
+      </div>
+      <figcaption><strong>Gerardi</strong><br><span>“supe”: dativo / posposição na análise moderna</span></figcaption>
+    </figure>
+    <figure class="code-figure">
+      <div class="source-code-panel compact-code">
+        <p><span class="code-keyword">class</span> Dative(Postposition):</p>
+        <p class="indent-1">def __init__(self,</p>
+        <p class="indent-2">definition="to, for, in favor of"):</p>
+        <p class="indent-2">super().__init__(</p>
+        <p class="indent-3">"supé",</p>
+        <p class="indent-3">definition=definition,</p>
+        <p class="indent-3">tag="[POSTPOSITION:DATIVE]"</p>
+        <p class="indent-2">)</p>
+        <p class="code-gap">supé = Dative()</p>
+      </div>
+      <figcaption><strong>pydicate</strong><br><span><span class="inline-code">supé</span> como objeto gramatical executável</span></figcaption>
+    </figure>
+  </section>
+
+  <p class="keyline">A metalinguagem muda; o projeto depende das descrições anteriores para tornar a hipótese executável.</p>
+</div>
+
+<!--
+Tempo: 1:10.
+Anchieta descreve çupê em prosa gramatical. Gerardi analisa supe com uma metalinguagem linguística moderna.
+Aqui, supé entra como objeto gramatical executável: uma peça que pode participar da geração, anotação e teste da frase.
+Não é uma competição entre três descrições. A terceira só existe porque as anteriores tornam a categoria e seus usos inteligíveis.
+O ganho específico é poder perguntar o que acontece quando esse objeto encontra argumentos concretos no corpus.
 -->
 
 ---
@@ -115,41 +171,37 @@ class: enapol-exec
 
 <div class="enapol-canvas problem-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Dificuldade principal</p>
-    <h1>Não é automação. É trabalho gramatical em outra metalinguagem.</h1>
+    <p class="eyebrow">O problema concreto</p>
+    <h1>Uma frase histórica não é apenas uma sequência de palavras.</h1>
   </header>
 
   <section class="problem-grid">
     <article>
-      <span>continuidade</span>
-      <p>é o mesmo tipo de descrição gramatical feito em gramáticas históricas e modernas: analisar, categorizar e justificar.</p>
+      <span>superfície</span>
+      <p>a fonte registra formas já compostas, com ortografia histórica e fronteiras que nem sempre coincidem com a análise.</p>
     </article>
     <article>
-      <span>metalinguagem</span>
-      <p>em vez de prosa gramatical europeia, uso Python e uma pequena camada pydicate para tornar a hipótese executável.</p>
+      <span>estrutura</span>
+      <p>a descrição precisa recuperar relações morfológicas e sintáticas que não estão separadas visualmente.</p>
     </article>
     <article>
-      <span>gargalo</span>
-      <p>nesta etapa, a mesma pessoa precisa analisar Tupi Antigo, decidir a representação e programar a estrutura.</p>
+      <span>responsabilidade</span>
+      <p>se eu proponho uma decomposição, a gramática precisa conseguir usá-la sem perder as formas já explicadas.</p>
     </article>
   </section>
 
   <section class="question-panel">
-    <span>por que é difícil?</span>
-    <p>O bootstrapping revela necessidades do método que só aparecem quando a gramática tenta gerar o corpus.</p>
+    <span>questão</span>
+    <p>Como representar a forma que aparece na fonte sem confundir superfície gráfica com estrutura gramatical?</p>
   </section>
 </div>
 
 <!--
-Tempo: 0:55.
-Esta é a dificuldade principal: o sistema não automatiza a análise.
-Ele exige o mesmo trabalho gramatical que aparece em Anchieta, em Gerardi e em outras descrições: analisar formas, formular categorias e justificar relações.
-A diferença é que a metalinguagem não é só uma língua europeia em prosa descritiva; é Python, com uma camada pequena em cima dele.
-Isso abre muitas possibilidades, porque Python já circula inclusive dentro da linguística computacional, mas cria um gargalo no começo.
-Nesta etapa, a mesma pessoa precisa saber linguística, analisar Tupi Antigo e programar.
-Depois que o primeiro caso estiver consolidado, esse caminho deve ficar mais fácil para outros pesquisadores, inclusive com agentes e ferramentas de edição.
-Por enquanto, o processo iterativo revela necessidades que eu não poderia ter previsto no começo do mestrado.
-Transição: agora mostro a linha que vou usar como exemplo.
+Tempo: 0:45.
+Esse é o problema que quero isolar nesta fala.
+A fonte não chega até nós já segmentada em morfemas. Ela registra uma forma de superfície.
+A análise linguística pode dizer que essa forma envolve elementos menores, alomorfia ou relações que não correspondem a espaços gráficos.
+Então a representação precisa preservar as duas coisas: o que efetivamente aparece e a hipótese sobre como aquilo é estruturado.
 -->
 
 ---
@@ -158,136 +210,75 @@ class: enapol-exec
 
 <div class="enapol-canvas corpus-line-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Exemplo</p>
-    <h1>Araújo, Catecismo, Padre Nosso</h1>
+    <p class="eyebrow">Araújo, Catecismo, Padre Nosso</p>
+    <h1><span class="inline-code">orébe</span> na superfície; <span class="inline-code">oré + supé</span> na análise.</h1>
   </header>
 
   <section class="line-layout">
     <figure>
-      <EnapolImage image="TODO_araujo_or_bettendorff_short_line" alt="TODO: recorte da linha de Araújo ou Bettendorff" />
-      <figcaption>Araújo, 1686, Livro I, Padre Nosso, p. 2, linhas 1-2</figcaption>
+      <EnapolImage image="araujoPaiNosso" alt="Recorte do Padre Nosso no Catecismo de Araújo" />
+      <figcaption>Araújo, 1686, Livro I, Padre Nosso</figcaption>
     </figure>
-    <article class="line-card">
-      <span>alvo normalizado atual</span>
+    <article class="line-card layered-analysis-card">
+      <span>alvo normalizado</span>
       <p class="tupi-line">oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe</p>
-      <p class="translation">"Dá-nos hoje o nosso alimento de cada dia."</p>
+      <p class="translation">“Dá-nos hoje o nosso alimento de cada dia.”</p>
+      <div class="layer-row"><strong>forma de superfície</strong><span class="inline-code">orébe</span></div>
+      <div class="layer-row"><strong>função</strong><span>dativo: “a nós / para nós”</span></div>
+      <div class="layer-row"><strong>análise mais profunda</strong><span><span class="inline-code">oré</span> + <span class="inline-code">supé</span></span></div>
     </article>
   </section>
 
-  <section class="difficulty-strip">
-    <div>posse nominal</div>
-    <div>nominalização</div>
-    <div>expressão temporal</div>
-    <div>imperativo</div>
-    <div>dativo: orébe</div>
-  </section>
+  <p class="focus-line">A segmentação analítica não precisa coincidir com espaços na fonte.</p>
 </div>
 
 <!--
-Tempo: 1:20.
-O exemplo vem de Araújo, Catecismo de 1686, na oração do Padre Nosso.
-A linha corresponde a "dá-nos hoje o nosso alimento de cada dia".
-O alvo normalizado atual é: oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe.
-A frase é pequena, mas já obriga várias decisões: posse nominal, nominalização em rembi'u, expressão temporal, imperativo e destinatário.
-Na superfície aparece orébe, mas a análise que a gramática manipula por baixo é o dativo supé aplicado a oré.
-Transição: agora mostro como essa análise aparece na metalinguagem executável.
+Tempo: 1:15.
+No Padre Nosso de Araújo, a forma que aparece para o destinatário é orébe.
+Na tradução funcional, aqui é “a nós” ou “para nós”.
+Mas a análise que quero poder reutilizar é mais profunda: o pronome oré combinado com a posposição dativa supé, numa realização superficial específica.
+Esse é exatamente o tipo de informação que se perde se tratarmos a linha apenas como uma sequência de tokens gráficos.
+Eu preservo orébe como forma de superfície e, ao mesmo tempo, registro a relação oré mais supé como hipótese gramatical.
 -->
 
 ---
 class: enapol-exec
 ---
 
-<div class="enapol-canvas encoding-slide">
+<div class="enapol-canvas tree-slide executable-example-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Análise executável</p>
-    <h1>A mesma análise, escrita como estrutura formal.</h1>
+    <p class="eyebrow">A mesma linha como objeto formal</p>
+    <h1>A análise precisa produzir a forma e conservar a estrutura.</h1>
   </header>
 
-  <section class="encoding-grid">
-    <article class="declarations-card">
-      <span>morfemas de base</span>
-      <div class="declaration-list">
-        <p><span class="inline-code">oré</span> pronome 1ppe</p>
-        <p><span class="inline-code">'u</span> raiz verbal "comer"</p>
-        <p><span class="inline-code">emi</span> nominalizador paciente</p>
-        <p><span class="inline-code">'ara</span> nome "dia"</p>
-        <p><span class="inline-code">îabi'õ</span> posposição "cada"</p>
-        <p><span class="inline-code">ndûara</span> nominalizador adverbial</p>
-        <p><span class="inline-code">me'eng</span> verbo "dar"</p>
-        <p><span class="inline-code">endé</span> pronome 2ps</p>
-        <p><span class="inline-code">kori</span> advérbio "hoje"</p>
-        <p><span class="inline-code">supé</span> posposição dativa</p>
-      </div>
-    </article>
-    <article class="code-card">
-      <span>estrutura formal</span>
-      <div class="code-block" aria-label="Estrutura pydicate formatada">
+  <section class="tree-layout executable-tree-layout">
+    <article class="tree-explain executable-code-card">
+      <span>no corpus executável</span>
+      <div class="code-block">
+        <p>orébe = (oré * supé).var(1)</p>
+        <p class="code-gap">...</p>
         <p>(((emi * (u * oré))</p>
         <p class="indent-1">@ (nduara * (ara * iabiõ)))</p>
         <p class="indent-1">* (meeng * +endé).imp())</p>
         <p>+ kori</p>
-        <p>+ (supé * oré).var(1)</p>
+        <p>+ orébe</p>
       </div>
+      <p>O objeto guarda a análise; o spell-out devolve <span class="inline-code">orébe</span>.</p>
     </article>
-    <article class="output-card">
-      <span>spell-out</span>
-      <p class="tupi-line">oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe</p>
-      <p>Registro local: <span class="inline-code">araujo_catecismo_1686:0007</span></p>
-    </article>
-  </section>
-
-  <section class="analysis-grid">
-    <div><span>morfemas</span><p>listar formas de base, não apenas a forma de superfície produzida.</p></div>
-    <div><span>sintaxe</span><p>compor posse, modificação temporal, imperativo e dativo.</p></div>
-    <div><span>verificação</span><p>comparar forma gerada, estrutura e rótulos com a análise aprovada.</p></div>
-  </section>
-</div>
-
-<!--
-Tempo: 1:20.
-Esta é a mesma análise, agora escrita em uma metalinguagem executável.
-Eu não preciso explicar cada operador na fala, mas preciso deixar claro o princípio.
-Cada morfema de base é definido ou reaproveitado como objeto; a sentença é composta com relações explícitas; depois a estrutura é avaliada.
-Por isso, orébe não aparece aqui como morfema de base. Ele é a forma de superfície gerada por supé aplicado a oré, com variação 1.
-O spell-out gera a forma de superfície padronizada.
-Se a forma, a estrutura e os rótulos batem com a análise aprovada, essa linha vira teste.
-Se não batem, a falha aponta para uma decisão linguística a revisar, não apenas para um erro técnico.
-Transição: para tornar visível o que fica escondido numa linha de código, mostro a estrutura como árvore.
--->
-
----
-class: enapol-exec
----
-
-<div class="enapol-canvas tree-slide">
-  <header class="slide-header compact">
-    <p class="eyebrow">Estrutura</p>
-    <h1>A linha do corpus vira uma árvore consultável.</h1>
-  </header>
-
-  <section class="tree-layout">
     <figure class="tree-frame">
-      <EnapolImage image="araujo-line-tree" alt="Árvore formal da linha de Araújo com posse, tempo, imperativo e dativo" />
+      <EnapolImage image="araujo-line-tree" alt="Árvore formal da linha de Araújo com o dativo analisado" />
     </figure>
-    <article class="tree-explain">
-      <span>o ganho descritivo</span>
-      <p>A forma gerada não é só uma string. A análise guarda morfemas, relações, rótulos e decomposições.</p>
-      <ul>
-        <li><span class="inline-code">rembi'u</span> como estrutura possuída;</li>
-        <li>tempo e frequência como modificador;</li>
-        <li>imperativo como forma verbal derivada;</li>
-        <li><span class="inline-code">supé * oré</span> gerando a forma superficial <span class="inline-code">orébe</span>.</li>
-      </ul>
-    </article>
   </section>
+
+  <p class="method-callout">A forma correta não basta: a estrutura produzida também faz parte da hipótese.</p>
 </div>
 
 <!--
-Tempo: 0:55.
-Esta árvore mostra por que o resultado não é apenas uma string correta.
-A estrutura explicita que rembi'u pertence a uma relação de posse, que a expressão temporal modifica o pedido, que eîme'eng está no imperativo e que o nó dativo tem base supé e argumento oré, gerando a superfície orébe.
-Isso faz a análise ficar consultável: posso perguntar por morfemas, alomorfes, relações e ambientes.
-Transição: o exemplo individual só vira método quando entra num ciclo cumulativo de testes.
+Tempo: 1:00.
+Aqui estão as duas camadas juntas.
+No léxico do corpus, orébe é explicitamente definido como oré combinado com supé, com a variante correspondente.
+Na linha de Araújo, eu posso então usar orébe como a forma superficial esperada sem apagar a estrutura de que ele deriva.
+A árvore mostra o outro lado da mesma análise: a saída não é só uma string. Relações e decomposições continuam disponíveis para inspeção e anotação.
 -->
 
 ---
@@ -296,59 +287,54 @@ class: enapol-exec
 
 <div class="enapol-canvas method-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Bootstrapping e regressão</p>
-    <h1>Cada linha validada aumenta a obrigação das regras anteriores.</h1>
+    <p class="eyebrow">Do exemplo ao método</p>
+    <h1>Cada linha validada vira um teste.</h1>
   </header>
 
   <section class="method-layout">
     <aside class="shared-state">
       <span>estado persistente</span>
       <strong>GRAMÁTICA + LÉXICO</strong>
-      <p>morfemas, alomorfes, valores gramaticais, relações sintáticas e etiquetas semânticas acumulam no mesmo sistema.</p>
+      <p>cada análise aprovada aumenta o conjunto de decisões que uma mudança futura precisa respeitar.</p>
     </aside>
-    <main class="method-flowchart" aria-label="Fluxo de bootstrapping gramatical">
+    <main class="method-flowchart" aria-label="Fluxo de bootstrapping e regressão">
       <div class="method-row method-row-top">
-        <article class="method-step"><span>1</span><h2>linha n</h2><p>fonte, leitura, alvo e glosa</p></article>
+        <article class="method-step"><span>1</span><h2>fonte histórica</h2><p>linha e contexto documental</p></article>
         <div class="method-arrow">→</div>
-        <article class="method-step"><span>2</span><h2>morfemas</h2><p>reusar ou definir objetos</p></article>
+        <article class="method-step"><span>2</span><h2>estrutura formal</h2><p>morfemas e relações explícitas</p></article>
         <div class="method-arrow">→</div>
-        <article class="method-step"><span>3</span><h2>estrutura</h2><p>sintaxe e relações abstratas</p></article>
+        <article class="method-step"><span>3</span><h2>forma gerada / anotada</h2><p>resultado da hipótese</p></article>
       </div>
       <div class="method-row method-row-mid" v-click>
-        <article class="method-step"><span>4</span><h2>spell-out</h2><p><span class="inline-code">eval</span> gera forma de superfície</p></article>
+        <article class="method-step"><span>4</span><h2>ground truth</h2><p>comparar com a linha validada</p></article>
         <div class="method-arrow">→</div>
-        <article class="method-step"><span>5</span><h2>conferência</h2><p>forma, estrutura e rótulos</p></article>
-      </div>
-      <div class="method-row method-row-validate" v-click>
-        <article class="method-step method-step-valid"><span>6</span><h2>ground truth</h2><p>linha aprovada vira teste futuro</p></article>
+        <article class="method-step"><span>5</span><h2>revisão</h2><p>regra, léxico ou análise</p></article>
       </div>
       <div class="method-row method-row-bottom" v-click>
-        <article class="method-step"><span>7</span><h2>regressão</h2><p>regenerar tudo de <span class="inline-code">1...n</span></p></article>
-        <div class="method-arrow">→</div>
-        <article class="method-step decision-step"><span>8</span><h2>diff</h2><p>mostrar onde e o que mudou</p></article>
+        <article class="method-step method-step-valid"><span>6</span><h2>regressão</h2><p>rodar novamente as linhas anteriores</p></article>
+        <div class="method-arrow">↺</div>
+        <article class="method-step decision-step"><span>7</span><h2>próxima linha</h2><p>só depois de preservar o que já funcionava</p></article>
       </div>
-      <div class="method-branches" v-click>
-        <div class="branch branch-bad">regressão → corrigir regra / léxico / análise</div>
-        <div class="branch branch-good">sem regressão → próxima linha</div>
+      <div class="method-summary-strip" v-click>
+        <strong>síntese</strong>
+        <p>Uma análise aprovada deixa de ser exemplo isolado e passa a ser compromisso da gramática inteira.</p>
       </div>
     </main>
   </section>
 
-  <p class="method-callout" v-click>Uma correção local pode ser testada contra todo o corpus já validado.</p>
+  <p class="method-callout" v-click>O corpus obriga a gramática a prestar contas.</p>
 </div>
 
 <!--
-Tempo: 1:45.
-Esta é a slide metodológica central e pode ser apresentada por cliques.
-Primeiro escolho a linha n: fonte, leitura, alvo normalizado, segmentação e glosas.
-Depois reuso ou defino os morfemas presentes na sentença. A gramática e o léxico crescem automaticamente como conjunto de tudo que já foi definido.
-Em seguida escrevo a sentença com esses objetos e com a sintaxe mais abstrata possível.
-[CLICK] Rodo o eval, ou spell-out, para gerar a forma de superfície, e confiro se a saída e a estrutura são de fato a análise que eu quero aprovar naquele momento.
-[CLICK] Quando a linha é aprovada, ela entra no arquivo de referência e vira obrigação futura.
-[CLICK] A cada nova linha, o sistema regenera todas as linhas anteriores e produz um diff.
-[CLICK] Se há regressão, volto e corrijo regra, léxico ou análise; se não há, sigo para a próxima linha.
-[CLICK] O valor de longo prazo é que uma correção local pode melhorar toda a gramática, e a regressão mostra exatamente o que mudou.
-Transição: isso explica por que o corpus completo é mais do que uma coleção de exemplos.
+Tempo: 1:35.
+Este é o ponto metodológico central.
+Eu parto da fonte histórica, proponho uma estrutura formal e deixo a gramática produzir a forma e a anotação que decorrem dessa estrutura.
+[CLICK] Comparo isso com o ground truth linguístico que foi validado. Se não bate, volto à regra, ao léxico ou à própria análise.
+[CLICK] Quando uma linha é aprovada, ela vira teste. Qualquer mudança futura roda novamente sobre as linhas anteriores.
+Por isso o bootstrapping não é apenas uma forma de construir software aos poucos. Ele mantém o linguista responsável por suas decisões anteriores.
+Uma regra que resolve o exemplo de hoje, mas quebra dez linhas de ontem, não pode passar silenciosamente.
+[CLICK] Em síntese, uma análise aprovada deixa de ser exemplo isolado e vira compromisso da gramática inteira.
+[CLICK] O corpus obriga a gramática a prestar contas.
 -->
 
 ---
@@ -358,77 +344,75 @@ class: enapol-exec
 <div class="enapol-canvas outputs-slide">
   <header class="slide-header compact">
     <p class="eyebrow">O que isso torna possível</p>
-    <h1>Um corpus integral seria uma infraestrutura de pesquisa.</h1>
+    <h1>As ferramentas são saídas. O objeto científico é a gramática executável.</h1>
   </header>
 
   <section class="outputs-grid">
-    <article class="doctorate-card">
-      <span>trajetória</span>
-      <p>O primeiro passo começou no mestrado. Com gramática suficiente implementada, o projeto foi aprovado para Doutorado Direto para avançar no corpus conhecido de Tupi Antigo.</p>
+    <article>
+      <span>consulta linguística</span>
+      <p>buscar morfemas, alomorfes, ambientes sintáticos e estruturas em um corpus analisado de modo consistente.</p>
     </article>
     <article>
-      <span>consulta</span>
-      <p>morfemas, alomorfes, ambientes sintáticos, estruturas argumentais, rótulos semânticos e variação ortográfica ficam consultáveis.</p>
+      <span>revisão explícita</span>
+      <p>mudar uma generalização e ver exatamente quais análises anteriores deixam de funcionar.</p>
     </article>
     <article>
-      <span>revisão</span>
-      <p>se uma regra estiver errada ou mal rotulada, ela é corrigida em um ponto e testada contra tudo que já foi implementado.</p>
+      <span>novas perguntas</span>
+      <p>quantificar distribuições e localizar padrões sem separar a busca dos pressupostos gramaticais que a tornam possível.</p>
     </article>
-    <article class="switch-card">
-      <span>exemplo já produzido</span>
-      <p>O trabalho sobre switch reference apresentado na Amazônicas X já usou corpus parcialmente anotado para localizar e quantificar padrões gramaticais.</p>
+    <article>
+      <span>produtos derivados</span>
+      <p>dicionários, geração e outras interfaces podem reutilizar a mesma descrição sem se tornarem o centro do projeto.</p>
     </article>
   </section>
 
-  <p class="science-line">Tupi Antigo é finito o bastante para implementação séria e amplo o bastante para análise linguística substantiva.</p>
+  <p class="science-line">A gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.</p>
 </div>
 
 <!--
 Tempo: 0:55.
-Aqui eu volto para a escala do doutorado.
-O primeiro passo começou no mestrado: construir uma gramática computacional capaz de produzir formas reais.
-Como já havia gramática suficiente implementada, o projeto foi aprovado para Doutorado Direto, agora com a tarefa de avançar sobre o corpus conhecido de Tupi Antigo e consolidar o método.
-O ganho não é apenas velocidade. O ganho é que morfemas, alomorfes, ambientes sintáticos, estruturas argumentais, rótulos semânticos e variação ortográfica passam a ficar consultáveis.
-Também cito rapidamente o trabalho de switch reference que apresentei na Amazônicas X: mesmo com corpus parcial, a anotação já permitiu localizar e quantificar padrões de outro modo muito mais lentos.
-Transição: fecho com pontos de entrada públicos para esse ecossistema.
+Depois disso, várias ferramentas ficam possíveis, mas eu quero inverter a ordem habitual da apresentação.
+Dicionário, geração, busca ou interfaces não são o argumento principal. São saídas de uma infraestrutura descritiva comum.
+O ganho científico é poder consultar a análise, revisar generalizações e formular perguntas sobre o corpus sem perder de vista quais decisões gramaticais produziram aqueles dados.
 -->
 
 ---
 class: enapol-exec
 ---
 
-<div class="enapol-canvas resource-slide">
-  <header class="slide-header compact">
-    <p class="eyebrow">Links</p>
-    <h1>Saídas públicas da mesma infraestrutura formal</h1>
-  </header>
-
-  <section class="resource-grid">
-    <article>
-      <EnapolImage image="qr-dictionary" alt="QR code para o dicionário digital de Tupi Antigo" />
-      <h2>Dicionário</h2>
-      <p>kiansheik.io/nhe-enga</p>
-      <span>consulta lexical e formas geradas</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-neo" alt="QR code para o gerador de neologismos" />
-      <h2>Neologismos</h2>
-      <p>neo.academiatupi.com</p>
-      <span>formas novas seguindo a gramática</span>
-    </article>
-  </section>
-
-  <footer class="resource-closing">
-    <p>As aplicações são saídas. O objeto científico é a gramática executável.</p>
-    <strong>A gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.</strong>
-  </footer>
+<div class="enapol-canvas resource-slide public-output-slide neo-only-slide">
+<header class="slide-header compact">
+<p class="eyebrow">Uma saída pública da mesma infraestrutura</p>
+<h1>O código da gramática já alimenta um dicionário colaborativo.</h1>
+</header>
+<section class="neo-only-layout">
+<article class="neo-qr-card">
+<EnapolImage image="qr-neo" alt="QR code para o dicionário de neologismos" />
+<h2>neo.academiatupi.com</h2>
+<p>dicionário colaborativo de neologismos em Tupi Antigo</p>
+</article>
+<article class="neo-stats-card simplified-neo-card">
+<span>projeto iniciado em março de 2026</span>
+<h2>Em pouco mais de cinco meses: mais de 1000 verbetes, com áudio, citações e revisão comunitária</h2>
+<p>Aberto e financiado coletivamente. A comunidade propõe verbetes e exemplos, vota, revisa fontes e participa por meio de perfis e karma.</p>
+<div class="stats-grid">
+<div><strong>1096</strong><span>verbetes</span></div>
+<div><strong>189</strong><span>exemplos</span></div>
+<div><strong>24</strong><span>usuários</span></div>
+</div>
+<p class="stats-note">Não é o objeto da pesquisa. É um lugar em que a gramática executável já está sendo usada por uma comunidade.</p>
+</article>
+</section>
+<footer class="resource-closing">
+<strong>A gramática executável não termina no teste: ela também pode sustentar ferramentas abertas.</strong>
+</footer>
 </div>
 
 <!--
-Tempo: 0:45.
-Esta tela final fica aberta para perguntas.
-Os QR codes mostram duas saídas públicas da mesma infraestrutura formal: o dicionário e o gerador de neologismos.
-Eu devo enfatizar que esses produtos são saídas, não o centro científico da fala.
-O centro é a gramática executável como descrição testável.
-Última frase: a gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.
+Tempo: 0:40.
+Fecho com uma consequência concreta do trabalho.
+O repositório do dicionário começou em 13 de março de 2026. Em pouco mais de cinco meses, ele já passou de mil verbetes.
+O dicionário colaborativo de neologismos não é o centro científico da apresentação, mas o código da gramática já está sendo usado ali.
+Ele é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária.
+Mesmo sem divulgação ampla ao público geral, já reúne uma pequena comunidade em torno dele.
 -->
