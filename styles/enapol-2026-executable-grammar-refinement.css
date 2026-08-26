@@ -1,10 +1,23 @@
+.enapol-exec .fflch-logo {
+  position: absolute;
+  right: 3rem;
+  top: 2.5rem;
+  width: 210px;
+  max-height: 90px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.22));
+  opacity: 0.92;
+}
+
 .enapol-exec .statement-panel,
 .enapol-exec .source-code-panel {
   height: 100%;
   box-sizing: border-box;
-  border: 1px solid rgba(111, 92, 65, 0.22);
+  border: 1px solid rgba(226, 191, 118, 0.32);
   border-radius: 12px;
-  background: rgba(255, 252, 245, 0.82);
+  background: rgba(36, 28, 22, 0.82);
+  color: #f8efe1;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 18px 42px rgba(0, 0, 0, 0.22);
 }
 
 .enapol-exec .statement-panel {
@@ -17,6 +30,7 @@
 
 .enapol-exec .statement-panel strong {
   font-size: 1.15rem;
+  color: #ffd98a;
 }
 
 .enapol-exec .statement-panel p {
@@ -24,21 +38,47 @@
   line-height: 1.35;
 }
 
+.enapol-exec .comparison-slide .comparison-grid figcaption {
+  color: rgba(248, 239, 225, 0.92);
+}
+
+.enapol-exec .supe-grid {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.05fr) minmax(0, 0.9fr);
+  gap: 0.8rem;
+  align-items: stretch;
+}
+
 .enapol-exec .supe-grid figure {
   min-width: 0;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 0.55rem;
+}
+
+.enapol-exec .supe-grid .source-shot {
+  background: rgba(24, 20, 16, 0.48);
+  border-radius: 14px;
+  padding: 0.55rem;
+  border: 1px solid rgba(226, 191, 118, 0.22);
 }
 
 .enapol-exec .supe-grid figure > img,
 .enapol-exec .supe-grid figure > .enapol-image,
 .enapol-exec .supe-grid figure > div:not(.source-code-panel) {
-  max-height: 280px;
+  width: 100%;
+  height: 252px;
+  max-height: 252px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 8px;
+  background: rgba(248, 239, 225, 0.94);
 }
 
 .enapol-exec .source-code-panel {
-  padding: 0.9rem 1rem;
+  padding: 0.72rem 0.72rem;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-  font-size: 0.76rem;
-  line-height: 1.35;
+  font-size: 0.58rem;
+  line-height: 1.22;
   overflow: hidden;
 }
 
@@ -47,11 +87,11 @@
   white-space: nowrap;
 }
 
-.enapol-exec .source-code-panel .indent-1 { padding-left: 1rem; }
-.enapol-exec .source-code-panel .indent-2 { padding-left: 2rem; }
-.enapol-exec .source-code-panel .indent-3 { padding-left: 3rem; }
-.enapol-exec .source-code-panel .code-gap { margin-top: 0.75rem; }
-.enapol-exec .source-code-panel .code-keyword { font-weight: 700; }
+.enapol-exec .source-code-panel .indent-1 { padding-left: 0.72rem; }
+.enapol-exec .source-code-panel .indent-2 { padding-left: 1.44rem; }
+.enapol-exec .source-code-panel .indent-3 { padding-left: 2.16rem; }
+.enapol-exec .source-code-panel .code-gap { margin-top: 0.55rem; }
+.enapol-exec .source-code-panel .code-keyword { font-weight: 700; color: #ffd98a; }
 
 .enapol-exec .layered-analysis-card {
   display: flex;
@@ -87,14 +127,144 @@
   margin: 0.35rem 0;
 }
 
-.enapol-exec .resource-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.enapol-exec .method-summary-strip {
+  margin-top: 0.8rem;
+  border: 1px solid rgba(226, 191, 118, 0.32);
+  border-radius: 12px;
+  padding: 0.7rem 0.95rem;
+  background: rgba(36, 28, 22, 0.74);
+  color: #f8efe1;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: center;
 }
 
-.enapol-exec .resource-grid article {
-  min-width: 0;
+.enapol-exec .method-summary-strip strong {
+  color: #ffd98a;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
 }
 
-.enapol-exec .resource-grid article p {
+.enapol-exec .method-summary-strip p {
+  margin: 0;
+  line-height: 1.25;
+  font-size: 0.9rem;
+}
+
+.enapol-exec .public-output-slide .resource-closing {
+  margin-top: 0.7rem;
+}
+
+.enapol-exec .resource-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.enapol-exec .resource-links-compact {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.72rem;
+}
+
+.enapol-exec .resource-links-compact article,
+.enapol-exec .neo-stats-card {
+  border: 1px solid rgba(226, 191, 118, 0.24);
+  border-radius: 14px;
+  background: rgba(36, 28, 22, 0.66);
+  color: #f8efe1;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.2);
+}
+
+.enapol-exec .resource-links-compact article {
+  padding: 0.72rem;
+  display: grid;
+  grid-template-columns: 74px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 0.62rem;
+  align-items: center;
+}
+
+.enapol-exec .resource-links-compact img {
+  width: 74px;
+  height: 74px;
+  grid-row: 1 / span 2;
+  background: #fff;
+  border-radius: 7px;
+}
+
+.enapol-exec .resource-links-compact h2 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #ffd98a;
+}
+
+.enapol-exec .resource-links-compact p {
+  margin: 0.1rem 0 0;
+  font-size: 0.62rem;
+  line-height: 1.15;
   overflow-wrap: anywhere;
+  opacity: 0.88;
+}
+
+.enapol-exec .neo-stats-card {
+  padding: 0.95rem 1rem;
+}
+
+.enapol-exec .neo-stats-card > span {
+  color: #ffd98a;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  font-weight: 750;
+}
+
+.enapol-exec .neo-stats-card h2 {
+  margin: 0.25rem 0 0.45rem;
+  font-size: 1.18rem;
+  line-height: 1.12;
+}
+
+.enapol-exec .neo-stats-card p {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.34;
+}
+
+.enapol-exec .stats-grid {
+  margin: 0.75rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.enapol-exec .stats-grid div {
+  border-radius: 11px;
+  background: rgba(248, 239, 225, 0.1);
+  padding: 0.55rem 0.45rem;
+}
+
+.enapol-exec .stats-grid strong {
+  display: block;
+  color: #ffd98a;
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.enapol-exec .stats-grid span {
+  display: block;
+  margin-top: 0.18rem;
+  font-size: 0.64rem;
+  line-height: 1.1;
+  opacity: 0.9;
+}
+
+.enapol-exec .neo-stats-card .stats-note {
+  border-top: 1px solid rgba(226, 191, 118, 0.22);
+  padding-top: 0.55rem;
+  font-size: 0.74rem;
+  color: rgba(248, 239, 225, 0.92);
 }
