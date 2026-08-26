@@ -13,6 +13,8 @@ css: unocss
 ---
 
 <div class="enapol-canvas title-slide">
+  <img class="fflch-logo" src="https://linguistica.fflch.usp.br/themes/contrib/fflch-theme/images/logo.png" alt="FFLCH USP" />
+
   <main class="title-block">
     <p class="eyebrow">29º ENAPOL, USP, 2026</p>
     <h1>Corpus Computacional e Gramática Executável do Tupi Antigo</h1>
@@ -124,23 +126,24 @@ class: enapol-exec
   </header>
 
   <section class="comparison-grid supe-grid">
-    <figure>
+    <figure class="source-shot">
       <EnapolImage image="anchietaSupe" alt="Recorte da gramática de Anchieta com çupê" />
       <figcaption><strong>Anchieta</strong><br><span>“çupê”: dativo, para, por</span></figcaption>
     </figure>
-    <figure>
+    <figure class="source-shot">
       <EnapolImage image="gerardiSupe" alt="Recorte de Gerardi com supe" />
       <figcaption><strong>Gerardi</strong><br><span>“supe”: dativo / posposição na análise moderna</span></figcaption>
     </figure>
     <figure class="code-figure">
-      <div class="source-code-panel">
+      <div class="source-code-panel compact-code">
         <p><span class="code-keyword">class</span> Dative(Postposition):</p>
         <p class="indent-1">def __init__(self,</p>
         <p class="indent-2">definition="to, for, in favor of"):</p>
         <p class="indent-2">super().__init__(</p>
         <p class="indent-3">"supé",</p>
         <p class="indent-3">definition=definition,</p>
-        <p class="indent-3">tag="[POSTPOSITION:DATIVE]")</p>
+        <p class="indent-3">tag="[POSTPOSITION:DATIVE]"</p>
+        <p class="indent-2">)</p>
         <p class="code-gap">supé = Dative()</p>
       </div>
       <figcaption><strong>pydicate</strong><br><span><span class="inline-code">supé</span> como objeto gramatical executável</span></figcaption>
@@ -308,6 +311,10 @@ class: enapol-exec
         <div class="method-arrow">↺</div>
         <article class="method-step decision-step"><span>7</span><h2>próxima linha</h2><p>só depois de preservar o que já funcionava</p></article>
       </div>
+      <div class="method-summary-strip" v-click>
+        <strong>síntese</strong>
+        <p>Uma análise aprovada deixa de ser exemplo isolado e passa a ser compromisso da gramática inteira.</p>
+      </div>
     </main>
   </section>
 
@@ -322,6 +329,7 @@ Eu parto da fonte histórica, proponho uma estrutura formal e deixo a gramática
 [CLICK] Quando uma linha é aprovada, ela vira teste. Qualquer mudança futura roda novamente sobre as linhas anteriores.
 Por isso o bootstrapping não é apenas uma forma de construir software aos poucos. Ele mantém o linguista responsável por suas decisões anteriores.
 Uma regra que resolve o exemplo de hoje, mas quebra dez linhas de ontem, não pode passar silenciosamente.
+[CLICK] Em síntese, uma análise aprovada deixa de ser exemplo isolado e vira compromisso da gramática inteira.
 [CLICK] O corpus obriga a gramática a prestar contas.
 -->
 
@@ -368,48 +376,63 @@ O ganho científico é poder consultar a análise, revisar generalizações e fo
 class: enapol-exec
 ---
 
-<div class="enapol-canvas resource-slide">
+<div class="enapol-canvas resource-slide public-output-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Materiais</p>
-    <h1>Apresentação, corpus e saídas públicas</h1>
+    <p class="eyebrow">Materiais e saídas públicas</p>
+    <h1>Do teste gramatical a ferramentas usadas por uma comunidade pequena.</h1>
   </header>
 
-  <section class="resource-grid">
-    <article>
-      <EnapolImage image="qr-presentation" alt="QR code para esta apresentação" />
-      <h2>Apresentação</h2>
-      <p>kiansheik.io/public-presentations</p>
-      <span>slides e materiais</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-corpus" alt="QR code para oldtupicorpus" />
-      <h2>Corpus / gramática</h2>
-      <p>github.com/kiansheik/oldtupicorpus</p>
-      <span>linhas executáveis e testes</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-dictionary" alt="QR code para o dicionário digital de Tupi Antigo" />
-      <h2>Dicionário</h2>
-      <p>kiansheik.io/nhe-enga</p>
-      <span>uma saída da mesma descrição</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-neo" alt="QR code para o gerador de neologismos" />
-      <h2>Neologismos</h2>
-      <p>neo.academiatupi.com</p>
-      <span>outra saída da gramática</span>
+  <section class="resource-showcase">
+    <aside class="resource-links-compact">
+      <article>
+        <EnapolImage image="qr-presentation" alt="QR code para esta apresentação" />
+        <h2>Slides</h2>
+        <p>kiansheik.io/public-presentations</p>
+      </article>
+      <article>
+        <EnapolImage image="qr-corpus" alt="QR code para oldtupicorpus" />
+        <h2>Corpus</h2>
+        <p>github.com/kiansheik/oldtupicorpus</p>
+      </article>
+      <article>
+        <EnapolImage image="qr-dictionary" alt="QR code para o dicionário digital de Tupi Antigo" />
+        <h2>Dicionário</h2>
+        <p>kiansheik.io/nhe-enga</p>
+      </article>
+      <article>
+        <EnapolImage image="qr-neo" alt="QR code para o gerador de neologismos" />
+        <h2>Neologismos</h2>
+        <p>neo.academiatupi.com</p>
+      </article>
+    </aside>
+
+    <article class="neo-stats-card">
+      <span>experimento aberto desde março de 2026</span>
+      <h2>Dicionário de neologismos, aberto e financiado coletivamente</h2>
+      <p>Com áudio, citações, perfis, karma, votação e revisão comunitária. Ainda sem divulgação ao público geral, circulando sobretudo entre entusiastas de Tupi, indígenas e não indígenas.</p>
+
+      <div class="stats-grid">
+        <div><strong>24</strong><span>usuários</span></div>
+        <div><strong>1096</strong><span>entradas</span></div>
+        <div><strong>189</strong><span>exemplos</span></div>
+        <div><strong>619</strong><span>pendentes</span></div>
+        <div><strong>0</strong><span>relatórios abertos</span></div>
+        <div><strong>40</strong><span>votos no mês</span></div>
+      </div>
+
+      <p class="stats-note">Último mês: 25 entradas novas, 19 aprovadas, 6 exemplos novos, 2 contribuidores ativos.</p>
     </article>
   </section>
 
   <footer class="resource-closing">
-    <p>O computador não substitui a análise linguística. Ele obriga a análise a ser explícita.</p>
-    <strong>Cada linha validada vira um teste.</strong>
+    <strong>Cada linha validada vira um teste. Cada saída pública mostra uma consequência possível da descrição.</strong>
   </footer>
 </div>
 
 <!--
-Tempo: 0:35.
-Deixo aqui a apresentação, o corpus e duas saídas públicas da mesma infraestrutura.
-O ponto que eu quero deixar é simples: o computador não substitui a análise linguística. Ele obriga a análise a ser explícita.
-E, quando cada linha validada vira um teste, a gramática passa a responder cumulativamente ao corpus que pretende descrever.
+Tempo: 0:45.
+Fecho com os materiais e com uma saída pública que já está em uso, mesmo sem divulgação ampla.
+O dicionário de neologismos é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária.
+Desde março de 2026, só circulando em grupos de entusiastas de Tupi, indígenas e não indígenas, ele já tem 24 usuários, mais de mil entradas, quase duzentos exemplos, centenas de itens pendentes e nenhum relatório aberto.
+Isso é uma saída pública. O argumento científico continua sendo a gramática executável e testável que torna essas saídas mais responsáveis.
 -->
