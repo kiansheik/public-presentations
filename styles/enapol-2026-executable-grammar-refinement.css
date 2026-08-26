@@ -1,12 +1,16 @@
 .enapol-exec .fflch-logo {
   position: absolute;
-  right: 3rem;
-  top: 2.5rem;
-  width: 210px;
-  max-height: 90px;
+  left: calc(4.8rem + 19.5rem);
+  bottom: 3.18rem;
+  width: 158px;
+  max-height: 58px;
   object-fit: contain;
+  background: rgba(255, 250, 240, 0.92);
+  border: 1px solid rgba(209, 167, 79, 0.35);
+  border-radius: 8px;
+  padding: 0.38rem 0.55rem;
   filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.22));
-  opacity: 0.92;
+  opacity: 0.96;
 }
 
 .enapol-exec .statement-panel,
