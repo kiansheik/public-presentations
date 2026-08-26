@@ -184,8 +184,15 @@
   font-size: 0.9rem;
 }
 
-.enapol-exec .public-output-slide .resource-closing {
-  margin-top: 0.55rem;
+.enapol-exec .neo-only-slide {
+  gap: 0.5rem;
+  padding-top: 3.2rem;
+  padding-bottom: 2.55rem;
+}
+
+.enapol-exec .neo-only-slide .slide-header.compact h1 {
+  font-size: 1.9rem;
+  max-width: 50rem;
 }
 
 .enapol-exec .neo-only-layout {
@@ -194,10 +201,12 @@
   gap: 1rem;
   min-height: 0;
   align-items: stretch;
+  overflow: hidden;
 }
 
 .enapol-exec .neo-qr-card,
 .enapol-exec .neo-stats-card {
+  min-height: 0;
   border: 1px solid rgba(226, 191, 118, 0.24);
   border-radius: 14px;
   background: rgba(36, 28, 22, 0.66);
@@ -206,92 +215,109 @@
 }
 
 .enapol-exec .neo-qr-card {
-  padding: 1rem;
+  padding: 0.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 0.55rem;
+  gap: 0.4rem;
 }
 
 .enapol-exec .neo-qr-card img {
-  width: 178px;
-  height: 178px;
+  width: 152px;
+  height: 152px;
   max-width: 100%;
   object-fit: contain;
   background: #fff;
   border-radius: 10px;
-  padding: 0.35rem;
+  padding: 0.3rem;
 }
 
 .enapol-exec .neo-qr-card h2 {
   margin: 0;
   color: #ffd98a;
-  font-size: 1rem;
+  font-size: 0.92rem;
 }
 
 .enapol-exec .neo-qr-card p {
   margin: 0;
-  font-size: 0.76rem;
+  max-width: 14rem;
+  font-size: 0.68rem;
+  line-height: 1.15;
   opacity: 0.88;
 }
 
 .enapol-exec .neo-stats-card {
-  padding: 0.95rem 1rem;
+  padding: 0.82rem 0.95rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .enapol-exec .neo-stats-card > span {
   color: #ffd98a;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   font-weight: 750;
 }
 
 .enapol-exec .neo-stats-card h2 {
-  margin: 0.25rem 0 0.45rem;
-  font-size: 1.18rem;
+  margin: 0.2rem 0 0.38rem;
+  font-size: 1.08rem;
   line-height: 1.12;
 }
 
 .enapol-exec .neo-stats-card p {
   margin: 0;
-  font-size: 0.78rem;
-  line-height: 1.34;
+  font-size: 0.72rem;
+  line-height: 1.28;
 }
 
 .enapol-exec .stats-grid {
-  margin: 0.75rem 0;
+  margin: 0.58rem 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.45rem;
+  gap: 0.42rem;
 }
 
 .enapol-exec .stats-grid div {
   border-radius: 11px;
   background: rgba(248, 239, 225, 0.1);
-  padding: 0.55rem 0.45rem;
+  padding: 0.5rem 0.42rem;
 }
 
 .enapol-exec .stats-grid strong {
   display: block;
   color: #ffd98a;
-  font-size: 1.45rem;
+  font-size: 1.35rem;
   line-height: 1;
 }
 
 .enapol-exec .stats-grid span {
   display: block;
   margin-top: 0.18rem;
-  font-size: 0.64rem;
+  font-size: 0.62rem;
   line-height: 1.1;
   opacity: 0.9;
 }
 
 .enapol-exec .neo-stats-card .stats-note {
   border-top: 1px solid rgba(226, 191, 118, 0.22);
-  padding-top: 0.55rem;
-  font-size: 0.74rem;
+  padding-top: 0.46rem;
+  font-size: 0.68rem;
+  line-height: 1.18;
   color: rgba(248, 239, 225, 0.92);
+}
+
+.enapol-exec .neo-only-slide .resource-closing {
+  margin-top: 0;
+  padding-top: 0.36rem;
+  min-height: 0;
+}
+
+.enapol-exec .neo-only-slide .resource-closing strong {
+  font-size: 0.76rem;
+  line-height: 1.08;
 }
