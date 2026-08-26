@@ -392,8 +392,8 @@ class: enapol-exec
 <p>dicionário colaborativo de neologismos em Tupi Antigo</p>
 </article>
 <article class="neo-stats-card simplified-neo-card">
-<span>uma consequência concreta</span>
-<h2>Mais de 1000 verbetes, com áudio, citações e revisão comunitária</h2>
+<span>projeto iniciado em março de 2026</span>
+<h2>Em pouco mais de cinco meses: mais de 1000 verbetes, com áudio, citações e revisão comunitária</h2>
 <p>Aberto e financiado coletivamente. A comunidade propõe verbetes e exemplos, vota, revisa fontes e participa por meio de perfis e karma.</p>
 <div class="stats-grid">
 <div><strong>1096</strong><span>verbetes</span></div>
@@ -411,7 +411,8 @@ class: enapol-exec
 <!--
 Tempo: 0:40.
 Fecho com uma consequência concreta do trabalho.
+O repositório do dicionário começou em 13 de março de 2026. Em pouco mais de cinco meses, ele já passou de mil verbetes.
 O dicionário colaborativo de neologismos não é o centro científico da apresentação, mas o código da gramática já está sendo usado ali.
 Ele é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária.
-Mesmo sem divulgação ampla ao público geral, já passou de mil verbetes e reúne uma pequena comunidade em torno dele.
+Mesmo sem divulgação ampla ao público geral, já reúne uma pequena comunidade em torno dele.
 -->
