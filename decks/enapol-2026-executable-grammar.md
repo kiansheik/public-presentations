@@ -127,11 +127,15 @@ class: enapol-exec
 
   <section class="comparison-grid supe-grid">
     <figure class="source-shot">
-      <EnapolImage image="anchietaSupe" alt="Recorte da gramática de Anchieta com çupê" />
+      <div class="source-image-frame">
+        <EnapolImage image="anchietaSupe" alt="Recorte da gramática de Anchieta com çupê" />
+      </div>
       <figcaption><strong>Anchieta</strong><br><span>“çupê”: dativo, para, por</span></figcaption>
     </figure>
     <figure class="source-shot">
-      <EnapolImage image="gerardiSupe" alt="Recorte de Gerardi com supe" />
+      <div class="source-image-frame">
+        <EnapolImage image="gerardiSupe" alt="Recorte de Gerardi com supe" />
+      </div>
       <figcaption><strong>Gerardi</strong><br><span>“supe”: dativo / posposição na análise moderna</span></figcaption>
     </figure>
     <figure class="code-figure">
@@ -376,51 +380,34 @@ O ganho científico é poder consultar a análise, revisar generalizações e fo
 class: enapol-exec
 ---
 
-<div class="enapol-canvas resource-slide public-output-slide">
+<div class="enapol-canvas resource-slide public-output-slide neo-only-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Materiais e saídas públicas</p>
-    <h1>Do teste gramatical a ferramentas usadas por uma comunidade pequena.</h1>
+    <p class="eyebrow">Uma saída pública da mesma infraestrutura</p>
+    <h1>O código da gramática já alimenta um dicionário colaborativo de neologismos.</h1>
   </header>
 
-  <section class="resource-showcase">
-    <aside class="resource-links-compact">
-      <article>
-        <EnapolImage image="qr-presentation" alt="QR code para esta apresentação" />
-        <h2>Slides</h2>
-        <p>kiansheik.io/public-presentations</p>
-      </article>
-      <article>
-        <EnapolImage image="qr-corpus" alt="QR code para oldtupicorpus" />
-        <h2>Corpus</h2>
-        <p>github.com/kiansheik/oldtupicorpus</p>
-      </article>
-      <article>
-        <EnapolImage image="qr-dictionary" alt="QR code para o dicionário digital de Tupi Antigo" />
-        <h2>Dicionário</h2>
-        <p>kiansheik.io/nhe-enga</p>
-      </article>
-      <article>
-        <EnapolImage image="qr-neo" alt="QR code para o gerador de neologismos" />
-        <h2>Neologismos</h2>
-        <p>neo.academiatupi.com</p>
-      </article>
-    </aside>
+  <section class="neo-only-layout">
+    <article class="neo-qr-card">
+      <EnapolImage image="qr-neo" alt="QR code para o dicionário de neologismos" />
+      <h2>neo.academiatupi.com</h2>
+      <p>dicionário de neologismos em Tupi Antigo</p>
+    </article>
 
-    <article class="neo-stats-card">
-      <span>experimento aberto desde março de 2026</span>
-      <h2>Dicionário de neologismos, aberto e financiado coletivamente</h2>
-      <p>Com áudio, citações, perfis, karma, votação e revisão comunitária. Ainda sem divulgação ao público geral, circulando sobretudo entre entusiastas de Tupi, indígenas e não indígenas.</p>
+    <article class="neo-stats-card simplified-neo-card">
+      <span>check this out</span>
+      <h2>Mais de 1000 verbetes, com áudio, citações e revisão comunitária</h2>
+      <p>É uma saída pública, aberta e financiada coletivamente. A comunidade cadastra propostas, exemplos e votos; o sistema registra perfis, karma, fontes e revisões.</p>
 
       <div class="stats-grid">
         <div><strong>24</strong><span>usuários</span></div>
-        <div><strong>1096</strong><span>entradas</span></div>
+        <div><strong>1096</strong><span>verbetes</span></div>
         <div><strong>189</strong><span>exemplos</span></div>
         <div><strong>619</strong><span>pendentes</span></div>
         <div><strong>0</strong><span>relatórios abertos</span></div>
         <div><strong>40</strong><span>votos no mês</span></div>
       </div>
 
-      <p class="stats-note">Último mês: 25 entradas novas, 19 aprovadas, 6 exemplos novos, 2 contribuidores ativos.</p>
+      <p class="stats-note">Não é o centro da pesquisa: é uma consequência concreta da gramática executável sendo usada fora do slide.</p>
     </article>
   </section>
 
@@ -431,8 +418,8 @@ class: enapol-exec
 
 <!--
 Tempo: 0:45.
-Fecho com os materiais e com uma saída pública que já está em uso, mesmo sem divulgação ampla.
-O dicionário de neologismos é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária.
-Desde março de 2026, só circulando em grupos de entusiastas de Tupi, indígenas e não indígenas, ele já tem 24 usuários, mais de mil entradas, quase duzentos exemplos, centenas de itens pendentes e nenhum relatório aberto.
-Isso é uma saída pública. O argumento científico continua sendo a gramática executável e testável que torna essas saídas mais responsáveis.
+Fecho com um convite para ver uma consequência pública do trabalho.
+O dicionário de neologismos não é o centro científico da apresentação, mas mostra que o código da gramática já é usado em uma ferramenta real.
+Ele é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária.
+Mesmo sem divulgação ampla ao público geral, já passou de mil verbetes e tem uma pequena comunidade ativa em torno dele.
 -->
