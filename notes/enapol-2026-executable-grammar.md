@@ -38,13 +38,14 @@ Approximate time: 1:00
 Aqui estão as duas camadas juntas. No léxico do corpus, orébe é explicitamente definido como oré combinado com supé, com a variante correspondente. Na linha de Araújo, eu posso então usar orébe como a forma superficial esperada sem apagar a estrutura de que ele deriva. A árvore mostra o outro lado da mesma análise: a saída não é só uma string. Relações e decomposições continuam disponíveis para inspeção e anotação.
 
 ## Slide 8 — bootstrapping e regressão
-Approximate time: 1:35
+Approximate time: 1:40
 
 Click cues:
 
 - [CLICK] comparação com ground truth e revisão.
 - [CLICK] regressão nas linhas anteriores e próxima linha.
-- [CLICK] callout final.
+- [CLICK] síntese: uma linha aprovada vira compromisso cumulativo.
+- [CLICK] callout final: o corpus obriga a gramática a prestar contas.
 
 Eu parto da fonte histórica, proponho uma estrutura formal e deixo a gramática produzir a forma e a anotação que decorrem dessa estrutura.
 
@@ -52,16 +53,18 @@ Eu parto da fonte histórica, proponho uma estrutura formal e deixo a gramática
 
 [CLICK] Quando uma linha é aprovada, ela vira teste. Qualquer mudança futura roda novamente sobre as linhas anteriores. Por isso o bootstrapping não é apenas uma forma de construir software aos poucos. Ele mantém o linguista responsável por suas decisões anteriores. Uma regra que resolve o exemplo de hoje, mas quebra dez linhas de ontem, não pode passar silenciosamente.
 
+[CLICK] Em síntese, uma análise aprovada deixa de ser exemplo isolado e vira compromisso da gramática inteira.
+
 [CLICK] O corpus obriga a gramática a prestar contas.
 
 ## Slide 9 — o que isso torna possível
-Approximate time: 0:55
+Approximate time: 0:50
 
 Depois disso, várias ferramentas ficam possíveis, mas eu quero inverter a ordem habitual da apresentação. Dicionário, geração, busca ou interfaces não são o argumento principal. São saídas de uma infraestrutura descritiva comum. O ganho científico é poder consultar a análise, revisar generalizações e formular perguntas sobre o corpus sem perder de vista quais decisões gramaticais produziram aqueles dados.
 
-## Slide 10 — materiais
-Approximate time: 0:35
+## Slide 10 — materiais e saída pública
+Approximate time: 0:45
 
-Deixo aqui a apresentação, o corpus e duas saídas públicas da mesma infraestrutura. O ponto que eu quero deixar é simples: o computador não substitui a análise linguística. Ele obriga a análise a ser explícita. E, quando cada linha validada vira um teste, a gramática passa a responder cumulativamente ao corpus que pretende descrever.
+Fecho com os materiais e com uma saída pública que já está em uso, mesmo sem divulgação ampla. O dicionário de neologismos é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária. O repositório começou em 13 de março de 2026. Circulando sobretudo entre grupos de entusiastas de Tupi, indígenas e não indígenas, ele já tem 24 usuários, 1.096 entradas atuais, 189 exemplos, 619 entradas pendentes e nenhum relatório aberto. No último mês foram 25 entradas novas, 19 aprovadas, 6 exemplos novos, 40 votos e 2 contribuidores ativos. Isso é uma saída pública; o argumento científico continua sendo a gramática executável e testável que torna essas saídas mais responsáveis.
 
 Encerrar com os QR codes na tela.
