@@ -60,7 +60,9 @@ Recommended capture rules:
 
 ## Current QR Assets
 
-These are used on the final links slide.
+Only the dictionary and neologism QR codes are currently shown on the final
+links slide. The presentation and corpus QR codes remain available here if the
+slide is expanded again later.
 
 - `qr-presentation.svg`: `https://kiansheik.github.io/public-presentations/enapol-2026-executable-grammar/`
 - `qr-dictionary.svg`: `https://kiansheik.io/nhe-enga/`

@@ -134,7 +134,7 @@ Approximate time: 0:45
 
 Script:
 
-Esta tela final fica aberta para perguntas. Os QR codes mostram saídas públicas da mesma infraestrutura formal: a apresentação, o corpus e a gramática, o dicionário e o gerador de neologismos. Eu devo enfatizar que esses produtos são saídas, não o centro científico da fala. O centro é a gramática executável como descrição testável. Última frase: a gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.
+Esta tela final fica aberta para perguntas. Os QR codes mostram duas saídas públicas da mesma infraestrutura formal: o dicionário e o gerador de neologismos. Eu devo enfatizar que esses produtos são saídas, não o centro científico da fala. O centro é a gramática executável como descrição testável. Última frase: a gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.
 
 Transition:
 

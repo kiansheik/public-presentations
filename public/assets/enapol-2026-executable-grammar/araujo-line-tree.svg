@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 774" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1341 722" role="img" aria-labelledby="title desc">
   <title id="title">Árvore pydicate gerada para a linha de Araújo</title>
   <desc id="desc">Árvore gerada a partir do objeto pydicate que avalia para: oré rembi&#x27;u &#x27;ara îabi&#x27;õndûara eîme&#x27;eng kori orébe</desc>
   <defs>
@@ -18,81 +18,81 @@
       .category{font:600 12px Arial,sans-serif;fill:#6b6257}
     </style>
   </defs>
-  <rect class="bg" width="1180" height="774"/>
-  <text x="590.0" y="42" text-anchor="middle" class="surface">oré rembi&#x27;u &#x27;ara îabi&#x27;õndûara eîme&#x27;eng kori orébe</text>
-  <text x="590.0" y="68" text-anchor="middle" class="subtitle">gerado de oldtupicorpus/historic/araujo_catecismo_1686.tu.py · índice 6</text>
-  <text x="590.0" y="744" text-anchor="middle" class="annotated">árvore gerada do objeto pydicate; rótulos e relações vêm dos atributos estruturais usados pela gramática</text>
-  <path class="edge" d="M 621.9 195.0 C 621.9 228.0, 80.0 198.0, 80.0 231.0"/><path class="edge" d="M 621.9 195.0 C 621.9 228.0, 462.5 198.0, 462.5 231.0"/><path class="edge" d="M 621.9 195.0 C 621.9 228.0, 845.0 198.0, 845.0 231.0"/><path class="edge-post" d="M 621.9 195.0 C 621.9 228.0, 1100.0 198.0, 1100.0 231.0"/><path class="edge" d="M 462.5 321.0 C 462.5 354.0, 335.0 324.0, 335.0 357.0"/><path class="edge" d="M 462.5 321.0 C 462.5 354.0, 590.0 324.0, 590.0 357.0"/><path class="edge" d="M 335.0 447.0 C 335.0 480.0, 335.0 450.0, 335.0 483.0"/><path class="edge" d="M 335.0 573.0 C 335.0 606.0, 335.0 576.0, 335.0 609.0"/><path class="edge-post" d="M 590.0 447.0 C 590.0 480.0, 590.0 450.0, 590.0 483.0"/><path class="edge" d="M 590.0 573.0 C 590.0 606.0, 590.0 576.0, 590.0 609.0"/><path class="edge" d="M 1100.0 321.0 C 1100.0 354.0, 1100.0 324.0, 1100.0 357.0"/>
+  <rect class="bg" width="1341" height="722"/>
+  <text x="670.5" y="30" text-anchor="middle" class="surface">oré rembi&#x27;u &#x27;ara îabi&#x27;õndûara eîme&#x27;eng kori orébe</text>
+  <text x="670.5" y="56" text-anchor="middle" class="subtitle">gerado de oldtupicorpus/historic/araujo_catecismo_1686.tu.py · índice 6</text>
+  <text x="670.5" y="692" text-anchor="middle" class="annotated">árvore gerada do objeto pydicate; rótulos e relações vêm dos atributos estruturais usados pela gramática</text>
+  <path class="edge" d="M 698.2 176.0 C 698.2 209.0, 99.0 179.0, 99.0 212.0"/><path class="edge" d="M 698.2 176.0 C 698.2 209.0, 522.0 179.0, 522.0 212.0"/><path class="edge" d="M 698.2 176.0 C 698.2 209.0, 945.0 179.0, 945.0 212.0"/><path class="edge-post" d="M 698.2 176.0 C 698.2 209.0, 1227.0 179.0, 1227.0 212.0"/><path class="edge" d="M 522.0 302.0 C 522.0 335.0, 381.0 305.0, 381.0 338.0"/><path class="edge" d="M 522.0 302.0 C 522.0 335.0, 663.0 305.0, 663.0 338.0"/><path class="edge" d="M 381.0 428.0 C 381.0 461.0, 381.0 431.0, 381.0 464.0"/><path class="edge" d="M 381.0 554.0 C 381.0 587.0, 381.0 557.0, 381.0 590.0"/><path class="edge-post" d="M 663.0 428.0 C 663.0 461.0, 663.0 431.0, 663.0 464.0"/><path class="edge" d="M 663.0 554.0 C 663.0 587.0, 663.0 557.0, 663.0 590.0"/><path class="edge" d="M 1227.0 302.0 C 1227.0 335.0, 1227.0 305.0, 1227.0 338.0"/>
   <g class="node node-root">
-<rect x="461.9" y="105.0" width="320" height="90" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="621.9" y="123.0">ROOT</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="621.9" y="139.0">me&#x27;eng →</tspan><tspan x="621.9" y="157.0">oré rembi&#x27;u &#x27;ara</tspan><tspan x="621.9" y="175.0">îabi&#x27;õndûara eîme&#x27;eng...</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="621.9" y="182.0">verb</tspan></text>
+<rect x="538.2" y="86.0" width="320" height="90" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="698.2" y="104.0">ROOT</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="698.2" y="120.0">me&#x27;eng →</tspan><tspan x="698.2" y="138.0">oré rembi&#x27;u &#x27;ara</tspan><tspan x="698.2" y="156.0">îabi&#x27;õndûara eîme&#x27;eng...</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="698.2" y="163.0">verb</tspan></text>
 </g>
 <g class="node node-leaf">
-<rect x="5.0" y="235.0" width="150" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="80.0" y="253.0">ARGUMENT 1</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="80.0" y="283.0">endé</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="80.0" y="304.0">pronoun</tspan></text>
+<rect x="24.0" y="216.0" width="150" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="99.0" y="234.0">ARGUMENT 1</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="99.0" y="264.0">endé</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="99.0" y="285.0">pronoun</tspan></text>
 </g>
 <g class="node node-internal">
-<rect x="372.5" y="235.0" width="180" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="462.5" y="253.0">ARGUMENT 2</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="462.5" y="265.0">= →</tspan><tspan x="462.5" y="283.0">oré rembi&#x27;u &#x27;ara</tspan><tspan x="462.5" y="301.0">îabi&#x27;õndûara</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="462.5" y="304.0">copula</tspan></text>
+<rect x="432.0" y="216.0" width="180" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="522.0" y="234.0">ARGUMENT 2</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="522.0" y="246.0">= →</tspan><tspan x="522.0" y="264.0">oré rembi&#x27;u &#x27;ara</tspan><tspan x="522.0" y="282.0">îabi&#x27;õndûara</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="522.0" y="285.0">copula</tspan></text>
 </g>
 <g class="node node-derived">
-<rect x="245.0" y="361.0" width="180" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="335.0" y="379.0">ARGUMENT 1</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="335.0" y="400.0">emi →</tspan><tspan x="335.0" y="418.0">oré rembi&#x27;u</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="335.0" y="430.0">deverbal noun</tspan></text>
+<rect x="291.0" y="342.0" width="180" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="381.0" y="360.0">ARGUMENT 1</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="381.0" y="381.0">emi →</tspan><tspan x="381.0" y="399.0">oré rembi&#x27;u</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="381.0" y="411.0">deverbal noun</tspan></text>
 </g>
 <g class="node node-internal">
-<rect x="245.0" y="487.0" width="180" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="335.0" y="505.0">ARGUMENT 1</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="335.0" y="526.0">&#x27;u →</tspan><tspan x="335.0" y="544.0">oré&#x27;u</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="335.0" y="556.0">verb</tspan></text>
+<rect x="291.0" y="468.0" width="180" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="381.0" y="486.0">ARGUMENT 1</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="381.0" y="507.0">&#x27;u →</tspan><tspan x="381.0" y="525.0">oré&#x27;u</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="381.0" y="537.0">verb</tspan></text>
 </g>
 <g class="node node-leaf">
-<rect x="260.0" y="613.0" width="150" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="335.0" y="631.0">ARGUMENT 1</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="335.0" y="661.0">oré</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="335.0" y="682.0">pronoun</tspan></text>
+<rect x="306.0" y="594.0" width="150" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="381.0" y="612.0">ARGUMENT 1</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="381.0" y="642.0">oré</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="381.0" y="663.0">pronoun</tspan></text>
 </g>
 <g class="node node-derived">
-<rect x="500.0" y="361.0" width="180" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="590.0" y="379.0">ARGUMENT 2</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="590.0" y="400.0">ndûara →</tspan><tspan x="590.0" y="418.0">&#x27;ara îabi&#x27;õndûara</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="590.0" y="430.0">deadverbal noun</tspan></text>
+<rect x="573.0" y="342.0" width="180" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="663.0" y="360.0">ARGUMENT 2</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="663.0" y="381.0">ndûara →</tspan><tspan x="663.0" y="399.0">&#x27;ara îabi&#x27;õndûara</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="663.0" y="411.0">deadverbal noun</tspan></text>
 </g>
 <g class="node node-postposition">
-<rect x="500.0" y="487.0" width="180" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="590.0" y="505.0">ARGUMENT 1</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="590.0" y="526.0">îabi&#x27;õ →</tspan><tspan x="590.0" y="544.0">&#x27;ara îabi&#x27;õ</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="590.0" y="556.0">postposition</tspan></text>
+<rect x="573.0" y="468.0" width="180" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="663.0" y="486.0">ARGUMENT 1</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="663.0" y="507.0">îabi&#x27;õ →</tspan><tspan x="663.0" y="525.0">&#x27;ara îabi&#x27;õ</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="663.0" y="537.0">postposition</tspan></text>
 </g>
 <g class="node node-leaf">
-<rect x="515.0" y="613.0" width="150" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="590.0" y="631.0">ARGUMENT 1</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="590.0" y="661.0">&#x27;ara</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="590.0" y="682.0">noun</tspan></text>
+<rect x="588.0" y="594.0" width="150" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="663.0" y="612.0">ARGUMENT 1</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="663.0" y="642.0">&#x27;ara</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="663.0" y="663.0">noun</tspan></text>
 </g>
 <g class="node node-leaf">
-<rect x="770.0" y="235.0" width="150" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="845.0" y="253.0">POST-ADJUNCT</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="845.0" y="283.0">kori</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="845.0" y="304.0">adverb</tspan></text>
+<rect x="870.0" y="216.0" width="150" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="945.0" y="234.0">POST-ADJUNCT</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="945.0" y="264.0">kori</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="945.0" y="285.0">adverb</tspan></text>
 </g>
 <g class="node node-postposition">
-<rect x="1010.0" y="235.0" width="180" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="1100.0" y="253.0">POST-ADJUNCT</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="1100.0" y="274.0">supé →</tspan><tspan x="1100.0" y="292.0">orébe</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="1100.0" y="304.0">postposition</tspan></text>
+<rect x="1137.0" y="216.0" width="180" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="1227.0" y="234.0">POST-ADJUNCT</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="1227.0" y="255.0">supé →</tspan><tspan x="1227.0" y="273.0">orébe</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="1227.0" y="285.0">postposition</tspan></text>
 </g>
 <g class="node node-leaf">
-<rect x="1025.0" y="361.0" width="150" height="82" rx="7"/>
-<text class="rel" text-anchor="middle"><tspan x="1100.0" y="379.0">ARGUMENT 1</tspan></text>
-<text class="label" text-anchor="middle"><tspan x="1100.0" y="409.0">oré</tspan></text>
-<text class="category" text-anchor="middle"><tspan x="1100.0" y="430.0">pronoun</tspan></text>
+<rect x="1152.0" y="342.0" width="150" height="82" rx="7"/>
+<text class="rel" text-anchor="middle"><tspan x="1227.0" y="360.0">ARGUMENT 1</tspan></text>
+<text class="label" text-anchor="middle"><tspan x="1227.0" y="390.0">oré</tspan></text>
+<text class="category" text-anchor="middle"><tspan x="1227.0" y="411.0">pronoun</tspan></text>
 </g>
 </svg>

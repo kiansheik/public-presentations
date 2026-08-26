@@ -35,6 +35,12 @@ class TreeNode:
     y: float = 0
 
 
+@dataclass(frozen=True)
+class NodeBox:
+    width: int
+    height: int
+
+
 def load_expression(oldtupi_root: Path, source: str, index: int):
     sys.path.insert(0, str(oldtupi_root))
     source_path = oldtupi_root / "historic" / source
@@ -151,9 +157,17 @@ def leaves(node: TreeNode) -> list[TreeNode]:
     return out
 
 
+def node_box(node: TreeNode) -> NodeBox:
+    width = 180 if node.node_class != "root" else 320
+    height = 82 if node.node_class != "root" else 90
+    if node.node_class == "leaf":
+        width = 150
+    return NodeBox(width=width, height=height)
+
+
 def assign_positions(root: TreeNode, width: int, top: int, level_gap: int) -> int:
     leaf_nodes = leaves(root)
-    margin = 80
+    margin = 46
     if len(leaf_nodes) == 1:
         leaf_nodes[0].x = width / 2
     else:
@@ -174,6 +188,26 @@ def assign_positions(root: TreeNode, width: int, top: int, level_gap: int) -> in
 
     place(root, 0)
     return max_depth
+
+
+def tree_bounds(root: TreeNode) -> tuple[float, float, float, float]:
+    left = math.inf
+    right = -math.inf
+    top = math.inf
+    bottom = -math.inf
+    for node in walk_nodes(root):
+        box = node_box(node)
+        left = min(left, node.x - box.width / 2)
+        right = max(right, node.x + box.width / 2)
+        top = min(top, node.y - box.height / 2)
+        bottom = max(bottom, node.y + box.height / 2)
+    return left, top, right, bottom
+
+
+def translate_tree(root: TreeNode, dx: float, dy: float) -> None:
+    for node in walk_nodes(root):
+        node.x += dx
+        node.y += dy
 
 
 def wrap_label(text: str, width: int = 22, max_lines: int = 3) -> list[str]:
@@ -199,10 +233,9 @@ def svg_text(lines: list[str], x: float, y: float, css_class: str, line_height: 
 
 
 def node_rect(node: TreeNode) -> str:
-    width = 180 if node.node_class != "root" else 320
-    height = 82 if node.node_class != "root" else 90
-    if node.node_class == "leaf":
-        width = 150
+    box = node_box(node)
+    width = box.width
+    height = box.height
     x = node.x - width / 2
     y = node.y - height / 2
     label_lines = wrap_label(node.label, width=24 if width >= 180 else 18)
@@ -237,10 +270,16 @@ def walk_nodes(node: TreeNode) -> list[TreeNode]:
 
 
 def render_svg(expr, root: TreeNode) -> str:
-    width = 1180
+    layout_width = 1220
     level_gap = 126
-    max_depth = assign_positions(root, width=width, top=150, level_gap=level_gap)
-    height = max(720, 150 + max_depth * level_gap + 120)
+    assign_positions(root, width=layout_width, top=140, level_gap=level_gap)
+    left, top, right, bottom = tree_bounds(root)
+    horizontal_pad = 24
+    header_height = 86
+    footer_height = 46
+    width = math.ceil((right - left) + horizontal_pad * 2)
+    height = math.ceil(header_height + (bottom - top) + footer_height)
+    translate_tree(root, horizontal_pad - left, header_height - top)
     surface = html.escape(expr.eval())
     annotated_note = (
         "árvore gerada do objeto pydicate; rótulos e relações vêm "
@@ -275,8 +314,8 @@ def render_svg(expr, root: TreeNode) -> str:
     </style>
   </defs>
   <rect class="bg" width="{width}" height="{height}"/>
-  <text x="{width / 2}" y="42" text-anchor="middle" class="surface">{surface}</text>
-  <text x="{width / 2}" y="68" text-anchor="middle" class="subtitle">gerado de oldtupicorpus/historic/araujo_catecismo_1686.tu.py · índice 6</text>
+  <text x="{width / 2}" y="30" text-anchor="middle" class="surface">{surface}</text>
+  <text x="{width / 2}" y="56" text-anchor="middle" class="subtitle">gerado de oldtupicorpus/historic/araujo_catecismo_1686.tu.py · índice 6</text>
   <text x="{width / 2}" y="{height - 30}" text-anchor="middle" class="annotated">{html.escape(annotated_note)}</text>
   {"".join(edge_markup)}
   {nodes}

@@ -405,18 +405,6 @@ class: enapol-exec
 
   <section class="resource-grid">
     <article>
-      <EnapolImage image="qr-presentation" alt="QR code para esta apresentação" />
-      <h2>Apresentação</h2>
-      <p>kiansheik.github.io/public-presentations</p>
-      <span>slides e PDF exportável</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-corpus" alt="QR code para o repositório oldtupicorpus" />
-      <h2>Corpus / gramática</h2>
-      <p>github.com/kiansheik/oldtupicorpus</p>
-      <span>implementação composicional e testes</span>
-    </article>
-    <article>
       <EnapolImage image="qr-dictionary" alt="QR code para o dicionário digital de Tupi Antigo" />
       <h2>Dicionário</h2>
       <p>kiansheik.io/nhe-enga</p>
@@ -439,7 +427,7 @@ class: enapol-exec
 <!--
 Tempo: 0:45.
 Esta tela final fica aberta para perguntas.
-Os QR codes mostram saídas públicas da mesma infraestrutura formal: a apresentação, o corpus e a gramática, o dicionário e o gerador de neologismos.
+Os QR codes mostram duas saídas públicas da mesma infraestrutura formal: o dicionário e o gerador de neologismos.
 Eu devo enfatizar que esses produtos são saídas, não o centro científico da fala.
 O centro é a gramática executável como descrição testável.
 Última frase: a gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.
