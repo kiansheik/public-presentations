@@ -19,7 +19,8 @@ const decks = [
   {
     file: "decks/enapol-2026-executable-grammar.md",
     slug: "enapol-2026-executable-grammar",
-    title: "Corpus Computacional e Gramática Executável do Tupi Antigo",
+    title: "ENAPOL 2026 — Corpus Computacional e Gramática Executável do Tupi Antigo",
+    context: "29º ENAPOL, USP, 2026",
   },
 ];
 
@@ -46,7 +47,10 @@ for (const deck of decks) {
 }
 
 const links = decks
-  .map((deck) => `      <li><a href="./${deck.slug}/">${deck.title}</a></li>`)
+  .map((deck) => {
+    const context = deck.context ? `<span>${deck.context}</span>` : "";
+    return `      <li><a href="./${deck.slug}/">${deck.title}</a>${context}</li>`;
+  })
   .join("\n");
 
 writeFileSync(
@@ -95,6 +99,13 @@ writeFileSync(
     li {
       margin: 0.8rem 0;
       font-size: 1.15rem;
+    }
+
+    li span {
+      display: block;
+      color: #5f5850;
+      font-size: 0.92rem;
+      font-weight: 650;
     }
 
     .note {

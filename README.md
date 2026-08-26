@@ -4,7 +4,7 @@ Repositório de apresentações públicas em Slidev. A ideia é manter cada apre
 
 O deck principal atual é [decks/oficina-unb.md](./decks/oficina-unb.md), uma recriação editável da oficina UnB a partir dos arquivos exportados do Google Slides. O texto continua em Markdown/HTML editável, e as imagens são assets locais extraídos do PPTX.
 
-Também há um deck curto para ENAPOL 2026 em [decks/enapol-2026-executable-grammar.md](./decks/enapol-2026-executable-grammar.md), com assets em [public/assets/enapol-2026-executable-grammar/](./public/assets/enapol-2026-executable-grammar/).
+Também há um deck curto para ENAPOL 2026 em [decks/enapol-2026-executable-grammar.md](./decks/enapol-2026-executable-grammar.md), com assets em [public/assets/enapol-2026-executable-grammar/](./public/assets/enapol-2026-executable-grammar/). A entrada pública aparece no índice gerado como `ENAPOL 2026 — Corpus Computacional e Gramática Executável do Tupi Antigo`.
 
 ## Comandos
 
@@ -84,7 +84,7 @@ npm run export:anchieta:pdf
 ## Estrutura
 
 - `decks/oficina-unb.md` — deck editável da oficina UnB
-- `decks/enapol-2026-executable-grammar.md` — deck ENAPOL 2026 sobre corpus computacional e gramática executável
+- `decks/enapol-2026-executable-grammar.md` — deck ENAPOL 2026 focado em como uma linha histórica vira teste da gramática executável
 - `decks/components/` — componentes Vue disponíveis para decks dentro de `decks/`
 - `decks/styles/index.css` — entrada global de CSS para decks dentro de `decks/`
 - `scripts/build-all.mjs` — build multi-deck para GitHub Pages

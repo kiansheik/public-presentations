@@ -160,3 +160,13 @@
 - Updated both embedded presenter notes and `notes/enapol-2026-executable-grammar.md` for the new slide 7 timing, click cues, bottleneck language, and production-to-editing explanation.
 - Regenerated `enapol-2026-executable-grammar-export.pdf` and `enapol-2026-executable-grammar-clicks-export.pdf`.
 - Verified with `npm run build`, `git diff --check`, stale source marker checks, generated ENAPOL `<pre>/<code>` checks, `curl -I http://localhost:3037/`, and Chromium screenshots for slide 6 click states 0-5 plus slide 7 click states 0-2. The local dev server returns 404 for `/svg/6?clicks=5`, so the browser visual QA used `/6?clicks=5`.
+
+## 2026-08-26
+
+- Reworked the ENAPOL deck directly on `main` into an 8-slide focused research presentation following Prof. Dr. Thomas Daniel Finbow's guidance: objective geral, zoom into one question, concrete line, encoding, difficulty, response loop, and close.
+- Removed the broader doctorate/progress/switch-reference/full-corpus/QR arc from the live deck so the talk centers on the question: how does one historical corpus line become a test of a grammar?
+- Chose `araujo_catecismo_1686:0007` as the concrete line, using local `oldtupicorpus` source and generated ground-truth records for the expression, location, and normalized target.
+- Replaced the ENAPOL stylesheet with a slimmer set of layouts for the 8-slide deck and added SVG fallbacks for the requested TODO visual names: Anchieta same-topic page, Gerardi/modern same-topic page, pydicate screenshot, and Araújo/Bettendorff short-line crop.
+- Updated the standalone rehearsal script and embedded presenter notes to match the new 10-minute pacing.
+- Updated `scripts/build-all.mjs` so the generated public homepage links to `ENAPOL 2026 — Corpus Computacional e Gramática Executável do Tupi Antigo` and shows `29º ENAPOL, USP, 2026`.
+- Verification passed: `npm run build`, `git diff --check`, generated homepage link check, generated ENAPOL slide count check, generated ENAPOL `<pre>/<code>` checks, fresh dev server at `http://localhost:3038/`, no-screenshot Chromium layout/image-load check for slides 1-8, and both ENAPOL PDF exports.

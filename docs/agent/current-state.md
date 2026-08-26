@@ -195,3 +195,13 @@ Verified on 2026-08-24:
 - The `Do mestrado ao Doutorado Direto` slide is now `Progresso e dificuldades`, retaining the mestrado-to-Doutorado Direto trajectory while explicitly covering progress, the expert bottleneck at the analysis/implementation interface, and the future shift from `produção` to `edição`.
 - Embedded presenter notes and `notes/enapol-2026-executable-grammar.md` now match that updated slide 7 framing and keep the talk at roughly 10 minutes.
 - Verification after the surgical pass: `npm run build`, `git diff --check`, generated ENAPOL `<pre>`/`<code>` marker checks, browser screenshots for slide 6 click states 0-5 and slide 7 click states 0-2 on `http://localhost:3037/`, `curl -I http://localhost:3037/`, normal PDF export, and click-expanded PDF export all succeeded. The server's `/svg/6?clicks=5` path returned Slidev 404 in this local dev server, so visual QA used the live slide route `/6?clicks=5`.
+
+Verified on 2026-08-26:
+
+- Reworked `decks/enapol-2026-executable-grammar.md` directly on `main` into an 8-slide focused ENAPOL talk following Prof. Dr. Thomas Daniel Finbow's guidance: brief general objective, explicit zoom into one research question, one concrete Araújo corpus line, the encoding of that line, the difficulty, the response loop, and a concise contribution/close.
+- The central question is now how to transform one historical corpus line into a testable grammatical hypothesis. The deck no longer reads as a broad manifesto, app tour, or NLP/tooling presentation.
+- The concrete example is `araujo_catecismo_1686:0007`, Araújo 1686, Livro I, Padre Nosso, p. 2, lines 1-2, using the current normalized target `oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe` and the local source expression `(((emi * (u * oré)) @ (nduara * (ara * iabiõ))) * (meeng * +endé).imp()) + kori + orébe`.
+- Replaced `styles/enapol-2026-executable-grammar.css` with a slimmer stylesheet for the 8-slide focused structure and added TODO SVG fallbacks for the requested visual placeholders.
+- Updated `notes/enapol-2026-executable-grammar.md` and embedded slide comments to match the 8-slide pacing.
+- Updated `scripts/build-all.mjs` so the generated public homepage lists `ENAPOL 2026 — Corpus Computacional e Gramática Executável do Tupi Antigo` with context `29º ENAPOL, USP, 2026`; `dist/index.html` confirmed the generated link after build.
+- Verification passed: `npm run build`, `git diff --check`, generated homepage link check, generated ENAPOL slide count of 8, generated ENAPOL `<pre>`/`<code>` marker checks, fresh local Slidev server at `http://localhost:3038/`, no-screenshot Chromium layout/image-load check for slides 1-8, normal PDF export, and click-expanded PDF export.

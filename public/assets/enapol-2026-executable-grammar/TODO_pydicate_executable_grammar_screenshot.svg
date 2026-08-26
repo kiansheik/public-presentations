@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-label="TODO pydicate executable grammar screenshot">
+  <rect width="1100" height="760" fill="#20201d"/>
+  <rect x="52" y="52" width="996" height="656" fill="#2f352f" stroke="#d1a74f" stroke-width="8"/>
+  <text x="88" y="136" fill="#fff1cf" font-family="Menlo, Consolas, monospace" font-size="54" font-weight="700">TODO</text>
+  <text x="88" y="206" fill="#f7f1e6" font-family="Menlo, Consolas, monospace" font-size="32">pydicate executable grammar</text>
+  <text x="88" y="284" fill="#d1a74f" font-family="Menlo, Consolas, monospace" font-size="26">substituir por screenshot real</text>
+  <g fill="#c8c3b7" font-family="Menlo, Consolas, monospace" font-size="28">
+    <text x="88" y="390">morfema * relacao + alvo</text>
+    <text x="88" y="444">spell_out() -&gt; forma gerada</text>
+    <text x="88" y="498">compare() -&gt; teste</text>
+  </g>
+</svg>

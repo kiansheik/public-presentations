@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="TODO Araujo or Bettendorff short line">
+  <rect width="900" height="1200" fill="#fffaf0"/>
+  <rect x="58" y="58" width="784" height="1084" fill="#f4efe4" stroke="#a5432d" stroke-width="10"/>
+  <text x="96" y="175" fill="#20201d" font-family="Georgia, serif" font-size="60" font-weight="700">TODO</text>
+  <text x="96" y="250" fill="#20201d" font-family="Georgia, serif" font-size="42">Araújo ou Bettendorff</text>
+  <text x="96" y="316" fill="#6b6155" font-family="Arial, sans-serif" font-size="28">recorte da linha curta</text>
+  <line x1="96" y1="505" x2="760" y2="505" stroke="#c8b99f" stroke-width="15"/>
+  <line x1="96" y1="575" x2="700" y2="575" stroke="#c8b99f" stroke-width="15"/>
+  <rect x="86" y="480" width="710" height="124" fill="none" stroke="#d1a74f" stroke-width="8"/>
+</svg>

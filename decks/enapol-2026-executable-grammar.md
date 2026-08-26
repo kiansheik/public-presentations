@@ -2,7 +2,7 @@
 theme: seriph
 title: "Corpus Computacional e Gramática Executável do Tupi Antigo"
 info: |
-  Apresentação ENAPOL 2026 sobre descrição linguística, corpus computacional e gramática executável do Tupi Antigo.
+  Apresentação ENAPOL 2026 sobre uma pergunta concreta: como transformar uma linha histórica do corpus em teste de uma gramática executável.
 class: enapol-exec
 layout: default
 highlighter: shiki
@@ -14,7 +14,7 @@ css: unocss
 
 <div class="enapol-canvas title-slide">
   <main class="title-block">
-    <p class="eyebrow">ENAPOL 2026</p>
+    <p class="eyebrow">29º ENAPOL, USP, 2026</p>
     <h1>Corpus Computacional e Gramática Executável do Tupi Antigo</h1>
     <p class="subtitle">quando cada linha do corpus se torna um teste da análise</p>
   </main>
@@ -26,133 +26,48 @@ css: unocss
 </div>
 
 <!--
-Tempo: 0:45.
-Começo apresentando o projeto não como uma aplicação de PLN, mas como uma proposta de descrição linguística.
-O ponto central é que uma gramática pode ser mais do que um texto interpretativo: ela pode ser uma hipótese formal que se deixa executar e testar contra o corpus.
-Eu quero que a plateia guarde esta formulação desde o começo: cada linha analisada vira uma obrigação para a gramática.
-Transição: para entender por que isso importa, primeiro preciso mostrar o tipo de material com que trabalhamos.
+Tempo: 0:35.
+Hoje eu apresento o projeto Corpus Computacional e Gramática Executável do Tupi Antigo.
+Mas, em vez de tentar apresentar o projeto inteiro, vou fazer um recorte.
+A pergunta da fala é: como uma linha histórica do corpus pode deixar de ser apenas um exemplo citado e passar a funcionar como teste de uma análise gramatical?
+Transição: começo com o objetivo geral, só para situar esse recorte.
 -->
 
 ---
 class: enapol-exec
 ---
 
-<div class="enapol-canvas split-slide source-problem-slide">
-  <header class="slide-header">
-    <p class="eyebrow">O problema</p>
-    <h1>Tupi Antigo tem fontes.</h1>
-  </header>
-
-  <section class="source-problem-copy">
-    <p>O conhecimento linguístico está distribuído entre gramáticas históricas, catecismos, textos do corpus, dicionários, descrições modernas e convenções editoriais.</p>
-    <p>Esses dados foram organizados para leitura humana. O desafio é torná-los comparáveis, testáveis e revisáveis de modo sistemático.</p>
-  </section>
-
-  <section class="source-strip" aria-label="Fontes a substituir">
-    <figure>
-      <EnapolImage image="source-anchieta" alt="Placeholder para fonte de Anchieta" />
-      <figcaption>Anchieta, 1595<br><span>[REFERÊNCIA / PÁGINA A INSERIR]</span></figcaption>
-    </figure>
-    <figure>
-      <EnapolImage image="source-corpus" alt="Placeholder para fonte de Araújo ou Bettendorff" />
-      <figcaption>Araújo ou Bettendorff<br><span>[FONTE / PÁGINA A INSERIR]</span></figcaption>
-    </figure>
-    <figure>
-      <EnapolImage image="source-modern" alt="Placeholder para fonte moderna ou dicionário" />
-      <figcaption>Descrição ou dicionário moderno<br><span>[REFERÊNCIA A INSERIR]</span></figcaption>
-    </figure>
-  </section>
-</div>
-
-<!--
-Tempo: 0:55.
-Aqui eu explico que o problema não é ausência de documentação.
-O Tupi Antigo tem uma tradição documental importante, mas ela está espalhada em gramáticas missionárias, catecismos, vocabulários, textos editados, dicionários e descrições modernas.
-Essas fontes foram feitas para leitura humana, cada uma com seus objetivos e suas convenções.
-O desafio do projeto é transformar esse material em um espaço em que análises possam ser comparadas, corrigidas e testadas de forma cumulativa.
-Transição: para tornar isso menos abstrato, passo agora para uma única linha do corpus.
--->
-
----
-class: enapol-exec
----
-
-<div class="enapol-canvas worked-example-slide">
+<div class="enapol-canvas objective-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Uma linha concreta</p>
-    <h1>Uma linha do corpus pode testar uma gramática</h1>
+    <p class="eyebrow">Objetivo geral</p>
+    <h1>Construir uma gramática que gera, testa e anota o corpus que descreve.</h1>
   </header>
 
-  <section class="example-pipeline">
-    <figure>
-      <span>1. forma atestada</span>
-      <EnapolImage image="corpus-example-source" alt="Placeholder para linha histórica do corpus" />
-      <figcaption>[FONTE / PÁGINA A INSERIR]</figcaption>
-    </figure>
-    <article class="analysis-placeholder">
-      <span>2. análise linguística</span>
-      <p>[INSERIR AQUI O FENÔMENO ESCOLHIDO, A SEGMENTAÇÃO E A LEITURA GRAMATICAL DA MESMA LINHA]</p>
+  <section class="objective-grid">
+    <article>
+      <span>corpus</span>
+      <p>fontes históricas em Tupi Antigo, com transcrição, normalização e análise linguística controladas.</p>
     </article>
-    <figure>
-      <span>3. expressão formal</span>
-      <EnapolImage image="corpus-example-formal" alt="Placeholder para expressão formal da mesma linha" />
-      <figcaption>pydicate / representação formal</figcaption>
-    </figure>
-    <figure>
-      <span>4. saída gerada</span>
-      <EnapolImage image="corpus-example-output" alt="Placeholder para saída gerada da mesma linha" />
-      <figcaption>forma e anotação geradas</figcaption>
-    </figure>
+    <article>
+      <span>gramática</span>
+      <p>morfemas, alomorfes, flexão, relações sintáticas e valores semânticos escritos como objetos formais.</p>
+    </article>
+    <article>
+      <span>teste</span>
+      <p>cada análise precisa gerar uma forma comparável ao alvo definido pelo trabalho filológico e linguístico.</p>
+    </article>
   </section>
 
-  <section class="mismatch-panel">
-    <p>A forma atestada confronta a análise formal.</p>
-    <ul>
-      <li>regra?</li>
-      <li>análise?</li>
-      <li>léxico?</li>
-      <li>variação ortográfica?</li>
-      <li>tradição textual?</li>
-    </ul>
-  </section>
-</div>
-
-<!--
-Tempo: 1:25.
-Esta é uma das pausas principais da apresentação.
-Quando o exemplo real entrar, eu devo explicar os quatro blocos com calma: primeiro a linha atestada, depois a análise linguística, depois a expressão formal e por fim a saída gerada.
-O ponto não é dizer que a fonte escaneada é automaticamente a verdade final. O que entra no teste é a minha análise linguística explícita daquela linha: forma esperada, segmentação, glosses, interpretação e alvo ortográfico normalizado.
-Se a saída não coincide, a diferença vira uma pergunta linguística: a regra está errada, a análise está errada, falta léxico, há uma variante ortográfica ou a própria tradição textual precisa ser tratada com cuidado?
-Transição: depois desse exemplo, posso explicar por que escrever código aqui é uma extensão de práticas que linguistas já usam.
--->
-
----
-class: enapol-exec
----
-
-<div class="enapol-canvas flow-slide programming-slide">
-  <header class="slide-header">
-    <p class="eyebrow">Código como metalinguagem linguística</p>
-    <h1>Linguistas já usam metalinguagens formais.</h1>
-  </header>
-
-  <section class="formal-flow" aria-label="Progressão de metalinguagens">
-    <div><span>prosa</span><p>regra formulada em linguagem natural</p></div>
-    <div><span>glosa</span><p>segmentação e valores gramaticais</p></div>
-    <div><span>representação formal</span><p>análise escrita como estrutura explícita</p></div>
-    <div><span>saída verificável</span><p>forma comparável ao corpus</p></div>
-  </section>
-
-  <p class="keyline">Uma linguagem de programação também pode funcionar como metalinguagem formal para descrição linguística.</p>
+  <p class="focus-line">Nesta apresentação, o zoom é uma pergunta: como transformar uma linha histórica em uma hipótese gramatical testável?</p>
 </div>
 
 <!--
 Tempo: 0:50.
-Aqui eu amplio o argumento.
-Linguistas já usam metalinguagens formais: glosas, árvores, matrizes de traços, regras, paradigmas, representações fonológicas.
-Uma linguagem de programação entra nessa família quando está a serviço da análise linguística.
-Ela não substitui a análise; ela obriga a análise a ser explícita o bastante para produzir uma saída verificável.
-Transição: essa ideia fica mais clara quando colocamos gramáticas históricas, descrição moderna e formalização executável lado a lado.
+O objetivo geral do projeto é construir uma gramática computacional do Tupi Antigo capaz de gerar, testar e anotar o corpus que ela descreve.
+Isso envolve o corpus histórico, a gramática propriamente dita e um sistema de testes.
+Mas esta apresentação não é um passeio pelo doutorado inteiro.
+O recorte é bem menor: o que acontece quando uma única linha histórica precisa ser transformada em uma hipótese gramatical verificável?
+Transição: antes do exemplo, vale explicar por que chamo isso de uma nova camada de descrição, e não de substituição da gramática escrita.
 -->
 
 ---
@@ -161,321 +76,228 @@ class: enapol-exec
 
 <div class="enapol-canvas comparison-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Metalinguagens em comparação</p>
-    <h1>Da prosa gramatical à formalização executável</h1>
+    <p class="eyebrow">Motivação</p>
+    <h1>A metalinguagem muda; a descrição continua sendo uma hipótese.</h1>
   </header>
 
   <section class="comparison-grid">
     <figure>
-      <EnapolImage image="comparison-anchieta" alt="Placeholder para passagem de Anchieta sobre fenômeno específico" />
-      <figcaption>Anchieta, 1595<br><span>[PASSAGEM / PÁGINA A INSERIR]</span></figcaption>
+      <EnapolImage image="TODO_anchieta_grammar_page_same_topic" alt="TODO: página de Anchieta sobre o mesmo tópico gramatical" />
+      <figcaption>primeira gramática<br><span>Anchieta, 1595</span></figcaption>
     </figure>
     <figure>
-      <EnapolImage image="comparison-modern" alt="Placeholder para descrição moderna do mesmo fenômeno" />
-      <figcaption>Descrição moderna<br><span>[AUTOR, OBRA, PÁGINA A INSERIR]</span></figcaption>
+      <EnapolImage image="TODO_gerardi_tupinamba_page_same_topic" alt="TODO: página de Gerardi ou gramática moderna sobre o mesmo tópico" />
+      <figcaption>gramática moderna<br><span>Gerardi / descrição atual</span></figcaption>
     </figure>
     <figure>
-      <EnapolImage image="corpus-example-formal" alt="Placeholder para representação executável do mesmo fenômeno" />
-      <figcaption>Gramática executável<br><span>mesmo fenômeno, camada formal</span></figcaption>
+      <EnapolImage image="TODO_pydicate_executable_grammar_screenshot" alt="TODO: screenshot de uma representação pydicate" />
+      <figcaption>gramática executável<br><span>mesma análise, outra camada</span></figcaption>
     </figure>
   </section>
 
-  <p class="keyline">A necessidade de uma metalinguagem permanece; as metalinguagens disponíveis mudam.</p>
-</div>
-
-<!--
-Tempo: 0:55.
-Esta slide ainda depende de um fenômeno específico.
-Eu devo deixar claro que não estou dizendo que Anchieta, uma gramática moderna e código fazem a mesma coisa.
-O que estou mostrando é uma continuidade: sempre precisamos de uma metalinguagem para falar da língua.
-Anchieta descreve em prosa gramatical missionária; a descrição moderna reorganiza os fatos com categorias contemporâneas; a gramática executável acrescenta uma camada em que a hipótese precisa gerar ou anotar dados.
-Transição: agora eu mostro o método cumulativo que faz essa camada deixar de ser apenas um exemplo isolado.
--->
-
----
-class: enapol-exec
----
-
-<div class="enapol-canvas method-slide">
-  <header class="slide-header compact">
-    <p class="eyebrow">Bootstrapping gramatical cumulativo</p>
-    <h1>Cada linha acrescenta uma nova obrigação à gramática.</h1>
-  </header>
-
-  <section class="method-layout">
-    <aside class="shared-state">
-      <span>estado persistente</span>
-      <strong>GRAMÁTICA + LÉXICO</strong>
-      <p>morfemas, alomorfes, valores gramaticais, relações sintáticas e etiquetas semânticas acumulam no mesmo sistema.</p>
-    </aside>
-    <main class="method-flowchart" aria-label="Fluxo de bootstrapping gramatical">
-      <div class="method-row method-row-top">
-        <article class="method-step">
-          <span>1</span>
-          <h2>linha n</h2>
-          <p>forma e análise esperadas</p>
-        </article>
-        <div class="method-arrow">→</div>
-        <article class="method-step">
-          <span>2</span>
-          <h2>morfemas</h2>
-          <p>reusar ou definir objetos</p>
-        </article>
-        <div class="method-arrow">→</div>
-        <article class="method-step">
-          <span>3</span>
-          <h2>estrutura abstrata</h2>
-          <p>objetos + relações + sintaxe</p>
-        </article>
-      </div>
-      <div class="method-row method-row-mid" v-click>
-        <article class="method-step">
-          <span>4</span>
-          <h2>spell-out</h2>
-          <p><span class="inline-code">eval</span> → forma de superfície</p>
-        </article>
-        <div class="method-arrow">→</div>
-        <article class="method-step">
-          <span>5</span>
-          <h2>conferência linguística</h2>
-          <p>forma, morfemas, estrutura, rótulos</p>
-        </article>
-      </div>
-      <div class="method-row method-row-validate" v-click>
-        <article class="method-step method-step-valid">
-          <span>6</span>
-          <h2>linha validada</h2>
-          <p>novo teste para versões futuras</p>
-        </article>
-      </div>
-      <div class="method-row method-row-bottom" v-click>
-        <article class="method-step">
-          <span>7</span>
-          <h2>regressão completa</h2>
-          <p><span class="inline-code">1...n</span> → regenerar → diff</p>
-        </article>
-        <div class="method-arrow">→</div>
-        <article class="method-step decision-step">
-          <span>8</span>
-          <h2>Regressões?</h2>
-          <p>o sistema mostra onde e o que mudou</p>
-        </article>
-      </div>
-      <div class="method-branches" v-click>
-        <div class="branch branch-bad">SIM → corrigir regra / léxico / análise</div>
-        <div class="branch branch-good">NÃO → próxima linha: <span class="inline-code">n ← n + 1</span></div>
-      </div>
-    </main>
-  </section>
-
-  <p class="method-callout" v-click>Uma correção local pode ser testada imediatamente contra todo o corpus validado.</p>
-</div>
-
-<!--
-Tempo: 1:55.
-Esta slide tem cliques.
-Primeiro explico só a primeira linha: escolho a linha n, faço a leitura, segmentação, glosses e alvo ortográfico normalizado; depois reuso ou defino os morfemas necessários; por fim escrevo a estrutura abstrata com objetos e relações.
-[CLICK] Agora explico o spell-out: a estrutura é avaliada e a gramática produz uma forma de superfície padronizada, além da estrutura ou anotação associada. A comparação não é só igualdade de string; é uma conferência linguística sobre forma, morfemas, estrutura e rótulos.
-[CLICK] Se a análise passa, a linha validada vira um novo teste. Cada caso correto passa a ser uma obrigação que a gramática futura precisa continuar explicando.
-[CLICK] Depois de adicionar a linha nova, o sistema regenera tudo de 1 até n e mostra os diffs. Isso é o que transforma o trabalho em uma prestação de contas cumulativa.
-[CLICK] Se há regressão, volto para corrigir regra, léxico ou análise. Se não há regressão, passo para a próxima linha.
-[CLICK] O ponto metodológico maior é este: uma mudança local pode ser testada contra tudo que já foi validado. O Tupi Antigo é o primeiro caso de implementação; a metodologia pode ser reutilizada em outras línguas com corpus suficientemente delimitado e tradição analisável.
-Transição: com esse método em mente, dá para explicar por que o projeto mudou de escala no Doutorado Direto.
--->
-
----
-class: enapol-exec
----
-
-<div class="enapol-canvas doctorate-slide">
-  <header class="slide-header compact">
-    <p class="eyebrow">Progresso e dificuldades</p>
-    <h1>A gramática amadurece; o gargalo muda.</h1>
-  </header>
-
-  <section class="trajectory-row" aria-label="Trajetória do projeto">
-    <div>gramática computacional</div>
-    <span>→</span>
-    <div>prova de conceito</div>
-    <span>→</span>
-    <div>Doutorado Direto</div>
-    <span>→</span>
-    <div>corpus integral + metodologia</div>
-  </section>
-
-  <section class="doctorate-grid" aria-label="Progresso, gargalo atual e direção metodológica">
-    <article class="progress-panel">
-      <h2>Progresso</h2>
-      <p>O projeto começou no mestrado; com a maturação da gramática computacional, foi aprovado para Doutorado Direto.</p>
-      <p>A gramática já ficou suficientemente real para produzir saídas: flexão, dicionários, exercícios, ortografia, neologismos, anotação e ferramentas experimentais.</p>
-      <div class="result-box">
-        <span>tarefa do doutorado</span>
-        <p>implementar o corpus conhecido do Tupi Antigo e deixar que esse processo aperfeiçoe simultaneamente a gramática e o método.</p>
-      </div>
-    </article>
-    <article class="bottleneck-panel" v-click>
-      <h2>Gargalo atual</h2>
-      <p>Hoje, a primeira implementação ainda exige na mesma pessoa conhecimento linguístico e conhecimento técnico.</p>
-      <p class="bottleneck-line">O gargalo atual é a interface entre análise linguística e implementação.</p>
-    </article>
-    <article class="direction-panel" v-click>
-      <div class="production-shift" aria-label="Direção metodológica">
-        <strong>produção</strong>
-        <span>→</span>
-        <strong>edição</strong>
-      </div>
-      <p>Propostas progressivamente mais completas; cada vez menos trabalho começa do zero.</p>
-      <p class="direction-line">O objetivo não é retirar o linguista do processo, mas deslocar seu trabalho da produção para a edição.</p>
-    </article>
-  </section>
-</div>
-
-<!--
-Tempo: 1:10.
-Esta slide tem dois cliques.
-Primeiro, a trajetória: o projeto começou no mestrado com a construção da gramática computacional. Com a maturação dessa gramática, o projeto foi aprovado para Doutorado Direto.
-O ponto não é listar produtos, mas mostrar progresso científico: a gramática já ficou real o suficiente para produzir flexão, dicionários, exercícios, transformações ortográficas, neologismos, anotação e ferramentas experimentais. Agora, no doutorado, a escala é implementar o corpus conhecido do Tupi Antigo e deixar que esse processo aperfeiçoe simultaneamente a gramática e o método.
-[CLICK] A dificuldade também muda. Hoje, a primeira implementação ainda exige na mesma pessoa conhecimento da fonte histórica, da gramática do Tupi, da segmentação e glosa, das decisões representacionais e de parte da camada técnica. O gargalo atual é a interface entre análise linguística e implementação.
-[CLICK] A direção metodológica é deslocar o trabalho de produção para edição. O sistema não substitui o linguista; ele deve propor análises progressivamente mais completas, para que o linguista revise, corrija, rejeite, refine e interprete os casos difíceis.
-Transição: agora mostro que essa estruturação já produziu resultado linguístico concreto antes mesmo do corpus completo.
--->
-
----
-class: enapol-exec
----
-
-<div class="enapol-canvas payoff-slide">
-  <header class="slide-header compact">
-    <p class="eyebrow">Payoff científico</p>
-    <h1>Um corpus parcial já permitiu inferência gramatical.</h1>
-  </header>
-
-  <section class="payoff-grid">
-    <article class="payoff-result">
-      <p class="payoff-label">Amazônicas X</p>
-      <h2>Switch reference em Tupi Antigo</h2>
-      <p class="paper-title">Establishing Switch Reference in Old Tupi: Evidence for Conjunctive as a DS Marker</p>
-      <div class="stat-row">
-        <strong>62</strong>
-        <span>exemplos anotados</span>
-      </div>
-      <div class="stat-pair">
-        <div><strong>96,77%</strong><span>DS</span></div>
-        <div><strong>3,23%</strong><span>SS</span></div>
-      </div>
-      <p class="source-note">Fonte verificada: versão local do artigo e `annotated_citations.json`. O resumo público do ResearchGate registra uma versão anterior com 53 exemplos.</p>
-    </article>
-    <article class="payoff-argument">
-      <h2>O que isso demonstra?</h2>
-      <p>Mesmo uma anotação parcial já tornou mais rápido localizar, comparar e quantificar exemplos relevantes.</p>
-      <div class="mini-flow">
-        <span>corpus parcial</span>
-        <span>→</span>
-        <span>exemplos consultáveis</span>
-        <span>→</span>
-        <span>padrão detectável</span>
-      </div>
-      <p>O corpus integral amplia esse ganho para morfemas, alomorfia, ambientes sintáticos, estrutura argumental, variação ortográfica, mudança semântica e contraexemplos.</p>
-    </article>
-  </section>
+  <p class="keyline">A proposta não é substituir a gramática escrita. É acrescentar uma camada formal executável.</p>
 </div>
 
 <!--
 Tempo: 1:05.
-Aqui eu mostro um resultado concreto para evitar que a vantagem pareça apenas promessa futura.
-O trabalho apresentado na Amazônicas X analisou exemplos de formas conjuntivas em Tupi Antigo e perguntou se -reme funcionava como marcador de sujeito diferente.
-Na versão local atual do artigo e do conjunto de dados, há 62 exemplos: 60 DS e 2 SS, isto é, 96,77% DS e 3,23% SS.
-[CONFIRMAR ANTES DA APRESENTAÇÃO: o resumo público do ResearchGate registra 53 exemplos e 96,23% DS; escolher a versão final que será citada.]
-O ponto retórico não é vender porcentagem como prova automática de teoria. O ponto é que a estruturação do corpus permitiu encontrar, comparar e quantificar exemplos que seriam muito mais lentos de levantar manualmente.
-Transição: se isso já acontece com um corpus parcial, a pergunta natural é o que muda quando o corpus conhecido inteiro fica estruturado.
+Aqui a comparação precisa ser cuidadosa.
+Não estou dizendo que Anchieta é ruim e que a gramática moderna é boa.
+O projeto depende dessas fontes, inclusive das gramáticas históricas e das descrições modernas.
+O ponto é outro: a metalinguagem mudou profundamente em quatro séculos, mas o suporte principal continua sendo uma descrição textual publicada como versão fixa.
+A gramática executável acrescenta uma terceira camada: uma descrição que também pode ser rodada, gerar formas e ser confrontada com o corpus.
+Transição: agora faço o zoom num detalhe, como a apresentação precisa fazer.
 -->
 
 ---
 class: enapol-exec
 ---
 
-<div class="enapol-canvas corpus-infra-slide">
+<div class="enapol-canvas zoom-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Infraestrutura de pesquisa</p>
-    <h1>Quando o corpus conhecido inteiro se torna consultável</h1>
+    <p class="eyebrow">O zoom</p>
+    <h1>Uma linha do corpus como teste gramatical</h1>
   </header>
 
-  <section class="corpus-infra-grid">
-    <article>
-      <h2>Não é só velocidade</h2>
-      <p>É colocar análises diferentes dentro da mesma representação explícita, versionada e regenerável.</p>
-    </article>
-    <article>
-      <h2>O que se torna perguntável</h2>
-      <ul>
-        <li>distribuição de morfemas e alomorfes;</li>
-        <li>ambientes sintáticos e estrutura argumental;</li>
-        <li>rótulos semânticos e mudança de sentido;</li>
-        <li>variação ortográfica e tradição textual;</li>
-        <li>análises concorrentes, exceções e contraexemplos.</li>
-      </ul>
-    </article>
-    <article class="corpus-method-card">
-      <h2>Escopo metodológico</h2>
-      <p>Tupi Antigo é o caso concreto: finito o bastante para ser implementável, amplo o bastante para análise séria, documentado o bastante para não depender de especulação pura.</p>
-      <p>A proposta pode ser reutilizada em outras línguas de corpus com tradições suficientemente delimitadas e analisáveis.</p>
-    </article>
+  <section class="question-panel">
+    <span>pergunta da fala</span>
+    <p>Como transformar uma frase histórica em uma hipótese gramatical testável?</p>
   </section>
 
-  <p class="science-line">Tupi Antigo é o primeiro caso de implementação; a metodologia não precisa terminar nele.</p>
+  <section class="zoom-steps">
+    <div>fonte histórica</div>
+    <span>→</span>
+    <div>análise linguística</div>
+    <span>→</span>
+    <div>estrutura formal</div>
+    <span>→</span>
+    <div>saída verificável</div>
+  </section>
 </div>
 
 <!--
 Tempo: 0:55.
-Nesta slide eu explico a ideia do corpus completo sem prometer algo impossível.
-Completo aqui significa o corpus histórico conhecido e selecionado para o projeto, não todas as frases já faladas por pessoas em Tupi Antigo.
-O ganho não é apenas achar exemplos mais rápido. O ganho é que morfologia, sintaxe, alomorfia, léxico, semântica, ortografia e análises concorrentes passam a compartilhar uma representação explícita.
-Quando uma regra melhora, o corpus pode ser regenerado. Quando uma análise muda, as consequências aparecem em vez de ficarem escondidas em anotações isoladas.
-Transição: fecho mostrando alguns lugares onde essa infraestrutura já aparece como saída consultável.
+Este é o recorte central.
+Não vou tentar provar todas as vantagens possíveis da gramática executável.
+Vou me concentrar em uma operação: pegar uma frase histórica e transformá-la em uma hipótese gramatical testável.
+Isso exige passar da fonte histórica para uma análise linguística, depois para uma estrutura formal, e finalmente para uma saída verificável.
+Transição: agora mostro a linha concreta que vou usar como exemplo.
 -->
 
 ---
 class: enapol-exec
 ---
 
-<div class="enapol-canvas resource-slide">
+<div class="enapol-canvas corpus-line-slide">
   <header class="slide-header compact">
-    <p class="eyebrow">Explore o ecossistema</p>
-    <h1>Saídas públicas da mesma infraestrutura formal</h1>
+    <p class="eyebrow">A linha concreta</p>
+    <h1>Araújo, Catecismo, Padre Nosso</h1>
   </header>
 
-  <section class="resource-grid">
-    <article>
-      <EnapolImage image="qr-dictionary" alt="QR code para o dicionário digital de Tupi Antigo" />
-      <h2>Dicionário</h2>
-      <p>kiansheik.io/nhe-enga</p>
-      <span>consulta lexical e formas geradas</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-corpus" alt="QR code para o repositório oldtupicorpus" />
-      <h2>Gramática / corpus</h2>
-      <p>github.com/kiansheik/oldtupicorpus</p>
-      <span>implementação composicional do corpus</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-neo" alt="QR code para o Dicionário de Tupi" />
-      <h2>Neologismos</h2>
-      <p>neo.academiatupi.com</p>
-      <span>aplicação pública apoiada pelo trabalho formal</span>
+  <section class="line-layout">
+    <figure>
+      <EnapolImage image="TODO_araujo_or_bettendorff_short_line" alt="TODO: recorte da linha de Araújo ou Bettendorff" />
+      <figcaption>Araújo, 1686, Livro I, Padre Nosso, p. 2, linhas 1-2</figcaption>
+    </figure>
+    <article class="line-card">
+      <span>alvo normalizado atual</span>
+      <p class="tupi-line">oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe</p>
+      <p class="translation">"Dá-nos hoje o nosso alimento de cada dia."</p>
     </article>
   </section>
 
-  <footer class="resource-closing">
-    <p>Tupi Antigo é o caso concreto. A proposta metodológica é maior que uma língua.</p>
-    <strong>A gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.</strong>
-  </footer>
+  <section class="difficulty-strip">
+    <div>posse nominal</div>
+    <div>expressão temporal</div>
+    <div>imperativo</div>
+    <div>destinatário em <span class="inline-code">orébe</span></div>
+    <div>forma de superfície</div>
+  </section>
 </div>
 
 <!--
-Tempo: 0:55.
-Esta é a tela final para a plateia explorar depois da fala.
-Eu devo dizer que estes links não são o centro científico da apresentação, mas mostram saídas possíveis da mesma infraestrutura formal.
-O dicionário mostra consulta lexical e formas geradas. O repositório do corpus mostra a implementação composicional e o sistema de testes. O Dicionário de Tupi mostra uma aplicação pública que se beneficia dessa base formal.
-Fecho com a tese principal: Tupi Antigo é o caso concreto, mas a proposta metodológica é maior que uma língua.
+Tempo: 1:35.
+O exemplo vem de Araújo, Catecismo de 1686, na oração do Padre Nosso.
+A linha corresponde ao pedido "dá-nos hoje o nosso alimento de cada dia".
+O alvo normalizado atual no corpus é: oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe.
+A dificuldade linguística é que a frase não é apenas uma sequência de palavras.
+Ela envolve uma expressão nominal possuída, uma expressão temporal, um verbo em imperativo, um destinatário marcado por orébe, além da distância entre ortografia histórica, normalização e forma gerada.
+Transição: a pergunta é como escrever essa mesma análise numa metalinguagem executável.
+-->
+
+---
+class: enapol-exec
+---
+
+<div class="enapol-canvas encoding-slide">
+  <header class="slide-header compact">
+    <p class="eyebrow">A análise codificada</p>
+    <h1>A mesma análise, mas em uma metalinguagem executável</h1>
+  </header>
+
+  <section class="encoding-grid">
+    <article class="code-card">
+      <span>estrutura formal</span>
+      <p class="code-line">(((emi * (u * oré)) @ (nduara * (ara * iabiõ))) * (meeng * +endé).imp()) + kori + orébe</p>
+    </article>
+    <article class="output-card">
+      <span>saída gerada / alvo aprovado</span>
+      <p class="tupi-line">oré rembi'u 'ara îabi'õndûara eîme'eng kori orébe</p>
+      <p>Registro local: <span class="inline-code">araujo_catecismo_1686:0007</span></p>
+    </article>
+  </section>
+
+  <section class="analysis-grid">
+    <div><span>morfemas</span><p><span class="inline-code">oré</span>, <span class="inline-code">u</span>, <span class="inline-code">me'eng</span>, <span class="inline-code">kori</span>, <span class="inline-code">orébe</span></p></div>
+    <div><span>relações</span><p>posse, nominalização, adjunção temporal, imperativo e complemento dativo.</p></div>
+    <div><span>teste</span><p>o spell-out precisa reconstruir a forma esperada e seus rótulos analíticos.</p></div>
+  </section>
+</div>
+
+<!--
+Tempo: 2:00.
+Esta é a mesma análise, agora escrita em uma metalinguagem executável.
+Eu não preciso explicar cada símbolo para a plateia.
+O essencial é mostrar que a representação separa unidades e relações: morfemas, posse, nominalização, adjunção temporal, imperativo e destinatário.
+Depois a gramática roda o spell-out e produz uma forma de superfície.
+Se a saída coincide com o alvo aprovado, a linha passa a ser um teste da gramática.
+Se não coincide, o erro não é só técnico: ele aponta para uma decisão linguística que precisa ser revista.
+Transição: isso leva diretamente à dificuldade principal e à forma como estou trabalhando nela.
+-->
+
+---
+class: enapol-exec
+---
+
+<div class="enapol-canvas difficulty-slide">
+  <header class="slide-header compact">
+    <p class="eyebrow">Dificuldade</p>
+    <h1>Uma frase histórica não é apenas uma sequência de palavras.</h1>
+  </header>
+
+  <section class="difficulty-grid">
+    <article>
+      <h2>O que precisa ser decidido</h2>
+      <p>ortografia, segmentação, entradas lexicais, flexão, relações sintáticas, variação de fonte e alvo normalizado.</p>
+    </article>
+    <article>
+      <h2>Como estou respondendo</h2>
+      <div class="loop-diagram">
+        <div>fonte histórica</div>
+        <span>→</span>
+        <div>estrutura formal</div>
+        <span>→</span>
+        <div>forma gerada</div>
+        <span>→</span>
+        <div>comparação</div>
+        <span>→</span>
+        <div>revisão</div>
+        <span>→</span>
+        <div>regressão</div>
+      </div>
+    </article>
+  </section>
+
+  <p class="response-line">Cada nova linha validada aumenta a responsabilidade das regras anteriores.</p>
+</div>
+
+<!--
+Tempo: 2:00.
+Esta slide responde diretamente à orientação de relatar a dificuldade e como venho trabalhando na solução.
+A dificuldade é que uma sentença histórica exige decisões simultâneas: como normalizar a ortografia, como segmentar, que entradas lexicais existem, que flexão está presente, que relações sintáticas estão ativas e como tratar variação entre fontes.
+A resposta do projeto é transformar essas decisões em estrutura formal, gerar uma saída, comparar com o alvo linguístico e filológico, revisar a gramática ou o léxico e rerodar as linhas anteriores como testes de regressão.
+Assim, cada linha nova não é só mais uma anotação. Ela aumenta a responsabilidade das regras já escritas.
+Transição: fecho com a contribuição do recorte.
+-->
+
+---
+class: enapol-exec
+---
+
+<div class="enapol-canvas closing-slide">
+  <header class="slide-header compact">
+    <p class="eyebrow">Contribuição</p>
+    <h1>O corpus obriga a gramática a prestar contas.</h1>
+  </header>
+
+  <section class="closing-grid">
+    <article>
+      <h2>Não é um problema de PLN.</h2>
+      <p>É transformar a descrição linguística em um objeto mais explícito, verificável e reutilizável.</p>
+    </article>
+    <article>
+      <h2>As ferramentas são saídas.</h2>
+      <p>Essas ferramentas são saídas. O objeto científico é a gramática executável.</p>
+    </article>
+  </section>
+
+  <p class="final-line">A gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.</p>
+</div>
+
+<!--
+Tempo: 1:00.
+Fecho voltando à pergunta inicial.
+O objetivo não é transformar o Tupi Antigo em um problema de PLN, nem fazer uma demonstração de aplicativos.
+Aplicações como dicionários, exercícios ou geração de formas são saídas possíveis.
+O objeto científico é a gramática executável: uma descrição que pode ser confrontada linha por linha com o corpus.
 Última frase para dizer devagar: a gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.
 -->
