@@ -25,7 +25,7 @@ Anchieta descreve çupê em prosa gramatical. Gerardi analisa supe com uma metal
 ## Slide 5 — o problema concreto
 Approximate time: 0:45
 
-A fonte não chega até nós já segmentada em morfemas. Ela registra uma forma de superfície. A análise linguística pode dizer que essa forma envolve elementos menores, alomorfia ou relações que não correspondem a espaços gráficos. Então a representação precisa preservar as duas coisas: o que efetivamente aparece e a hipótese sobre como aquilo é estruturado.
+Esse é o problema que quero isolar nesta fala. A fonte não chega até nós já segmentada em morfemas. Ela registra uma forma de superfície. A análise linguística pode dizer que essa forma envolve elementos menores, alomorfia ou relações que não correspondem a espaços gráficos. Então a representação precisa preservar as duas coisas: o que efetivamente aparece e a hipótese sobre como aquilo é estruturado.
 
 ## Slide 6 — Araújo / orébe
 Approximate time: 1:15
@@ -38,7 +38,7 @@ Approximate time: 1:00
 Aqui estão as duas camadas juntas. No léxico do corpus, orébe é explicitamente definido como oré combinado com supé, com a variante correspondente. Na linha de Araújo, eu posso então usar orébe como a forma superficial esperada sem apagar a estrutura de que ele deriva. A árvore mostra o outro lado da mesma análise: a saída não é só uma string. Relações e decomposições continuam disponíveis para inspeção e anotação.
 
 ## Slide 8 — bootstrapping e regressão
-Approximate time: 1:40
+Approximate time: 1:35
 
 Click cues:
 
@@ -58,13 +58,13 @@ Eu parto da fonte histórica, proponho uma estrutura formal e deixo a gramática
 [CLICK] O corpus obriga a gramática a prestar contas.
 
 ## Slide 9 — o que isso torna possível
-Approximate time: 0:50
+Approximate time: 0:55
 
 Depois disso, várias ferramentas ficam possíveis, mas eu quero inverter a ordem habitual da apresentação. Dicionário, geração, busca ou interfaces não são o argumento principal. São saídas de uma infraestrutura descritiva comum. O ganho científico é poder consultar a análise, revisar generalizações e formular perguntas sobre o corpus sem perder de vista quais decisões gramaticais produziram aqueles dados.
 
-## Slide 10 — materiais e saída pública
-Approximate time: 0:45
+## Slide 10 — saída pública
+Approximate time: 0:40
 
-Fecho com os materiais e com uma saída pública que já está em uso, mesmo sem divulgação ampla. O dicionário de neologismos é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária. O repositório começou em 13 de março de 2026. Circulando sobretudo entre grupos de entusiastas de Tupi, indígenas e não indígenas, ele já tem 24 usuários, 1.096 entradas atuais, 189 exemplos, 619 entradas pendentes e nenhum relatório aberto. No último mês foram 25 entradas novas, 19 aprovadas, 6 exemplos novos, 40 votos e 2 contribuidores ativos. Isso é uma saída pública; o argumento científico continua sendo a gramática executável e testável que torna essas saídas mais responsáveis.
+Fecho com uma consequência concreta do trabalho. O repositório do dicionário começou em 13 de março de 2026. Em pouco mais de cinco meses, ele já passou de mil verbetes. O dicionário colaborativo de neologismos não é o centro científico da apresentação, mas o código da gramática já está sendo usado ali. Ele é aberto e financiado coletivamente, com áudio, citações, perfis, karma, votos e revisão comunitária. Mesmo sem divulgação ampla ao público geral, já reúne uma pequena comunidade em torno dele.
 
-Encerrar com os QR codes na tela.
+Encerrar com o QR code do dicionário de neologismos na tela.
