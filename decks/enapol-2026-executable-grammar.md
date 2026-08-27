@@ -130,13 +130,13 @@ class: enapol-exec
       <div class="source-image-frame">
         <EnapolImage image="anchietaSupe" alt="Recorte da gramática de Anchieta com çupê" />
       </div>
-      <figcaption><strong>Anchieta</strong><br><span>“çupê”: dativo, para, por</span></figcaption>
+      <figcaption><strong>Anchieta, 1595</strong><span><em>Arte de grammatica da lingoa mais usada na costa do Brasil</em><br>“çupê”: dativo, para, por</span></figcaption>
     </figure>
     <figure class="source-shot">
       <div class="source-image-frame">
         <EnapolImage image="gerardiSupe" alt="Recorte de Gerardi com supe" />
       </div>
-      <figcaption><strong>Gerardi</strong><br><span>“supe”: dativo / posposição na análise moderna</span></figcaption>
+      <figcaption><strong>Ferraz Gerardi, 2023</strong><span><em>A Role and Reference Grammar Description of Tupinambá</em><br>“supe”: dativo / posposição na análise moderna</span></figcaption>
     </figure>
     <figure class="code-figure">
       <div class="source-code-panel compact-code">
