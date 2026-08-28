@@ -1,6 +1,6 @@
 .enapol-exec .fflch-logo {
   position: absolute;
-  left: calc(4.8rem + 19.5rem);
+  left: calc(4.8rem + 26rem);
   bottom: 3.18rem;
   width: 158px;
   max-height: 58px;
@@ -11,6 +11,18 @@
   padding: 0.38rem 0.55rem;
   filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.22));
   opacity: 0.96;
+}
+
+.enapol-exec .presenter-block {
+  width: min(25rem, 48%);
+}
+
+.enapol-exec .presenter-block .advisor-line {
+  max-width: 23.4rem;
+  font-size: 0.78rem;
+  line-height: 1.12;
+  overflow-wrap: normal;
+  text-wrap: balance;
 }
 
 .enapol-exec .statement-panel,

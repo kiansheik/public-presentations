@@ -24,7 +24,7 @@ css: unocss
   <footer class="presenter-block">
     <strong>Kian Arad Sheik</strong>
     <span>USP / PPG Linguística</span>
-    <span>Orientador: Prof. Dr. Thomas Daniel Finbow</span>
+    <span class="advisor-line">Orientador: Prof. Dr. Thomas Daniel Finbow</span>
   </footer>
 </div>
 

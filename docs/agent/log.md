@@ -191,3 +191,5 @@
 - Updated the ENAPOL asset README so the presentation/corpus QR codes are documented as available assets rather than currently visible slide cards.
 - Verified the existing generated tree layout on slide 7 with a no-screenshot DOM check: the image loads, stays within the frame, and has equal left/right and top/bottom gaps.
 - Verification passed: `npm run build`, generated ENAPOL slide count and raw-marker checks, `curl -I http://localhost:3039/`, no-screenshot Chromium DOM checks for slides 1, 7, and 10, normal and click-expanded PDF exports, and `git diff --check`.
+- Fixed the follow-up title-slide collision reported from a screenshot by adding an `advisor-line` class, narrowing the presenter block, shrinking/balancing the advisor line, and moving the FFLCH logo to the right in `styles/enapol-2026-executable-grammar-refinement.css`.
+- Verified with `npm run build`, generated ENAPOL slide count and raw-marker checks, `git diff --check`, a no-screenshot Chromium geometry check showing no presenter/logo or advisor/logo overlap, and both ENAPOL PDF exports.
