@@ -252,6 +252,13 @@
   gap: 0.4rem;
 }
 
+.enapol-exec .neo-qr-link {
+  display: block;
+  width: 152px;
+  height: 152px;
+  max-width: 100%;
+}
+
 .enapol-exec .neo-qr-card img {
   width: 152px;
   height: 152px;
@@ -264,8 +271,16 @@
 
 .enapol-exec .neo-qr-card h2 {
   margin: 0;
+  line-height: 1;
+}
+
+.enapol-exec .neo-label-link {
   color: #ffd98a;
   font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(226, 191, 118, 0.72);
+  text-underline-offset: 0.16rem;
 }
 
 .enapol-exec .neo-qr-card p {

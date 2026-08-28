@@ -407,8 +407,10 @@ class: enapol-exec
 </header>
 <section class="neo-only-layout">
 <article class="neo-qr-card">
+<a class="neo-qr-link" href="https://neo.academiatupi.com" target="_blank" rel="noopener noreferrer" aria-label="Abrir o dicionário colaborativo de neologismos">
 <EnapolImage image="qr-neo" alt="QR code para o dicionário de neologismos" />
-<h2>neo.academiatupi.com</h2>
+</a>
+<h2><a class="neo-label-link" href="https://neo.academiatupi.com" target="_blank" rel="noopener noreferrer">neo.academiatupi.com</a></h2>
 <p>dicionário colaborativo de neologismos em Tupi Antigo</p>
 </article>
 <article class="neo-stats-card simplified-neo-card">
@@ -434,5 +436,5 @@ E termino só com uma consequência concreta.
 Esse código já está sendo reutilizado num dicionário colaborativo de neologismos em Tupi Antigo.
 O projeto começou em 13 de março deste ano e, em pouco mais de cinco meses, já passou de mil verbetes, com áudio, citações, exemplos e revisão comunitária.
 É uma comunidade pequena, mas é um exemplo de uma gramática executável deixando de ser apenas infraestrutura de pesquisa e sustentando uma ferramenta aberta.
-Quem quiser conhecer, o QR code está aqui. Obrigado.
+Quem quiser conhecer, o QR code e o endereço clicável estão aqui. Obrigado.
 -->

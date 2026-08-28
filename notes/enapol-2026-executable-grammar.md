@@ -142,4 +142,4 @@ O projeto começou em **13 de março deste ano** e, em pouco mais de cinco meses
 
 É uma comunidade pequena, mas é um exemplo de uma gramática executável deixando de ser apenas infraestrutura de pesquisa e sustentando uma ferramenta aberta.
 
-Quem quiser conhecer, o QR code está aqui. Obrigado.
+Quem quiser conhecer, o QR code e o endereço clicável estão aqui. Obrigado.

@@ -192,3 +192,5 @@
 - Added a click-through QR card for `https://kiansheik.io/oldtupicorpus/` to slide 9 of the ENAPOL deck only. The QR image and label both link to the live corpus/dictionary URL, and the final slide remains the restored `neo-only-slide` version.
 - Generated `qr-oldtupicorpus.svg`, updated the asset README and slide 9 notes, rebuilt the deck, and regenerated both ENAPOL PDF exports.
 - Verified with `curl -I https://kiansheik.io/oldtupicorpus/`, `npm run build`, generated slide count/raw-marker checks, `git diff --check`, a no-screenshot Chromium DOM check for slide 9 anchors and QR/grid overlap, and both PDF export commands. The exported PDFs are compressed, so `strings` did not expose the URL directly; link-target verification came from the live Slidev DOM.
+- Made the final-slide neologisms QR image and visible `neo.academiatupi.com` label clickable to `https://neo.academiatupi.com`, preserving the restored one-resource final slide.
+- Verified with `npm run build`, generated slide count/raw-marker checks, `git diff --check`, a no-screenshot Chromium DOM check confirming both final-slide anchors and no QR/stats overlap, and both ENAPOL PDF export commands.
