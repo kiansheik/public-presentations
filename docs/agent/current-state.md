@@ -219,10 +219,6 @@ Verified on 2026-08-26:
 
 Verified on 2026-08-28:
 
-- Added `Orientador: Prof. Dr. Thomas Daniel Finbow` to the ENAPOL title slide presenter block and aligned the embedded/standalone opening notes.
-- Changed the final ENAPOL resource slide to show only the dictionary and neologism QR codes, removing the presentation/corpus cards and replacing the previous neo-only close with a two-output close.
-- Updated `public/assets/enapol-2026-executable-grammar/README.md` so it says only `qr-dictionary.svg` and `qr-neo.svg` are visible on the final slide; presentation/corpus QRs remain available assets.
-- Reverified the generated tree on slide 7 after the prior generator bounds fix: no-screenshot DOM checks showed the tree image complete, within its frame, and with equal left/right and top/bottom gaps.
-- Verification passed: `npm run build`, generated ENAPOL slide count of 10, generated ENAPOL `<pre>`/`<code>` marker checks, `curl -I http://localhost:3039/`, no-screenshot Chromium DOM checks on routes 1, 7, and 10, normal PDF export, click-expanded PDF export, and `git diff --check`.
+- Added `Orientador: Prof. Dr. Thomas Daniel Finbow` to the ENAPOL title slide presenter block.
 - Fixed a title-slide collision where the new advisor line ran under the FFLCH logo by adding an `advisor-line` class, narrowing the presenter block, shrinking/balancing the advisor line, and moving the logo to the right in the active refinement CSS.
 - Verification after the collision fix passed: `npm run build`, generated ENAPOL slide count of 10, generated ENAPOL `<pre>`/`<code>` marker checks, `git diff --check`, no-screenshot Chromium title-slide geometry check showing no presenter/logo or advisor/logo overlap, normal PDF export, and click-expanded PDF export.

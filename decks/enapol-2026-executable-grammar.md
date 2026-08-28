@@ -391,36 +391,39 @@ O objeto científico é a gramática executável, uma hipótese sobre o corpus q
 class: enapol-exec
 ---
 
-<div class="enapol-canvas resource-slide">
-  <header class="slide-header compact">
-    <p class="eyebrow">Saídas públicas da mesma infraestrutura</p>
-    <h1>O código da gramática já alimenta ferramentas abertas.</h1>
-  </header>
-
-  <section class="resource-grid">
-    <article>
-      <EnapolImage image="qr-dictionary" alt="QR code para o dicionário digital de Tupi Antigo" />
-      <h2>Dicionário</h2>
-      <p>kiansheik.io/nhe-enga</p>
-      <span>consulta lexical e formas geradas</span>
-    </article>
-    <article>
-      <EnapolImage image="qr-neo" alt="QR code para o dicionário colaborativo de neologismos" />
-      <h2>Neologismos</h2>
-      <p>neo.academiatupi.com</p>
-      <span>formas novas seguindo a gramática</span>
-    </article>
-  </section>
-
-  <footer class="resource-closing">
-    <strong>A gramática executável não termina no teste: ela também pode sustentar ferramentas abertas.</strong>
-  </footer>
+<div class="enapol-canvas resource-slide public-output-slide neo-only-slide">
+<header class="slide-header compact">
+<p class="eyebrow">Uma saída pública da mesma infraestrutura</p>
+<h1>O código da gramática já alimenta um dicionário colaborativo.</h1>
+</header>
+<section class="neo-only-layout">
+<article class="neo-qr-card">
+<EnapolImage image="qr-neo" alt="QR code para o dicionário de neologismos" />
+<h2>neo.academiatupi.com</h2>
+<p>dicionário colaborativo de neologismos em Tupi Antigo</p>
+</article>
+<article class="neo-stats-card simplified-neo-card">
+<span>projeto iniciado em março de 2026</span>
+<h2>Em pouco mais de cinco meses: mais de 1000 verbetes, com áudio, citações e revisão comunitária</h2>
+<p>Aberto e financiado coletivamente. A comunidade propõe verbetes e exemplos, vota, revisa fontes e participa por meio de perfis e karma.</p>
+<div class="stats-grid">
+<div><strong>1096</strong><span>verbetes</span></div>
+<div><strong>189</strong><span>exemplos</span></div>
+<div><strong>24</strong><span>usuários</span></div>
+</div>
+<p class="stats-note">Não é o objeto da pesquisa. É um lugar em que a gramática executável já está sendo usada por uma comunidade.</p>
+</article>
+</section>
+<footer class="resource-closing">
+<strong>A gramática executável não termina no teste: ela também pode sustentar ferramentas abertas.</strong>
+</footer>
 </div>
 
 <!--
 Tempo máximo: 0:40.
-E termino com duas consequências concretas.
-O mesmo código da gramática alimenta o dicionário digital e o dicionário colaborativo de neologismos.
-Esses produtos não são o objeto científico da fala, mas mostram que uma descrição executável pode sair do arquivo de testes e sustentar ferramentas abertas.
-Quem quiser conhecer, os QR codes estão aqui. Obrigado.
+E termino só com uma consequência concreta.
+Esse código já está sendo reutilizado num dicionário colaborativo de neologismos em Tupi Antigo.
+O projeto começou em 13 de março deste ano e, em pouco mais de cinco meses, já passou de mil verbetes, com áudio, citações, exemplos e revisão comunitária.
+É uma comunidade pequena, mas é um exemplo de uma gramática executável deixando de ser apenas infraestrutura de pesquisa e sustentando uma ferramenta aberta.
+Quem quiser conhecer, o QR code está aqui. Obrigado.
 -->
