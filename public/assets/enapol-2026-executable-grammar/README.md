@@ -28,7 +28,9 @@ where `Dative` initializes the form `supé` with the definition `to, for, in fav
 
 ## QR assets
 
-All four QR codes are shown on the final materials slide:
+Only the dictionary and neologism QR codes are shown on the final materials
+slide. The presentation and corpus QR codes remain available here if the slide
+is expanded again later.
 
 - `qr-presentation.svg`: `https://kiansheik.github.io/public-presentations/enapol-2026-executable-grammar/`
 - `qr-corpus.svg`: `https://github.com/kiansheik/oldtupicorpus`

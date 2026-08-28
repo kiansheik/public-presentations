@@ -7,7 +7,7 @@ Pacing rule: once the landing sentence for a slide is said, change slides. Do no
 ## Slide 1 — título
 Maximum time: 0:35
 
-Meu projeto tem um objetivo amplo: construir uma descrição computacional do Tupi Antigo ancorada no corpus histórico.
+Meu projeto, orientado pelo Prof. Dr. Thomas Daniel Finbow, tem um objetivo amplo: construir uma descrição computacional do Tupi Antigo ancorada no corpus histórico.
 
 Hoje eu não vou tentar mostrar o projeto inteiro. Quero mostrar um problema pequeno, mas representativo: como uma forma histórica deixa de ser apenas texto e entra numa análise formal que pode ser executada e testada.
 
@@ -132,12 +132,10 @@ O objeto científico é a gramática executável, uma hipótese sobre o corpus q
 ## Slide 10 — saída pública
 Maximum time: 0:40
 
-E termino só com uma consequência concreta.
+E termino com duas consequências concretas.
 
-Esse código já está sendo reutilizado num dicionário colaborativo de neologismos em Tupi Antigo.
+O mesmo código da gramática alimenta o dicionário digital e o dicionário colaborativo de neologismos.
 
-O projeto começou em **13 de março deste ano** e, em pouco mais de cinco meses, já passou de **mil verbetes**, com áudio, citações, exemplos e revisão comunitária.
+Esses produtos não são o objeto científico da fala, mas mostram que uma descrição executável pode sair do arquivo de testes e sustentar ferramentas abertas.
 
-É uma comunidade pequena, mas é um exemplo de uma gramática executável deixando de ser apenas infraestrutura de pesquisa e sustentando uma ferramenta aberta.
-
-Quem quiser conhecer, o QR code está aqui. Obrigado.
+Quem quiser conhecer, os QR codes estão aqui. Obrigado.

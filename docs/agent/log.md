@@ -183,3 +183,11 @@
 - Reworked the difficulty slide to state that the project is not NLP automation at this stage; it is traditional grammatical analysis expressed in Python/pydicate, with a current expert bottleneck and future reuse path for other languages, researchers, and agents.
 - Reformatted the executable-analysis code into indented lines and added a base-morpheme declaration column beside the formal structure and spell-out output.
 - Regenerated both ENAPOL PDF exports and verified with `python3 -m py_compile scripts/generate-pydicate-tree-svg.py`, `npm run generate:enapol-tree`, `npm run build`, generated slide count/raw marker checks, stale explicit-`orébe` note checks, `git diff --check`, `curl -I http://localhost:3039/`, no-screenshot Chromium DOM checks on slides 4-7, and both PDF export commands.
+
+## 2026-08-28
+
+- Added `Orientador: Prof. Dr. Thomas Daniel Finbow` to the ENAPOL title slide and updated the embedded/standalone opening notes.
+- Changed the final ENAPOL resource slide to show only the dictionary and neologism QR codes, with matching closeout language in `notes/enapol-2026-executable-grammar.md`.
+- Updated the ENAPOL asset README so the presentation/corpus QR codes are documented as available assets rather than currently visible slide cards.
+- Verified the existing generated tree layout on slide 7 with a no-screenshot DOM check: the image loads, stays within the frame, and has equal left/right and top/bottom gaps.
+- Verification passed: `npm run build`, generated ENAPOL slide count and raw-marker checks, `curl -I http://localhost:3039/`, no-screenshot Chromium DOM checks for slides 1, 7, and 10, normal and click-expanded PDF exports, and `git diff --check`.

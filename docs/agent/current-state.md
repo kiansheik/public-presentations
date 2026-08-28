@@ -216,3 +216,11 @@ Verified on 2026-08-26:
 - Corrected the executable-analysis slide so `orébe` is no longer presented as a base morpheme. The slide lists base morphemes including `oré` and `supé`, shows the indented structure ending in `(supé * oré).var(1)`, and keeps `orébe` as the standardized surface output.
 - Added a dedicated difficulty slide explaining that the project is not automating NLP analysis at this stage; it is traditional grammatical analysis written in Python/pydicate, with a current bottleneck at the intersection of Tupi analysis, linguistics, and dev skills.
 - Verification after the correction passed: `python3 -m py_compile scripts/generate-pydicate-tree-svg.py`, `npm run generate:enapol-tree`, `npm run build`, generated ENAPOL slide count of 10, generated ENAPOL `<pre>`/`<code>` marker checks, stale explicit-`orébe` note checks, `git diff --check`, `curl -I http://localhost:3039/`, no-screenshot Chromium DOM checks on routes 4-7, normal PDF export, and click-expanded PDF export.
+
+Verified on 2026-08-28:
+
+- Added `Orientador: Prof. Dr. Thomas Daniel Finbow` to the ENAPOL title slide presenter block and aligned the embedded/standalone opening notes.
+- Changed the final ENAPOL resource slide to show only the dictionary and neologism QR codes, removing the presentation/corpus cards and replacing the previous neo-only close with a two-output close.
+- Updated `public/assets/enapol-2026-executable-grammar/README.md` so it says only `qr-dictionary.svg` and `qr-neo.svg` are visible on the final slide; presentation/corpus QRs remain available assets.
+- Reverified the generated tree on slide 7 after the prior generator bounds fix: no-screenshot DOM checks showed the tree image complete, within its frame, and with equal left/right and top/bottom gaps.
+- Verification passed: `npm run build`, generated ENAPOL slide count of 10, generated ENAPOL `<pre>`/`<code>` marker checks, `curl -I http://localhost:3039/`, no-screenshot Chromium DOM checks on routes 1, 7, and 10, normal PDF export, click-expanded PDF export, and `git diff --check`.
