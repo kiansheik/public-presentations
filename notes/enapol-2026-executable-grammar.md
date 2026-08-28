@@ -123,6 +123,8 @@ Eu posso consultar morfemas e ambientes sintáticos, mudar uma generalização e
 
 E a mesma infraestrutura pode sustentar produtos como dicionários e geração.
 
+O QR aponta para o corpus digital, onde essa infraestrutura aparece como consulta pública.
+
 Mas eu quero manter a ordem da argumentação clara: essas ferramentas são saídas.
 
 O objeto científico é a gramática executável, uma hipótese sobre o corpus que o próprio corpus pode testar.

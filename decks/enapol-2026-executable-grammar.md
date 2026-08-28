@@ -355,23 +355,31 @@ class: enapol-exec
     <h1>As ferramentas são saídas. O objeto científico é a gramática executável.</h1>
   </header>
 
-  <section class="outputs-grid">
-    <article>
-      <span>consulta linguística</span>
-      <p>buscar morfemas, alomorfes, ambientes sintáticos e estruturas em um corpus analisado de modo consistente.</p>
-    </article>
-    <article>
-      <span>revisão explícita</span>
-      <p>mudar uma generalização e ver exatamente quais análises anteriores deixam de funcionar.</p>
-    </article>
-    <article>
-      <span>novas perguntas</span>
-      <p>quantificar distribuições e localizar padrões sem separar a busca dos pressupostos gramaticais que a tornam possível.</p>
-    </article>
-    <article>
-      <span>produtos derivados</span>
-      <p>dicionários, geração e outras interfaces podem reutilizar a mesma descrição sem se tornarem o centro do projeto.</p>
-    </article>
+  <section class="outputs-content">
+    <div class="outputs-grid">
+      <article>
+        <span>consulta linguística</span>
+        <p>buscar morfemas, alomorfes, ambientes sintáticos e estruturas em um corpus analisado de modo consistente.</p>
+      </article>
+      <article>
+        <span>revisão explícita</span>
+        <p>mudar uma generalização e ver exatamente quais análises anteriores deixam de funcionar.</p>
+      </article>
+      <article>
+        <span>novas perguntas</span>
+        <p>quantificar distribuições e localizar padrões sem separar a busca dos pressupostos gramaticais que a tornam possível.</p>
+      </article>
+      <article>
+        <span>produtos derivados</span>
+        <p>dicionários, geração e outras interfaces podem reutilizar a mesma descrição sem se tornarem o centro do projeto.</p>
+      </article>
+    </div>
+    <aside class="corpus-qr-card">
+      <a class="qr-image-link" href="https://kiansheik.io/oldtupicorpus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o corpus digital de Tupi Antigo">
+        <EnapolImage image="qr-oldtupicorpus" alt="QR code para o corpus digital de Tupi Antigo" />
+      </a>
+      <a class="qr-label-link" href="https://kiansheik.io/oldtupicorpus/" target="_blank" rel="noopener noreferrer">kiansheik.io/oldtupicorpus</a>
+    </aside>
   </section>
 
   <p class="science-line">A gramática deixa de ser apenas uma interpretação do corpus e passa a ser uma hipótese que o corpus pode testar.</p>
@@ -382,6 +390,7 @@ Tempo máximo: 0:50.
 A partir daí aparecem várias possibilidades.
 Eu posso consultar morfemas e ambientes sintáticos, mudar uma generalização e descobrir exatamente quais linhas deixam de funcionar, ou investigar distribuições no corpus.
 E a mesma infraestrutura pode sustentar produtos como dicionários e geração.
+O QR aponta para o corpus digital, onde essa infraestrutura aparece como consulta pública.
 Mas eu quero manter a ordem da argumentação clara: essas ferramentas são saídas.
 O objeto científico é a gramática executável, uma hipótese sobre o corpus que o próprio corpus pode testar.
 [TROCAR SLIDE]

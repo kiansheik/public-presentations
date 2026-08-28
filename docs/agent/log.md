@@ -189,3 +189,6 @@
 - Added `Orientador: Prof. Dr. Thomas Daniel Finbow` to the ENAPOL title slide.
 - Fixed the follow-up title-slide collision reported from a screenshot by adding an `advisor-line` class, narrowing the presenter block, shrinking/balancing the advisor line, and moving the FFLCH logo to the right in `styles/enapol-2026-executable-grammar-refinement.css`.
 - Verified with `npm run build`, generated ENAPOL slide count and raw-marker checks, `git diff --check`, a no-screenshot Chromium geometry check showing no presenter/logo or advisor/logo overlap, and both ENAPOL PDF exports.
+- Added a click-through QR card for `https://kiansheik.io/oldtupicorpus/` to slide 9 of the ENAPOL deck only. The QR image and label both link to the live corpus/dictionary URL, and the final slide remains the restored `neo-only-slide` version.
+- Generated `qr-oldtupicorpus.svg`, updated the asset README and slide 9 notes, rebuilt the deck, and regenerated both ENAPOL PDF exports.
+- Verified with `curl -I https://kiansheik.io/oldtupicorpus/`, `npm run build`, generated slide count/raw-marker checks, `git diff --check`, a no-screenshot Chromium DOM check for slide 9 anchors and QR/grid overlap, and both PDF export commands. The exported PDFs are compressed, so `strings` did not expose the URL directly; link-target verification came from the live Slidev DOM.
